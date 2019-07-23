@@ -28,6 +28,8 @@ get_header(); ?>
             if(get_row_layout() == 'content_with_image') get_template_part('templates/work/content_with_image');
             if(get_row_layout() == 'case_study_hover') get_template_part('templates/work/case_study_hover');
             if(get_row_layout() == 'services_overview') get_template_part('templates/work/services_overview');
+            if(get_row_layout() == 'google_maps') get_template_part('templates/work/google_maps');
+
         }
     }
     ?> 

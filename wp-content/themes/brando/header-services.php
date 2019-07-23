@@ -25,49 +25,30 @@
     </head>
     <body <?php body_class(); ?>>
         <?php
+        $class = '';
         $domainurl = $_SERVER['HTTP_HOST'];
-        $class = 'white-default';
-        if(is_singular('work')) $class = 'white-default';
-        if(get_sub_field('title') == 'Consultancy'){
-            $class = 'white-default';
-        }
-        ?>
+        
+        ?> 
         <div id="wrapper" class="<?php echo $class; ?>">
             <header id="header">
                 <div class="container clearfix">
-                    <a href="http://brando.media/brando#home" id="logo" class="float-left">
-                        <img class="white-logo" src="<?php bloginfo('template_url') ?>/assets/images/logo-white.png" alt="Brando Media" title="Brando Media" />
-                        <img class="red-logo" src="<?php bloginfo('template_url') ?>/assets/images/logo-red.png" alt="Brando Media" title="Brando Media" />
+                    <a href="#home" id="logo" class="float-left">
+                    <img class="white-logo" src="<?php bloginfo('template_url') ?>/assets/images/ERG-logo.png" alt="erg" title="Brando Media" />
+                        <img class="red-logo" src="<?php bloginfo('template_url') ?>/assets/images/ERG-logo.png" alt="erg" title="Brando Media" />
                     </a>
                     <?php if(have_rows('content', 2)): ?>
-                        <nav id="main-menu" class="float-right"> 
+                        <nav id="main-menu" class="float-right">
                             <ul>
-                                <?php while(have_rows('content', 2)): the_row(); ?>
-                                    <?php 
-                                    $title       = get_sub_field('title');
-                                    $sectionName = str_replace(' ', '', strtolower($title));
-                                    $url = '#'.$sectionName;
-                                    if(!is_page_template('front-page.php')) $url = get_bloginfo('url').$url;
-                                    ?>
-                                    <?php if($sectionName == 'contact' || $sectionName == 'services'){ ?>
-                                        <li><a href="<?php echo '#' . $sectionName; ?>"><?php echo $title ?></a></li>
-                                    <?php }else{ ?>
-                                        <li><a href="#" onclick='goToAnchor("<?php echo $sectionName ?>")'><?php echo $title ?></a></li>
-                                    <?php } ?>
-                                    
-                                <?php endwhile; ?>
+                                
+                            <li><a href="http://erg.loc:8888/#home">About</a></li>
+                            <li><a href="http://erg.loc:8888/#home">Services</a></li>
+                            <li><a href="http://erg.loc:8888/#home">Projects</a></li>
+                            <li><a href="http://erg.loc:8888/#home">Case Studies</a></li>
+                            <li><a href="http://erg.loc:8888/#home">Global</a></li>
+                            <li><a href="http://erg.loc:8888/#home">Team</a></li>
+                            <li><a href="http://erg.loc:8888/#home">Contact</a></li>
                             </ul>
                         </nav>
                     <?php endif; ?>
                 </div>
             </header>
-
-            <script>
-                var baseURL = '<?php echo get_bloginfo('url')?>';
-                function goToAnchor(anchor) {
-                    $newurl = baseURL + '/#' + anchor;
-                    console.log($newurl);
-                    window.location.href = $newurl;
-                    return false;
-                }            
-            </script>

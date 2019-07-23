@@ -286,6 +286,7 @@ textarea.form-control {
   font-weight: normal;
   font-style: normal;
   padding: 10px;
+  color: white;
 }
 
 input.form-control {
@@ -295,6 +296,24 @@ input.form-control {
   font-weight: normal;
   font-style: normal;
   padding: 10px;
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  color: white;
+}
+input.form-control ::placeholder {
+  /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: white;
+  opacity: 1;
+  /* Firefox */
+}
+input.form-control :-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: white;
+}
+input.form-control ::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: white;
 }
 
 .contact-form div.wpcf7-response-output {
@@ -323,6 +342,7 @@ input.form-control {
   font-family: "Pangram";
   font-weight: normal;
   font-style: normal;
+  float: left;
 }
 .contact-form .wpcf7-form-control-wrap {
   display: block;
@@ -343,6 +363,7 @@ input.form-control {
 .contact-details p {
   letter-spacing: 0;
   margin-bottom: 32px;
+  color: white;
 }
 .contact-details p:last-child {
   margin-bottom: 0;
@@ -404,8 +425,9 @@ input.form-control {
 }
 
 .content-image {
-  max-width: 750px;
+  /*max-width: 750px;*/
   width: 100%;
+  min-width: 50vw;
 }
 
 .line {
@@ -506,9 +528,11 @@ input.form-control {
 }
 
 .background-image-home {
-  background-image: url("http://erg.loc:8888/wp-content/uploads/2019/07/bgwithcovererg.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background: url("http://erg.loc:8888/wp-content/uploads/2019/07/erglogo775px.png"), url("http://erg.loc:8888/wp-content/uploads/2019/07/bluehomebg.png");
+  background-position: right bottom, center;
+  background-repeat: no-repeat, no-repeat;
+  background-attachment: absolute, fixed;
+  background-size: auto, cover;
 }
 
 .background-layer-home {
@@ -524,6 +548,107 @@ input.form-control {
 .servicesimg {
   border-right: 5px solid #cccccc;
   border-width: 1px;
+  min-height: 180px;
+}
+
+.ergfooterbg {
+  background: url("http://erg.loc:8888/wp-content/uploads/2019/07/servicesoverviewbg.png") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.ergtextfooter {
+  background: url("http://erg.loc:8888/wp-content/uploads/2019/07/ERG-logo.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right bottom;
+  z-index: 3;
+}
+
+.newbg {
+  background: url("http://erg.loc:8888/wp-content/uploads/2019/07/erglogo775px.png"), url("http://erg.loc:8888/wp-content/uploads/2019/07/servicesoverviewbg.png");
+  background-position: right bottom, center;
+  background-repeat: no-repeat, no-repeat;
+  background-attachment: absolute, fixed;
+  background-size: auto, cover;
+}
+
+.footerbg {
+  background: #00498D;
+  max-height: 20px;
+}
+
+input[type=email]::placeholder {
+  /* Firefox, Chrome, Opera */
+  color: white;
+}
+
+input[type=email]:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: white;
+}
+
+input[type=email]::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: white;
+}
+
+input[type=text]::placeholder {
+  /* Firefox, Chrome, Opera */
+  color: white;
+}
+
+input[type=text]:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: white;
+}
+
+input[type=text]::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: white;
+}
+
+input[type=textarea]::placeholder {
+  /* Firefox, Chrome, Opera */
+  color: white;
+}
+
+input[type=textarea]:-ms-input-placeholder {
+  /* Internet Explorer 10-11 */
+  color: white;
+}
+
+input[type=textarea]::-ms-input-placeholder {
+  /* Microsoft Edge */
+  color: white;
+}
+
+textarea::-webkit-input-placeholder {
+  color: #ffffff;
+}
+
+textarea:-moz-placeholder {
+  /* Firefox 18- */
+  color: #ffffff;
+}
+
+textarea::-moz-placeholder {
+  /* Firefox 19+ */
+  color: #ffffff;
+}
+
+textarea:-ms-input-placeholder {
+  color: #ffffff;
+}
+
+textarea::placeholder {
+  color: #ffffff;
+}
+
+textarea::placeholder {
+  color: #fff !important;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,28 +1,22 @@
 <?php 
 $completed = get_field('what_we_done');
 get_header('work'); ?>
-    <section class="section white-bg">
+    <section class="section servicesoverviewbg" style="height: 675px;">
         <div class="container container--small main-content">
-            <h1 class="main-title"><?php the_post(); the_title(); ?></h1>
+            
             <div class="row">
-                <div class="col-lg-6">
-                    <h2 class="title">Project Description</h2>
-                    <div class="project-description left-content-work-block">
+                <div class="col-lg-12" style="color:white;">
+                    <div class=" left-content-work-block">
+                        <h1 class="" style="color:white; padding-left:55px; font-size: 50px;margin-bottom: 30px;font-weight: 900; font-family: 'PangramBlack';font-style: normal;">
+                        <?php the_post(); the_title(); ?></h1>
                         <?php the_content(); ?>
                     </div>
                 </div>
-                <?php if($completed): ?>
-                    <div class="col-lg-6 work-completed">
-                        <h2 class="title">Work Completed</h2>
-                        <ul>
-                            <?php foreach($completed as $complete): ?>
-                                <li><?php echo $complete ?></li>
-                            <?php endforeach; ?>
-                        </ul>
-                    </div>
-                <?php endif; ?>
+                <div class="col-lg-6 work-completed">
+                </div>
             </div>
         </div>
+        </section>
         <?php 
         if(have_rows('content')){
             while(have_rows('content')){
@@ -36,5 +30,7 @@ get_header('work'); ?>
             }
         }
         ?>
-    </section>
-<?php get_footer('services'); ?>
+    
+<?php get_footer('work'); ?>
+<div class="section d-flex footerbg"  data-section-name="hello" style="min-height:20px;">    
+    </div>

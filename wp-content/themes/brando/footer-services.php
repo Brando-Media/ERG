@@ -10,8 +10,7 @@
         <script>
             <?php if(!is_singular('work')): ?>
                 $(window).on('load', function(){
-                    $.scrollify.disable();
-                    /*$.scrollify({
+                    $.scrollify({
                         section : ".section",
                         before: function(i, el){
                             var nextEl = $(el[i]);
@@ -44,7 +43,9 @@
                         },
                         sectionName : "section-name",
                         overflowScroll: true,
-                    });*/
+                    });
+                    
+
                 });
             <?php endif; ?>
 
@@ -63,12 +64,12 @@
                 <?php endif; ?>
 
                 $('#logo').on('click', function (e) {
-                    /*var target = $(this).attr('href');
+                    var target = $(this).attr('href');
                     target = target.replace('#', '');
                     target = $("[data-section-name='" + target + "']");
                     var t = $(target).offset().top;
                     $('body,html').animate({ 'scrollTop': t }, 1000)
-                    return false;*/
+                    return false;
                 });
 
                 $('.show-more-work').on('click', function(){
@@ -76,12 +77,106 @@
                     if($('.hidden-work').is(':visible')){
                         $(this).text('Hide More Work');
                     }else{
+                        $.scrollify.disable();
                         $(this).text('Show More Work');
+                        setTimeout(function(){
+                            //$.scrollify.enable();
+                        }, 500);
                     }
                     $.scrollify.update();
                     return false;
                 });
             });
+
+            $(document).ready(function(e){
+                var type = window.location.hash.substr(1);
+                $.scrollify.disable();
+                console.log(type);
+
+                $(".downarrow").click(function(){
+                    $.scrollify.next();
+                });
+
+            $(".uparrow").click(function(){
+                $.scrollify.move();
+            });
+                setTimeout(function(){
+                    
+                    $.scrollify.move("#" + type);
+                }, 200);
+            });
+
+        //so code to disable scrollify on pages too big
+        /*    (function($){
+            'use strict';
+            var $section = $('.js-section');
+            var $pager = $('#js-pager');
+            var option = {
+            section : '.js-section',
+            sectionName:false,
+            easing: "swing",
+            scrollSpeed: 1500,
+            scrollbars: true,
+            overflowscroll: true,
+            interstitialSection: ".header",
+            before:function(index) {
+                pagerCurrent(index);
+            },
+            afterRender:function() {
+                createPager();
+            }
+            };
+
+    $(document).ready(function(e){
+        var type = window.location.hash.substr(1);
+        $.scrollify.disable();
+        console.log(type);
+        $.scrollify(option);
+
+        $(".downarrow").click(function(){
+            $.scrollify.next();
+        });
+
+      $(".uparrow").click(function(){
+        $.scrollify.move();
+      });
+        setTimeout(function(){
+            $.scrollify.enable();
+            $.scrollify.move("#" + type);
+        }, 200);
+    });
+
+    function pagerCurrent(index = 0) {
+      var $li = $pager.find('li');
+      $li.removeClass('is-current');
+      $li.eq(index).addClass('is-current');
+    }
+
+    function createPager() {
+        $section.each(function(i, e){
+            var sectionName = $(e).attr('data-section-name');
+            var addClass = '';
+            if (i === 0) {
+                addClass = 'is-current';
+            }
+            var html = '';
+            html += '<li class="' + addClass + '">';
+            html += '<a href="#' + sectionName + '"></a>';
+            html += '</li>';
+            $pager.append(html);
+        });
+        pagerLink();
+    }
+
+    function pagerLink () {
+      $pager.find('a').on('click', function() {
+        $.scrollify.move($(this).attr("href"));
+      });
+    }
+
+    
+}(jQuery));*/
+       
         </script>
     </body>
 </html>
