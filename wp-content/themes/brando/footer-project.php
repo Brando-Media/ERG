@@ -1,4 +1,4 @@
-<div id="brando-container" style="top:30%;" class="container"><span id="brando">ERG INTERNATIONAL GROUP</span></div>
+<div id="brando-container-blue" style="top:30%;" class="container"><span id="brando">ERG INTERNATIONAL GROUP</span></div>
             <footer id="footer" class="container">
                 <!--<a href="#" class="float-right">Instagram</a>-->
             </footer>
