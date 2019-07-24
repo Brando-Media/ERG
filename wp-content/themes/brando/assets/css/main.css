@@ -769,4 +769,22 @@ textarea::placeholder {
   width: 25vw;
 }
 
+.casestudiesbgtop {
+  background-image: url("http://erg.loc:8888/wp-content/uploads/2019/07/casestudiestop.png");
+  background-size: cover;
+}
+
+.casestudiesbgbottom {
+  background-image: url("http://erg.loc:8888/wp-content/uploads/2019/07/casestudiesbottom.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.tripleimg {
+  top: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+}
+
 /*# sourceMappingURL=main.css.map */

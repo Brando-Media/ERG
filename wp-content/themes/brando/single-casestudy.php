@@ -1,21 +1,14 @@
 <?php 
 $completed = get_field('what_we_done');
 get_header('work'); ?>
+<section class="section casestudiesbgtop d-flex" data-section-name="<?php echo $sectionName; ?>">
+
             <div class="row">
-                    <div class="services-content" style="font-size:42px;">
-                        <p style="font-style:gotham-light"> <?php  the_content(); ?> </p>
-                    </div>
-                <?php if($completed): ?>
                     <div class="col-lg-6 work-completed">
-                        <h2 class="title">Work Completed</h2>
-                        <ul>
-                            <?php foreach($completed as $complete): ?>
-                                <li><?php echo $complete ?></li>
-                            <?php endforeach; ?>
-                        </ul>
+
                     </div>
-                <?php endif; ?>
             </div>
+</section>
         <?php 
         if(have_rows('content')){
             while(have_rows('content')){
