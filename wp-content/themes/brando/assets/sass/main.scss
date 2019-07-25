@@ -278,6 +278,7 @@ p, .main-content ul{
     > .container{
         padding-top: 100px;
         padding-bottom: 100px;
+        margin-right:0px;
     }
 }
 
@@ -796,15 +797,23 @@ textarea::-webkit-input-placeholder {
   }
 
   .casestudiesbgtop{
-    background-image: url("http://erg.loc:8888/wp-content/uploads/2019/07/casestudiestop.png");
+    //background-image: url("http://erg.loc:8888/wp-content/uploads/2019/07/casestudiestop.png");
     //background-repeat:no-repeat;
+    background: linear-gradient(90deg, #00A0DB, #004990);
+
     background-size:cover;
+}
+.casestudiesbgbottom{
+    background-repeat:no-repeat;
+    background-image: linear-gradient(90deg, #00A0DB, #004990);
+    background-image: linear-gradient(to right, #00A0DB , #004990);
+    background-size: 100% 20%;
 }
 
 .casestudiesbgbottom{
-    background-image: url("http://erg.loc:8888/wp-content/uploads/2019/07/casestudiesbottom.png");
+    /*background-image: url("http://erg.loc:8888/wp-content/uploads/2019/07/casestudiesbottom.png");
     background-repeat:no-repeat;
-    background-size:cover;
+    background-size:cover;*/
 }
 
 .tripleimg{
@@ -813,4 +822,23 @@ textarea::-webkit-input-placeholder {
     text-align: center;
     width: 100%;
     //padding-left: 20%;
+}
+
+.largefonttext{
+    font-size:24px;
+}
+
+.casestudiesheight{
+
+}
+
+.link-triple{
+    margin-top:10px;
+    margin-bottom: 10px;
+}
+
+.header-triple{
+    text-align:center; 
+    margin-top:20px;
+    font-size:24px;
 }
