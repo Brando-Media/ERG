@@ -1,6 +1,11 @@
 <?php 
 $completed = get_field('what_we_done');
-get_header('project'); ?>
+$colour = get_field('header_colour');
+if($colour == "Blue"){
+    get_header('project'); 
+}else{
+    get_header('work'); 
+} ?>
 
         <?php 
         if(have_rows('content')){
@@ -25,4 +30,9 @@ get_header('project'); ?>
             }
         }
         ?>
-<?php get_footer('project'); ?>
+<?php 
+if($colour == "Blue"){
+    get_footer('project'); 
+}else{
+    get_footer('work'); 
+} ?>

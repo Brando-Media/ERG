@@ -3,8 +3,15 @@ $services    = get_sub_field('services');
 $title       = get_sub_field('title');
 $dtitle       = get_sub_field('displayed_title');
 $sectionName = str_replace(' ', '', strtolower($title));
-?>
+$topbg = get_sub_field('top_bg');
+var_dump($dtitle);
+if($topbg == 'No'){
+?> <section class="section d-flex" data-section-name="<?php echo $sectionName; ?>"> <?php }else{ ?>
 <section class="section casestudiesbgbottom  d-flex" data-section-name="<?php echo $sectionName; ?>">
+
+<?php }
+?>
+
 <div class="container container--small align-self-center">
 
         <h2 class="main-title" style="color:white"><?php echo $dtitle?></h2>

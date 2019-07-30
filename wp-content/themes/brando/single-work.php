@@ -1,6 +1,11 @@
 <?php 
 $completed = get_field('what_we_done');
-get_header('work'); ?>
+$colour = get_field('header_colour');
+if($colour == "Blue"){
+    get_header('project'); 
+}else{
+    get_header('work'); 
+} ?>
     <section class="section servicesoverviewbg" style="height: 675px;">
         <div class="container container--small main-content">
             
@@ -33,6 +38,11 @@ get_header('work'); ?>
         }
         ?>
     
-<?php get_footer('work'); ?>
+    <?php 
+if($colour == "Blue"){
+    get_footer('project'); 
+}else{
+    get_footer('work'); 
+} ?>
 <div class="section d-flex footerbg"  data-section-name="hello" style="min-height:20px;">    
     </div>

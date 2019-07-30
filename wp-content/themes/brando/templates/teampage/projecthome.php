@@ -17,7 +17,7 @@ $projectitle = get_sub_field('project_title');
 <div class="">
     <div class="row d-flex" style="color:#00498d;">
         <?php if($imagePos=='Left'): ?>
-            <div class="col-lg-6 text-center align-self-center left-content-work-block" style="padding-left:0px; padding-right:0px;">
+            <div class="col-lg-6 text-center align-self-center left-content-work-block" style="padding-left:0px; padding-right:0px; padding-top:200px;">
                 <div class="project-home-image" >
                     <?php if($image): ?>
                         <img class="img-fluid img-phome" src="<?php echo show_image($image['url'], $image['width'], $image['height']); ?>">

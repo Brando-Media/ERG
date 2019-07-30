@@ -1,6 +1,11 @@
 <?php 
 $completed = get_field('what_we_done');
-get_header('services'); ?>
+$colour = get_field('header_colour');
+if($colour == "Blue"){
+    get_header('project'); 
+}else{
+    get_header('work'); 
+}?>
             <div class="row">
                     <div class="services-content" style="font-size:42px;">
                         <p style="font-style:gotham-light"> <?php  the_content(); ?> </p>

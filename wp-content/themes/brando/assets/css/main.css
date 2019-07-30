@@ -853,4 +853,37 @@ textarea::placeholder {
   line-height: 25px;
 }
 
+.mainimage-title {
+  font-family: Helvetica;
+  font-size: 45px;
+  color: #00498D;
+  line-height: 60px;
+}
+
+.mainimage-bigtext {
+  font-family: Helvetica;
+  font-size: 20px;
+  color: #00498D;
+  line-height: 25px;
+  margin-bottom: 10px;
+}
+
+.mainimage-text {
+  font-family: Helvetica;
+  font-size: 14px;
+  color: #00498D;
+  line-height: 25px;
+}
+
+.main-middletext {
+  margin: auto;
+}
+
+.main-footer {
+  bottom: 0px;
+  width: 80%;
+  margin-left: 20%;
+  margin-bottom: 5%;
+}
+
 /*# sourceMappingURL=main.css.map */

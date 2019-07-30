@@ -1,5 +1,10 @@
 <?php 
-get_header('project'); ?>
+$colour = get_field('header_colour');
+if($colour == "Blue"){
+    get_header('project'); 
+}else{
+    get_header('work'); 
+}?>
     <!--<section class="section" style="height: 675px;">
         <div class="container container--small main-content">
             
@@ -32,6 +37,11 @@ get_header('project'); ?>
         }
         ?>
     
-<?php get_footer('project'); ?>
+    <?php 
+if($colour == "Blue"){
+    get_footer('project'); 
+}else{
+    get_footer('work'); 
+} ?>
 <div class="section d-flex footerbg"  data-section-name="hello" style="min-height:20px;">    
     </div>
