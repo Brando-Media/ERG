@@ -1,4 +1,4 @@
-<?php 
+<?php
 $image    = get_sub_field('image');
 $smallimage    = get_sub_field('smallimage');
 $imagePos = get_sub_field('image_position');
@@ -9,6 +9,7 @@ $previoustext = get_sub_field('previous_text');
 $previousurl = get_sub_field('previous_url');
 $nexttext = get_sub_field('next_text');
 $nexturl = get_sub_field('next_url');
+$projectitle = get_sub_field('project_title');
 
 ?>
 <section class="section">
@@ -24,9 +25,12 @@ $nexturl = get_sub_field('next_url');
                 </div>
                 
             </div>
-            <div class="col-lg-6 align-self-center right-content-work-block project-home-text" > 
+            <div class="col-lg-6 align-self-center project-home-text" > 
                 <?php echo $title ? "<h2 class='title'>{$title}</h2>" : '' ?>
-                <div style="font-size:24px;"><?php echo $content; ?></div>
+                <div class="teampageind-title">
+                <?php echo $projectitle ? "{$projectitle}" : '' ?>
+                </div>
+                <div class="teampageind-content" style="font-size:24px;"><?php echo $content; ?></div>
                 <?php echo $contentsmalltext; ?>
             </div>
         <?php elseif($imagePos=='Right'): ?>

@@ -9,6 +9,7 @@ $previoustext = get_sub_field('previous_text');
 $nexttext = get_sub_field('next_text');
 ?>
 <section class="section">
+test
 <div class="">
     <div class="row d-flex" style="color:#00498d;">
         <?php if($imagePos=='Left'): ?>

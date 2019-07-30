@@ -580,7 +580,7 @@ input.form-control{
   text-align: center;
 }
 
-.text {
+.text { 
   color: white;
   font-size: 20px;
   position: absolute;
@@ -762,12 +762,13 @@ textarea::-webkit-input-placeholder {
   }
   
   .project-home-image{
-      max-width:460px;
+      max-width:400px;
       max-height:460px;
       right: 0;
-      position: absolute;
       padding-right:0px;
       margin-right:0px;
+      margin-right: 0px!important;
+      margin: auto;
   }
 
   .project-home-text{
@@ -841,4 +842,46 @@ textarea::-webkit-input-placeholder {
     text-align:center; 
     margin-top:20px;
     font-size:24px;
+}
+
+.teampage-triple{
+    text-align:left; 
+    margin-top:20px;
+    font-size:13px;
+    font-family: Helvetica; 
+    font-size: 12px; 
+    color: #33B3E3; 
+    letter-spacing: 1.5px;
+}
+
+.teampage-content{
+    font-family: Helvetica;
+    font-size: 20px;
+    color: #00498D;
+    line-height: 25px;
+}
+
+.link-teampage{
+    margin-top:10px;
+    margin-bottom: 10px;
+    font-size:11px;
+        #{a} {
+            color: #00498D;
+        }
+    color: #00498D;
+    font-family: Helvetica;
+}
+
+.teampageind-title{
+    font-family: Helvetica;
+    font-size: 16px;
+    color: #33B3E3;
+    letter-spacing: 2px;
+}
+
+.teampageind-content{
+    font-family: Helvetica;
+    font-size: 14px;
+    color: #00498D;
+    line-height: 25px;
 }
