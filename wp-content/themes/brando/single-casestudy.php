@@ -28,6 +28,7 @@ if($colour == "Blue"){
                 if(get_row_layout() == 'featured_work') get_template_part('templates/services/featured_work');
                 if(get_row_layout() == 'triplebox') get_template_part('templates/services/triplebox');
                 if(get_row_layout() == 'project_home') get_template_part('templates/casestudy/projecthome');
+
             }
         }
         ?>

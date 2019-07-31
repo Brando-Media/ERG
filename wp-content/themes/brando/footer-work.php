@@ -45,11 +45,23 @@
                         },
                         sectionName : "section-name",
                         overflowScroll: true,
-                    });
+                    }); 
                     
-
                 });
             <?php endif; ?>
+            function myFunction() {
+                //$(".header__list").fadeToggle("slow");
+                //$(".header__list").css("display", "grid");
+                var display = $("#ul-menu").css("display");
+                console.log(display);
+                if(display =="grid"){
+                    $("#ul-menu").css("display", "block");
+                }else{
+                    $("#ul-menu").css("display", "grid");
+                }
+
+            }
+            
 
             $(function() {
                 <?php if(!is_singular('work')): ?>

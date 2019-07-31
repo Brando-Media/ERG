@@ -15,7 +15,8 @@
 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="<?php bloginfo('template_url') ?>/assets/css/main.css">
-        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <?php require_once('BFI_Thumb.php'); ?>
         <?php wp_head(); ?>
@@ -26,29 +27,31 @@
     <body <?php body_class(); ?>>
         <?php
         $class = '';
-        $domainurl = $_SERVER['HTTP_HOST'];
+        $domainurl = $_SERVER['HTTP_HOST']; 
         
         ?> 
         <div id="wrapper" class="<?php echo $class; ?>">
             <header id="header">
                 <div class="container clearfix">
                     <a href="#home" id="logo" class="float-left">
-                    <img class="white-logo" src="<?php bloginfo('template_url') ?>/assets/images/ERG-logo.png" alt="erg" title="Brando Media" />
+                        <img class="white-logo" src="<?php bloginfo('template_url') ?>/assets/images/ERG-logo.png" alt="erg" title="Brando Media" />
                         <img class="red-logo" src="<?php bloginfo('template_url') ?>/assets/images/ERG-logo.png" alt="erg" title="Brando Media" />
                     </a>
                     <?php if(have_rows('content', 2)): ?>
-                        <nav id="main-menu" class="float-right">
-                            <ul>
-                                
-                            <li><a href="http://erg.loc:8888/#home">About</a></li>
-                            <li><a href="http://erg.loc:8888/#home">Services</a></li>
-                            <li><a href="http://erg.loc:8888/#home">Projects</a></li>
-                            <li><a href="http://erg.loc:8888/#home">Case Studies</a></li>
-                            <li><a href="http://erg.loc:8888/#home">Global</a></li>
-                            <li><a href="http://erg.loc:8888/#home">Team</a></li>
-                            <li><a href="http://erg.loc:8888/#home">Contact</a></li>
+                        <nav id="main-menu" class="float-right erg-h topnav">
+                            <ul class="header__list" id="ul-menu">  
+                            <li class="header__list-item"><a class="hover-underline-link about-link" href="#about-nathalie">ABOUT</a></li>
+                            <li class="header__list-item"><a class="hover-underline-link about-link" href="#about-nathalie">NEWS</a></li>
+                            <li class="header__list-item"><a class="hover-underline-link about-link" href="#about-nathalie">MENU</a></li>
                             </ul>
                         </nav>
+                        <div class="float-right erg-h topnav mob-white" id="mobshow" style="right:20px; position:absolute;">
+                            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                                <i class="fa fa-bars"></i>
+                            </a>
+                        </div>
                     <?php endif; ?>
                 </div>
             </header>
+
+            

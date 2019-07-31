@@ -26,7 +26,7 @@ if($colour == "Blue"){
                 if(get_row_layout() == 'services') get_template_part('templates/services/services'); 
                 if(get_row_layout() == 'contact') get_template_part('templates/services/contact');
                 if(get_row_layout() == 'featured_work') get_template_part('templates/services/featured_work');
-                if(get_row_layout() == 'triplebox') get_template_part('templates/services/triplebox');
+                if(get_row_layout() == 'triplebox') get_template_part('templates/casestudy/triplebox');
                 if(get_row_layout() == 'project_home') get_template_part('templates/casestudy/projecthome');
                 if(get_row_layout() == 'main_image') get_template_part('templates/casestudy/main_image');
                 if(get_row_layout() == 'small_image') get_template_part('templates/casestudy/small_image');
@@ -41,3 +41,6 @@ if($colour == "Blue"){
 }else{
     get_footer('work'); 
 } ?>
+
+<div class="section d-flex footerbg"  data-section-name="hello" style="min-height:20px;">    
+    </div>
