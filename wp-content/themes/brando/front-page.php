@@ -2,11 +2,16 @@
 /*
 Template Name: Front Page
 */
-get_header(); ?>
+$colour = get_field('header_colour');
+if($colour == "Blue"){
+    get_header('project'); 
+}else{
+    get_header('work'); 
+} ?>
 
     <section class="section  background-image-home" data-section-name="homes" style="max-height:750px;">
     <div class="background-layer-home">
-    <div style="color:white; text-align:left; max-width:800px; margin:auto; font-size:42px;     position: relative;
+    <div class="frontpagetitle" style="
     /* right: 40%; */
     /* margin-left: 10%; */
     left: 200px;
@@ -33,4 +38,8 @@ get_header(); ?>
         }
     }
     ?> 
-<?php get_footer(); ?> 
+<?php if($colour == "Blue"){
+    get_footer('project'); 
+}else{
+    get_footer('work'); 
+}?> 

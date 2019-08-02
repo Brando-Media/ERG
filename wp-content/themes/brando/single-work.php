@@ -6,7 +6,7 @@ if($colour == "Blue"){
 }else{
     get_header('work'); 
 } ?>
-    <section class="section servicesoverviewbg" style="height: 675px;">
+    <section class="section servicesoverviewbg" style="min-height: 675px;">
         <div class="container container--small main-content">
             
             <div class="row">
@@ -34,15 +34,15 @@ if($colour == "Blue"){
                 if(get_row_layout() == 'imagenobotpadding') get_template_part('templates/work/imagenobotpadding');
                 if(get_row_layout() == 'project_filter') get_template_part('templates/work/project_filter');
                 if(get_row_layout() == 'two_images_content') get_template_part('templates/casestudy/two_images_content');
+
             }
         }
         ?>
-    
+    <div class="section footerbg"  data-section-name="hello" style="min-height:20px;">    
+    </div>
     <?php 
 if($colour == "Blue"){
     get_footer('project'); 
 }else{
     get_footer('work'); 
 } ?>
-<div class="section d-flex footerbg"  data-section-name="hello" style="min-height:20px;">    
-    </div>

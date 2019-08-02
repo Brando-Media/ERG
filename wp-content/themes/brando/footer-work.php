@@ -1,4 +1,4 @@
-<div id="brando-container" style="top:30%;" class="container"><span id="brando">ERG INTERNATIONAL GROUP</span></div>
+<div style="max-width:1700px;" id="brando-container" class="container"><span id="brando">ERG INTERNATIONAL GROUP</span></div>
             <footer id="footer" class="container">
                 <!--<a href="#" class="float-right">Instagram</a>-->
             </footer>
@@ -49,17 +49,29 @@
                     
                 });
             <?php endif; ?>
-            function myFunction() {
-                //$(".header__list").fadeToggle("slow");
-                //$(".header__list").css("display", "grid");
-                var display = $("#ul-menu").css("display");
-                console.log(display);
-                if(display =="grid"){
-                    $("#ul-menu").css("display", "block");
-                }else{
-                    $("#ul-menu").css("display", "grid");
-                }
+            function togglemob() {
+                console.log("test");
+                if($('.section').css('display') == 'none'){
+                    $('.work-template-default').css({"background-image": ''});
+                    //$('#testidchange').css({"display": "flex"});
+                    //$('.newbg').css({"display": "flex"});
 
+                }else{
+                    $('.work-template-default').css({"background-image": 'url(' + "http://erg.loc:8888/wp-content/uploads/2019/07/servicesoverviewbg.png" + ')'});
+                   // $('section').css({"display": "none"});
+                    //$('.newbg').css({"display": "none"});
+                    //$('#testidchange').css({"display": "none"});
+
+                }
+                $('section').toggle();
+                $('.newbg').toggle();
+                $('a.nav-link').css({"color": "white"});
+                $('.footerbg').css({"display": "none"});
+                $('.toggledisplay').css({"display": "none!important"});
+                $('toggledisplay').css({"display": "none!important"});
+                $('.row').toggle();
+                $('.d-flex').css({"display": "none!important"});
+                $('d-flex').css({"display": "none!important"});
             }
             
 

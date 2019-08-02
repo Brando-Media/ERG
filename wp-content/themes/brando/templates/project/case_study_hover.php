@@ -2,7 +2,7 @@
 $services    = get_sub_field('services');
 ?>
 
-<section class=" white-bg d-flex" data-section-name="hover_images">
+<section class="white-bg d-flex section" data-section-name="hover_images">
     <div style="";>
         <div class="row services-experts" style="margin-left:0px; margin-right:0px; min-width:100vw;"> 
             <div> <?php// var_dump($services); ?></div>

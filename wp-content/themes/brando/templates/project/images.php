@@ -2,7 +2,7 @@
 $images = get_sub_field('images'); 
 $mainimage = get_sub_field('main_image');?>
 
-<?php var_dump(count($images)); if($images): ?>
+<?php if($images): ?>
 
 
     <div class="row m-0">
@@ -18,7 +18,7 @@ $mainimage = get_sub_field('main_image');?>
             $class = 'pr-0 pl-2'; ?>
             
            <?php } ?>
-            <div class="col-md-3" style="padding-left:0px!important; padding-right:0px!important; max-width:50%;">
+            <div class="col-md-6 projimgwidth" style="padding-left:0px!important; padding-right:0px!important;">
                 <img class="small-project-home" src="<?php echo show_image($image['url'], $image['width'], $image['height'], 75) ?>">
             </div>
         <?php endforeach; ?>

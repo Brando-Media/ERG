@@ -1,4 +1,4 @@
-<div id="brando-container-blue" style="top:30%;" class="container"><span id="brando">ERG INTERNATIONAL GROUP</span></div>
+<div style="max-width:1700px;" id="brando-container-blue" style="top:30%;" class="container"><span id="brando">ERG INTERNATIONAL GROUP</span></div>
             <footer id="footer" class="container">
                 <!--<a href="#" class="float-right">Instagram</a>-->
             </footer>
@@ -48,6 +48,32 @@
 
                 });
             <?php endif; ?>
+            function togglemob() {
+                console.log("tesst");
+                if($('.section').css('display') == 'none'){
+                    $('.work-template-default').css({"background-image": ''});
+                    $('.page-template').css({"background-image": ''});
+                }else{
+                    $("#ul-menu").css("display", "grid");
+                    $('.work-template-default').css({"background-image": 'url(' + "http://erg.loc:8888/wp-content/uploads/2019/07/servicesoverviewbg.png" + ')'});
+                    $('.page-template').css({"background-image": 'url(' + "http://erg.loc:8888/wp-content/uploads/2019/07/servicesoverviewbg.png" + ')'});
+                }
+
+                //$('section').toggle();
+                $('section').toggle();
+                $('.newbg').toggle();
+                $('.footerbg').css({"display": "none"});
+                $('.toggledisplay').css({"display": "none!important"});
+                $('toggledisplay').css({"display": "none!important"});
+                $('.row').toggle();
+                $('.d-flex').css({"display": "none!important"});
+                $('d-flex').css({"display": "none!important"});
+                /*if($('.work-template-default').css('background-image') != 'none'){
+                    $('.work-template-default').css({"background-image": 'url(' + "http://erg.loc:8888/wp-content/uploads/2019/07/servicesoverviewbg.png" + ')'});
+                }else{
+                    $('.work-template-default').css({"background-image": 'none'});
+                }*/
+            }
 
             $(function() {
                 <?php if(!is_singular('work')): ?>
