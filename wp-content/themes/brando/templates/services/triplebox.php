@@ -4,10 +4,9 @@ $title       = get_sub_field('title');
 $dtitle       = get_sub_field('displayed_title');
 $sectionName = str_replace(' ', '', strtolower($title));
 $topbg = get_sub_field('top_bg');
-var_dump($dtitle);
 if($topbg == 'No'){
-?> <section class="section d-flex" data-section-name="<?php echo $sectionName; ?>"> <?php }else{ ?>
-<section class="section casestudiesbgbottom  d-flex" data-section-name="<?php echo $sectionName; ?>">
+?> <section class="section" data-section-name="<?php echo $sectionName; ?>"> <?php }else{ ?>
+<section class="section casestudiesbgbottom" data-section-name="<?php echo $sectionName; ?>">
 
 <?php }
 ?>

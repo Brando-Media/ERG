@@ -21,7 +21,7 @@ if($colour == "Blue"){
 
                 if(get_row_layout() == 'images') get_template_part('templates/casestudy/images');
 
-
+ 
                 if(get_row_layout() == 'content') get_template_part('templates/casestudy/content');
                 if(get_row_layout() == 'services') get_template_part('templates/services/services'); 
                 if(get_row_layout() == 'contact') get_template_part('templates/services/contact');

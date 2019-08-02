@@ -58,12 +58,14 @@
 
                 }else{
                     $('.work-template-default').css({"background-image": 'url(' + "http://erg.loc:8888/wp-content/uploads/2019/07/servicesoverviewbg.png" + ')'});
+                    $('.casestudy-template-default').css({"background-image": 'url(' + "http://erg.loc:8888/wp-content/uploads/2019/07/servicesoverviewbg.png" + ')'});
                    // $('section').css({"display": "none"});
                     //$('.newbg').css({"display": "none"});
                     //$('#testidchange').css({"display": "none"});
 
                 }
                 $('section').toggle();
+                $('.work-template-default').css({"background-image": 'url(' + "http://erg.loc:8888/wp-content/uploads/2019/07/servicesoverviewbg.png" + ')'});
                 $('.newbg').toggle();
                 $('a.nav-link').css({"color": "white"});
                 $('.footerbg').css({"display": "none"});

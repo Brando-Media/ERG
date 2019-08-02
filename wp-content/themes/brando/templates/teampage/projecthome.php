@@ -17,7 +17,7 @@ $projectitle = get_sub_field('project_title');
 <div class="">
     <div class="row d-flex" style="color:#00498d;">
         <?php if($imagePos=='Left'): ?>
-            <div class="col-lg-6 text-center align-self-center left-content-work-block" style="padding-left:0px; padding-right:0px; padding-top:200px;">
+            <div class="col-lg-6 text-center align-self-center left-content-work-block" style="padding-left:0px; padding-right:0px; padding-top:200px; max-width:85%; padding-left:35px;">
                 <div class="project-home-image" >
                     <?php if($image): ?>
                         <img class="img-fluid img-phome" src="<?php echo show_image($image['url'], $image['width'], $image['height']); ?>">
@@ -25,7 +25,7 @@ $projectitle = get_sub_field('project_title');
                 </div>
                 
             </div>
-            <div class="col-lg-6 align-self-center project-home-text" > 
+            <div class="col-lg-6 align-self-center project-home-text inditeamtext" style="margin:auto;"> 
                 <?php echo $title ? "<h2 class='title'>{$title}</h2>" : '' ?>
                 <div class="teampageind-title">
                 <?php echo $projectitle ? "{$projectitle}" : '' ?>
@@ -47,15 +47,15 @@ $projectitle = get_sub_field('project_title');
         <?php endif; ?>
     </div>
 </div>
-<div class="row d-flex project-home-footer">
-    <div class="col-lg-6 align-self-center">
+<div class="row project-home-footer col-lg-6" style="display: -webkit-box; margin:auto; margin-top:10%; margin-bottom:10%;">
+    <div class="col-lg-6 align-self-center marginleftproject" style="max-width:50%;">
     <?php if(!empty($previoustext)){ ?>
-        <a href="<?php echo $previousurl ?>"><?php echo $previoustext ?></a>
+        <a style="font-family: Helvetica;color: #00498D; width:30%;" href="<?php echo $previousurl ?>"><?php echo $previoustext ?></a>
     <?php } ?>
     </div>
-    <div class="col-lg-6 align-self-center">
+    <div class="col-lg-6 align-self-center" style="max-width:50%;">
     <?php if(!empty($nexttext)){ ?>
-        <a href="<?php echo $nexturl ?>"><?php echo $nexttext ?></a>
+        <a style="font-family: Helvetica; color: #00498D; width:30%;" href="<?php echo $nexturl ?>"><?php echo $nexttext ?></a>
     <?php } ?>    
     </div>
 </div>

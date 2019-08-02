@@ -14,10 +14,10 @@ $nexturl = get_sub_field('next_url');
 <section class="section">
 
 <div class="">
-    <div class="row d-flex" style="color:#00498d;">
+    <div class="row" style="color:#00498d;">
         <?php if($imagePos=='Left'): ?>
             <div class="col-lg-6 text-center align-self-center left-content-work-block" style="padding-left:0px; padding-right:0px;">
-                <div class="project-home-image" >
+                <div class="indicasestudy" >
                     <?php if($image): ?>
                         <img class="img-fluid img-phome" src="<?php echo show_image($image['url'], $image['width'], $image['height']); ?>">
                     <?php endif; ?>
@@ -43,6 +43,7 @@ $nexturl = get_sub_field('next_url');
         <?php endif; ?>
     </div>
 </div>
+<!--
 <div class="row d-flex project-home-footer">
     <div class="col-lg-6 align-self-center">
     <?php if(!empty($previoustext)){ ?>
@@ -52,6 +53,18 @@ $nexturl = get_sub_field('next_url');
     <div class="col-lg-6 align-self-center">
     <?php if(!empty($nexttext)){ ?>
         <a href="<?php echo $nexturl ?>"><?php echo $nexttext ?></a>
+    <?php } ?>    
+    </div>
+</div>-->
+<div class="row project-home-footer col-lg-6" style="display: -webkit-box; margin:auto; margin-top:10%; margin-bottom:10%;">
+    <div class="col-lg-6 align-self-center marginleftproject" style="max-width:50%;">
+    <?php if(!empty($previoustext)){ ?>
+        <a style="font-family: Helvetica;color: #00498D; width:30%;" href="<?php echo $previousurl ?>"><?php echo $previoustext ?></a>
+    <?php } ?>
+    </div>
+    <div class="col-lg-6 align-self-center">
+    <?php if(!empty($nexttext)){ ?>
+        <a style="font-family: Helvetica; color: #00498D; width:30%;" href="<?php echo $nexturl ?>"><?php echo $nexttext ?></a>
     <?php } ?>    
     </div>
 </div>

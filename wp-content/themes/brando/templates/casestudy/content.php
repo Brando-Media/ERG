@@ -5,8 +5,8 @@ $content       = get_sub_field('content');
 
 $sectionName = str_replace(' ', '', strtolower($title));
 ?>
-<section style="max-height:500px;" class="section casestudiesbgtop d-flex" data-section-name="<?php echo $sectionName; ?>">
-        <div class="container container--small main-content">
+<section class="section casestudiesbgtop casestudiesheight" data-section-name="<?php echo $sectionName; ?>">
+        <div class="container container--small main-content" style="padding-bottom:0px;">
             
             <div class="row">
                 <div class="col-lg-12 projects-home" style="color:white;">
@@ -17,8 +17,6 @@ $sectionName = str_replace(' ', '', strtolower($title));
                         <?php echo $content ?>
                         </div>
                     </div>
-                </div>
-                <div class="col-lg-6 work-completed">
                 </div>
             </div>
         </div>

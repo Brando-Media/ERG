@@ -243,12 +243,12 @@ p, .main-content ul{
 
 #brando-container{
     position: absolute;
-    top: 20%;
+    top: 40%;
     left: 0;
     right: 0;
     #brando{
         color: #fff;
-        transform: rotate(-90deg);
+        transform: rotate(90deg);
         display: inline-block;
         position: absolute;
         left: -60px;
@@ -262,9 +262,21 @@ p, .main-content ul{
     }
 }
 
+
+.indicasestudy{
+        max-width:400px;
+        max-height:460px;
+        right: 0;
+        padding-right:0px;
+        margin-right:0px;
+        margin-right: 0px!important;
+        margin: auto;
+        margin-top:20%;
+}
+
 #brando-container-blue{
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 0;
     right: 0;
     #brando{
@@ -1039,6 +1051,10 @@ textarea::-webkit-input-placeholder {
     .project-text-w{
         max-width:300px; padding-top:0px; margin:auto;
     }
+    .inditeamtext{
+        margin:auto;
+        max-width:300px;
+    }
   }
 
   @media only screen and (min-width: 1400px) {
@@ -1234,6 +1250,8 @@ textarea::-webkit-input-placeholder {
         }
     }
 
+    
+
     .header__list-item a {
         display: block;
         color: #242424;
@@ -1287,9 +1305,13 @@ textarea::-webkit-input-placeholder {
       //position: relative;
 }
 
+
 @media only screen and (max-width: 991px){
     .servicesimg {
         display: none;
+    }
+    .casestudiesheight{
+        max-height:8000px!important;
     }
     .emptybox {
         display: none;
@@ -1321,6 +1343,7 @@ textarea::-webkit-input-placeholder {
     }
     
     
+    
 
 
 }
@@ -1350,6 +1373,13 @@ textarea::-webkit-input-placeholder {
 
 
 @media only screen and (min-width: 992px){
+    .casestudiesheight{
+        max-height:600px!important;
+    }
+    .inditeamtext{
+        margin:auto;
+        max-width:500px;
+    }
     .frontpagetitle{
         padding-left:25%;
         font-size:42px;
