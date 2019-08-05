@@ -8,7 +8,7 @@ $title       = get_sub_field('title');
 $sectionName = str_replace(' ', '', strtolower($title)); 
 
 ?>
-<section class="section redbg newbg  ergtextfooter" style="" data-section-name="hello">
+<section class="section redbg newbg  ergtextfooter" style="" data-section-name="hello" id="contact">
     <div class="container container--small align-self-center">
         <div class="row">
             
