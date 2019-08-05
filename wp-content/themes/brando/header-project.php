@@ -66,25 +66,25 @@
            <div class="collapse navbar-collapse navbaritemz" id="navbarTogglerDemo02">
                <ul class="navbar-nav mr-auto mt-2 mt-lg-0 navbarfr">
                <li class="nav-item">
-                   <a style="font-family: Helvetica; font-size: 16px; color: #00498D; font-weight:900;" class="nav-link" href="/#about">About <span class="sr-only">(current)</span></a>
+                   <a style="font-family: Helvetica; font-size: 16px; color: #00498D; font-weight:900;" class="nav-link" href="../#about">About <span class="sr-only">(current)</span></a>
                </li>
                <li class="nav-item">
-                   <a style="font-family: Helvetica; font-size: 16px; color: #00498D; font-weight:900;" class="nav-link" href="/services">Services</a>
+                   <a style="font-family: Helvetica; font-size: 16px; color: #00498D; font-weight:900;" class="nav-link" href="../services">Services</a>
                </li>
                <li class="nav-item">
-                   <a style="font-family: Helvetica; font-size: 16px; color: #00498D; font-weight:900;" class="nav-link" href="/projects">Projects</a>
+                   <a style="font-family: Helvetica; font-size: 16px; color: #00498D; font-weight:900;" class="nav-link" href="../projects">Projects</a>
                </li>
                <li class="nav-item">
-                   <a style="font-family: Helvetica; font-size: 16px; color: #00498D; font-weight:900;" class="nav-link" href="/case-studies">Case Studies</a>
+                   <a style="font-family: Helvetica; font-size: 16px; color: #00498D; font-weight:900;" class="nav-link" href="../case-studies">Case Studies</a>
                </li>
                <li class="nav-item">
-                   <a style="font-family: Helvetica; font-size: 16px; color: #00498D; font-weight:900;" class="nav-link" href="/#global">Global</a>
+                   <a style="font-family: Helvetica; font-size: 16px; color: #00498D; font-weight:900;" class="nav-link" href="../#global">Global</a>
                </li>
                <li class="nav-item">
-                   <a style="font-family: Helvetica; font-size: 16px; color: #00498D; font-weight:900;" class="nav-link" href="/team-page">Team</a>
+                   <a style="font-family: Helvetica; font-size: 16px; color: #00498D; font-weight:900;" class="nav-link" href="../team-page">Team</a>
                </li>
                <li class="nav-item">
-                   <a style="font-family: Helvetica; font-size: 16px; color: #00498D; font-weight:900;" class="nav-link" href="/#contact">Contact</a>
+                   <a style="font-family: Helvetica; font-size: 16px; color: #00498D; font-weight:900;" class="nav-link" href="../#contact">Contact</a>
                </li>
                </ul>
            </div>

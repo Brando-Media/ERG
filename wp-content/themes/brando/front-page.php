@@ -4,9 +4,9 @@ Template Name: Front Page
 */
 $colour = get_field('header_colour');
 if($colour == "Blue"){
-    get_header('project'); 
+    get_header(); 
 }else{
-    get_header('work'); 
+    get_header(); 
 } ?>
 
     <section class="section  background-image-home" data-section-name="homes" style="max-height:750px;">
