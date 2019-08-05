@@ -223,9 +223,15 @@ p, .main-content ul {
     max-width: 1200px;
   }
 }
+.content-title {
+  font-family: Helvetica;
+  font-size: 45px;
+  color: #00498D;
+}
+
 #brando-container {
   position: absolute;
-  top: 40%;
+  top: 25%;
   left: 0;
   right: 0;
 }
@@ -1035,6 +1041,10 @@ textarea::placeholder {
     padding-bottom: 0px;
   }
 
+  .margin-2 {
+    margin-left: 30%;
+  }
+
   .navfloat {
     float: right;
   }
@@ -1079,6 +1089,11 @@ textarea::placeholder {
   }
 }
 @media only screen and (max-width: 991px) {
+  .margin-2 {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .img-order {
     order: 2;
     padding-left: 30px !important;
@@ -1238,6 +1253,7 @@ textarea::placeholder {
 @media only screen and (max-width: 999px) {
   .frontpagetitle {
     padding-left: 10%;
+    max-width: 800px;
   }
 }
 .servicesotitle {
@@ -1250,11 +1266,12 @@ textarea::placeholder {
 .frontpagetitle {
   color: white;
   text-align: left;
-  max-width: 800px;
   margin: auto;
   font-size: 42px;
   margin: auto;
-  padding-top: 200px;
+  padding-top: 250px;
+  max-width: 950px;
+  margin-right: 3%;
 }
 
 @media only screen and (max-width: 991px) {
@@ -1277,6 +1294,7 @@ textarea::placeholder {
   .frontpagetitle {
     padding-left: 10%;
     font-size: 30px;
+    max-width: 950px;
   }
 
   .imghoverw {
@@ -1294,6 +1312,11 @@ textarea::placeholder {
   .nav-link {
     text-align: center;
     font-size: 40px;
+    font-weight: bold !important;
+  }
+
+  .header-div {
+    margin-left: 0px !important;
   }
 
   .navbarfr {

@@ -241,9 +241,15 @@ p, .main-content ul{
     }
 }
 
+.content-title{
+    font-family: Helvetica;
+    font-size: 45px;
+    color: #00498D;
+}
+
 #brando-container{
     position: absolute;
-    top: 40%;
+    top: 25%;
     left: 0;
     right: 0;
     #brando{
@@ -869,6 +875,7 @@ textarea::-webkit-input-placeholder {
     font-size:24px;
 }
 
+
 .teampage-triple{
     text-align:left; 
     margin-top:20px;
@@ -1083,6 +1090,10 @@ textarea::-webkit-input-placeholder {
         padding-top:0px;
         padding-bottom:0px;
     }
+
+    .margin-2{
+        margin-left:30%;
+    }
     .navfloat{
         float:right;
     }
@@ -1126,7 +1137,11 @@ textarea::-webkit-input-placeholder {
     }
   }
   @media only screen and (max-width: 991px) {
-    
+    .margin-2{
+        margin-left:auto;
+        margin-right:auto;
+    }
+
     .img-order{
         order:2;
         padding-left:30px!important;
@@ -1297,7 +1312,9 @@ textarea::-webkit-input-placeholder {
     
     .frontpagetitle{
         padding-left:10%;
+        max-width:800px;
     }
+   
 }
 
 .servicesotitle{
@@ -1307,11 +1324,12 @@ textarea::-webkit-input-placeholder {
 .frontpagetitle{
     color:white;
      text-align:left; 
-     max-width:800px;
       margin:auto; 
       font-size:42px;     
       margin:auto;
-      padding-top:200px;
+      padding-top:250px;
+      max-width:950px;
+      margin-right:3%;
       //padding-left:25%;
       //position: relative;
 }
@@ -1333,6 +1351,7 @@ textarea::-webkit-input-placeholder {
     .frontpagetitle{
         padding-left:10%;
         font-size:30px;
+        max-width:950px;
     }
     .imghoverw{
         min-width: 100vw;
@@ -1347,6 +1366,11 @@ textarea::-webkit-input-placeholder {
     .nav-link {
         text-align: center;
         font-size:40px;
+        font-weight:bold!important;
+    } 
+
+    .header-div{
+        margin-left:0px!important;
     }
 
     .navbarfr{

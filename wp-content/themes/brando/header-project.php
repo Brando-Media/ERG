@@ -37,9 +37,9 @@
         ?> 
         <div id="wrapper" class="<?php echo $class; ?>">
    
-   <header id="header" style="max-width:1200px;">
+   <header id="header" style="margin-right:7%;">
    
-       <div class="container clearfix header-toggle-white" style="margin-top:20px;">
+       <div class="container clearfix header-toggle-white header-div"  style="margin-top:20px; margin-left:60px; max-width:1400px;">
            <a href="#home" id="logo" class="float-left">
                <img style="max-width:100px;" class="white-logo" src="<?php bloginfo('template_url') ?>/assets/images/ergblue200.png" alt="erg" title="Brando Media" />
                <img class="red-logo" src="<?php bloginfo('template_url') ?>/assets/images/ergblue200.png" alt="erg" title="Brando Media" />
@@ -66,25 +66,25 @@
            <div class="collapse navbar-collapse navbaritemz" id="navbarTogglerDemo02">
                <ul class="navbar-nav mr-auto mt-2 mt-lg-0 navbarfr">
                <li class="nav-item">
-                   <a style="font-family: Helvetica; font-size: 16px; color: #00498D; font-weight:900;" class="nav-link" href="../../#about">About <span class="sr-only">(current)</span></a>
+                   <a style="font-family: Helvetica; font-size: 16px; color: #00498D; font-weight:900; font-weight:bold;" class="nav-link" href="../../#about">About <span class="sr-only">(current)</span></a>
                </li>
                <li class="nav-item">
-                   <a style="font-family: Helvetica; font-size: 16px; color: #00498D; font-weight:900;" class="nav-link" href="../../services">Services</a>
+                   <a style="font-family: Helvetica; font-size: 16px; color: #00498D; font-weight:900; font-weight:bold;" class="nav-link" href="../../services">Services</a>
                </li>
                <li class="nav-item">
-                   <a style="font-family: Helvetica; font-size: 16px; color: #00498D; font-weight:900;" class="nav-link" href="../../projects">Projects</a>
+                   <a style="font-family: Helvetica; font-size: 16px; color: #00498D; font-weight:900; font-weight:bold;" class="nav-link" href="../../projects">Projects</a>
                </li>
                <li class="nav-item">
-                   <a style="font-family: Helvetica; font-size: 16px; color: #00498D; font-weight:900;" class="nav-link" href="../../case-studies">Case Studies</a>
+                   <a style="font-family: Helvetica; font-size: 16px; color: #00498D; font-weight:900; font-weight:bold;" class="nav-link" href="../../case-studies">Case Studies</a>
                </li>
                <li class="nav-item">
-                   <a style="font-family: Helvetica; font-size: 16px; color: #00498D; font-weight:900;" class="nav-link" href="../../#global">Global</a>
+                   <a style="font-family: Helvetica; font-size: 16px; color: #00498D; font-weight:900; font-weight:bold;" class="nav-link" href="../../#global">Global</a>
                </li>
                <li class="nav-item">
-                   <a style="font-family: Helvetica; font-size: 16px; color: #00498D; font-weight:900;" class="nav-link" href="../../team-page">Team</a>
+                   <a style="font-family: Helvetica; font-size: 16px; color: #00498D; font-weight:900; font-weight:bold;" class="nav-link" href="../../team-page">Team</a>
                </li>
                <li class="nav-item">
-                   <a style="font-family: Helvetica; font-size: 16px; color: #00498D; font-weight:900;" class="nav-link" href="../../#contact">Contact</a>
+                   <a style="font-family: Helvetica; font-size: 16px; color: #00498D; font-weight:900; font-weight:bold;" class="nav-link" href="../../#contact">Contact</a>
                </li>
                </ul>
            </div>
