@@ -594,7 +594,7 @@ input.form-control ::-ms-input-placeholder {
 }
 
 .background-image-home {
-  background: url("wp-content/themes/brando/assets/images/erglogo775px.png"), url("wp-content/themes/brando/assets/images/bluehomebg.png");
+  background: url("../images/erglogo775px.png"), url("../images/bluehomebg.png");
   background-position: right bottom, center;
   background-repeat: no-repeat, no-repeat;
   background-attachment: absolute, fixed;
@@ -606,7 +606,7 @@ input.form-control ::-ms-input-placeholder {
 }
 
 .servicesoverviewbg {
-  background-image: url("/wp-content/uploads/2019/07/servicesoverviewbg.png");
+  background-image: url("../images/servicesoverviewbg.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -618,7 +618,7 @@ input.form-control ::-ms-input-placeholder {
 }
 
 .ergfooterbg {
-  background: url("/wp-content/uploads/2019/07/servicesoverviewbg.png") no-repeat center center fixed;
+  background: url("../images/servicesoverviewbg.png") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
@@ -626,7 +626,7 @@ input.form-control ::-ms-input-placeholder {
 }
 
 .ergtextfooter {
-  background: url("/wp-content/uploads/2019/07/ERG-logo.png");
+  background: url("../images/ERG-logo.png");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: right bottom;
@@ -634,7 +634,7 @@ input.form-control ::-ms-input-placeholder {
 }
 
 .newbg {
-  background: url("/wp-content/uploads/2019/07/erglogo775px.png"), url("/wp-content/uploads/2019/07/servicesoverviewbg.png");
+  background: url("../images/erglogo775px.png"), url("../images/servicesoverviewbg.png");
   background-position: right bottom, center;
   background-repeat: no-repeat, no-repeat;
   background-attachment: absolute, fixed;
@@ -1224,11 +1224,11 @@ textarea::placeholder {
 }
 
 .navbar-toggler-icon {
-  background-image: url("/wp-content/uploads/2019/07/whitearrows.png") !important;
+  background-image: url("../images/whitearrows.png") !important;
 }
 
 .icon-blue {
-  background-image: url("/wp-content/uploads/2019/07/bluearrows.png") !important;
+  background-image: url("../images/bluearrows.png") !important;
 }
 
 .navbar-toggler {
