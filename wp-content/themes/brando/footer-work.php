@@ -8,8 +8,15 @@
         <script src="<?php bloginfo('template_directory'); ?>/javascript/scrollify.js"></script>
 
         <script>
+
             <?php if(!is_singular('work')): ?>
                 $(window).on('load', function(){
+                    $("[href]").each(function() {
+                        if (this.href == window.location.href) {
+                            $(this).addClass("active");
+                        }
+                    });
+                    console.log(window.location.href);
                     $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
                     console.log("hello");
                     $.scrollify({
@@ -51,21 +58,24 @@
             <?php endif; ?>
             function togglemob() {
                 console.log("test");
+                console.log(window.location.href);
                 if($('.section').css('display') == 'none'){
                     $('.work-template-default').css({"background-image": ''});
                     //$('#testidchange').css({"display": "flex"});
                     //$('.newbg').css({"display": "flex"});
 
                 }else{
-                    $('.work-template-default').css({"background-image": 'url(' + "http://erg.loc:8888/wp-content/uploads/2019/07/servicesoverviewbg.png" + ')'});
-                    $('.casestudy-template-default').css({"background-image": 'url(' + "http://erg.loc:8888/wp-content/uploads/2019/07/servicesoverviewbg.png" + ')'});
+                    $('.work-template-default').css({"background-image": "linear-gradient(to right, rgba(0, 160, 219, 0.8), rgba(0, 73, 144, 0.8))" });
+                    $('.work-template-default').css({"background-repeat": 'no-repeat'});
+                    $('.casestudy-template-default').css({"background-image": "linear-gradient(to right, rgba(0, 160, 219, 0.8), rgba(0, 73, 144, 0.8))" });
                    // $('section').css({"display": "none"});
                     //$('.newbg').css({"display": "none"});
                     //$('#testidchange').css({"display": "none"});
 
                 }
                 $('section').toggle();
-                $('.work-template-default').css({"background-image": 'url(' + "http://erg.loc:8888/wp-content/uploads/2019/07/servicesoverviewbg.png" + ')'});
+                //$('.work-template-default').css({"background-image": "linear-gradient(to right, rgba(0, 160, 219, 0.8), rgba(0, 73, 144, 0.8))"});
+                //$('.work-template-default').css({"background-repeat": 'no-repeat'});
                 $('.newbg').toggle();
                 $('a.nav-link').css({"color": "white"});
                 $('.footerbg').css({"display": "none"});

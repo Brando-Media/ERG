@@ -10,6 +10,7 @@
         <script>
             <?php if(!is_singular('work')): ?>
                 $(window).on('load', function(){
+                    console.log(window.location.href);
                     $.scrollify({
                         section : ".section",
                         before: function(i, el){

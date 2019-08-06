@@ -369,6 +369,10 @@ p, .main-content ul{
     }
 }
 
+.servicescontent p{
+        color:white;
+}
+
 textarea.form-control{
     height: 108px;
     resize: none;
@@ -646,10 +650,18 @@ input.form-control{
         position: absolute;
 }
 
+.contentimagep p{
+    font-family: Helvetica;
+    font-size: 20px;
+    color: #00498D;
+    text-align: left;
+    line-height: 25px;
+}
+
 .servicesoverviewbg{
-    background-image: url("../images/servicesoverviewbg.png");
     background-repeat:no-repeat;
-    background-size:cover;
+    background-image: linear-gradient(to right, rgba(0,160,219,0.8), rgba(0,73,144,0.8));
+    background-size: 100% 100%;
 }
 
 .servicesimg{
@@ -756,6 +768,7 @@ textarea::-webkit-input-placeholder {
     //background-color: #777;
     max-height:60px;
     color: #00498D;
+    background-color:white;
     cursor: pointer;
     padding: 18px;
     width: 100%;
@@ -777,22 +790,30 @@ textarea::-webkit-input-placeholder {
   }
 
   .projects-container{
-    border-bottom: 5px solid #00498D;
+    border-bottom: 1px solid #00498D;
   }
 
   .projects-collapsible:after {
-    content: '\2303';
+    content: '\2304';
     color: #00498D;
     font-weight: bold;
     float: right;
+    font-size:35px;
+    position:relative;
+    top:-17px;
+
+    //font-size:35px;
     margin-left: 5px;
   }
   .projects-container{
     .active:after {
-        content: "\2304";
-        font-size: 35px;
+        content: "\2303";
+        //font-size: 35px;
         color: #00498D;
         font-weight: bold;
+        font-size:19px;
+        position:relative;
+        top:0;
       }
       button:focus {outline:0;}
 
@@ -1083,16 +1104,29 @@ textarea::-webkit-input-placeholder {
     }
   }
 
+  .navonpage{
+    font-family: Helvetica;
+    font-size: 16px;
+    color: #00498D;
+  }
+
   @media only screen and (min-width: 992px) {
+
+    .ftmsection{
+        padding-top:250px;
+    }
     .img-order{
         order:none;
         padding-left:15px!important;
         padding-top:0px;
         padding-bottom:0px;
     }
+    .padding-right{
+        padding-right:10%;
+    }
 
     .margin-2{
-        margin-left:30%;
+        margin-left:20%;
     }
     .navfloat{
         float:right;
@@ -1137,11 +1171,17 @@ textarea::-webkit-input-placeholder {
     }
   }
   @media only screen and (max-width: 991px) {
+
+    .ftmsection{
+        padding-top:20px;
+    }
     .margin-2{
         margin-left:auto;
         margin-right:auto;
     }
-
+    .padding-right{
+        margin-right:0px;
+    }
     .img-order{
         order:2;
         padding-left:30px!important;
@@ -1339,6 +1379,14 @@ textarea::-webkit-input-placeholder {
     .servicesimg {
         display: none;
     }
+
+    
+
+    .globalcontent{
+        max-width:90%;
+        margin-left:0px;
+        margin-bottom:45px;
+    }
     .casestudiesheight{
         max-height:8000px!important;
     }
@@ -1411,6 +1459,14 @@ textarea::-webkit-input-placeholder {
     .casestudiesheight{
         max-height:600px!important;
     }
+    .globalsection{
+        min-height:0px;
+    }
+    .globalcontent{
+        max-width:500px!important;
+        margin-left:auto;
+        margin-bottom:100px;
+    }
     .inditeamtext{
         margin:auto;
         max-width:500px;
@@ -1440,13 +1496,15 @@ textarea::-webkit-input-placeholder {
 }
 
 .emptybox{
-    height:140px;
+    height:180px;
     margin-bottom:20px;
 }
 
 .servicescontent{
-    height:140px; 
+    height:180px; 
     margin-bottom:20px;
+    margin-right:5px;
+    margin-left:5px;
 }
 
 .header-toggle-white{
@@ -1457,3 +1515,25 @@ textarea::-webkit-input-placeholder {
     
 }
 
+.globalptitle{
+    margin-top:40px;
+    font-family: Helvetica;
+    font-size: 45px;
+    color: #00498D;
+}
+
+.globalbtext p{
+    font-family: Helvetica;
+    font-size: 20px;
+    color: #00498D;
+    text-align: left;
+    line-height: 25px;
+}
+
+.globaltext p{
+    font-family: Helvetica;
+    font-size: 14px;
+    color: #00498D;
+    text-align: left;
+    line-height: 20px;
+}

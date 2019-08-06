@@ -30,14 +30,13 @@
         <?php wp_head(); ?>
  
         <!--[if lt IE 9]> <script src="<?php bloginfo('template_directory'); ?>/javascript/html5shiv.js"></script> <![endif]-->
-        
     </head>
     <body <?php body_class(); ?>>
         <?php
         $class = '';
         $domainurl = $_SERVER['HTTP_HOST']; 
         
-        ?>  
+        ?>   
      
         <div id="wrapper" class="<?php echo $class; ?>">
    

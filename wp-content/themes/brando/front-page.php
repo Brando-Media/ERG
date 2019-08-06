@@ -21,7 +21,7 @@ if($colour == "Blue"){
     </div>
         <div style="margin:auto 0;"><div>
     </section>
-    
+     
     <?php 
     if(have_rows('content')){
         while(have_rows('content')){
@@ -34,6 +34,7 @@ if($colour == "Blue"){
             if(get_row_layout() == 'case_study_hover') get_template_part('templates/work/case_study_hover');
             if(get_row_layout() == 'services_overview') get_template_part('templates/work/services_overview');
             if(get_row_layout() == 'google_maps') get_template_part('templates/work/google_maps');
+            if(get_row_layout() == 'content_left_content_right') get_template_part('templates/content_left_content_right');
 
         }
     }

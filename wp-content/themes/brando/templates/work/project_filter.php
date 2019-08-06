@@ -15,7 +15,7 @@ $first = 0;
             <div class="col-lg-6 align-self-center right-content-work-block filter-padding">
             <?php foreach($services as $servicerow){
                 if($first==0){?>
-                    <div class="projects-container" style="border-top: 5px solid #00498D;">
+                    <div class="projects-container" style="border-top: 1px solid #00498D;">
                     <button  class="projects-collapsible"><?php echo $servicerow['project_title']?></button>
                 <?php }else{?>
                     <div class="projects-container">
