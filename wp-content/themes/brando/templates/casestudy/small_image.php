@@ -27,22 +27,23 @@ $nexturl = get_sub_field('next_url');
                     <div class="mainimage-text">
                         <?php echo $smalltext ?>
                     </div>
+                    <div class="row d-flex main-footer" style="min-width:100%;">
+                    <div class="col-lg-6 align-self-center">
+                    <?php if(!empty($previoustext)){ ?>
+                        <a href="<?php echo $previousurl ?>"><?php echo $previoustext ?></a>
+                    <?php } ?>
+                    </div>
+                    <div class="col-lg-6" style="text-align:right;">
+                    <?php if(!empty($nexttext)){ ?>
+                        <a href="<?php echo $nexturl ?>"><?php echo $nexttext ?></a>
+                    <?php } ?>    
+                    </div>
+                </div>
+            </div>
                 </div>
 
 
-                <div class="row d-flex main-footer">
-    <div class="col-lg-6 align-self-center">
-    <?php if(!empty($previoustext)){ ?>
-        <a href="<?php echo $previousurl ?>"><?php echo $previoustext ?></a>
-    <?php } ?>
-    </div>
-    <div class="col-lg-6 align-self-center">
-    <?php if(!empty($nexttext)){ ?>
-        <a href="<?php echo $nexturl ?>"><?php echo $nexttext ?></a>
-    <?php } ?>    
-    </div>
-</div>
-            </div>
+               
 
     
            

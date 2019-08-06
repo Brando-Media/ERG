@@ -950,6 +950,14 @@ textarea::placeholder {
   content: "";
 }
 
+.ctf-tweets {
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
 .ctf-no-bio {
   display: none;
 }
@@ -1016,18 +1024,71 @@ textarea::placeholder {
     left: -60px;
   }
 }
+.latest-title {
+  font-family: Helvetica;
+  font-size: 45px;
+  color: #00498D;
+  line-height: 60px;
+}
+
+.latest-triple {
+  font-family: Helvetica;
+  font-size: 20px;
+  color: #00498D;
+  line-height: 25px;
+}
+
+.latest-text {
+  font-family: Helvetica;
+  font-size: 14px;
+  color: #00498D;
+  line-height: 25px;
+}
+
+.link-latest a {
+  font-family: Helvetica;
+  font-size: 12px;
+  color: #00498D;
+  line-height: 25px;
+  letter-spacing: 1.5;
+  font-weight: normal;
+}
+
+.link-latest {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
 @media only screen and (min-width: 601px) {
   .project-text-w {
     max-width: 500px;
     padding-top: 0px;
     margin: auto;
   }
+
+  .resize-text {
+    max-width: 500px !important;
+  }
+
+  .ctf-item {
+    max-width: 50%;
+    border-top: none !important;
+  }
 }
 @media only screen and (max-width: 600px) {
+  .ctf-item {
+    max-width: 100%;
+    border-top: none !important;
+  }
+
   .project-text-w {
     max-width: 300px;
     padding-top: 0px;
     margin: auto;
+  }
+
+  .resize-text {
+    max-width: 80% !important;
   }
 
   .inditeamtext {
@@ -1058,6 +1119,14 @@ textarea::placeholder {
 }
 
 @media only screen and (min-width: 992px) {
+  .p100l {
+    padding-left: 100px;
+  }
+
+  .latest-title {
+    padding-top: 200px;
+  }
+
   .ftmsection {
     padding-top: 250px;
   }
@@ -1121,6 +1190,15 @@ textarea::placeholder {
   }
 }
 @media only screen and (max-width: 991px) {
+  .p100l {
+    padding-left: 0px;
+    margin-left: 0px !important;
+  }
+
+  .latest-title {
+    padding-top: 10px;
+  }
+
   .ftmsection {
     padding-top: 20px;
   }
@@ -1157,6 +1235,11 @@ textarea::placeholder {
     padding-top: 100px;
   }
 }
+.imgh4 {
+  max-height: 400px;
+  max-width: 300px;
+}
+
 .header .open-mob-menu-btn {
   position: absolute;
   top: 50%;

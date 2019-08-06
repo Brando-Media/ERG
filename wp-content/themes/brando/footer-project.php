@@ -51,7 +51,34 @@
             <?php endif; ?>
             function togglemob() {
                 console.log("tesst");
-                if($('.section').css('display') == 'none'){
+                if($('#navbar-header-toggle').hasClass('collapsed')){
+                    console.log("has collapsed");
+                    $('.work-template-default').css({"background-image": "linear-gradient(to right, rgba(0, 160, 219, 0.8), rgba(0, 73, 144, 0.8))" });
+                    $('.work-template-default').css({"background-repeat": 'no-repeat'});
+                    $('.page-template').css({"background-image": 'url(' + "http://erg.loc:8888/wp-content/uploads/2019/07/servicesoverviewbg.png" + ')'});
+                    $('section').css({"display": "none"});
+                    //$('.work-template-default').css({"background-image": "linear-gradient(to right, rgba(0, 160, 219, 0.8), rgba(0, 73, 144, 0.8))"});
+                    //$('.work-template-default').css({"background-repeat": 'no-repeat'});
+                    $('.newbg').css({"display": "none"});
+                    $('.toggledisplay').css({"display": "none"});
+                    $('toggledisplay').css({"display": "none"});
+                    $('.row').css({"display": "none"});
+                    $('.footerbg').css({"display": "none"});
+
+
+                }else{
+                    console.log("not collapsed");
+                    $('.work-template-default').css({"background-image": ''});
+                    $('.page-template').css({"background-image": ''});
+                    $('section').css({"display": "block"});
+                    $('.newbg').css({"display": "block"});
+                    $('.toggledisplay').css({"display": "block"});
+                    $('toggledisplay').css({"display": "block"});
+                    $('.row').css({"display": "block"});
+                    $('.footerbg').css({"display": "block"});
+
+                }
+                /*if($('.section').css('display') == 'none'){
                     $('.work-template-default').css({"background-image": ''});
                     $('.page-template').css({"background-image": ''});
                 }else{
@@ -68,7 +95,7 @@
                 $('toggledisplay').css({"display": "none!important"});
                 $('.row').toggle();
                 $('.d-flex').css({"display": "none!important"});
-                $('d-flex').css({"display": "none!important"});
+                $('d-flex').css({"display": "none!important"});*/
                 /*if($('.work-template-default').css('background-image') != 'none'){
                     $('.work-template-default').css({"background-image": 'url(' + "http://erg.loc:8888/wp-content/uploads/2019/07/servicesoverviewbg.png" + ')'});
                 }else{

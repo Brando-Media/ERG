@@ -13,11 +13,11 @@ if($topbg == 'No'){
 
 <div class="container container--small align-self-center main-related">
 
-        <h2 class="mainimage-title"><?php echo $title?></h2>
-        <div class="row services-experts" style="padding-top:20px;"> 
+        <h2 class="mainimage-title p100l" style=""><?php echo $title?></h2>
+        <div class="row services-experts p100l" style="padding-top:20px;"> 
             <div class="col-lg-3" >
                 
-                <img class="img-fluid w-100" src="<?php echo show_image($services[0]['image']['url'], $services[0]['image']['width'], $services[0]['image']['height'], 75) ?>">
+                <img class="img-fluid w-100 imgh4" src="<?php echo show_image($services[0]['image']['url'], $services[0]['image']['width'], $services[0]['image']['height'], 75) ?>">
                 <div class="header-blog">
                     <?php echo $services[0]['title'] ?>  
                 </div>
@@ -30,7 +30,7 @@ if($topbg == 'No'){
             </div>
             <div class="col-lg-3" >
                 
-                <img class="img-fluid w-100" src="<?php echo show_image($services[1]['image']['url'], $services[1]['image']['width'], $services[1]['image']['height'], 75) ?>">
+                <img class="img-fluid w-100 imgh4" src="<?php echo show_image($services[1]['image']['url'], $services[1]['image']['width'], $services[1]['image']['height'], 75) ?>">
                 <div class="header-blog">
                     <?php echo $services[1]['title'] ?>  
                 </div>
@@ -43,7 +43,7 @@ if($topbg == 'No'){
             </div>
             <div class="col-lg-3" >
                 
-                <img class="img-fluid w-100" src="<?php echo show_image($services[2]['image']['url'], $services[2]['image']['width'], $services[2]['image']['height'], 75) ?>">
+                <img class="img-fluid w-100 imgh4"  src="<?php echo show_image($services[2]['image']['url'], $services[2]['image']['width'], $services[2]['image']['height'], 75) ?>">
                 <div class="header-blog">
                     <?php echo $services[2]['title'] ?>  
                 </div>
@@ -55,7 +55,7 @@ if($topbg == 'No'){
                 </div>
             </div>
         </div>
-        <div class="row services-experts"> 
+       <!-- <div class="row services-experts"> 
             <div class="col-lg-3" >
                 
                 <img class="img-fluid w-100" src="<?php echo show_image($services[3]['image']['url'], $services[3]['image']['width'], $services[3]['image']['height'], 75) ?>">
@@ -95,16 +95,17 @@ if($topbg == 'No'){
                     <a href="<?php echo $services[5]['link_url'] ?> "><?php echo $services[5]['link_text'] ?> </a>
                 </div>
             </div>
-        </div>
+        </div>-->
         <div class="row m0">
-        <div class="col-lg-6">
+        <div class="col-lg-10">
             <div class="main-footer-text">
                 Latest Tweets
+                <div class="row">
                 <?php echo do_shortcode("[custom-twitter-feeds]"); ?>
-
+                </div>
             </div>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-2">
             <div class="main-footer-text">
                 Follow us
             </div>
