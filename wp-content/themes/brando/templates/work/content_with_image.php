@@ -26,10 +26,10 @@ $contentsmalltext  = get_sub_field('content_small_text');
             <div class="col-lg-6 align-self-center left-content-work-block img-order" style="padding-left:70px;" >
             <div class="margin-2">
             <img style="max-height:40px; max-width:40px;" class="img-fluid" src="<?php echo show_image($smallimage['url'], $smallimage['width'], $smallimage['height']); ?>">
-
                 <?php echo $title ? "<div class='content-title'>{$title} </div>" : '' ?>
                 <div style="font-size:24px;"> <?php echo $content; ?> </div>
                 <?php echo $contentsmalltext; ?>
+            </div>
             </div>
             </div>
             </div>
