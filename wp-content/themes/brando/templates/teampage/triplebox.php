@@ -5,7 +5,7 @@ $dtitle       = get_sub_field('displayed_title');
 $sectionName = str_replace(' ', '', strtolower($title));
 ?>
 <section class="section casestudiesbgbottomop  d-flex" data-section-name="<?php echo $sectionName; ?>">
-<div class="container container--small align-self-center">
+<div class="container container--small align-self-center" style="padding-top:0px;">
 
         <h2 class="main-title" style="color:white"><?php echo $dtitle?></h2>
         <div class="row"> 
