@@ -650,6 +650,12 @@ input.form-control ::-ms-input-placeholder {
   background-size: 100% 100%;
 }
 
+.casestudiesbgbottomop {
+  background-repeat: no-repeat;
+  background-image: linear-gradient(to right, rgba(0, 160, 219, 0.8), rgba(0, 73, 144, 0.8));
+  background-size: 100% 20%;
+}
+
 .servicesimg {
   border-right: 5px solid #cccccc;
   border-width: 1px;

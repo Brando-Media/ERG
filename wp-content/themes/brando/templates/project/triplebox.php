@@ -7,7 +7,7 @@ $sectionName = str_replace(' ', '', strtolower($title));
 $topbg = get_sub_field('top_bg'); 
 if($topbg == 'No'){
 ?> <section class="section" data-section-name="<?php echo $sectionName; ?>"> <?php }else{ ?>
-<section class="section casestudiesbgbottom" data-section-name="<?php echo $sectionName; ?>">
+<section class="section casestudiesbgbottomop" data-section-name="<?php echo $sectionName; ?>">
 
 <?php }
 ?>

@@ -683,6 +683,13 @@ input.form-control{
     background-size: 100% 100%;
 }
 
+.casestudiesbgbottomop{
+    background-repeat:no-repeat;
+    background-image: linear-gradient(to right, rgba(0,160,219,0.8), rgba(0,73,144,0.8));
+    background-size: 100% 20%;
+    
+}
+
 .servicesimg{
     //border-left: 5px solid #cccccc;
     border-right: 5px solid #cccccc;
@@ -880,6 +887,12 @@ textarea::-webkit-input-placeholder {
     background-image: linear-gradient(90deg, #00A0DB, #004990);
     background-image: linear-gradient(to right, #00A0DB , #004990);
     background-size: 100% 20%;
+
+}
+
+.servicesoverviewbgbottom{
+
+    
 }
 
 .casestudiesbgbottom{
