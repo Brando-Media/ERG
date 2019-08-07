@@ -1178,6 +1178,7 @@ textarea::-webkit-input-placeholder {
     }
     .resize-text{
         max-width:500px!important;
+        margin:auto;
     }
     .ctf-item{
         max-width:50%;
@@ -1339,6 +1340,7 @@ textarea::-webkit-input-placeholder {
     }
     .navfloat{
         float:none;
+        left:-35px;
     }
     .navbaritemz{
         padding-top:100px;

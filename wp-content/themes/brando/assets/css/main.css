@@ -1120,6 +1120,7 @@ textarea::placeholder {
 
   .resize-text {
     max-width: 500px !important;
+    margin: auto;
   }
 
   .ctf-item {
@@ -1290,6 +1291,7 @@ textarea::placeholder {
 
   .navfloat {
     float: none;
+    left: -35px;
   }
 
   .navbaritemz {
