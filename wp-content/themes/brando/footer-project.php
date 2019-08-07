@@ -45,7 +45,7 @@
                         sectionName : "section-name",
                         overflowScroll: true,
                     });
-                    x
+                    
 
                 });
             <?php endif; ?>
