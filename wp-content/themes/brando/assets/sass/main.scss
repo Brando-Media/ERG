@@ -399,6 +399,7 @@ textarea.form-control{
     font-style: normal;
     padding: 10px;
     color:white;
+    background-color:transparent;
 }
 
 input.form-control{
@@ -412,6 +413,7 @@ input.form-control{
     border-left:0px;
     border-right:0px;
     color:white;
+    background-color: transparent;
 
     ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
         color: white;
