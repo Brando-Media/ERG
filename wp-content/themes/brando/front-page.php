@@ -3,7 +3,7 @@
 Template Name: Front Page
 */
 $colour = get_field('header_colour');
-if($colour == "Blue"){
+if($colour == "Blue"){ 
     get_header(); 
 }else{
     get_header(); 

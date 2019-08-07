@@ -57,9 +57,11 @@
            </div>
            </nav> -->
            
-           <nav class="navbar navbar-expand-lg navfloat">
+           <nav class="navbar navbar-expand-lg navfloat" id="navfloatx">
            <a class="navbar-brand" href="#"></a>
-           <button id="navbar-header-toggle" onclick="togglemob();" class="navbar-toggler"  type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+          <!-- <button id="navbar-header-toggle" onclick="togglemob();" class="navbar-toggler"  type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">-->
+           <button id="navbar-header-toggle" onclick="togglemob();" class="collapsed navbar-toggler">
+   
                <span class="navbar-toggler-icon icon-blue"></span>
            </button>
 

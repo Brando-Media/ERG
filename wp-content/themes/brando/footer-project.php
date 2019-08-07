@@ -45,7 +45,7 @@
                         sectionName : "section-name",
                         overflowScroll: true,
                     });
-                    
+                    x
 
                 });
             <?php endif; ?>
@@ -54,7 +54,6 @@
                 if($('#navbar-header-toggle').hasClass('collapsed')){
                     console.log("has collapsed");
                     $('.work-template-default').css({"background-image": "linear-gradient(to right, rgba(0, 160, 219, 0.8), rgba(0, 73, 144, 0.8))" });
-                    $('.work-template-default').css({"background-repeat": 'no-repeat'});
                     $('.page-template').css({"background-image": 'url(' + "http://erg.loc:8888/wp-content/uploads/2019/07/servicesoverviewbg.png" + ')'});
                     $('section').css({"display": "none"});
                     //$('.work-template-default').css({"background-image": "linear-gradient(to right, rgba(0, 160, 219, 0.8), rgba(0, 73, 144, 0.8))"});
@@ -64,8 +63,11 @@
                     $('toggledisplay').css({"display": "none"});
                     $('.row').css({"display": "none"});
                     $('.footerbg').css({"display": "none"});
-
-
+                    $('#navfloatx').css({"float": "left"});
+                    $('#navfloatx').css({"margin-left": "28px"});
+                    $('#navfloatx').css({"top": "-34px"});
+                    $('#navbarTogglerDemo02').addClass('show');
+                    $('#navbar-header-toggle').removeClass('collapsed');
                 }else{
                     console.log("not collapsed");
                     $('.work-template-default').css({"background-image": ''});
@@ -76,7 +78,11 @@
                     $('toggledisplay').css({"display": "block"});
                     $('.row').css({"display": "block"});
                     $('.footerbg').css({"display": "block"});
-
+                    $('#navfloatx').css({"float": "none"});
+                    $('#navfloatx').css({"margin-left": "0px"});
+                    $('#navfloatx').css({"top": "0px"});
+                    $('#navbar-header-toggle').addClass('collapsed');
+                    $('#navbarTogglerDemo02').removeClass('show');
                 }
                 /*if($('.section').css('display') == 'none'){
                     $('.work-template-default').css({"background-image": ''});

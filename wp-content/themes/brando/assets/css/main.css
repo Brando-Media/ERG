@@ -237,7 +237,7 @@ p, .main-content ul {
 }
 #brando-container #brando {
   color: #fff;
-  transform: rotate(90deg);
+  transform: rotate(-90deg);
   display: inline-block;
   position: absolute;
   left: -60px;
@@ -269,7 +269,7 @@ p, .main-content ul {
 }
 #brando-container-blue #brando {
   color: #00498D;
-  transform: rotate(90deg);
+  transform: rotate(-90deg);
   display: inline-block;
   position: absolute;
   left: -33px;

@@ -32,7 +32,7 @@
         <!--[if lt IE 9]> <script src="<?php bloginfo('template_directory'); ?>/javascript/html5shiv.js"></script> <![endif]-->
         
     </head>
-    <body <?php body_class(); ?>>
+    <body <?php body_class(); ?>> 
         <?php
         $class = '';
         $domainurl = $_SERVER['HTTP_HOST']; 
@@ -63,32 +63,32 @@
                     
                     <nav class="navbar navbar-expand-lg navfloat">
                     <a class="navbar-brand" href="#"></a>
-                    <button id="navbar-header-toggle" onclick="togglemob();" class="navbar-toggler"  type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                    <button id="navbar-header-toggle" onclick="togglemob();" class="navbar-toggler collapsed"  type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
                     <div class="collapse navbar-collapse navbaritemz" id="navbarTogglerDemo02">
                         <ul class="navbar-nav mr-auto mt-2 mt-lg-0 navbarfr">
                         <li class="nav-item">
-                            <a style="color:white;" class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
+                            <a style="color:white; font-weight:bold;" class="nav-link" href="#about">About <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a style="color:white;" class="nav-link" href="Services">Services</a>
+                            <a style="color:white; font-weight:bold;" class="nav-link" href="Services">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a style="color:white;" class="nav-link" href="projects">Projects</a>
+                            <a style="color:white; font-weight:bold;" class="nav-link" href="projects">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a style="color:white;" class="nav-link" href="case-studies">Case Studies</a>
+                            <a style="color:white; font-weight:bold;" class="nav-link" href="case-studies">Case Studies</a>
                         </li>
                         <li class="nav-item">
-                            <a style="color:white;" class="nav-link" href="#global">Global</a>
+                            <a style="color:white;font-weight:bold;" class="nav-link" href="#global">Global</a>
                         </li>
                         <li class="nav-item">
-                            <a style="color:white;" class="nav-link" href="team-page">Team</a>
+                            <a style="color:white;font-weight:bold;" class="nav-link" href="team-page">Team</a>
                         </li>
                         <li class="nav-item">
-                            <a style="color:white;" class="nav-link" href="#contact">Contact</a>
+                            <a style="color:white;font-weight:bold;" class="nav-link" href="#contact">Contact</a>
                         </li>
                         </ul>
                     </div>

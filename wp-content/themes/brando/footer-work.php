@@ -47,7 +47,6 @@
                         after: function(i, el){
                             var current = $.scrollify.current();
                             current = $(current).data('section-name');
-                            
                             $('#main-menu ul li a[href=#'+current+']').addClass('active');
                         },
                         sectionName : "section-name",
@@ -60,9 +59,12 @@
                 console.log("test");
                 console.log(window.location.href);
                 if($('#navbar-header-toggle').hasClass('collapsed')){
+                    if($('#navbarTogglerDemo02').hasClass('navbar-collapse')){
+                        console.log("moonman")
+                    }
+
                     console.log("has collapsed");
                     $('.work-template-default').css({"background-image": "linear-gradient(to right, rgba(0, 160, 219, 0.8), rgba(0, 73, 144, 0.8))" });
-                    $('.work-template-default').css({"background-repeat": 'no-repeat'});
                     $('section').css({"display": "none"});
                     //$('.work-template-default').css({"background-image": "linear-gradient(to right, rgba(0, 160, 219, 0.8), rgba(0, 73, 144, 0.8))"});
                     //$('.work-template-default').css({"background-repeat": 'no-repeat'});
@@ -72,10 +74,14 @@
                     $('.row').css({"display": "none"});
                     $('.footerbg').css({"display": "none"});
                     $('.page-template').css({"background-image": 'url(' + "http://erg.loc:8888/wp-content/uploads/2019/07/servicesoverviewbg.png" + ')'});
+                    $('#navfloatx').css({"float": "left"});
+                    $('#navfloatx').css({"margin-left": "28px"});
+                    $('#navfloatx').css({"top": "-34px"});
+                    $('#navbarTogglerDemo02').addClass('show');
+                    $('#navbar-header-toggle').removeClass('collapsed');
 
 
-
-                }else{
+                }else{ 
                     console.log("not collapsed");
                     $('.work-template-default').css({"background-image": ''});
                     $('section').css({"display": "block"});
@@ -85,6 +91,11 @@
                     $('.row').css({"display": "block"});
                     $('.footerbg').css({"display": "block"});
                     $('.page-template').css({"background-image": ''});
+                    $('#navfloatx').css({"float": "none"});
+                    $('#navfloatx').css({"margin-left": "0px"});
+                    $('#navfloatx').css({"top": "0px"});
+                    $('#navbar-header-toggle').addClass('collapsed');
+                    $('#navbarTogglerDemo02').removeClass('show');
 
 
                 }
