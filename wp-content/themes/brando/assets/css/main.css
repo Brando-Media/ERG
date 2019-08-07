@@ -231,7 +231,7 @@ p, .main-content ul {
 
 #brando-container {
   position: absolute;
-  top: 25%;
+  top: 325px;
   left: 0;
   right: 0;
 }
@@ -263,7 +263,7 @@ p, .main-content ul {
 
 #brando-container-blue {
   position: absolute;
-  top: 40%;
+  top: 325px;
   left: 0;
   right: 0;
 }
@@ -272,7 +272,7 @@ p, .main-content ul {
   transform: rotate(-90deg);
   display: inline-block;
   position: absolute;
-  left: -33px;
+  left: -60px;
   text-transform: uppercase;
   font-size: 12px;
   font-weight: 900;
@@ -280,6 +280,11 @@ p, .main-content ul {
   font-style: normal;
   letter-spacing: 3px;
   transition: all 0.5s;
+}
+
+.servicesoverviewcontent {
+  margin: auto;
+  max-width: 850px;
 }
 
 .section {
@@ -507,7 +512,7 @@ input.form-control ::-ms-input-placeholder {
 }
 
 .line {
-  height: 180px;
+  height: 250px;
   width: 2px;
   margin-right: auto;
   margin-left: auto;
@@ -632,7 +637,7 @@ input.form-control ::-ms-input-placeholder {
 .servicesimg {
   border-right: 5px solid #cccccc;
   border-width: 1px;
-  min-height: 180px;
+  min-height: 250px;
 }
 
 .ergfooterbg {
@@ -1521,12 +1526,12 @@ textarea::placeholder {
 }
 
 .emptybox {
-  height: 180px;
+  height: 250px;
   margin-bottom: 20px;
 }
 
 .servicescontent {
-  height: 180px;
+  height: 250px;
   margin-bottom: 20px;
   margin-right: 5px;
   margin-left: 5px;

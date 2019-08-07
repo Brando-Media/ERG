@@ -249,7 +249,7 @@ p, .main-content ul{
 
 #brando-container{
     position: absolute;
-    top: 25%;
+    top: 325px;
     left: 0;
     right: 0;
     #brando{
@@ -282,7 +282,7 @@ p, .main-content ul{
 
 #brando-container-blue{
     position: absolute;
-    top: 40%;
+    top: 325px;
     left: 0;
     right: 0;
     #brando{
@@ -290,7 +290,7 @@ p, .main-content ul{
         transform: rotate(-90deg);
         display: inline-block;
         position: absolute;
-        left: -33px;
+        left: -60px;
         text-transform: uppercase;
         font-size: 12px;
         font-weight: 900;
@@ -300,7 +300,10 @@ p, .main-content ul{
         transition: all 0.5s;
     }
 }
-
+.servicesoverviewcontent{
+    margin:auto;
+    max-width:850px;
+}
 .section{
     position: relative;
     > .container{
@@ -542,7 +545,7 @@ input.form-control{
 }
 
 .line{
-    height:180px;
+    height:250px;
     width:2px;
     margin-right:auto;
     margin-left:auto;
@@ -668,7 +671,7 @@ input.form-control{
     //border-left: 5px solid #cccccc;
     border-right: 5px solid #cccccc;
     border-width:1px;
-    min-height:180px;
+    min-height:250px;
 } 
 
 
@@ -1573,12 +1576,12 @@ textarea::-webkit-input-placeholder {
 }
 
 .emptybox{
-    height:180px;
+    height:250px;
     margin-bottom:20px;
 }
 
 .servicescontent{
-    height:180px; 
+    height:250px; 
     margin-bottom:20px;
     margin-right:5px;
     margin-left:5px;

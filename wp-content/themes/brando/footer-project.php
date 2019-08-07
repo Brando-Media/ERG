@@ -74,7 +74,7 @@
                     $('.page-template').css({"background-image": ''});
                     $('section').css({"display": "block"});
                     $('.newbg').css({"display": "block"});
-                    $('.toggledisplay').css({"display": "block"});
+                    $('.toggledisplay').css({"display": "block"}); 
                     $('toggledisplay').css({"display": "block"});
                     $('.row').css({"display": "block"});
                     $('.footerbg').css({"display": "block"});

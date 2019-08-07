@@ -74,9 +74,9 @@
                     $('.row').css({"display": "none"});
                     $('.footerbg').css({"display": "none"});
                     $('.page-template').css({"background-image": 'url(' + "http://erg.loc:8888/wp-content/uploads/2019/07/servicesoverviewbg.png" + ')'});
-                    $('#navfloatx').css({"float": "left"});
+                   /* $('#navfloatx').css({"float": "left"});
                     $('#navfloatx').css({"margin-left": "28px"});
-                    $('#navfloatx').css({"top": "-34px"});
+                    $('#navfloatx').css({"top": "-34px"});*/
                     $('#navbarTogglerDemo02').addClass('show');
                     $('#navbar-header-toggle').removeClass('collapsed');
 
@@ -91,9 +91,9 @@
                     $('.row').css({"display": "block"});
                     $('.footerbg').css({"display": "block"});
                     $('.page-template').css({"background-image": ''});
-                    $('#navfloatx').css({"float": "none"});
+                    /*$('#navfloatx').css({"float": "none"});
                     $('#navfloatx').css({"margin-left": "0px"});
-                    $('#navfloatx').css({"top": "0px"});
+                    $('#navfloatx').css({"top": "0px"});*/
                     $('#navbar-header-toggle').addClass('collapsed');
                     $('#navbarTogglerDemo02').removeClass('show');
 

@@ -8,11 +8,12 @@ $linkurl       = get_sub_field('link_url');
 
 <section class="section servicesoverviewbg" data-section-name="hover_images">
     <div style="";>
-    <div>
-    <h2 class="main-title servicesotitle" style=""><?php echo $title?></h2>
-    <div class="linktext"> <a class="a20padding" style="color:white;" href="<?php echo $linkurl?>"><?php echo $linktext ?></a> </div>
+    <div class="row services-experts servicesoverviewcontent" style="margin:auto; padding-bottom:100px;"> 
+    <div class="col-lg-12" style="padding-left:0px;">
+    <h2 class="main-title servicesotitle" style="padding-left:0px;"><?php echo $title?></h2>
+    <div class="linktext"> <a class="a20padding" style="color:white; padding-left:0px;" href="<?php echo $linkurl?>"><?php echo $linktext ?></a> </div>
     </div>
-        <div class="row services-experts" style="margin-left:0px; margin-top:30px; margin-right:0px; min-width:100vw; padding-left:30px; padding-right:30px;"> 
+        <div class="row services-experts servicesoverviewcontent" style="margin:auto; padding-top:40px;"> 
             <?php $first = 0; ?>
             <?php foreach($services as $servicerow){
                 if($servicerow['text_location']=="Bottom"){ ?>
