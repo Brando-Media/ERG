@@ -10,7 +10,7 @@ $linkurl       = get_sub_field('link_url');
     <div style="";>
     <div class="row services-experts servicesoverviewcontent" style="margin:auto; padding-bottom:100px;"> 
     <div class="col-lg-12" style="padding-left:0px;">
-    <h2 class="main-title serviceshometitle" ><?php echo $title?></h2>
+    <div class="serviceshometitle" ><?php echo $title?></div>
     <div class="linktext serviceslinktext"> <a class="a20padding" style="color:white; padding-left:0px;" href="<?php echo $linkurl?>"><?php echo $linktext ?></a> </div>
     </div>
         <div class="row services-experts servicesoverviewcontent" style="margin:auto; padding-top:40px;"> 

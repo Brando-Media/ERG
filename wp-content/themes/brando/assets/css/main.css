@@ -528,7 +528,7 @@ input.form-control ::-ms-input-placeholder {
 }
 
 .line {
-  height: 250px;
+  height: 140px;
   width: 2px;
   margin-right: auto;
   margin-left: auto;
@@ -1450,10 +1450,9 @@ textarea::placeholder {
 }
 
 .serviceshometitle {
-  color: white;
-  padding-left: 20%;
-  padding-top: 10%;
-  margin-bottom: 0px;
+  font-family: Helvetica;
+  font-size: 45px;
+  color: #FFFFFF;
 }
 
 .frontpagetitle {
@@ -1634,7 +1633,7 @@ textarea::placeholder {
   }
 
   .serviceslinktext {
-    padding-left: 0px;
+    padding-left: 1px;
   }
 
   .a20padding {

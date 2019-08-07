@@ -561,7 +561,7 @@ input.form-control{
 }
 
 .line{
-    height:250px;
+    height:140px;
     width:2px;
     margin-right:auto;
     margin-left:auto;
@@ -1510,7 +1510,9 @@ textarea::-webkit-input-placeholder {
 }
 
 .serviceshometitle{
-    color:white; padding-left:20%; padding-top:10%; margin-bottom:0px;
+    font-family: Helvetica;
+    font-size: 45px;
+    color: #FFFFFF;
 }
 
 .frontpagetitle{
@@ -1685,7 +1687,7 @@ textarea::-webkit-input-placeholder {
         padding-left:0px;
     }
     .serviceslinktext{
-        padding-left:0px;
+        padding-left:1px;
     }
 
     .a20padding{
