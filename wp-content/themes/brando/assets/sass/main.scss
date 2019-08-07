@@ -683,6 +683,8 @@ input.form-control{
     background-size: 100% 100%;
 }
 
+
+
 .casestudiesbgbottomop{
     background-repeat:no-repeat;
     background-image: linear-gradient(to right, rgba(0,160,219,0.8), rgba(0,73,144,0.8));
@@ -1231,6 +1233,10 @@ textarea::-webkit-input-placeholder {
         padding-left:100px;
     }
 
+    .teampagepaddingtop{
+        padding-top:0px;
+    }
+
     .latest-title{
         padding-top:200px;
     }
@@ -1501,6 +1507,10 @@ textarea::-webkit-input-placeholder {
     color:white; padding-left:20%; padding-top:10%; margin-bottom:0px;
 }
 
+.serviceshometitle{
+    color:white; padding-left:20%; padding-top:10%; margin-bottom:0px;
+}
+
 .frontpagetitle{
     color:white;
      text-align:left; 
@@ -1516,10 +1526,16 @@ textarea::-webkit-input-placeholder {
 
 
 @media only screen and (max-width: 991px){
+    .servicesmarginl{
+        margin-left:40px;
+        margin-right:0px;
+    }
     .servicesimg {
         display: none;
     }
-
+    .teampagepaddingtop{
+        padding-top:200px;
+    }
     
 
     .globalcontent{
@@ -1547,6 +1563,13 @@ textarea::-webkit-input-placeholder {
     .servicesotitle{
         padding-left:30px;
     }
+    .serviceshometitle{
+        padding-left:6%;
+    }
+    .serviceslinktext{
+        padding-left:6%;
+    }
+
     .a20padding{
         padding-left:35px;
     }
@@ -1656,6 +1679,13 @@ textarea::-webkit-input-placeholder {
     .servicesotitle{
         padding-left:25%;
     }
+    .serviceshometitle{
+        padding-left:0px;
+    }
+    .serviceslinktext{
+        padding-left:0px;
+    }
+
     .a20padding{
         padding-left:25%;
     }
@@ -1681,8 +1711,7 @@ textarea::-webkit-input-placeholder {
 .servicescontent{
     height:250px; 
     margin-bottom:20px;
-    margin-right:5px;
-    margin-left:5px;
+    margin:auto;
 }
 
 .header-toggle-white{
