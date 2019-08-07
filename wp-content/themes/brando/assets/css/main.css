@@ -57,6 +57,18 @@ p, .main-content ul {
   color: #74bdaf;
 }
 
+.form-control {
+  border: 0px !important;
+}
+
+.form-group {
+  border-bottom: 1px solid white;
+}
+
+.textarea-border {
+  border: 1px solid white;
+}
+
 .green-bg {
   background: #74bdaf;
 }
@@ -88,6 +100,16 @@ p, .main-content ul {
   box-shadow: none !important;
   border: 0;
   padding: 8px 50px;
+}
+
+.submit-contact {
+  border-radius: 0% !important;
+  background-color: rgba(0, 73, 141, 0.8) !important;
+  border-color: none;
+}
+
+.submit-color {
+  color: #00498D !important;
 }
 
 #wrapper.pink-default #main-menu ul > li a {
@@ -660,6 +682,12 @@ input.form-control ::-ms-input-placeholder {
   border-right: 5px solid #cccccc;
   border-width: 1px;
   min-height: 200px;
+}
+
+.footerlink-title {
+  font-family: Helvetica;
+  font-size: 25px;
+  color: #FFFFFF;
 }
 
 .ergfooterbg {

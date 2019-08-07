@@ -43,6 +43,17 @@ p, .main-content ul{
     }
 }
 
+.form-control{
+    border:0px!important;
+}
+
+.form-group{
+    border-bottom: 1px solid white;
+}
+
+.textarea-border{
+    border: 1px solid white;
+}
 .green-bg{
     background: $green;
     *{
@@ -76,6 +87,17 @@ p, .main-content ul{
     box-shadow: none !important;
     border: 0;
     padding: 8px 50px;
+}
+
+.submit-contact{
+    border-radius: 0%!important;
+    //color:#00498D!important;
+    background-color: rgba(0, 73, 141, 0.8)!important;
+    border-color:none;
+}
+
+.submit-color{ 
+    color:#00498D!important;
 }
 
 #wrapper{
@@ -699,6 +721,11 @@ input.form-control{
     min-height:200px;
 } 
 
+.footerlink-title{
+    font-family: Helvetica;
+    font-size: 25px;
+    color: #FFFFFF;
+}
 
 
 .ergfooterbg{

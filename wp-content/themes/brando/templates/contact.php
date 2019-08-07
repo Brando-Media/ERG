@@ -12,28 +12,28 @@ $sectionName = str_replace(' ', '', strtolower($title));
     <div class="container container--small align-self-center" style="padding-top:30px;">
         <div class="row">
             
-            <div class="col-lg-4" style="margin-bottom:10px;">
-            <h3 class="main-title" style="font-size:1.75rem; color:white; margin-bottom:0px;">Important Links</h3>
+            <div class="col-lg-4" style="margin-top:10px;">
+            <h3 class="footerlink-title">Important Links</h3>
                 <div class="contact-details">
                     <?php foreach($services as $servicerow){ ?>
-                        <div class="col-lg-12" style="padding-left:0px;">
+                        <div class="col-lg-12" style="padding-left:0px;padding-bottom:15px;">
                             <a style="color: white;" href="<?php $servicerow['text_url'] ?>" target="_blank"><?php echo $servicerow['text'] ?></a>
                         </div>
                     <?php } ?>
                 </div>
             </div>
             <div class="col-lg-4" style="margin-top:10px;">
-            <h3 class="main-title" style="font-size:1.75rem; color:white;">Contact us</h3>
+            <h3 class="footerlink-title">Contact us</h3>
                 <div class="contact-details" style="margin-bottom:10px;">
                     <?php
-                    echo $phone ? "<div style='color:white'>{$phone}</div>" : '';
-                    echo $email ? "<div><a style='color:white;' href='mailto:{$email}'>{$email}</a></div>" : '';
-                    echo $address ? "<div style='color:white'>{$address}</div>" : '';
+                    echo $phone ? "<div style='color:white; padding-bottom:15px;'>{$phone}</div>" : '';
+                    echo $email ? "<div style='padding-bottom:15px'><a style='color:white;' href='mailto:{$email}'>{$email}</a></div>" : '';
+                    echo $address ? "<div style='color:white; padding-bottom:15px;'>{$address}</div>" : '';
                     ?>
                 </div>
             </div>
             <div class="col-lg-4 contact-form" style="margin-top:10px;">
-            <h3 class="main-title" style="font-size:1.75rem; color:white;">Make an enquiry</h3>
+            <h3 class="footerlink-title">Make an enquiry</h3>
                 <?php echo do_shortcode('[contact-form-7 id="11" title="Contact Form"]') ?>
             </div>
         </div>
