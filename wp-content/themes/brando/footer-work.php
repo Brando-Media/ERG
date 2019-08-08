@@ -66,6 +66,8 @@
                     console.log("has collapsed");
                     $('.work-template-default').css({"background-image": "linear-gradient(to right, rgba(0, 160, 219, 0.8), rgba(0, 73, 144, 0.8))" });
                     $('.casestudy-template-default').css({"background-image": "linear-gradient(to right, rgba(0, 160, 219, 0.8), rgba(0, 73, 144, 0.8))" });
+                    $('.teampage-template-default').css({"background-image": "linear-gradient(to right, rgba(0, 160, 219, 0.8), rgba(0, 73, 144, 0.8))" });
+                    $('.single-teampage').css({"background-image": "linear-gradient(to right, rgba(0, 160, 219, 0.8), rgba(0, 73, 144, 0.8))" });
 
                     $('section').css({"display": "none"});
                     //$('.work-template-default').css({"background-image": "linear-gradient(to right, rgba(0, 160, 219, 0.8), rgba(0, 73, 144, 0.8))"});
@@ -73,7 +75,7 @@
                     $('.newbg').css({"display": "none"});
                     $('.toggledisplay').css({"display": "none"});
                     $('toggledisplay').css({"display": "none"});
-                    $('.row').css({"display": "none"}); 
+                    $('.row').css({"display": "none"});
                     $('.footerbg').css({"display": "none"});
                     $('.page-template').css({"background-image": "linear-gradient(to right, rgba(0, 160, 219, 0.8), rgba(0, 73, 144, 0.8))" });
                    /* $('#navfloatx').css({"float": "left"});
@@ -87,7 +89,7 @@
                     console.log("not collapsed");
                     $('.work-template-default').css({"background-image": ''});
                     $('.casestudy-template-default').css({"background-image": ''});
-
+                    $('.teampage-template-default').css({"background-image": ''});
                     $('section').css({"display": "block"});
                     $('.newbg').css({"display": "block"});
                     $('.toggledisplay').css({"display": "block"});
