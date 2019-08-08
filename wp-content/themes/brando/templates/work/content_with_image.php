@@ -7,7 +7,7 @@ $content  = get_sub_field('content');
 $contentsmalltext  = get_sub_field('content_small_text');
 ?>
 
-
+<section>
 <div class="" id="about">
     <div class="row" id="testidchange" style="color:#00498d;">
         <?php if($imagePos=='Left'): ?>
@@ -44,3 +44,5 @@ $contentsmalltext  = get_sub_field('content_small_text');
         <?php endif; ?>
     </div>
 </div>
+
+</section>
