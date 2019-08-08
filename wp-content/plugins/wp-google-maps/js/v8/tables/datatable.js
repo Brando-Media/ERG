@@ -32,6 +32,22 @@ jQuery(function($) {
 		this.dataTable.ajax.reload();
 	}
 	
+	Object.defineProperty(WPGMZA.DataTable.prototype, "canSendCompressedRequests", {
+		
+		"get": function() {
+			
+			return (
+				WPGMZA.serverCanInflate == 1 && 
+				"Uint8Array" in window && 
+				"TextEncoder" in window && 
+				!WPGMZA.settings.forceDatatablesPOST && 
+				WPGMZA.settings.useCompressedDataTablesRequests
+			);
+			
+		}
+		
+	});
+	
 	WPGMZA.DataTable.prototype.getDataTableElement = function()
 	{
 		return $(this.element).find("table");
@@ -117,7 +133,6 @@ jQuery(function($) {
 		var languageURL = this.getLanguageURL();
 		if(languageURL)
 			options.language = {
-				"processing": "test",
 				"url": languageURL
 			};
 		
@@ -128,6 +143,8 @@ jQuery(function($) {
 	{
 		if(!WPGMZA.locale)
 			return null;
+		
+		var languageURL;
 		
 		switch(WPGMZA.locale.substr(0, 2))
 		{
@@ -408,6 +425,8 @@ jQuery(function($) {
 				languageURL = "//cdn.datatables.net/plug-ins/1.10.12/i18n/Welsh.json";
 				break;
 		}
+		
+		return languageURL;
 	}
 	
 	WPGMZA.DataTable.prototype.onAJAXResponse = function(response)

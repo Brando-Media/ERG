@@ -297,13 +297,58 @@ p, .main-content ul {
   margin-top: 40%;
 }
 
-#brando-container-blue {
+.wpgmza_gd {
+  display: none;
+}
+
+.wpgmza_infowindow_title {
+  font-family: Helvetica;
+  font-size: 20px;
+  color: #00498D;
+}
+
+.mapdiv {
+  max-width: 250px;
+}
+
+.wpgmza_infowindow_address {
+  display: none;
+}
+
+.maptext {
+  font-family: Helvetica;
+  font-size: 14px;
+  color: #00498D;
+  text-align: left;
+  line-height: 19px;
+  padding-bottom: 40px;
+}
+
+.gm-style .gm-style-iw-c {
+  border-radius: 0px !important;
+  border: 1px solid #00498D;
+  padding-top: 40px;
+  padding-left: 40px;
+}
+
+.mapitem {
+  font-family: Helvetica;
+  font-size: 14px;
+  color: #00498D;
+  text-align: left;
+  line-height: 25px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  font-weight: bold;
+}
+
+.gm-style-iw gm-style-iw #brando-container-blue {
   position: absolute;
   top: 325px;
   left: 0;
   right: 0;
 }
-#brando-container-blue #brando {
+.gm-style-iw gm-style-iw #brando-container-blue #brando {
   color: #00498D;
   transform: rotate(-90deg);
   display: inline-block;
