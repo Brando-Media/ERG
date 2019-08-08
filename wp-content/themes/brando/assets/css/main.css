@@ -359,13 +359,13 @@ p, .main-content ul {
   font-weight: bold;
 }
 
-.gm-style-iw gm-style-iw #brando-container-blue {
+.gm-style-iw gm-style-iw #brando-container {
   position: absolute;
   top: 325px;
   left: 0;
   right: 0;
 }
-.gm-style-iw gm-style-iw #brando-container-blue #brando {
+.gm-style-iw gm-style-iw #brando-container #brando {
   color: #00498D;
   transform: rotate(-90deg);
   display: inline-block;
@@ -1375,6 +1375,10 @@ textarea::placeholder {
     padding-left: 100px;
   }
 
+  .servicescontent {
+    height: 250px;
+  }
+
   .teampagepaddingtop {
     padding-top: 0px;
   }
@@ -1451,7 +1455,7 @@ textarea::placeholder {
   }
 
   .casestudiesbgbottomop {
-    background-size: 100% 7%;
+    background-size: 100% 9%;
   }
 
   .p100l {
@@ -1698,6 +1702,7 @@ textarea::placeholder {
 
   .servicescontent {
     max-width: 85%;
+    height: auto;
   }
 
   .frontpagetitle {

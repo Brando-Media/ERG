@@ -29,7 +29,10 @@ if($colour == "Blue"){
                 if(get_row_layout() == 'project_home') get_template_part('templates/teampage/projecthome');
             }
         }
+        
         ?>
+                  <div class="section footerbg"  data-section-name="hello" style="min-height:20px;">    
+    </div>
 <?php 
 if($colour == "Blue"){
     get_footer('project'); 

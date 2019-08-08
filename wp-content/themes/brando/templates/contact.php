@@ -17,7 +17,7 @@ $sectionName = str_replace(' ', '', strtolower($title));
                 <div class="contact-details">
                     <?php foreach($services as $servicerow){ ?>
                         <div class="col-lg-12" style="padding-left:0px;padding-bottom:15px;">
-                            <a style="color: white; font-weight:400;" href="<?php $servicerow['text_url'] ?>" target="_blank"><?php echo $servicerow['text'] ?></a>
+                            <a style="color: white; font-weight:400;" href="<?php $servicerow['text_url'] ?>"><?php echo $servicerow['text'] ?></a>
                         </div>
                     <?php } ?>
                 </div>

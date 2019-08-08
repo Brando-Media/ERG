@@ -73,7 +73,7 @@
                     $('.newbg').css({"display": "none"});
                     $('.toggledisplay').css({"display": "none"});
                     $('toggledisplay').css({"display": "none"});
-                    $('.row').css({"display": "none"});
+                    $('.row').css({"display": "none"}); 
                     $('.footerbg').css({"display": "none"});
                     $('.page-template').css({"background-image": "linear-gradient(to right, rgba(0, 160, 219, 0.8), rgba(0, 73, 144, 0.8))" });
                    /* $('#navfloatx').css({"float": "left"});
