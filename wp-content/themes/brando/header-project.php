@@ -40,7 +40,7 @@
    <header id="header" style="margin-right:7%;">
    
        <div class="container clearfix header-toggle-white header-div"  style="margin-top:20px; margin-left:60px; max-width:1400px;">
-           <a href="#home" id="logo" class="float-left">
+           <a href="http://brando.media/erg#home" id="logo" class="float-left">
                <img style="max-width:100px;" class="white-logo" src="<?php bloginfo('template_url') ?>/assets/images/ergblue200.png" alt="erg" title="Brando Media" />
                <img class="red-logo" src="<?php bloginfo('template_url') ?>/assets/images/ergblue200.png" alt="erg" title="Brando Media" />
            </a>

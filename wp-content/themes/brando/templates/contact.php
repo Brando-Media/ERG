@@ -26,10 +26,14 @@ $sectionName = str_replace(' ', '', strtolower($title));
             <h3 class="footerlink-title">Contact us</h3>
                 <div class="contact-details" style="margin-bottom:10px;">
                     <?php
-                    echo $phone ? "<div style='color:white; padding-bottom:15px;'>{$phone}</div>" : '';
-                    echo $email ? "<div style='padding-bottom:15px'><a style='color:white;' href='mailto:{$email}'>{$email}</a></div>" : '';
-                    echo $address ? "<div style='color:white; padding-bottom:15px;'>{$address}</div>" : '';
+                    echo $phone ? "<div class='contact-us-text'style='color:white; padding-bottom:15px;'>{$phone}</div>" : '';
+                    echo $email ? "<div class='contact-us-text'style='padding-bottom:15px'><a style='color:white;' href='mailto:{$email}'>{$email}</a></div>" : '';
+                    echo $address ? "<div class='contact-us-text'style='color:white; padding-bottom:15px;'>{$address}</div>" : '';
                     ?>
+                    <div>
+                        <a href="#home"><img src="http://erg.loc:8888/wp-content/uploads/2019/07/twitter.png" title="Twitter link" width="30" height="30"></a>
+                        <a href="#home"><img src="http://erg.loc:8888/wp-content/uploads/2019/07/linkedin.png" title="Twitter link" width="30" height="30"></a>
+                    </div>
                 </div>
             </div>
             <div class="col-lg-4 contact-form" style="margin-top:10px;">

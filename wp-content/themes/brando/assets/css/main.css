@@ -24,6 +24,7 @@ body {
   font-family: "Pangram";
   font-weight: normal;
   font-style: normal;
+  overflow-x: hidden;
 }
 
 p, .main-content ul {
@@ -104,7 +105,7 @@ p, .main-content ul {
 
 .submit-contact {
   border-radius: 0% !important;
-  background-color: rgba(0, 73, 141, 0.8) !important;
+  background-color: rgba(0, 73, 141, 0.5) !important;
   border-color: none;
 }
 
@@ -453,20 +454,27 @@ p, .main-content ul {
 textarea.form-control {
   height: 108px;
   resize: none;
-  font-size: 12px;
+  font-size: 15px;
   font-family: "Pangram";
-  font-weight: normal;
+  font-weight: 100;
   font-style: normal;
   padding: 10px;
   color: white;
   background-color: transparent;
 }
 
+.contact-us-text {
+  font-family: Helvetica;
+  font-size: 15px;
+  color: #FFFFFF;
+  font-weight: 100;
+}
+
 input.form-control {
   height: 35px;
-  font-size: 12px;
+  font-size: 15px;
   font-family: "Pangram";
-  font-weight: normal;
+  font-weight: 100;
   font-style: normal;
   padding: 10px;
   border-top: 0px;
@@ -505,6 +513,9 @@ input.form-control ::-ms-input-placeholder {
   right: 170px;
   top: 12px;
 }
+.contact-form .message-contact-form {
+  padding-left: 0px;
+}
 .contact-form .wpcf7 .row {
   max-width: 532px;
 }
@@ -517,6 +528,8 @@ input.form-control ::-ms-input-placeholder {
   font-weight: normal;
   font-style: normal;
   float: left;
+  border-color: rgba(0, 73, 141, 0.5);
+  min-width: 50%;
 }
 .contact-form .wpcf7-form-control-wrap {
   display: block;

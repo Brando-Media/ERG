@@ -18,7 +18,7 @@ if($colour == "Blue"){
     top: 300px;">
     Placeholder Title Goes Here Global Construction Project Management Services etc.</div>
 
-    </div>
+    </div> 
         <div style="margin:auto 0;"><div>
     </section>
      
