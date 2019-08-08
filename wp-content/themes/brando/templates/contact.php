@@ -13,31 +13,31 @@ $sectionName = str_replace(' ', '', strtolower($title));
         <div class="row">
             
             <div class="col-lg-4" style="margin-top:10px;">
-            <h3 class="footerlink-title">Important Links</h3>
+            <div class="footerlink-title" style="margin-bottom:14px;">Important Links</div>
                 <div class="contact-details">
                     <?php foreach($services as $servicerow){ ?>
                         <div class="col-lg-12" style="padding-left:0px;padding-bottom:15px;">
-                            <a style="color: white;" href="<?php $servicerow['text_url'] ?>" target="_blank"><?php echo $servicerow['text'] ?></a>
+                            <a style="color: white; font-weight:400;" href="<?php $servicerow['text_url'] ?>" target="_blank"><?php echo $servicerow['text'] ?></a>
                         </div>
                     <?php } ?>
                 </div>
             </div>
             <div class="col-lg-4" style="margin-top:10px;">
-            <h3 class="footerlink-title">Contact us</h3>
+            <div class="footerlink-title">Contact us</div>
                 <div class="contact-details" style="margin-bottom:10px;">
                     <?php
                     echo $phone ? "<div class='contact-us-text'style='color:white; padding-bottom:15px;'>{$phone}</div>" : '';
                     echo $email ? "<div class='contact-us-text'style='padding-bottom:15px'><a style='color:white;' href='mailto:{$email}'>{$email}</a></div>" : '';
-                    echo $address ? "<div class='contact-us-text'style='color:white; padding-bottom:15px;'>{$address}</div>" : '';
+                    echo $address ? "<div class='contact-us-text' style='color:white; padding-bottom:15px;'>{$address}</div>" : '';
                     ?>
                     <div>
-                        <a href="#home"><img src="http://erg.loc:8888/wp-content/uploads/2019/07/twitter.png" title="Twitter link" width="30" height="30"></a>
+                        <a style="padding-right:15px;"href="#home"><img src="http://erg.loc:8888/wp-content/uploads/2019/07/twitter.png" title="Twitter link" width="30" height="30"></a>
                         <a href="#home"><img src="http://erg.loc:8888/wp-content/uploads/2019/07/linkedin.png" title="Twitter link" width="30" height="30"></a>
                     </div>
                 </div>
             </div>
             <div class="col-lg-4 contact-form" style="margin-top:10px;">
-            <h3 class="footerlink-title">Make an enquiry</h3>
+            <div style="margin-bottom:20px;"class="footerlink-title">Make an enquiry</div>
                 <?php echo do_shortcode('[contact-form-7 id="11" title="Contact Form"]') ?>
             </div>
         </div>

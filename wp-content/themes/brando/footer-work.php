@@ -146,6 +146,30 @@
                     });
                 <?php endif; ?>
 
+                var docWidth = document.documentElement.offsetWidth;
+                [].forEach.call(
+                document.querySelectorAll('*'),
+                function(el) {
+                    if (el.offsetWidth > docWidth) {
+                    console.log(el);
+                    }
+                }
+                );
+
+                var acc = document.getElementsByClassName("accordionproject");
+                var i;
+
+                for (i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function() {
+                    this.classList.toggle("activeproject");
+                    var panel = this.nextElementSibling;
+                    if (panel.style.maxHeight){
+                    panel.style.maxHeight = null;
+                    } else {
+                    panel.style.maxHeight = panel.scrollHeight + "px";
+                    } 
+                });
+                }
              
 
                 $('.show-more-work').on('click', function(){

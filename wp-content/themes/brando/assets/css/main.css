@@ -250,6 +250,7 @@ p, .main-content ul {
   font-family: Helvetica;
   font-size: 45px;
   color: #00498D;
+  padding-bottom: 10px;
 }
 
 #brando-container {
@@ -487,6 +488,49 @@ textarea.form-control {
   font-weight: 100;
 }
 
+.accordionproject {
+  font-family: Helvetica;
+  font-size: 20px !important;
+  color: #00498D !important;
+  line-height: 25px;
+  background: white;
+  color: #444;
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+  transition: 0.4s;
+}
+
+.activeproject, .accordionproject:hover {
+  background-color: white;
+}
+
+.accordionproject:after {
+  content: "⌄";
+  color: #777;
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+  font-size: 30px;
+}
+
+.activeproject:after {
+  content: "⌃";
+  font-size: 16px;
+}
+
+.panelproject {
+  padding: 0 18px;
+  background-color: white;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
 input.form-control {
   height: 35px;
   font-size: 15px;
@@ -494,6 +538,8 @@ input.form-control {
   font-weight: 100;
   font-style: normal;
   padding: 10px;
+  padding-bottom: 0px;
+  padding-left: 0px;
   border-top: 0px;
   border-left: 0px;
   border-right: 0px;
@@ -754,6 +800,12 @@ input.form-control ::-ms-input-placeholder {
 
 .servicesoverviewbg {
   background-repeat: no-repeat;
+  background-image: linear-gradient(to bottom, rgba(0, 160, 219, 0.8), rgba(0, 73, 144, 0.8));
+  background-size: 100% 100%;
+}
+
+.servicesoverviewbgright {
+  background-repeat: no-repeat;
   background-image: linear-gradient(to right, rgba(0, 160, 219, 0.8), rgba(0, 73, 144, 0.8));
   background-size: 100% 100%;
 }
@@ -774,6 +826,8 @@ input.form-control ::-ms-input-placeholder {
   font-family: Helvetica;
   font-size: 25px;
   color: #FFFFFF;
+  margin-top: 15px;
+  font-weight: 500;
 }
 
 .ergfooterbg {

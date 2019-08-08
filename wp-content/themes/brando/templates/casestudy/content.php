@@ -5,7 +5,7 @@ $content       = get_sub_field('content');
 
 $sectionName = str_replace(' ', '', strtolower($title));
 ?>
-<section class="section servicesoverviewbg casestudiesheight" data-section-name="<?php echo $sectionName; ?>">
+<section class="section servicesoverviewbgright casestudiesheight" data-section-name="<?php echo $sectionName; ?>">
         <div class="container container--small main-content" style="padding-bottom:0px;">
             
             <div class="row">
