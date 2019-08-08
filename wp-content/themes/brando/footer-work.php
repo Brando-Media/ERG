@@ -75,7 +75,7 @@
                     $('toggledisplay').css({"display": "none"});
                     $('.row').css({"display": "none"});
                     $('.footerbg').css({"display": "none"});
-                    $('.page-template').css({"background-image": 'url(' + "http://erg.loc:8888/wp-content/uploads/2019/07/servicesoverviewbg.png" + ')'});
+                    $('.page-template').css({"background-image": "linear-gradient(to right, rgba(0, 160, 219, 0.8), rgba(0, 73, 144, 0.8))" });
                    /* $('#navfloatx').css({"float": "left"});
                     $('#navfloatx').css({"margin-left": "28px"});
                     $('#navfloatx').css({"top": "-34px"});*/
