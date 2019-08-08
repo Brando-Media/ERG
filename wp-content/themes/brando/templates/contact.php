@@ -10,7 +10,7 @@ $sectionName = str_replace(' ', '', strtolower($title));
 ?>
 <section class=" redbg newbg  ergtextfooter" style="min-height:600px;" data-section-name="hello" id="contact">
     <div class="container container--small align-self-center" style="padding-top:30px;">
-        <div class="row">
+        <div class="row col-lg-10" style="margin:auto;">
             
             <div class="col-lg-4" style="margin-top:10px;">
             <div class="footerlink-title" style="margin-bottom:14px;">Important Links</div>

@@ -1802,6 +1802,15 @@ textarea::-webkit-input-placeholder {
     min-width:250px;
 }
 
+.casestudybigtext{
+    font-family: Helvetica;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: left;
+    line-height: 25px;
+    padding-bottom:20px;
+}
+
 .casestudytitle-triple{
     font-family: Helvetica;
     font-size: 20px;
@@ -1815,6 +1824,7 @@ textarea::-webkit-input-placeholder {
     font-size: 14px;
     color: #00498D;
     line-height: 25px;
+    font-weight:100;
 }
 
 .link-casestudy a{

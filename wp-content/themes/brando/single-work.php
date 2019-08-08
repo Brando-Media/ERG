@@ -6,7 +6,7 @@ if($colour == "Blue"){
 }else{
     get_header('work'); 
 } ?>
-    <section class="section servicesoverviewbg" style="min-height: 675px;">
+    <section class="section servicesoverviewbgright" style="min-height: 675px;">
         <div class="container container--small main-content">
             
             <div class="row">
