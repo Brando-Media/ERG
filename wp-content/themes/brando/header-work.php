@@ -61,12 +61,19 @@
                     </div>
                     </nav> -->
                     
-                    <nav class="navbar navbar-expand-lg navfloat" id="navfloatx">
+                  <!--  <nav class="navbar navbar-expand-lg navfloat" id="navfloatx">
                     <a class="navbar-brand" href="#"></a>
-                  <!--  <button id="navbar-header-toggle" onclick="togglemob();" class="navbar-toggler collapsed"  type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">-->
+                   <button id="navbar-header-toggle" onclick="togglemob();" class="navbar-toggler collapsed"  type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
                     <button id="navbar-header-toggle" onclick="togglemob();" class="collapsed navbar-toggler">
                         <span class="navbar-toggler-icon"></span>
+                    </button>-->
+
+                    <nav class="navbar navbar-expand-lg navfloat" id="navfloatx">
+                    <a class="navbar-brand" href="#"></a>
+                    <button id="navbar-header-toggle" onclick="togglemob();" class="navbar-toggler collapsed">
+                        <span class="navbar-toggler-icon"></span>
                     </button>
+                    </nav>
 
                     <div class="collapse navbar-collapse navbaritemz" id="navbarTogglerDemo02">
                         <ul class="navbar-nav mr-auto mt-2 mt-lg-0 navbarfr">
@@ -93,7 +100,36 @@
                         </li>
                         </ul>
                     </div>
-                    </nav>
+                 <!--   </nav>-->
+
+                 <nav class="navbar navbar-expand-lg navfloat" id="navfloatx">
+
+                <div class="collapse navbar-collapse navbaritemz" id="navbarTogglerDemo02">
+                    <ul class="navbar-nav mr-auto mt-2 mt-lg-0 navbarfr">
+                    <li class="nav-item">
+                        <a style="color:white; font-weight:bold;" class="nav-link navhover" href="#about">About <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color:white; font-weight:bold;" class="nav-link navhover" href="Services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color:white; font-weight:bold;" class="nav-link navhover" href="projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color:white; font-weight:bold;" class="nav-link navhover" href="case-studies">Case Studies</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color:white;font-weight:bold;" class="nav-link navhover" href="#global">Global</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color:white;font-weight:bold;" class="nav-link navhover" href="team-page">Team</a>
+                    </li>
+                    <li class="nav-item">
+                        <a style="color:white;font-weight:bold;" class="nav-link navhover" href="#contact">Contact</a>
+                    </li>
+                    </ul>
+                </div>
+                </nav>
 
 <!--
                     

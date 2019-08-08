@@ -53,6 +53,7 @@
                 console.log("tesst");
                 if($('#navbar-header-toggle').hasClass('collapsed')){
                     console.log("has collapsed");
+                    $("#blueerglogo").attr("src","/wp-content/themes/brando/assets/images/ERG-logo.png");
                     $('.work-template-default').css({"background-image": "linear-gradient(to right, rgba(0, 160, 219, 0.8), rgba(0, 73, 144, 0.8))" });
                     $('.page-template').css({"background-image": "linear-gradient(to right, rgba(0, 160, 219, 0.8), rgba(0, 73, 144, 0.8))" });
                     $('.casestudy-template-default').css({"background-image": "linear-gradient(to right, rgba(0, 160, 219, 0.8), rgba(0, 73, 144, 0.8))" });
@@ -63,14 +64,15 @@
                     $('.newbg').css({"display": "none"});
                     $('.toggledisplay').css({"display": "none"});
                     $('toggledisplay').css({"display": "none"});
+                    $('.bluenav').css({"color": "white"});
+                    $('#blueiconclass').removeClass('icon-blue');
                     $('.row').css({"display": "none"});
                     $('.footerbg').css({"display": "none"});
-                    $('#navfloatx').css({"float": "left"});
-                    $('#navfloatx').css({"margin-left": "28px"});
-                    $('#navfloatx').css({"top": "-34px"});
                     $('#navbarTogglerDemo02').addClass('show');
-                    $('#navbar-header-toggle').removeClass('collapsed');
+                    $('#navbar-header-toggle').removeClass('collapsed')
                 }else{
+                    $("#blueerglogo").attr("src","/wp-content/themes/brando/assets/images/ergblue200.png");
+
                     console.log("not collapsed");
                     $('.work-template-default').css({"background-image": ''});
                     $('.page-template').css({"background-image": ''});
@@ -79,11 +81,10 @@
                     $('.newbg').css({"display": "block"});
                     $('.toggledisplay').css({"display": "block"}); 
                     $('toggledisplay').css({"display": "block"});
-                    $('.row').css({"display": "block"});
+                    $('.row').css({"display": "flex"});
+                    $('.bluenav').css({"color": "#00498D"});
+                    $('#blueiconclass').addClass('icon-blue');
                     $('.footerbg').css({"display": "block"});
-                    $('#navfloatx').css({"float": "none"});
-                    $('#navfloatx').css({"margin-left": "0px"});
-                    $('#navfloatx').css({"top": "0px"});
                     $('#navbar-header-toggle').addClass('collapsed');
                     $('#navbarTogglerDemo02').removeClass('show');
                     $('.casestudy-template-default').css({"background-image": ''});

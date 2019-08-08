@@ -287,7 +287,9 @@ p, .main-content ul{
     color: #00498D;
     padding-bottom:10px;
 }
-
+.bluenav{
+    font-family: Helvetica;  color: #00498D; font-weight:900; font-weight:bold;
+}
 #brando-container{
     position: absolute;
     top: 325px;
@@ -1361,6 +1363,9 @@ textarea::-webkit-input-placeholder {
     #brando{
         display:none !important;
     }
+    #brando-red{
+        display:none !important;
+    }
   }
 
   @media only screen and (max-width: 1399px) {
@@ -1597,9 +1602,13 @@ textarea::-webkit-input-placeholder {
     }
     .navfloat{
         float:none;
+    
     }
     .navbaritemz{
-        padding-top:100px;
+        padding-top:0px;
+        padding-left: 35px;
+        margin:auto;
+        max-width:400px;
     }
   }
 

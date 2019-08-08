@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
     <head>
-        
         <meta http-equiv="X-UA-Compatible" content="chrome=1">
         <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -42,7 +41,7 @@
    
        <div class="container clearfix header-toggle-white header-div"  style="margin-top:20px; margin-left:60px; max-width:1400px;">
            <a href="http://brando.media/erg#home" id="logo" class="float-left">
-               <img style="max-width:100px;" class="white-logo" src="<?php bloginfo('template_url') ?>/assets/images/ergblue200.png" alt="erg" title="Brando Media" />
+               <img id="blueerglogo" style="max-width:100px;" class="white-logo" src="<?php bloginfo('template_url') ?>/assets/images/ergblue200.png" alt="erg" title="Brando Media" />
                <img class="red-logo" src="<?php bloginfo('template_url') ?>/assets/images/ergblue200.png" alt="erg" title="Brando Media" />
            </a>
            <!--<nav class="navbar navbar-expand-lg navbar-light navbar-brand" >
@@ -63,35 +62,65 @@
           <!-- <button id="navbar-header-toggle" onclick="togglemob();" class="navbar-toggler"  type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">-->
            <button id="navbar-header-toggle" onclick="togglemob();" class="collapsed navbar-toggler">
    
-               <span class="navbar-toggler-icon icon-blue"></span>
+               <span id="blueiconclass" class="navbar-toggler-icon icon-blue"></span>
            </button>
+            </nav>
 
            <div class="collapse navbar-collapse navbaritemz" id="navbarTogglerDemo02">
                <ul class="navbar-nav mr-auto mt-2 mt-lg-0 navbarfr">
                <li class="nav-item">
-                   <a style="font-family: Helvetica; font-size: 16px; color: #00498D; font-weight:900; font-weight:bold;" class="nav-link" href="../../#about">About <span class="sr-only">(current)</span></a>
+                   <a class="nav-link bluenav" href="../../#about">About <span class="sr-only">(current)</span></a>
                </li>
                <li class="nav-item">
-                   <a style="font-family: Helvetica; font-size: 16px; color: #00498D; font-weight:900; font-weight:bold;" class="nav-link" href="../../services">Services</a>
+                   <a style="" class="nav-link bluenav" href="../../services">Services</a>
                </li>
                <li class="nav-item">
-                   <a style="font-family: Helvetica; font-size: 16px; color: #00498D; font-weight:900; font-weight:bold;" class="nav-link" href="../../projects">Projects</a>
+                   <a  class="nav-link bluenav" href="../../projects">Projects</a>
                </li>
                <li class="nav-item">
-                   <a style="font-family: Helvetica; font-size: 16px; color: #00498D; font-weight:900; font-weight:bold;" class="nav-link" href="../../case-studies">Case Studies</a>
+                   <a class="nav-link bluenav" href="../../case-studies">Case Studies</a>
                </li>
                <li class="nav-item">
-                   <a style="font-family: Helvetica; font-size: 16px; color: #00498D; font-weight:900; font-weight:bold;" class="nav-link" href="../../#global">Global</a>
+                   <a class="nav-link bluenav" href="../../#global">Global</a>
                </li>
                <li class="nav-item">
-                   <a style="font-family: Helvetica; font-size: 16px; color: #00498D; font-weight:900; font-weight:bold;" class="nav-link" href="../../team-page">Team</a>
+                   <a  class="nav-link bluenav" href="../../team-page">Team</a>
                </li>
                <li class="nav-item">
-                   <a style="font-family: Helvetica; font-size: 16px; color: #00498D; font-weight:900; font-weight:bold;" class="nav-link" href="../../#contact">Contact</a>
+                   <a  class="nav-link bluenav" href="../../#contact">Contact</a>
                </li>
                </ul>
            </div>
-           </nav>
+          <!-- </nav>-->
+
+          <nav class="navbar navbar-expand-lg navfloat" id="navfloatx">
+
+        <div class="collapse navbar-collapse navbaritemz" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mr-auto mt-2 mt-lg-0 navbarfr">
+            <li class="nav-item">
+                <a style="font-weight:bold;" class="nav-link navhover bluenav" href="#about">About <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a style="font-weight:bold;" class="nav-link navhover bluenav" href="Services">Services</a>
+            </li>
+            <li class="nav-item">
+                <a style=" font-weight:bold;" class="nav-link navhover bluenav" href="projects">Projects</a>
+            </li>
+            <li class="nav-item">
+                <a style=" font-weight:bold;" class="nav-link navhover bluenav" href="case-studies">Case Studies</a>
+            </li>
+            <li class="nav-item">
+                <a style="font-weight:bold;" class="nav-link navhover bluenav" href="#global">Global</a>
+            </li>
+            <li class="nav-item">
+                <a style="font-weight:bold;" class="nav-link navhover bluenav" href="team-page">Team</a>
+            </li>
+            <li class="nav-item">
+                <a style="font-weight:bold;" class="nav-link navhover bluenav" href="#contact">Contact</a>
+            </li>
+            </ul>
+        </div>
+        </nav>
 
 <!--
            

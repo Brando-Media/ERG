@@ -61,12 +61,47 @@
                         </div>
                     </div>
                     </nav> -->
-                    
                     <nav class="navbar navbar-expand-lg navfloat" id="navfloatx">
                     <a class="navbar-brand" href="#"></a>
                     <button id="navbar-header-toggle" onclick="togglemob();" class="navbar-toggler collapsed">
                         <span class="navbar-toggler-icon"></span>
                     </button>
+                    </nav>
+                    
+                   <!-- <nav class="navbar navbar-expand-lg navfloat" id="navfloatx">
+                    <a class="navbar-brand" href="#"></a>
+                    <button id="navbar-header-toggle" onclick="togglemob();" class="navbar-toggler collapsed">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>-->
+
+                    <div class="collapse navbar-collapse navbaritemz" id="navbarTogglerDemo02" style="padding-top:0px;">
+                        <ul class="navbar-nav mr-auto mt-2 mt-lg-0 navbarfr">
+                        <li class="nav-item">
+                            <a style="color:white; font-weight:bold;" class="nav-link navhover" href="#about">About <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a style="color:white; font-weight:bold;" class="nav-link navhover" href="Services">Services</a>
+                        </li>
+                        <li class="nav-item">
+                            <a style="color:white; font-weight:bold;" class="nav-link navhover" href="projects">Projects</a>
+                        </li>
+                        <li class="nav-item">
+                            <a style="color:white; font-weight:bold;" class="nav-link navhover" href="case-studies">Case Studies</a>
+                        </li>
+                        <li class="nav-item">
+                            <a style="color:white;font-weight:bold;" class="nav-link navhover" href="#global">Global</a>
+                        </li>
+                        <li class="nav-item">
+                            <a style="color:white;font-weight:bold;" class="nav-link navhover" href="team-page">Team</a>
+                        </li>
+                        <li class="nav-item">
+                            <a style="color:white;font-weight:bold;" class="nav-link navhover" href="#contact">Contact</a>
+                        </li>
+                        </ul>
+                    </div>
+              <!--      </nav> -->
+
+              <nav class="navbar navbar-expand-lg navfloat" id="navfloatx">
 
                     <div class="collapse navbar-collapse navbaritemz" id="navbarTogglerDemo02">
                         <ul class="navbar-nav mr-auto mt-2 mt-lg-0 navbarfr">
