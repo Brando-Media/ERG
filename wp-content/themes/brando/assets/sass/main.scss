@@ -490,6 +490,29 @@ p, .main-content ul{
     }
 }
 
+.work-completed p{
+    font-family: Helvetica;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-align: left;
+    line-height: 25px;
+}
+
+.fontworksingle{
+    font-family: Helvetica;
+    font-size: 45px;
+    color: #FFFFFF;
+    line-height: 60px;
+}
+
+.largefonttext{
+    font-family: Helvetica;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: left;
+    line-height: 25px;
+}
+
 .servicescontent p{
         color:white;
 }
@@ -1485,8 +1508,11 @@ textarea::-webkit-input-placeholder {
   }
   @media only screen and (max-width: 991px) {
     #teampagecontainertop{
-        padding-top:460px;
+        //padding-top:460px;
         margin-right:auto;
+    }
+    .casestudiesbgbottomop {
+        background-size:100% 7%;
     }
     .p100l{
         padding-left:0px;
@@ -1851,6 +1877,10 @@ textarea::-webkit-input-placeholder {
     #teampagecontainertop{
         padding-top:45px;
         margin-right:0px;
+    }
+
+    .casestudiesbgbottomop {
+        background-size:100% 20%;
     }
 
     .casestudiesheight{
