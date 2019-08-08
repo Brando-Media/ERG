@@ -1712,7 +1712,13 @@ textarea::-webkit-input-placeholder {
         }
     }
 
-    
+    .navhover a:hover{
+        color:red;
+    }
+
+    .nav-item a:hover{
+        color:red!important;
+    }
 
     .header__list-item a {
         display: block;
@@ -1834,7 +1840,9 @@ textarea::-webkit-input-placeholder {
         font-size:40px;
         font-weight:bold!important;
     } 
-
+    .nav-item:hover{
+        color:00498D;
+    }
     .header-div{
         margin-left:0px!important;
     }

@@ -1642,6 +1642,14 @@ textarea::placeholder {
     font-size: 16px;
   }
 }
+.navhover a:hover {
+  color: red;
+}
+
+.nav-item a:hover {
+  color: red !important;
+}
+
 .header__list-item a {
   display: block;
   color: #242424;
@@ -1765,6 +1773,10 @@ textarea::placeholder {
     text-align: center;
     font-size: 40px;
     font-weight: bold !important;
+  }
+
+  .nav-item:hover {
+    color: 498D;
   }
 
   .header-div {
