@@ -1385,6 +1385,7 @@ textarea::-webkit-input-placeholder {
     color: #00498D;
     line-height: 25px;
     padding-top:20px;
+    padding-left:4px;
 }
 
 .latest-text{
@@ -1392,7 +1393,10 @@ textarea::-webkit-input-placeholder {
     font-size: 14px;
     color: #00498D;
     line-height: 25px;
+    padding-left:4px;
 }
+
+
 
 .link-latest a{
     font-family: Helvetica;
@@ -1400,11 +1404,12 @@ textarea::-webkit-input-placeholder {
     color: #00498D;
     line-height: 25px;
     letter-spacing:1.5;
-    font-weight: normal;
+    font-weight: 600;
 }
 .link-latest{
     margin-top:10px;
     margin-bottom:30px;
+    padding-left:4px;
 }
 
 

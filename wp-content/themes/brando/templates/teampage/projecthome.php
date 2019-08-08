@@ -61,7 +61,7 @@ $projectitle = get_sub_field('project_title');
     </div>
 </div>-->
 
-<div class="row project-home-footer col-lg-12" style="display: -webkit-box; margin:auto; margin-top:20%;">
+<div class="row project-home-footer col-lg-12" style="display: -webkit-box; margin:auto; margin-top:10%;">
     <div class="col-lg-6 align-self-center marginleftproject" style="max-width:50%;">
     <?php if(!empty($previoustext)){ ?>
             <a style="font-family: Helvetica;color: #00498D; width:30%;" href="#home"><img src="../../wp-content/themes/brando/assets/images/rightah.png"> <?php echo $previoustext?> </a>
