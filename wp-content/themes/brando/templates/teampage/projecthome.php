@@ -47,6 +47,7 @@ $projectitle = get_sub_field('project_title');
         <?php endif; ?>
     </div>
 </div>
+<!--
 <div class="row project-home-footer col-lg-6" style="display: -webkit-box; margin:auto; margin-top:10%; margin-bottom:10%;">
     <div class="col-lg-6 align-self-center marginleftproject" style="max-width:50%;">
     <?php if(!empty($previoustext)){ ?>
@@ -57,6 +58,20 @@ $projectitle = get_sub_field('project_title');
     <?php if(!empty($nexttext)){ ?>
         <a style="font-family: Helvetica; color: #00498D; width:30%;" href="<?php echo $nexturl ?>"><?php echo $nexttext ?> <img src="../../wp-content/themes/brando/assets/images/leftah.png"></a>
     <?php } ?>    
+    </div>
+</div>-->
+
+<div class="row project-home-footer col-lg-12" style="display: -webkit-box; margin:auto; margin-top:20%;">
+    <div class="col-lg-6 align-self-center marginleftproject" style="max-width:50%;">
+    <?php if(!empty($previoustext)){ ?>
+            <a style="font-family: Helvetica;color: #00498D; width:30%;" href="#home"><img src="../../wp-content/themes/brando/assets/images/rightah.png"> <?php echo $previoustext?> </a>
+    <?php } ?>
+        </div>
+    <div class="col-lg-6 align-self-center" style="max-width:50%;">
+    <?php if(!empty($nexttext)){ ?>
+            <a style="font-family: Helvetica; color: #00498D; width:30%;" href="#home"><?php echo $nexttext?> <img src="../../wp-content/themes/brando/assets/images/leftah.png"></a>
+    <?php } ?>
+        
     </div>
 </div>
 </section>
