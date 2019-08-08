@@ -438,6 +438,12 @@ p, .main-content ul {
   font-size: 13px;
 }
 
+.imagefill {
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+}
+
 .form-control {
   background: none;
   border-radius: 0;

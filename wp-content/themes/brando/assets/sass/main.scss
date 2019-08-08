@@ -462,6 +462,13 @@ p, .main-content ul{
     }
 }
 
+.imagefill{
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+    //background-image: url('path/to/image.jpg');
+}
+
 .form-control{
     background: none;
     border-radius: 0;

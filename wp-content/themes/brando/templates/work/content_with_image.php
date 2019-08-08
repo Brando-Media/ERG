@@ -13,7 +13,9 @@ $contentsmalltext  = get_sub_field('content_small_text');
         <?php if($imagePos=='Left'): ?>
             <div class="col-lg-6 text-center align-self-center left-content-work-block " style="padding-left:0px; padding-right:0px;">
                 <?php if($image): ?>
-                    <img class="img-fluid content-image" src="<?php echo show_image($image['url'], $image['width'], $image['height']); ?>">
+                    
+                    <div class="imagefill" style='background-image: url("<?php echo $image['url'];?>");min-height: -webkit-fill-available;'> </div>
+                    <!--<img class="img-fluid imagefill content-image" src="<?php echo show_image($image['url'], $image['width'], $image['height']); ?>">-->
                 <?php endif; ?>
             </div>
             <div class="col-lg-6 align-self-center right-content-work-block img-order">
@@ -35,7 +37,8 @@ $contentsmalltext  = get_sub_field('content_small_text');
             </div>
             <div class="col-lg-6 text-center align-self-center right-content-work-block " style="padding-left:0px; padding-right:0px;">
                 <?php if($image): ?>
-                    <img class="img-fluid content-image" src="<?php echo show_image($image['url'], $image['width'], $image['height']); ?>">
+                    <div class="imagefill" style='background-image: url("<?php echo $image['url'];?>");min-height: -webkit-fill-available;'> </div>
+                  <!--  <img class="img-fluid imagefill content-image" src="<?php echo show_image($image['url'], $image['width'], $image['height']); ?>">-->
                 <?php endif; ?>
             </div>
         <?php endif; ?>
