@@ -20,6 +20,15 @@
   font-weight: 200;
   font-style: normal;
 }
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  position: relative;
+  overflow-x: hidden;
+}
+
 html {
   overflow-x: hidden;
 }
@@ -1527,7 +1536,6 @@ textarea::placeholder {
 
   .navfloat {
     float: none;
-    left: -35px;
   }
 
   .navbaritemz {
@@ -1647,7 +1655,7 @@ textarea::placeholder {
 }
 
 .nav-item a:hover {
-  color: red !important;
+  color: #00498D !important;
 }
 
 .header__list-item a {
@@ -1920,7 +1928,6 @@ textarea::placeholder {
 }
 
 .servicescontent {
-  height: 250px;
   margin-bottom: 20px;
   margin: auto;
 }

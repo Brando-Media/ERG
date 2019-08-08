@@ -5,6 +5,15 @@ $blue: #1e3b4c;
 $green: #74bdaf;
 $fontsize: 13px;
 $contentpadding: 70px;
+
+html, body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative;
+    overflow-x: hidden;
+  }
+
 html{
     overflow-x:hidden;
 }
@@ -1588,7 +1597,6 @@ textarea::-webkit-input-placeholder {
     }
     .navfloat{
         float:none;
-        left:-35px;
     }
     .navbaritemz{
         padding-top:100px;
@@ -1717,7 +1725,7 @@ textarea::-webkit-input-placeholder {
     }
 
     .nav-item a:hover{
-        color:red!important;
+        color:#00498D!important;
     }
 
     .header__list-item a {
@@ -1985,7 +1993,6 @@ textarea::-webkit-input-placeholder {
 }
 
 .servicescontent{
-    height:250px; 
     margin-bottom:20px;
     margin:auto;
 }

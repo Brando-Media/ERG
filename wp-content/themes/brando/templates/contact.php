@@ -26,7 +26,7 @@ $sectionName = str_replace(' ', '', strtolower($title));
             <div class="footerlink-title">Contact us</div>
                 <div class="contact-details" style="margin-bottom:10px;">
                     <?php
-                    echo $phone ? "<div class='contact-us-text'style='color:white; padding-bottom:15px;'>{$phone}</div>" : '';
+                    echo $phone ? "<div class='contact-us-text'style='color:white!important; padding-bottom:15px;'>{$phone}</div>" : '';
                     echo $email ? "<div class='contact-us-text'style='padding-bottom:15px'><a style='color:white;' href='mailto:{$email}'>{$email}</a></div>" : '';
                     echo $address ? "<div class='contact-us-text' style='color:white; padding-bottom:15px;'>{$address}</div>" : '';
                     ?>

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
     <head>
+        
         <meta http-equiv="X-UA-Compatible" content="chrome=1">
         <meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -70,7 +71,7 @@
                     <div class="collapse navbar-collapse navbaritemz" id="navbarTogglerDemo02">
                         <ul class="navbar-nav mr-auto mt-2 mt-lg-0 navbarfr">
                         <li class="nav-item">
-                            <a style="color:white; font-weight:bold;" class="nav-link" href="../..">Aboutfds <span class="sr-only">(current)</span></a>
+                            <a style="color:white; font-weight:bold;" class="nav-link" href="../..">About <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
                             <a style="color:white; font-weight:bold;"  class="nav-link" href="../../Services">Services</a>
