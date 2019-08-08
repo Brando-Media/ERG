@@ -4,8 +4,8 @@ $title       = get_sub_field('title');
 $dtitle       = get_sub_field('displayed_title');
 $sectionName = str_replace(' ', '', strtolower($title));
 ?>
-<section class="section casestudiesbgbottomop " data-section-name="<?php echo $sectionName; ?>">
-<div class="container container--small align-self-center teampagepaddingtop" style="">
+<section style="padding-top:1px;" class="section casestudiesbgbottomop " data-section-name="<?php echo $sectionName; ?>">
+<div class="container container--small align-self-center teampagepaddingtop" style="padding-top:1px;" >
 
         <h2 class="main-title" style="color:white"><?php echo $dtitle?></h2>
         <div class="row"> 

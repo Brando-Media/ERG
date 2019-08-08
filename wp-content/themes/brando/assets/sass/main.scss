@@ -5,12 +5,15 @@ $blue: #1e3b4c;
 $green: #74bdaf;
 $fontsize: 13px;
 $contentpadding: 70px;
-
+html{
+    overflow-x:hidden;
+}
 body {
     font-family: 'Pangram';
     font-weight: normal;
     font-style: normal;
     overflow-x:hidden;
+    position:relative;
 }
 
 div.wpcf7-mail-sent-ok {
@@ -297,6 +300,27 @@ p, .main-content ul{
     }
 }
 
+#brando-container{
+    position: absolute;
+    top: 325px;
+    left: 0;
+    right: 0;
+    #brando-red{
+        color: #00498D;
+        transform: rotate(-90deg);
+        display: inline-block;
+        position: absolute;
+        left: -60px;
+        text-transform: uppercase;
+        font-size: 12px;
+        font-weight: 900;
+        font-family: 'PangramBlack';
+        font-style: normal;
+        letter-spacing: 3px;
+        transition: all 0.5s;
+    }
+}
+
 .indicase-title{
     font-family: Helvetica;
     font-size: 45px;
@@ -385,7 +409,11 @@ p, .main-content ul{
 
 .gm-style-iw gm-style-iw
 
-#brando-container{
+
+
+
+
+#brando-container-blue{
     position: absolute;
     top: 325px;
     left: 0;
@@ -1140,7 +1168,8 @@ textarea::-webkit-input-placeholder {
 
 .teampage-triple{
     text-align:left; 
-    margin-top:20px;
+    margin-top:30px;
+    margin-bottom:10px;
     font-size:13px;
     font-family: Helvetica; 
     font-size: 12px; 
@@ -1172,8 +1201,8 @@ textarea::-webkit-input-placeholder {
 }
 
 .link-teampage{
-    margin-top:10px;
-    margin-bottom: 10px;
+    margin-top:30px;
+    margin-bottom: 60px;
     font-size:11px;
         #{a} {
             color: #00498D;
