@@ -13,6 +13,11 @@ body {
     overflow-x:hidden;
 }
 
+div.wpcf7-mail-sent-ok {
+    color: white!important;
+}
+
+
 p, .main-content ul{
     font-size: $fontsize;
     letter-spacing: -0.32px;
