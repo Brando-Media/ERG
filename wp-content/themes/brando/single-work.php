@@ -10,11 +10,12 @@ if($colour == "Blue"){
         <div class="container container--small main-content">
             
             <div class="row">
-                <div class="col-lg-12 projects-home" style="color:white;">
+                <div class="col-lg-12 projects-home" style="color:white; padding-left:0px;">
                     <div style="max-width:90%;">
-                        <h1 class="worktitlec" style="color:white; font-size: 50px;margin-bottom: 30px;padding-left:15px;font-weight: 900; font-family: 'PangramBlack';font-style: normal;">
-                        <?php the_post(); the_title(); ?></h1>
+                        <div class="worktitlec" style="color:white; font-size: 50px;margin-bottom: 30px;padding-left:15px;font-weight: 300; font-family: 'PangramBlack';font-style: normal;">
+                        <div style="padding-left:15px;"><?php the_post(); the_title(); ?></div>
                         <?php the_content(); ?>
+                        </div>
                     </div>
                 </div>
                 <div class="col-lg-6 work-completed">
