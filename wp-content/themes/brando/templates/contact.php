@@ -37,7 +37,7 @@ $sectionName = str_replace(' ', '', strtolower($title));
                 </div>
             </div>
             <div class="col-lg-4 contact-form" style="margin-top:10px;">
-            <div style="margin-bottom:20px;"class="footerlink-title">Make an enquiry</div>
+            <div style="margin-bottom:15px;"class="footerlink-title">Make an enquiry</div>
                 <div style="padding-left:15px;"><?php echo do_shortcode('[contact-form-7 id="11" title="Contact Form"]') ?></div>
             </div>
         </div>
