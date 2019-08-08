@@ -1643,7 +1643,7 @@ textarea::placeholder {
   }
 }
 .navhover a:hover {
-  color: red;
+  color: #00498D;
 }
 
 .nav-item a:hover {
