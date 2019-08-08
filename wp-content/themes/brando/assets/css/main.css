@@ -548,7 +548,8 @@ input.form-control {
   border-left: 0px;
   border-right: 0px;
   color: white;
-  background-color: transparent;
+  background-color: transparent !important;
+  box-shadow: none !important;
 }
 input.form-control ::placeholder {
   /* Chrome, Firefox, Opera, Safari 10.1+ */
