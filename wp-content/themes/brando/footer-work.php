@@ -94,7 +94,7 @@
                     $('.newbg').css({"display": "block"});
                     $('.toggledisplay').css({"display": "block"});
                     $('toggledisplay').css({"display": "block"});
-                    $('.row').css({"display": "block"});
+                    $('.row').css({"display": "flex"});
                     $('.footerbg').css({"display": "block"});
                     $('.page-template').css({"background-image": ''});
                     /*$('#navfloatx').css({"float": "none"});

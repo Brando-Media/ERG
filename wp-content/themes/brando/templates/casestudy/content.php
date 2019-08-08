@@ -10,7 +10,7 @@ $sectionName = str_replace(' ', '', strtolower($title));
             
             <div class="row">
                 <div class="col-lg-12 projects-home" style="color:white;">
-                    <div class=" left-content-work-block">
+                    <div class=" left-content-teampage">
                         <div class="fontworksingle" style="padding-left:15px; margin-bottom:30px;">
                         <?php the_post(); the_title(); ?> </div>
                         <div class="col-lg-6 work-completed" style="max-width:700px;">
