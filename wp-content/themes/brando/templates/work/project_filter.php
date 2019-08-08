@@ -31,10 +31,12 @@ $first = 0;
                             <div style="padding-bottom:25px;"> <a style="color: #33B3E3;" onMouseOver="this.style.color='#00498D';" onMouseOut="this.style.color='#33B3E3'" href="<?php echo $row['project_url'] ?>"><?php echo $row['project_title'] ?></a> </div>
                         <?php } ?>
                     <?php } ?>
+                    </div>
                <?php } $first++; ?>
-               
             <?php }?>
+            <div style="min-width:150px; height:2px;border-top: 1px solid #00498D;"></div>
             </div>
+            
     </div>
 </div>
 <!--
