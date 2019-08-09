@@ -43,7 +43,7 @@
 
                     console.log("not collapsed");
                     $('.work-template-default').css({"background-image": ''});
-                    $('.allstuy-template-default').css({"background-image": ''});
+                    $('.allstudy-template-default').css({"background-image": ''});
                     $('.page-template').css({"background-image": ''});
                     $('.teampage-template-default').css({"background-image": ''});
                     $('section').css({"display": "block"});
