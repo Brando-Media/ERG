@@ -122,7 +122,7 @@
                         <a style="color:white;font-weight:bold;" class="nav-link navhover" href="https://brando.media/erg/#global">Global</a>
                     </li>
                     <li class="nav-item">
-                        <a style="color:white;font-weight:bold;" class="nav-link navhover" href="https://brando.media/erg/teampage/team-page/">Team</a>
+                        <a style="color:white;font-weight:bold;" class="nav-link navhover" href="https://brando.media/erg/teampage/team-pages/">Team</a>
                     </li>
                     <li class="nav-item">
                         <a style="color:white;font-weight:bold;" class="nav-link navhover" href="https://brando.media/erg/#contact">Contact</a>
