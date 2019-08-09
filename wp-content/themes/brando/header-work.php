@@ -87,7 +87,7 @@
                             <a style="color:white; font-weight:bold;" class="nav-link" href="https://brando.media/erg/work/projects">Projects</a>
                         </li>
                         <li class="nav-item">
-                            <a style="color:white; font-weight:bold;" class="nav-link" href="https://brando.media/erg/work/case-studies">Case Studies</a>
+                            <a style="color:white; font-weight:bold;" class="nav-link" href="https://brando.media/erg/casestudy/case-studies/">Case Studies</a>
                         </li>
                         <li class="nav-item">
                             <a style="color:white; font-weight:bold;" class="nav-link" href="https://brando.media/erg/#global">Global</a>

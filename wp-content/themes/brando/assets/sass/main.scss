@@ -1611,6 +1611,7 @@ textarea::-webkit-input-placeholder {
         margin-left:20%;
     }
   }
+  
   @media only screen and (max-width: 991px) {
     .left-content-teampage{
         padding-right: 0px;
@@ -1957,6 +1958,9 @@ textarea::-webkit-input-placeholder {
     .projimgwidth{
         width:100%!important;
     }
+    .casestudymainimage{
+        min-width:100vw;
+      }
 }
 
 @media only screen and (min-width: 768px){
@@ -1965,6 +1969,9 @@ textarea::-webkit-input-placeholder {
     }
     .projimgwidth{
         width:50%!important;
+    }
+    .casestudymainimage{
+        min-width:100%;
     }
 }
 

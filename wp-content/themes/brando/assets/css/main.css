@@ -1886,6 +1886,10 @@ textarea::placeholder {
   .projimgwidth {
     width: 100% !important;
   }
+
+  .casestudymainimage {
+    min-width: 100vw;
+  }
 }
 @media only screen and (min-width: 768px) {
   .small-project-home {
@@ -1894,6 +1898,10 @@ textarea::placeholder {
 
   .projimgwidth {
     width: 50% !important;
+  }
+
+  .casestudymainimage {
+    min-width: 100%;
   }
 }
 @media only screen and (max-width: 450px) {
