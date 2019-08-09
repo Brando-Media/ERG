@@ -44,3 +44,10 @@ if($colour == "Blue"){
 }else{
     get_footer('work'); 
 }?> 
+
+<div>
+© ERG INTERNATIONAL GROUP 2019
+</div>
+</div>
+WEBSITE DEVELOPED BY BRANDO MEDIA
+</div>
