@@ -19,7 +19,7 @@ if($colour == "Blue"){
     Placeholder Title Goes Here Global Construction Project Management Services etc.</div>
 
     </div> 
-        <div style="margin:auto 0;"><div>
+        <div style="margin:auto 0;"><div> 
     </section>
      
     <?php  
