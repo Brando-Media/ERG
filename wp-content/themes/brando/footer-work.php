@@ -12,6 +12,7 @@
             <?php if(!is_singular('work')): ?>
                 $(window).on('load', function(){
                     $("[href]").each(function() {
+                        console.log(this.href);
                         if (this.href == window.location.href) {
                             $(this).addClass("active");
                             console.log("hreffound");
