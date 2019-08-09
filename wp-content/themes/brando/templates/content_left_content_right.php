@@ -6,7 +6,7 @@ $ContentRight  = get_sub_field('content_right');
 ?>
 <section class="globalsection">
 <div class="container container--small main-content align-self-center" style="padding-top:80px;">
-        <div class="row d-flex">
+        <div class="row d-flex" style="min-width:300px;">
         <div class="col-lg-6 align-self-center left-content-work-block globalbtext globalcontent" style="margin-bottom:0px;">
             <?php echo $titleLeft ? "<h2 style='margin-bottom:20px; margin-top:0px;'class='title globalptitle'>{$titleLeft}</h2>" : '' ?>
         </div>
