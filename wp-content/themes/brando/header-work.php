@@ -110,19 +110,19 @@
                         <a style="color:white; font-weight:bold;" class="nav-link navhover" href="https://brando.media/erg">About <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a style="color:white; font-weight:bold;" class="nav-link navhover" href="https://brando.media/erg/work/services">Services</a>
+                        <a style="color:white; font-weight:bold;" class="nav-link navhover" href="https://brando.media/erg/work/services/">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a style="color:white; font-weight:bold;" class="nav-link navhover" href="https://brando.media/erg/work/projects">Projects</a>
+                        <a style="color:white; font-weight:bold;" class="nav-link navhover" href="https://brando.media/erg/work/projects/">Projects</a>
                     </li>
                     <li class="nav-item">
-                        <a style="color:white; font-weight:bold;" class="nav-link navhover" href="https://brando.media/erg/casestudy/case-studies">Case Studies</a>
+                        <a style="color:white; font-weight:bold;" class="nav-link navhover" href="https://brando.media/erg/casestudy/case-studies/">Case Studies</a>
                     </li>
                     <li class="nav-item">
                         <a style="color:white;font-weight:bold;" class="nav-link navhover" href="https://brando.media/erg/#global">Global</a>
                     </li>
                     <li class="nav-item">
-                        <a style="color:white;font-weight:bold;" class="nav-link navhover" href="https://brando.media/erg/teampage/team-page">Team</a>
+                        <a style="color:white;font-weight:bold;" class="nav-link navhover" href="https://brando.media/erg/teampage/team-page/">Team</a>
                     </li>
                     <li class="nav-item">
                         <a style="color:white;font-weight:bold;" class="nav-link navhover" href="https://brando.media/erg/#contact">Contact</a>

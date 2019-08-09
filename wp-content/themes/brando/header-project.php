@@ -101,22 +101,22 @@
                 <a style="font-weight:bold;" id="aboutlink" class="nav-link navhover bluenav" href="https://brando.media/erg/#about">About <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a style="font-weight:bold;" id="serviceslink" class="nav-link navhover bluenav" href="https://brando.media/erg/work/services">Services</a>
+                <a style="font-weight:bold;" id="serviceslink" class="nav-link navhover bluenav" href="https://brando.media/erg/work/services/">Services</a>
             </li>
             <li class="nav-item">
-                <a style=" font-weight:bold;" id="projectslink" class="nav-link navhover bluenav" href="https://brando.media/erg/work/projects">Projects</a>
+                <a style=" font-weight:bold;" id="projectslink" class="nav-link navhover bluenav" href="https://brando.media/erg/work/projects/">Projects</a>
             </li>
             <li class="nav-item">
-                <a style=" font-weight:bold;" id="casestudieslink" class="nav-link navhover bluenav" href="https://brando.media/erg/casestudy/case-studies">Case Studies</a>
+                <a style=" font-weight:bold;" id="casestudieslink" class="nav-link navhover bluenav" href="https://brando.media/erg/casestudy/case-studies/">Case Studies</a>
             </li>
             <li class="nav-item">
-                <a style="font-weight:bold;" id="globallink" class="nav-link navhover bluenav" href="https://brando.media/erg/#global">Global</a>
+                <a style="font-weight:bold;" id="globallink" class="nav-link navhover bluenav" href="https://brando.media/erg/#global/">Global</a>
             </li>
             <li class="nav-item">
-                <a style="font-weight:bold;" id="teamlink" class="nav-link navhover bluenav" href="https://brando.media/erg/teampage/team-pages">Team</a>
+                <a style="font-weight:bold;" id="teamlink" class="nav-link navhover bluenav" href="https://brando.media/erg/teampage/team-pages/">Team</a>
             </li>
             <li class="nav-item">
-                <a style="font-weight:bold;" id="contactlink" class="nav-link navhover bluenav" href="https://brando.media/erg/#contact">Contact</a>
+                <a style="font-weight:bold;" id="contactlink" class="nav-link navhover bluenav" href="httpsπh://brando.media/erg/#contact">Contact</a>
             </li>
             </ul>
         </div>
