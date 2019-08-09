@@ -847,6 +847,10 @@ input.form-control ::-ms-input-placeholder {
   color: #00498D;
 }
 
+.activenavwhite {
+  color: white;
+}
+
 .container:hover .overlay {
   opacity: 0.8;
 }

@@ -135,11 +135,11 @@
                         console.log(this.href);
                         console.log(this);
                         if (this.href == window.location.href) {
-                            $(this).addClass("active");
+                            $(this).addClass("activenav");
                             console.log("hreffound");
                         }
                     });
-                    
+
                 <?php if(!is_singular('work')): ?>
                     $('#main-menu ul li a').on('click', function (e) {
                         var target = $(this).attr('href');
