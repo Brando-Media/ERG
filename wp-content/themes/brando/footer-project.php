@@ -154,32 +154,32 @@
                     if($('.hidden-work').is(':visible')){
                         $(this).text('Hide More Work');
                     }else{
-                        $.scrollify.disable();
+                        //$.scrollify.disable();
                         $(this).text('Show More Work');
                         setTimeout(function(){
                             //$.scrollify.enable();
                         }, 500);
                     }
-                    $.scrollify.update();
+                   // $.scrollify.update();
                     return false;
                 });
             });
 
             $(document).ready(function(e){
                 var type = window.location.hash.substr(1);
-                $.scrollify.disable();
+                //$.scrollify.disable();
                 console.log(type);
 
                 $(".downarrow").click(function(){
-                    $.scrollify.next();
+                    //$.scrollify.next();
                 });
 
             $(".uparrow").click(function(){
-                $.scrollify.move();
+                //$.scrollify.move();
             });
                 setTimeout(function(){
                     
-                    $.scrollify.move("#" + type);
+                   // $.scrollify.move("#" + type);
                 }, 200);
 
             var coll = document.getElementsByClassName("projects-collapsible");
