@@ -991,6 +991,15 @@ input.form-control{
 .footerbg{
     background:#00498D;
     max-height:20px;
+    min-height:20px;
+}
+
+.brandoalink{
+    color:white;
+}
+
+.brandoalink:hover{
+    color:white;
 }
 
 input[type="email"]::placeholder { /* Firefox, Chrome, Opera */ 
