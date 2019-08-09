@@ -77,7 +77,7 @@
                     <div class="collapse navbar-collapse navbaritemz" id="navbarTogglerDemo02" style="padding-top:0px;">
                         <ul class="navbar-nav mr-auto mt-2 mt-lg-0 navbarfr">
                         <li class="nav-item">
-                            <a style="color:white; font-weight:bold;" class="nav-link navhover" href="#about">About <span class="sr-only">(current)</span></a>
+                            <a style="color:white; font-weight:bold;" class="nav-link navhover" href="http://brando.media/erg/#about">About <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
                             <a style="color:white; font-weight:bold;" class="nav-link navhover" href="Services">Services</a>
@@ -89,13 +89,13 @@
                             <a style="color:white; font-weight:bold;" class="nav-link navhover" href="case-studies">Case Studies</a>
                         </li>
                         <li class="nav-item">
-                            <a style="color:white;font-weight:bold;" class="nav-link navhover" href="#global">Global</a>
+                            <a style="color:white;font-weight:bold;" class="nav-link navhover" href="http://brando.media/erg/#global">Global</a>
                         </li>
                         <li class="nav-item">
                             <a style="color:white;font-weight:bold;" class="nav-link navhover" href="team-page">Team</a>
                         </li>
                         <li class="nav-item">
-                            <a style="color:white;font-weight:bold;" class="nav-link navhover" href="#contact">Contact</a>
+                            <a style="color:white;font-weight:bold;" class="nav-link navhover" href="http://brando.media/erg/#contact">Contact</a>
                         </li>
                         </ul>
                     </div>
@@ -106,7 +106,7 @@
                     <div class="collapse navbar-collapse navbaritemz" id="navbarTogglerDemo02">
                         <ul class="navbar-nav mr-auto mt-2 mt-lg-0 navbarfr">
                         <li class="nav-item">
-                            <a style="color:white; font-weight:bold;" class="nav-link navhover" href="#about">About <span class="sr-only">(current)</span></a>
+                            <a style="color:white; font-weight:bold;" class="nav-link navhover" href="http://brando.media/erg/#about">About <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
                             <a style="color:white; font-weight:bold;" class="nav-link navhover" href="Services">Services</a>
@@ -118,13 +118,13 @@
                             <a style="color:white; font-weight:bold;" class="nav-link navhover" href="case-studies">Case Studies</a>
                         </li>
                         <li class="nav-item">
-                            <a style="color:white;font-weight:bold;" class="nav-link navhover" href="#global">Global</a>
+                            <a style="color:white;font-weight:bold;" class="nav-link navhover" href="http://brando.media/erg/#global">Global</a>
                         </li>
                         <li class="nav-item">
                             <a style="color:white;font-weight:bold;" class="nav-link navhover" href="team-page">Team</a>
                         </li>
                         <li class="nav-item">
-                            <a style="color:white;font-weight:bold;" class="nav-link navhover" href="#contact">Contact</a>
+                            <a style="color:white;font-weight:bold;" class="nav-link navhover" href="http://brando.media/erg/#contact">Contact</a>
                         </li>
                         </ul>
                     </div>
