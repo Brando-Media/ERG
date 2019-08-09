@@ -97,6 +97,8 @@
             
 
             $(function() {
+
+                //changetexthere
                 $("[href]").each(function() {
                         console.log(this.href);
                         console.log(this);

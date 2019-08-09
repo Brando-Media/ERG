@@ -17,10 +17,10 @@ $projectitle = get_sub_field('project_title');
 <div class="">
     <div class="row d-flex" style="color:#00498d;">
         <?php if($imagePos=='Left'): ?>
-            <div class="col-lg-6 text-center align-self-center left-content-work-block" style="padding-left:0px; padding-right:0px; padding-top:200px; max-width:85%; padding-left:35px;">
+            <div class="col-lg-6 text-center align-self-center left-content-work-block teammemberhome" style="padding-left:0px; padding-right:0px; padding-top:200px; max-width:85%; padding-left:35px;">
                 <div class="project-home-image" >
                     <?php if($image): ?>
-                        <img class="img-fluid img-phome" src="<?php echo show_image($image['url'], $image['width'], $image['height']); ?>">
+                        <img class="img-fluid timg-phome" src="<?php echo show_image($image['url'], $image['width'], $image['height']); ?>">
                     <?php endif; ?>
                 </div>
                 
@@ -41,7 +41,7 @@ $projectitle = get_sub_field('project_title');
             </div>
             <div class="col-lg-6 text-center align-self-center right-content-work-block project-home-text" style="padding-left:0px; padding-right:0px;">
                 <?php if($image): ?>
-                    <img class="img-fluid img-phome content-image" src="<?php echo show_image($image['url'], $image['width'], $image['height']); ?>">
+                    <img class="img-fluid timg-phome content-image" src="<?php echo show_image($image['url'], $image['width'], $image['height']); ?>">
                 <?php endif; ?>
             </div>
         <?php endif; ?>
@@ -62,7 +62,7 @@ $projectitle = get_sub_field('project_title');
 </div>-->
 
 <div class="row project-home-footer col-lg-12" style="display: -webkit-box; margin:auto; margin-top:10%;">
-    <div class="col-lg-6 align-self-center marginleftproject" style="max-width:50%;">
+    <div class="col-lg-6 align-self-center marginleftproject teamhomearrows" style="max-width:50%;">
     <?php if(!empty($previoustext)){ ?>
             <a style="font-family: Helvetica;color: #00498D; width:30%;" href="#home"><img src="../../wp-content/themes/brando/assets/images/rightah.png"> <?php echo $previoustext?> </a>
     <?php } ?>

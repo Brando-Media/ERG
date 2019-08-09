@@ -43,12 +43,6 @@ body {
   position: relative;
 }
 
-.servicescontentwithimage {
-  display: block;
-  min-width: 50vw;
-  margin: auto;
-}
-
 .socialimg {
   max-width: 719px;
   float: left;
@@ -906,6 +900,12 @@ input.form-control ::-ms-input-placeholder {
   background-size: 100% 20%;
 }
 
+.teampagebgbottomop {
+  background-repeat: no-repeat;
+  background-image: linear-gradient(to right, rgba(0, 160, 219, 0.8), rgba(0, 73, 144, 0.8));
+  background-size: 100% 20%;
+}
+
 .servicesimg {
   border-right: 5px solid #cccccc;
   border-width: 1px;
@@ -1455,6 +1455,27 @@ textarea::placeholder {
 }
 
 @media only screen and (min-width: 992px) {
+  .timg-phome {
+    padding: 25px;
+    border: 2px solid #00498D;
+  }
+
+  .contact-form .message-contact-form {
+    padding-left: 0px;
+    margin-bottom: 30px;
+  }
+
+  .container.global--small {
+    max-width: 85%;
+  }
+
+  .globalptitle {
+    margin-top: 0px;
+    font-family: Helvetica;
+    font-size: 45px;
+    color: #00498D;
+  }
+
   .p100l {
     padding-left: 100px;
   }
@@ -1547,8 +1568,37 @@ textarea::placeholder {
   }
 }
 @media only screen and (max-width: 991px) {
+  .teammemberhome {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 200px;
+    max-width: 85%;
+    margin: auto;
+  }
+
+  .timg-phome {
+    padding: 0px;
+    padding-bottom: 25px;
+    border: none;
+  }
+
+  .contact-form .message-contact-form {
+    padding-left: 0px;
+    margin-bottom: 200px;
+  }
+
   .left-content-teampage {
     padding-right: 0px;
+  }
+
+  .container.global--small {
+    max-width: 100%;
+  }
+
+  .servicescontentwithimage {
+    display: none;
+    min-width: 50vw;
+    margin: auto;
   }
 
   .maxwidth16 {
@@ -1561,6 +1611,10 @@ textarea::placeholder {
 
   .casestudiesbgbottomop {
     background-size: 100% 7.5%;
+  }
+
+  .teampagebgbottomop {
+    background-size: 100% 6%;
   }
 
   .p100l {
@@ -1770,12 +1824,6 @@ textarea::placeholder {
   margin-bottom: 0px;
 }
 
-.serviceshometitle {
-  font-family: Helvetica;
-  font-size: 45px;
-  color: #FFFFFF;
-}
-
 .frontpagetitle {
   color: white;
   text-align: left;
@@ -1791,6 +1839,26 @@ textarea::placeholder {
   .servicesmarginl {
     margin-left: 40px;
     margin-right: 0px;
+  }
+
+  .teamhomearrows {
+    max-width: 50%;
+    margin-left: 0px;
+    margin-right: 50px;
+  }
+
+  .globalptitle {
+    margin-top: 40px;
+    font-family: Helvetica;
+    font-size: 28px;
+    color: #00498D;
+    min-width: 100vw;
+  }
+
+  .serviceshometitle {
+    font-family: Helvetica;
+    font-size: 30px;
+    color: #FFFFFF;
   }
 
   .servicesoverviewtitle {
@@ -1813,7 +1881,7 @@ textarea::placeholder {
   .globalcontent {
     max-width: 90%;
     margin-left: 0px;
-    margin-bottom: 45px;
+    margin-bottom: 10px;
   }
 
   .casestudiesheight {
@@ -1952,8 +2020,32 @@ textarea::placeholder {
 }
 
 @media only screen and (min-width: 992px) {
+  .teamhomearrows {
+    max-width: 50%;
+  }
+
   .left-content-teampage {
     padding-right: 70px;
+  }
+
+  .teammemberhome {
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-top: 200px;
+    max-width: 85%;
+    padding-left: 35px;
+  }
+
+  .serviceshometitle {
+    font-family: Helvetica;
+    font-size: 45px;
+    color: #FFFFFF;
+  }
+
+  .servicescontentwithimage {
+    display: block;
+    min-width: 50vw;
+    margin: auto;
   }
 
   .servicesoverviewtitle {
@@ -1967,6 +2059,10 @@ textarea::placeholder {
   }
 
   .casestudiesbgbottomop {
+    background-size: 100% 20%;
+  }
+
+  .teampagebgbottomop {
     background-size: 100% 20%;
   }
 
@@ -2030,13 +2126,6 @@ textarea::placeholder {
 .servicescontent {
   margin-bottom: 20px;
   margin: auto;
-}
-
-.globalptitle {
-  margin-top: 40px;
-  font-family: Helvetica;
-  font-size: 45px;
-  color: #00498D;
 }
 
 .globalbtext p {
