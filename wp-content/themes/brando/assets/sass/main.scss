@@ -8,10 +8,12 @@ $contentpadding: 70px;
 
 html, body {
     overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
   }
   body {
     position: relative;
     overflow-x: hidden;
+    -webkit-overflow-scrolling: touch;
   }
 
 html{
