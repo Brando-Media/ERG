@@ -1277,7 +1277,9 @@ textarea::placeholder {
   font-size: 14px;
   color: #00498D;
   line-height: 25px;
-  padding-right: 40px;
+  margin: auto;
+  max-width: 80%;
+  margin-bottom: 10px;
 }
 
 .header-two {
@@ -1287,6 +1289,8 @@ textarea::placeholder {
   color: #00498D !important;
   line-height: 25px;
   font-weight: bold;
+  margin: auto;
+  max-width: 80%;
 }
 
 .social-two-content {

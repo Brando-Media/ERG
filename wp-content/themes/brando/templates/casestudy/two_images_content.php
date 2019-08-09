@@ -19,7 +19,7 @@ $services    = get_sub_field('services');
             </div>
                 
             </div>
-            <div class="col-lg-6 align-self-center right-content-work-block">
+            <div class="col-lg-6 right-content-work-block" style="margin-top:10%;">
                 <?php foreach($services as $servicerow){ ?>
                             <div class="header-two">
                                 <?php echo $servicerow['title']; ?>
