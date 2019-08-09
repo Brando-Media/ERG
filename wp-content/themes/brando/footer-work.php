@@ -14,7 +14,7 @@
                     $("[href]").each(function() {
                         console.log(this.href);
                         if (this.href == window.location.href) {
-                            $(this).addClass("active");
+                            $(this).addClass("activenav");
                             console.log("hreffound");
                         }
                     });

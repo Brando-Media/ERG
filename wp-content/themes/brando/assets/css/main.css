@@ -843,6 +843,10 @@ input.form-control ::-ms-input-placeholder {
   text-align: center;
 }
 
+.activenav {
+  color: #00498D;
+}
+
 .container:hover .overlay {
   opacity: 0.8;
 }
