@@ -65,9 +65,9 @@ $mainimage = get_sub_field('main_image');?>
             
            <?php } ?>
            <a data-rel=”lightbox” href=<?php echo $image['url']?> data-rel=”lightbox” style="height:100%;">
-           <div class="col-md-2 container casestudy-div-img " style="padding-left:0px!important; padding-right:0px!important;  max-width: 16.666667vw; margin-left:0px!important; margin-right:0px!important; width:100%;" >
-                <img class="small-project-home" src="<?php echo show_image($image['url'], $image['width'], $image['height'], 75) ?>" style="max-width: 16.666667vw;">
-                <div class="overlay " style="max-width:16.666667vw; height:100%;">
+           <div class="col-md-2 container casestudy-div-img maxwidth16 " style="padding-left:0px!important; padding-right:0px!important; margin-left:0px!important; margin-right:0px!important; width:100%;" >
+                <img class="small-project-home maxwidth16" src="<?php echo show_image($image['url'], $image['width'], $image['height'], 75) ?>">
+                <div class="overlay maxwidth16 " style="height:100%;">
                     <div class="text">testest</div>
                     <div class="viewcasestudy">VIEW CASE STUDY</div>
                 </div>

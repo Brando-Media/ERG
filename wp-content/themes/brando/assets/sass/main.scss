@@ -1350,6 +1350,7 @@ textarea::-webkit-input-placeholder {
     font-weight: normal;
   }
 
+  
   .header-two{
     margin-top:30px;
     font-family: Helvetica;
@@ -1503,6 +1504,10 @@ textarea::-webkit-input-placeholder {
     .p100l{
         padding-left:100px;
     }
+    .maxwidth16{
+        max-width:16.666667vw;
+        min-width:16.666667vw;
+      }
 
     .section{
         > .container{
@@ -1584,6 +1589,10 @@ textarea::-webkit-input-placeholder {
     .left-content-teampage{
         padding-right: 0px;
     }
+    .maxwidth16{
+        max-width:50vw;
+        min-width:50vw;
+      }
     #teampagecontainertop{
         //padding-top:460px;
         margin-right:auto;
