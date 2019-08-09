@@ -42,10 +42,10 @@ $sectionName = str_replace(' ', '', strtolower($title));
             </div>
         </div>
     </div>
-    <div style="text-align:center; color:white;">
+    <div style="text-align:center; color:white; font-size:12px;">
         © ERG INTERNATIONAL GROUP 2019
         </div>
-        <div style="text-align:center; color:white;padding-bottom:20px";>
+        <div style="text-align:center; color:white;padding-bottom:20px; font-size:12px;";>
         DEVELOPED BY <a class="brandoalink"href="http://www.brando-media.com/">BRANDO MEDIA</a>
         </div>
 </section>
