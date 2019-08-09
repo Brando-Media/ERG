@@ -1279,7 +1279,8 @@ textarea::placeholder {
   line-height: 25px;
   margin: auto;
   max-width: 80%;
-  margin-bottom: 10px;
+  margin-bottom: 24px;
+  font-weight: normal;
 }
 
 .header-two {
@@ -1288,7 +1289,7 @@ textarea::placeholder {
   font-size: 24px;
   color: #00498D !important;
   line-height: 25px;
-  font-weight: bold;
+  font-weight: 500;
   margin: auto;
   max-width: 80%;
 }
