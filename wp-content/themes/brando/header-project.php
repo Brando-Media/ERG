@@ -69,7 +69,7 @@
            <div class="collapse navbar-collapse navbaritemz" id="navbarTogglerDemo02">
                <ul class="navbar-nav mr-auto mt-2 mt-lg-0 navbarfr">
                <li class="nav-item">
-                   <a class="nav-link bluenav" href="../../#about">About <span class="sr-only">(current)</span></a>
+                   <a class="nav-link bluenav" href="../..">About <span class="sr-only">(current)</span></a>
                </li>
                <li class="nav-item">
                    <a style="" class="nav-link bluenav" href="../../services">Services</a>
@@ -98,25 +98,25 @@
         <div class="collapse navbar-collapse navbaritemz" id="navbarTogglerDemo02">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0 navbarfr">
             <li class="nav-item">
-                <a style="font-weight:bold;" class="nav-link navhover bluenav" href="#about">About <span class="sr-only">(current)</span></a>
+                <a style="font-weight:bold;" class="nav-link navhover bluenav" href="../..">About <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a style="font-weight:bold;" class="nav-link navhover bluenav" href="Services">Services</a>
+                <a style="font-weight:bold;" class="nav-link navhover bluenav" href="../../services">Services</a>
             </li>
             <li class="nav-item">
-                <a style=" font-weight:bold;" class="nav-link navhover bluenav" href="projects">Projects</a>
+                <a style=" font-weight:bold;" class="nav-link navhover bluenav" href="../../projects">Projects</a>
             </li>
             <li class="nav-item">
-                <a style=" font-weight:bold;" class="nav-link navhover bluenav" href="case-studies">Case Studies</a>
+                <a style=" font-weight:bold;" class="nav-link navhover bluenav" href="../../case-studies">Case Studies</a>
             </li>
             <li class="nav-item">
-                <a style="font-weight:bold;" class="nav-link navhover bluenav" href="#global">Global</a>
+                <a style="font-weight:bold;" class="nav-link navhover bluenav" href="../../#global">Global</a>
             </li>
             <li class="nav-item">
-                <a style="font-weight:bold;" class="nav-link navhover bluenav" href="team-page">Team</a>
+                <a style="font-weight:bold;" class="nav-link navhover bluenav" href="../../team-page">Team</a>
             </li>
             <li class="nav-item">
-                <a style="font-weight:bold;" class="nav-link navhover bluenav" href="#contact">Contact</a>
+                <a style="font-weight:bold;" class="nav-link navhover bluenav" href="../../#contact">Contact</a>
             </li>
             </ul>
         </div>

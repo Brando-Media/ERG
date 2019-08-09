@@ -1818,6 +1818,11 @@ textarea::-webkit-input-placeholder {
         margin-right:0px;
     }
 
+    .servicesoverviewtitle{
+        padding-left:0px; 
+        padding-top:50px!important;
+    }
+
     .section{
         > .container{
             margin-right:auto;
@@ -1825,7 +1830,7 @@ textarea::-webkit-input-placeholder {
     }
 
     .servicesimg {
-        display: none;
+        display: none; 
     }
 
     .teampagepaddingtop{
@@ -1856,11 +1861,13 @@ textarea::-webkit-input-placeholder {
     .imghoverw{
         min-width: 100vw;
     }
+
+   
     .servicesotitle{
         padding-left:30px;
     }
     .serviceshometitle{
-        padding-left:8%;
+        padding-left:6%;
     }
     .serviceslinktext{
         padding-left:6%;
@@ -1960,6 +1967,10 @@ textarea::-webkit-input-placeholder {
 @media only screen and (min-width: 992px){
     .left-content-teampage{
         padding-right: $contentpadding;
+    }
+    .servicesoverviewtitle{
+        padding-left:0px; 
+        padding-top:120px!important;
     }
     #teampagecontainertop{
         padding-top:45px;

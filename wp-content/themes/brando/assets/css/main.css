@@ -848,7 +848,7 @@ input.form-control ::-ms-input-placeholder {
 }
 
 .background-image-home {
-  background: url("../images/erglogo775px.png"), url("../images/bluehomebg.png");
+  background: url("../images/erglogo775px.png"), url("../images/erghomebg.png");
   background-position: right bottom, center;
   background-repeat: no-repeat, no-repeat;
   background-attachment: absolute, fixed;
@@ -1745,6 +1745,11 @@ textarea::placeholder {
     margin-right: 0px;
   }
 
+  .servicesoverviewtitle {
+    padding-left: 0px;
+    padding-top: 50px !important;
+  }
+
   .section > .container {
     margin-right: auto;
   }
@@ -1888,6 +1893,11 @@ textarea::placeholder {
 @media only screen and (min-width: 992px) {
   .left-content-teampage {
     padding-right: 70px;
+  }
+
+  .servicesoverviewtitle {
+    padding-left: 0px;
+    padding-top: 120px !important;
   }
 
   #teampagecontainertop {
