@@ -891,7 +891,7 @@ input.form-control{
 
 .background-image-home{
     //background-image: url("http://erg.loc:8888/wp-content/uploads/2019/07/bgwithcovererg.png");
-    background: url("../images/erglogo775px.png"), url("../images/bluehomebg.png");
+    background: url("../images/erglogo775px.png"), url("../images/erghomebg.png");
     background-position: right bottom, center;
     background-repeat: no-repeat, no-repeat;
     background-attachment: absolute, fixed;
@@ -1559,7 +1559,7 @@ textarea::-webkit-input-placeholder {
     }
   }
   @media only screen and (min-width: 601px) {
-    .marginleftproject{
+    .marginleftproject{ 
         margin-left:15%;
     }
   }
@@ -1860,7 +1860,7 @@ textarea::-webkit-input-placeholder {
         padding-left:30px;
     }
     .serviceshometitle{
-        padding-left:6%;
+        padding-left:8%;
     }
     .serviceslinktext{
         padding-left:6%;

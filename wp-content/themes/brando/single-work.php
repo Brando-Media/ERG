@@ -11,7 +11,7 @@ if($colour == "Blue"){
             
             <div class="row">
                 <div class="col-lg-12 projects-home" style="color:white; padding-left:0px;">
-                    <div style="max-width:90%;">
+                    <div  style="/*max-width:90%;*/"-->
                         <div class="worktitlec" style="color:white; font-size: 50px;margin-bottom: 30px;padding-left:15px;font-weight: 300; font-family: 'PangramBlack';font-style: normal;">
                         <div class="fontworksingle" style="padding-left:15px; margin-bottom:30px;"><?php the_post(); the_title(); ?></div>
                         <?php the_content(); ?>
