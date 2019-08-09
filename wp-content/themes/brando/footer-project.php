@@ -37,7 +37,7 @@
                     $('#navbarTogglerDemo02').addClass('show');
                     $('#navbar-header-toggle').removeClass('collapsed')
                 }else{
-                    $("#blueerglogo").attr("src","/wp-content/themes/brando/assets/images/ergblue200.png");
+                    $("#blueerglogo").attr("src","erg/wp-content/themes/brando/assets/images/ergblue200.png");
 
                     console.log("not collapsed");
                     $('.work-template-default').css({"background-image": ''});
