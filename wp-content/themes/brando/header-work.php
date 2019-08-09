@@ -78,7 +78,7 @@
                     <div class="collapse navbar-collapse navbaritemz" id="navbarTogglerDemo02">
                         <ul class="navbar-nav mr-auto mt-2 mt-lg-0 navbarfr">
                         <li class="nav-item">
-                            <a style="color:white; font-weight:bold;" class="nav-link" href="https://brando.media/erg">About <span class="sr-only">(current)</span></a>
+                            <a style="color:white; font-weight:bold;" class="nav-link" href="https://brando.media/erg/#about">About <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
                             <a style="color:white; font-weight:bold;"  class="nav-link" href="https://brando.media/erg/work/Services">Services</a>
@@ -107,7 +107,7 @@
                 <div class="collapse navbar-collapse navbaritemz" id="navbarTogglerDemo02">
                     <ul class="navbar-nav mr-auto mt-2 mt-lg-0 navbarfr">
                     <li class="nav-item">
-                        <a style="color:white; font-weight:bold;" class="nav-link navhover" href="https://brando.media/erg">About <span class="sr-only">(current)</span></a>
+                        <a style="color:white; font-weight:bold;" class="nav-link navhover" href="https://brando.media/erg/#about">About <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
                         <a style="color:white; font-weight:bold;" class="nav-link navhover" href="https://brando.media/erg/work/services/">Services</a>
