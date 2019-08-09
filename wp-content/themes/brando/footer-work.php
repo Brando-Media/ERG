@@ -10,7 +10,8 @@
         <script>
 
             <?php if(!is_singular('work')): ?>
-                
+                $(window).on('load', function(){
+                   
                     console.log(window.location.href);
                     $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
                     console.log("hello");
