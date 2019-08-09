@@ -891,7 +891,7 @@ input.form-control{
 
 .background-image-home{
     //background-image: url("http://erg.loc:8888/wp-content/uploads/2019/07/bgwithcovererg.png");
-    background: url("../images/erglogo775px.png"), url("../images/erghomebg.png");
+    background: url("../images/erglogo775px.png"), url("../images/erghomerealpng.png");
     background-position: right bottom, center;
     background-repeat: no-repeat, no-repeat;
     background-attachment: absolute, fixed;
@@ -1893,6 +1893,11 @@ textarea::-webkit-input-placeholder {
         float:none;
     }
     
+    .tripleimgsize{
+        max-height:650px!important;
+        max-width:450px!important;
+
+    }
     
     
 

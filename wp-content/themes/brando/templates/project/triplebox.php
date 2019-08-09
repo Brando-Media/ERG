@@ -95,68 +95,68 @@ if($topbg == 'No'){
 <div class="row services-experts" style="margin:auto;"> 
     <div class="col-lg-4" >
         
-        <img class="img-fluid w-100" src="<?php echo show_image($services[0]['image']['url'], $services[0]['image']['width'], $services[0]['image']['height'], 75) ?>">
+        <img class="img-fluid w-100 tripleimgsize" src="<?php echo show_image($services[0]['image']['url'], $services[0]['image']['width'], $services[0]['image']['height'], 75) ?>">
         <div class="latest-triple">
             <?php echo $services[0]['title'] ?>  
         </div>
-        <div class="latest-text"> <?php echo $services[0]['content'] ?>  </div>
+        <div class="latest-text tripleimgsize"> <?php echo $services[0]['content'] ?>  </div>
         <div class="link-latest ">
             <a href="<?php echo $services[0]['link_url'] ?> "><?php echo $services[0]['link_text'] ?> </a>
         </div>
     </div>
     <div class="col-lg-4" >
         
-        <img class="img-fluid w-100" src="<?php echo show_image($services[1]['image']['url'], $services[1]['image']['width'], $services[1]['image']['height'], 75) ?>">
+        <img class="img-fluid w-100 tripleimgsize" src="<?php echo show_image($services[1]['image']['url'], $services[1]['image']['width'], $services[1]['image']['height'], 75) ?>">
         <div class="latest-triple">
             <?php echo $services[1]['title'] ?>  
         </div>
-        <div class="latest-text"> <?php echo $services[1]['content'] ?>  </div>
+        <div class="latest-text tripleimgsize"> <?php echo $services[1]['content'] ?>  </div>
         <div class="link-latest ">
             <a href="<?php echo $services[1]['link_url'] ?> "><?php echo $services[1]['link_text'] ?> </a>
         </div>
     </div>
     <div class="col-lg-4" >
         
-        <img class="img-fluid w-100" src="<?php echo show_image($services[2]['image']['url'], $services[2]['image']['width'], $services[2]['image']['height'], 75) ?>">
+        <img class="img-fluid w-100 tripleimgsize" src="<?php echo show_image($services[2]['image']['url'], $services[2]['image']['width'], $services[2]['image']['height'], 75) ?>">
         <div class="latest-triple">
             <?php echo $services[2]['title'] ?>  
         </div>
-        <div class="latest-text"> <?php echo $services[2]['content'] ?>  </div>
+        <div class="latest-text tripleimgsize"> <?php echo $services[2]['content'] ?>  </div>
         <div class="link-latest ">
             <a href="<?php echo $services[2]['link_url'] ?> "><?php echo $services[2]['link_text'] ?> </a>
         </div>
     </div>
 </div>
-<div class="row services-experts"> 
+<div class="row services-experts" style="margin:aut"> 
     <div class="col-lg-4" >
         
-        <img class="img-fluid w-100" src="<?php echo show_image($services[3]['image']['url'], $services[3]['image']['width'], $services[3]['image']['height'], 75) ?>">
+        <img class="img-fluid w-100 tripleimgsize" src="<?php echo show_image($services[3]['image']['url'], $services[3]['image']['width'], $services[3]['image']['height'], 75) ?>">
         <div class="latest-triple">
             <?php echo $services[3]['title'] ?>  
         </div>
-        <div class="latest-text"> <div class="latest-text"> <?php echo $services[3]['content'] ?>  </div></div>
+        <div class="latest-text tripleimgsize"> <div class="latest-text"> <?php echo $services[3]['content'] ?>  </div></div>
         <div class="link-latest ">
             <a href="<?php echo $services[3]['link_url'] ?> "><?php echo $services[3]['link_text'] ?> </a>
         </div>
     </div>
     <div class="col-lg-4" >
         
-        <img class="img-fluid w-100" src="<?php echo show_image($services[4]['image']['url'], $services[4]['image']['width'], $services[4]['image']['height'], 75) ?>">
+        <img class="img-fluid w-100 tripleimgsize" src="<?php echo show_image($services[4]['image']['url'], $services[4]['image']['width'], $services[4]['image']['height'], 75) ?>">
         <div class="latest-triple">
             <?php echo $services[4]['title'] ?>  
         </div>
-        <div class="latest-text">  <?php echo $services[4]['content'] ?>  </div>
+        <div class="latest-text tripleimgsize">  <?php echo $services[4]['content'] ?>  </div>
         <div class="link-latest ">
             <a href="<?php echo $services[4]['link_url'] ?> "><?php echo $services[4]['link_text'] ?> </a>
         </div>
     </div>
     <div class="col-lg-4" >
         
-        <img class="img-fluid w-100" src="<?php echo show_image($services[5]['image']['url'], $services[5]['image']['width'], $services[5]['image']['height'], 75) ?>">
+        <img class="img-fluid w-100 tripleimgsize" src="<?php echo show_image($services[5]['image']['url'], $services[5]['image']['width'], $services[5]['image']['height'], 75) ?>">
         <div class="latest-triple">
             <?php echo $services[5]['title'] ?>  
         </div>
-        <div class="latest-text"> <?php echo $services[5]['content'] ?>  </div>
+        <div class="latest-text tripleimgsize"> <?php echo $services[5]['content'] ?>  </div>
         <div class="link-latest ">
             <a href="<?php echo $services[5]['link_url'] ?> "><?php echo $services[5]['link_text'] ?> </a>
         </div>

@@ -848,7 +848,7 @@ input.form-control ::-ms-input-placeholder {
 }
 
 .background-image-home {
-  background: url("../images/erglogo775px.png"), url("../images/erghomebg.png");
+  background: url("../images/erglogo775px.png"), url("../images/erghomerealpng.png");
   background-position: right bottom, center;
   background-repeat: no-repeat, no-repeat;
   background-attachment: absolute, fixed;
@@ -1823,6 +1823,11 @@ textarea::placeholder {
 
   .navbarfr {
     float: none;
+  }
+
+  .tripleimgsize {
+    max-height: 650px !important;
+    max-width: 450px !important;
   }
 }
 @media only screen and (max-width: 767px) {
