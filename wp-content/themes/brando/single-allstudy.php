@@ -18,7 +18,7 @@ if($colour == "Blue"){
                 if(get_row_layout() == 'content_left_content_right') get_template_part('templates/work/content_left_content_right');
                 if(get_row_layout() == 'imagenobotpadding') get_template_part('templates/work/imagenobotpadding');
 
-                if(get_row_layout() == 'images') get_template_part('templates/casestudy/images');
+                if(get_row_layout() == 'images') get_template_part('templates/allstudy/images');
 
 
                 if(get_row_layout() == 'content') get_template_part('templates/casestudy/content'); 

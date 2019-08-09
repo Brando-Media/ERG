@@ -46,7 +46,7 @@ $sectionName = str_replace(' ', '', strtolower($title));
         © ERG INTERNATIONAL GROUP 2019
         </div>
         <div style="text-align:center; color:white;padding-bottom:20px";>
-        <a class="brandoalink"href="http://www.brando-media.com/">DEVELOPED BY BRANDO MEDIA</a>
+        DEVELOPED BY <a class="brandoalink"href="http://www.brando-media.com/">BRANDO MEDIA</a>
         </div>
 </section>
 <section class="section footerbg"  data-section-name="hello">
