@@ -8,7 +8,7 @@ $linkurl       = get_sub_field('link_url');
 
 <section class="section servicesoverviewbg" data-section-name="hover_images">
     <div style="";>
-    <div class="row services-experts servicesoverviewcontent" style="margin:auto; padding-bottom:100px;"> 
+    <div class="row services-experts servicesoverviewcontent servicespb" style="margin:auto;"> 
     <div class="col-lg-12 servicesoverviewtitle" style="">
     <div class="serviceshometitle" ><?php echo $title?></div>
     <div class="linktext serviceslinktext"> <a class="a20padding" style="color:white; padding-left:0px;" href="<?php echo $linkurl?>"><?php echo $linktext ?></a> </div>
@@ -29,13 +29,13 @@ $linkurl       = get_sub_field('link_url');
                         <img class="img-fluid " style="margin-bottom:20px; max-width:60%!important; top:54px; position: relative; margin-left: auto;margin-right: auto;display: table-cell; vertical-align: middle;" src="<?php echo show_image($servicerow['image']['url'], $servicerow['image']['width'], $servicerow['image']['height'],0.75) ?>"> 
                         </div>
                         <div class="servicescontent">
-                        <h3 style="color:white;"><?php echo $servicerow['title']; ?></h3>
+                        <div class="servicesubtitle" style="color:white;"><?php echo $servicerow['title']; ?></div>
                         <p style="font-size:16px; color:white;"><?php echo $servicerow['content']; ?></p>
                         </div>
                     </div>
                 <?php }else if($servicerow['text_location']=="Top"){ ?>
                     <div class="col-lg-3" style="padding-left:0px; padding-right:0px;">
-                        <div class="servicescontent" style=""><h3 style="color:white;"><?php echo $servicerow['title']; ?></h3>
+                        <div class="servicescontent" style=""><div class="servicesubtitle" style="color:white;"><?php echo $servicerow['title']; ?></div>
                         <p style="font-size:16px; color:white!important;"><?php echo $servicerow['content']; ?></p> </div>
                         <?php if($first != 0){ ?>
                         <div class="servicesimg">

@@ -59,7 +59,7 @@
                     $('.casestudy-template-default').css({"background-image": ''});
 
                 }
-                /*if($('.section').css('display') == 'none'){
+                /*if($('.section').css('display') == 'none'){ 
                     $('.work-template-default').css({"background-image": ''});
                     $('.page-template').css({"background-image": ''});
                 }else{
@@ -85,6 +85,56 @@
             }
 
             $(function() {
+                $('#casepagechange').on('click', function(){
+                    console.log("test");
+                    if($('#casestudyfirst').hasClass('displayedcasestudy')){
+                        $('#casetextid').html("2/2");
+                        //$('#casestudyfirst').css({"display": "none"});
+                        $('#casestudysecond').css({"display": "flex"});
+                        $('#casestudyfirst').removeClass('displayedcasestudy');
+                        document.getElementById('casestudysecond').style.cssText = 'display: flex !important'
+                        document.getElementById('casestudyfirst').style.cssText = 'display: none'
+                    }else{
+                        $('#casetextid').html("1/2");
+                        $('#casestudyfirst').addClass('displayedcasestudy');
+                        document.getElementById('casestudyfirst').style.cssText = 'display: flex !important'
+                        document.getElementById('casestudysecond').style.cssText = 'display: none'
+                        $('#casestudyfirst').addClass('displayedcasestudy');
+                    }
+                });
+
+                $(window).on('resize', function(){
+                    menuMobile();
+                })
+
+
+                function menuMobile(){
+                    if($(window).width() <= 992){
+                        $("#leftcasestudyindi").html("<img src='../../wp-content/themes/brando/assets/images/rightah.png'> PREVIOUS");
+                        $("#rightcasestudyindi").html("NEXT <img src='../../wp-content/themes/brando/assets/images/leftah.png'>");
+                        $("#leftinditeam").html("<img src='../../wp-content/themes/brando/assets/images/rightah.png'> PREVIOUS");
+                        $("#rightinditeam").html("NEXT <img src='../../wp-content/themes/brando/assets/images/leftah.png'>");
+                        $('#marginautoindicase').css({"margin-left":"auto"});
+                        $('#marginautoindicase').css({"margin-right":"auto"});
+                        console.log("gelo");
+                    
+                    }else{
+                        $("#leftcasestudyindi").html("<img src='../../wp-content/themes/brando/assets/images/rightah.png'> PREVIOUS CASE STUDY");
+                        $("#rightcasestudyindi").html("NEXT CASE STUDY <img src='../../wp-content/themes/brando/assets/images/leftah.png'> ");
+                        $("#leftinditeam").html("<img src='../../wp-content/themes/brando/assets/images/rightah.png'> PREVIOUS TEAM MEMBER");
+                        $("#rightinditeam").html("NEXT TEAM MEMBER <img src='../../wp-content/themes/brando/assets/images/leftah.png'> ");
+                        $('#marginautoindicase').css({"margin-left":"-15px"});
+                        $('#marginautoindicase').css({"margin-right":"-15px"});
+                    }
+                }
+                $(window).on('load', function(){
+                    console.log(window.location.href);
+                    $("#mdb-lightbox-ui").load("mdb-addons/mdb-lightbox-ui.html");
+                    console.log("hello");
+                    menuMobile();
+                });
+
+
                 $("[href]").each(function() {
                         console.log(this.href);
                         console.log(this);

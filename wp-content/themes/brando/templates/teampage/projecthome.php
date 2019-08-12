@@ -17,7 +17,7 @@ $projectitle = get_sub_field('project_title');
 <div class="">
     <div class="row d-flex" style="color:#00498d;">
         <?php if($imagePos=='Left'): ?>
-            <div class="col-lg-6 text-center align-self-center left-content-work-block teammemberhome" style="padding-left:0px; padding-right:0px; padding-top:200px; max-width:85%; padding-left:35px;">
+            <div class="col-lg-6 text-center align-self-center left-content-work-block teammemberhome" style="padding-left:0px; padding-right:0px; max-width:85%; /*padding-left:35px;*/">
                 <div class="project-home-image" >
                     <?php if($image): ?>
                         <img class="img-fluid timg-phome" src="<?php echo show_image($image['url'], $image['width'], $image['height']); ?>">
@@ -26,7 +26,7 @@ $projectitle = get_sub_field('project_title');
                 
             </div>
             <div class="col-lg-6 align-self-center project-home-text inditeamtext ftmsection resize-text" style=""> 
-                <?php echo $title ? "<h2 class='title'>{$title}</h2>" : '' ?>
+                <?php echo $title ? "<div class='inditeamtitle'>{$title}</div>" : '' ?>
                 <div class="teampageind-title">
                 <?php echo $projectitle ? "{$projectitle}" : '' ?>
                 </div>
@@ -35,7 +35,7 @@ $projectitle = get_sub_field('project_title');
             </div>
         <?php elseif($imagePos=='Right'): ?>
             <div class="col-lg-6 align-self-center left-content-work-block" style="padding-left:70px;" >
-                <?php echo $title ? "<h2 class='title'>{$title}</h2>" : '' ?>
+                <?php echo $title ? "<div class='inditeamtitle'>{$title}</div>" : '' ?>
                 <div style="font-size:24px;"><?php echo $content; ?></div>
                 <?php echo $contentsmalltext; ?>
             </div>
@@ -64,14 +64,24 @@ $projectitle = get_sub_field('project_title');
 <div class="row project-home-footer col-lg-12" style="display: -webkit-box; margin:auto; margin-top:10%;">
     <div class="col-lg-6 align-self-center marginleftproject teamhomearrows" style="max-width:50%;">
     <?php if(!empty($previoustext)){ ?>
-            <a style="font-family: Helvetica;color: #00498D; width:30%;" href="#home"><img src="../../wp-content/themes/brando/assets/images/rightah.png"> <?php echo $previoustext?> </a>
     <?php } ?>
         </div>
     <div class="col-lg-6 align-self-center" style="max-width:50%;">
     <?php if(!empty($nexttext)){ ?>
-            <a style="font-family: Helvetica; color: #00498D; width:30%;" href="#home"><?php echo $nexttext?> <img src="../../wp-content/themes/brando/assets/images/leftah.png"></a>
     <?php } ?>
         
     </div>
 </div>
+<div class="row d-flex casenavhide indicasepad marginautoindicase" id="marginautoindicase" style="margin:auto;">
+        <?php if(!empty($previoustext)){ ?> 
+            <div class="indicasenavtext" style="width:50vw;" >
+                <a style="font-family: Helvetica;color: #00498D!important;" href="<?php echo $previousurl ?>"><div class="leftindipad" id="leftinditeam"> <img src="../../wp-content/themes/brando/assets/images/rightah.png"> <?php echo $previoustext ?></div></a>
+            </div>
+        <?php } ?>
+        <?php if(!empty($nexttext)){ ?>
+            <div id="" class="indicasenavtext" style="width:50vw;" >
+            <a style="font-family: Helvetica; color: #00498D!important;" href="<?php echo $nexturl ?>"><div class="rightindipad" id="rightinditeam"> <?php echo $nexttext ?> <img src="../../wp-content/themes/brando/assets/images/leftah.png"></div> </a>
+            </div>
+        <?php } ?>
+        </div>
 </section>

@@ -7,7 +7,7 @@ if($colour == "Blue"){
     get_header('work'); 
 } ?>
     <section class="section servicesoverviewbgright" style="min-height: 675px;">
-        <div class="container container--small main-content">
+        <div class="container container--small main-content serviceshometext">
             
             <div class="row">
                 <div class="col-lg-12 projects-home" style="color:white; padding-left:0px;">

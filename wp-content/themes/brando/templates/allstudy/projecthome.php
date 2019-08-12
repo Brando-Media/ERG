@@ -96,7 +96,7 @@ $nexturl = get_sub_field('next_url');
                 </div>
                 
             </div>
-            <div class="col-lg-6 align-self-center project-home-text inditeamtext ftmsection resize-text" style="margin:auto;"> 
+            <div class="col-lg-6 align-self-center project-home-text inditeamtext ftmsection resize-text M90L" style="margin:auto;"> 
                 <?php echo $title ? "<div class='indicase-title'>{$title}</div>" : '' ?>
                 <div class="indicase-text" style="">
                 <?php echo $projectitle ? "{$projectitle}" : '' ?>
@@ -119,15 +119,15 @@ $nexturl = get_sub_field('next_url');
     </div>
 </div>
 
-<div class="row d-flex casenavhide indicasepad">
+<div class="row d-flex casenavhide indicasepad marginautoindicase" id="marginautoindicase">
         <?php if(!empty($previoustext)){ ?> 
-            <div class="casenavtext" id="casetextid">
-                <a style="font-family: Helvetica;color: #00498D!important;" href="<?php echo $previousurl ?>"><img src="../../wp-content/themes/brando/assets/images/rightah.png"> <?php echo $previoustext ?></a>
+            <div class="indicasenavtext" style="width:50vw;" >
+                <a style="font-family: Helvetica;color: #00498D!important;" href="<?php echo $previousurl ?>"><div class="leftindipad" id="leftcasestudyindi"> <img src="../../wp-content/themes/brando/assets/images/rightah.png"><?php echo $previoustext ?></div></a>
             </div>
         <?php } ?>
         <?php if(!empty($nexttext)){ ?>
-            <div id="casepagechange" class="casenavtext">
-            <a style="font-family: Helvetica; color: #00498D!important;" href="<?php echo $nexturl ?>"><?php echo $nexttext ?> <img src="../../wp-content/themes/brando/assets/images/leftah.png"></a>
+            <div id="" class="indicasenavtext" style="width:50vw;" >
+            <a style="font-family: Helvetica; color: #00498D!important;" href="<?php echo $nexturl ?>"><div class="rightindipad" id="rightcasestudyindi"> <?php echo $nexttext ?><img src="../../wp-content/themes/brando/assets/images/leftah.png"></div> </a>
             </div>
         <?php } ?>
         </div>

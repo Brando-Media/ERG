@@ -10,14 +10,14 @@ $sectionName = str_replace(' ', '', strtolower($title));
 ?>
 <section class=" redbg newbg  ergtextfooter" style="min-height:600px;" data-section-name="hello" id="contact">
     <div class="container global--small align-self-center" style="padding-top:30px;">
-        <div class="row col-lg-10" style="margin:auto;">
+        <div class="row col-lg-10 contactma">
             
             <div class="col-lg-4" style="margin-top:10px;">
-            <div class="footerlink-title" style="margin-bottom:14px;">Important Links</div>
+            <div class="footerlink-title footermarginb" >Important Links</div>
                 <div class="contact-details">
                     <?php foreach($services as $servicerow){ ?>
                         <div class="col-lg-12" style="padding-left:0px;padding-bottom:15px;">
-                            <a style="color: white; font-weight:400;" href="<?php echo $servicerow['text_url'] ?>"><?php echo $servicerow['text'] ?></a>
+                            <a style="color: white; font-weight:500;" href="<?php echo $servicerow['text_url'] ?>"><?php echo $servicerow['text'] ?></a>
                         </div>
                     <?php } ?>
                 </div>
@@ -37,15 +37,15 @@ $sectionName = str_replace(' ', '', strtolower($title));
                 </div>
             </div>
             <div class="col-lg-4 contact-form" style="margin-top:10px;">
-            <div style="margin-bottom:15px;"class="footerlink-title">Make an enquiry</div>
+            <div class="footerlink-title footermarginb">Make an enquiry</div>
                 <div style="padding-left:15px;"><?php echo do_shortcode('[contact-form-7 id="11" title="Contact Form"]') ?></div>
             </div>
         </div>
     </div>
-    <div style="text-align:center; color:white; font-size:12px;">
+    <div class="brandoctext" style="text-align:center; color:white; font-size:12px;">
         © ERG INTERNATIONAL GROUP 2019
         </div>
-        <div style="text-align:center; color:white;padding-bottom:20px; font-size:12px;";>
+        <div class="brandofooterpad brandoctext" style="text-align:center; color:white;font-size:12px;";>
         DEVELOPED BY <a class="brandoalink"href="http://www.brando-media.com/">BRANDO MEDIA</a>
         </div>
 </section>

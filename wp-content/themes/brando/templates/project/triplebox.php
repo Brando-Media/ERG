@@ -13,9 +13,9 @@ if($topbg == 'No'){
 ?>
 <?php if($triplestyle == "case_studies"){?>
  
-    <div class="container container--small align-self-center" id="teampagecontainertop" style="margin: auto;">
+    <div class="container container--small align-self-center" id="teampagecontainertop" style="margin: auto; padding-bottom:50px;">
 
-<div class="row services-experts"> 
+<div class="row services-experts casestudyfirst displayedcasestudy" id="casestudyfirst"> 
     <div class="col-lg-4 teamtriplecol" >
         
         <img class="img-fluid w-100" src="<?php echo show_image($services[0]['image']['url'], $services[0]['image']['width'], $services[0]['image']['height'], 75) ?>">
@@ -50,7 +50,7 @@ if($topbg == 'No'){
         </div>
     </div>
 </div>
-<div class="row services-experts"> 
+<div class="row services-experts casestudysecond" id="casestudysecond"> 
     <div class="col-lg-4 teamtriplecol" >
         
         <img class="img-fluid w-100" src="<?php echo show_image($services[3]['image']['url'], $services[3]['image']['width'], $services[3]['image']['height'], 75) ?>">
@@ -84,7 +84,17 @@ if($topbg == 'No'){
             <a href="<?php echo $services[5]['link_url'] ?> "><?php echo $services[5]['link_text'] ?> </a>
         </div>
     </div>
+    
 </div>
+
+        <div class="row d-flex casenavhide" style='margin-bottom:20px;'>
+            <div class="casenavtext" id="casetextid">
+                1/2
+            </div>
+            <div id="casepagechange" class="casenavtext">
+                NEXT <img src="../../wp-content/themes/brando/assets/images/leftah.png" >
+            </div>
+        </div>
 
 
 <?php } else if($triplestyle=="latest_news"){ ?>
@@ -237,6 +247,8 @@ if($topbg == 'No'){
         </div>
     </div>
 </div>
+
+
 
 
 <?php }else{ ?>

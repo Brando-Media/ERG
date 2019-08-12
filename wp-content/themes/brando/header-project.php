@@ -41,7 +41,7 @@
    
        <div class="container clearfix header-toggle-white header-div"  style="margin-top:20px; margin-left:60px; max-width:1400px;">
            <a href="http://brando.media/erg#home" id="logo" class="float-left">
-               <img id="blueerglogo" style="max-width:100px;" class="white-logo" src="<?php bloginfo('template_url') ?>/assets/images/ergblue200.png" alt="erg" title="Brando Media" />
+               <img id="blueerglogo" style="max-width:100px; margin-top:6px;" class="white-logo" src="<?php bloginfo('template_url') ?>/assets/images/ergblue200.png" alt="erg" title="Brando Media" />
                <img class="red-logo" src="<?php bloginfo('template_url') ?>/assets/images/ergblue200.png" alt="erg" title="Brando Media" />
            </a>
            <!--<nav class="navbar navbar-expand-lg navbar-light navbar-brand" >

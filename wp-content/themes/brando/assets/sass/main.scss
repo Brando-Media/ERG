@@ -19,6 +19,8 @@ html, body {
 html{
     overflow-x:hidden;
 }
+
+
 body {
     font-family: 'Pangram';
     font-weight: normal;
@@ -347,6 +349,7 @@ p, .main-content ul{
     font-family: Helvetica;
     font-size: 45px;
     color: #00498D;
+    font-weight:300;
     line-height: 60px;
 }
 
@@ -577,7 +580,7 @@ textarea.form-control{
     height: 220px;
     resize: none;
     font-size: 15px;
-    font-family: 'Helvetica';
+    font-family: Helvetica;
     font-weight: 100;
     font-style: normal;
     padding: 10px;
@@ -586,11 +589,12 @@ textarea.form-control{
     box-shadow: none!important;
 }
 
+
 .contact-us-text{
     font-family: Helvetica;
     font-size: 15px;
     color: #FFFFFF;
-    font-weight:100;
+    font-weight:400;
 }
 .accordionproject {
     font-family: Helvetica;
@@ -627,6 +631,7 @@ textarea.form-control{
     font-size:16px;
   }
   
+  
   .panelproject {
     padding: 0 18px;
     background-color: white;
@@ -635,11 +640,12 @@ textarea.form-control{
     transition: max-height 0.2s ease-out;
   }
 
+
 input.form-control{
     height: 35px;
     font-size: 15px;
-    font-family: 'Helvetica';
-    font-weight: 100;
+    font-family: Helvetica!important;
+    font-weight: 100!important;
     font-style: normal;
     padding: 10px;
     padding-bottom:0px;
@@ -927,7 +933,13 @@ input.form-control{
     text-align: left;
     line-height: 25px;
 }
-
+.inditeamtitle{
+    font-family: Helvetica;
+    font-size: 25px;
+    color: #00498D;
+    line-height: 60px;
+    font-weight:600;
+}
 .servicesoverviewbg{
     background-repeat:no-repeat;
     background-image: linear-gradient(to bottom, rgba(0,160,219,0.8), rgba(0,73,144,0.8));
@@ -963,12 +975,18 @@ input.form-control{
     min-height:200px;
 } 
 
+.brandoctext{
+    font-family: Helvetica;
+    font-size: 12px;
+    color: #FFFFFF;
+}
+
 .footerlink-title{
     font-family: Helvetica;
     font-size: 25px;
     color: #FFFFFF;
     margin-top:15px;
-    font-weight:500;
+    font-weight:600;
 }
 
 
@@ -989,16 +1007,7 @@ input.form-control{
     z-index:3;
 }
 
-.newbg{
-    background: url("../images/erglogo775px.png"), url("../images/contactbg.png");
-    background-position: right bottom, center;
-    background-repeat: no-repeat, no-repeat;
-    background-attachment: absolute, fixed;
-    background-size: auto, cover;
-/*
-    background-repeat:no-repeat;
-    background-image: linear-gradient(to bottom, rgba(0,128,193,0.8), rgba(0,79,147,0.8));*/
-}
+
 
 .footerbg{
     background:#00498D;
@@ -1266,6 +1275,7 @@ textarea::-webkit-input-placeholder {
     font-size: 16px;
     color: #33B3E3;
     letter-spacing: 2px;
+    font-weight: 900;
 }
 
 .teampageind-content{
@@ -1523,6 +1533,14 @@ textarea::-webkit-input-placeholder {
     }
   }
 
+  .casenavtext{
+    font-family: Helvetica;
+    font-size: 16px;
+    color: #00498D;
+    width:40vw;
+    text-align:right;
+  }
+
   .navonpage{
     font-family: Helvetica;
     font-size: 16px;
@@ -1530,6 +1548,60 @@ textarea::-webkit-input-placeholder {
   }
 
   @media only screen and (min-width: 992px) {
+      
+
+      .M90L{
+          margin-left:90;
+      }
+      .indicasepad{
+          margin-top:85px;
+          margin-bottom:50px;
+      }
+      .casestudysecond{
+          display:flex;
+      }
+        .casenav{
+            display:none;
+        }
+      .bg640{
+          height: 640px!important;
+      }
+
+    .serviceshometext{
+        padding-left:15px;
+        margin-left:auto;
+        margin-right:auto;
+        max-width:85%;
+    }
+
+    .servicespb{
+        padding-bottom:100px;
+    }
+
+    .footermarginb{
+        margin-bottom:15px;
+    }
+
+    .contactma{
+        margin:auto;
+        padding-left:15px!important;
+    }
+
+    .newbg{
+        background: url("../images/erglogo775px.png"), url("../images/contactbg.png");
+        background-position: right bottom, center;
+        background-repeat: no-repeat, no-repeat;
+        background-attachment: absolute, fixed;
+        background-size: auto, cover;
+    /*
+        background-repeat:no-repeat;
+        background-image: linear-gradient(to bottom, rgba(0,128,193,0.8), rgba(0,79,147,0.8));*/
+    }
+
+    .brandofooterpad{
+        padding-bottom:20px; 
+    }
+    
 
     .timg-phome{
         padding:25px;
@@ -1558,6 +1630,7 @@ textarea::-webkit-input-placeholder {
     .p100l{
         padding-left:100px;
     }
+    
     .maxwidth16{
         max-width:16.666667vw;
         min-width:16.666667vw;
@@ -1645,8 +1718,103 @@ textarea::-webkit-input-placeholder {
   }
   
   @media only screen and (max-width: 991px) {
+    .filter-padding{
+        padding-right:20px!important;
+        padding-left:20px!important;
+        padding-bottom:65px;
+        padding-top:65px;
+    }
+      .teampagetriplerow{
+        margin:auto!important;
+        max-width:335px;
+    }
+      .teampagemobilepad{
+          padding-bottom:30px!important;
+      }
+    .leftindipad{
+        text-align:left;
+        padding-left:30px;
+    }
+    .rightindipad{
+      text-align:right;
+      padding-right:30px;
+    }
+    .indicasenavtext{
+        font-family: Helvetica;
+        font-size: 16px;
+        color: #00498D;
+        width:50vw;
+        text-align:right;
+      }
+    .M90L{
+        margin-left:auto;
+    }
+    .marginautoindicase{
+        margin:auto;
+    }
+    .indicasepad{
+        margin-top:85px;
+        margin-bottom:50px;
+    }
+      .hideonmobile{
+          display:none!important;
+      }
+    .casenavhide{
+        display:flex;
+    }
+    .casestudysecond{
+        display:none!important;
+    }
+    .bg640{
+        height: auto!important;
+    }
+    .bgwidthcontent{
+       
+        height:600px;
+        background-size: 50%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-position: left;
+    }
+    .bgwidthcontentright{
+       
+        height:600px;
+        background-size: 50%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+
+    .serviceshometext{
+        padding-left:0px!important;
+        margin-left:0px!important;
+        margin-right:auto;
+        max-width:100%!important;
+    }
+    .servicespb{
+        padding-bottom:50px;
+    }
+    .footermarginb{
+        margin-bottom:0px;
+    }
+    .newbg{
+        background: url("../images/erg320logo.png"), url("../images/contactbg.png");
+        background-position: right bottom, center;
+        background-repeat: no-repeat, no-repeat;
+        background-attachment: absolute, fixed;
+        background-size: auto, cover;
+    /*
+        background-repeat:no-repeat;
+        background-image: linear-gradient(to bottom, rgba(0,128,193,0.8), rgba(0,79,147,0.8));*/
+    }
+    .brandofooterpad{
+        padding-bottom:120px; 
+    }
+    
     .teammemberhome{
-        padding-left:0px; padding-right:0px; padding-top:200px; max-width:85%; margin:auto;
+        padding-left:0px; padding-right:0px; padding-top:125px; max-width:85%; margin:auto;
     }
     .timg-phome{
         padding:0px;
@@ -1668,9 +1836,10 @@ textarea::-webkit-input-placeholder {
         }
     }
     .servicescontentwithimage{
-        display:none;
+        //display:none;
         min-width:50vw;
         margin:auto;
+        
     }
     .maxwidth16{
         max-width:50vw;
@@ -1867,12 +2036,7 @@ textarea::-webkit-input-placeholder {
         font-weight: 600;
     }
 
-    .filter-padding{
-        padding-right:100px!important;
-        padding-left:100px!important;
-        padding-bottom:65px;
-        padding-top:65px;
-    }
+  
 
 .navbar-toggler-icon{
     background-image: url("../images/whitearrows.png")!important;
@@ -1909,7 +2073,7 @@ textarea::-webkit-input-placeholder {
       padding-top:250px;
       max-width:950px;
       margin-right:3%;
-      //padding-left:25%;
+      //padding-left:25%; 
       //position: relative;
 }
 
@@ -1919,6 +2083,17 @@ textarea::-webkit-input-placeholder {
 
 
 @media only screen and (max-width: 991px){
+    .teampagetriplerow{
+        margin:auto;
+        max-width:335px;
+    }
+    .teampagephoto{
+        max-width: 335px!important;
+    }
+    .contactma{
+        margin:none;
+        padding-left:0px!important;
+    }
     .servicesmarginl{
         margin-left:40px;
         margin-right:0px;
@@ -1979,6 +2154,13 @@ textarea::-webkit-input-placeholder {
         max-width:85%; 
         height:auto;
     }
+
+    .servicesubtitle{
+        font-family: Helvetica;
+        font-size: 20px;
+        color: #FFFFFF;
+        font-weight:600;
+    }
     .frontpagetitle{
         padding-left:10%;
         font-size:30px;
@@ -1993,10 +2175,10 @@ textarea::-webkit-input-placeholder {
         padding-left:30px;
     }
     .serviceshometitle{
-        padding-left:6%;
+        padding-left:8%;
     }
     .serviceslinktext{
-        padding-left:6%;
+        padding-left:8%;
     }
 
     .a20padding{
@@ -2039,9 +2221,25 @@ textarea::-webkit-input-placeholder {
     .casestudymainimage{
         min-width:100vw;
       }
+      .hideonmobilelate{
+          display:none;
+      }
+      .from50to100{
+          max-width:100vw!important;
+      }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .from50to100{
+        max-width:50vw!important;
+    }
 }
 
+
 @media only screen and (min-width: 768px){
+    .hideonmobilelate{
+        display:block;
+    }
+    
     .small-project-home{
         width:25vw;
     }
@@ -2100,8 +2298,94 @@ textarea::-webkit-input-placeholder {
     padding-top:15px;
 }
 
+.strongwordpress strong{
+    font-family: Helvetica;
+    font-size: 20px;
+    color: #FFFFFF;
+    text-align: left;
+    line-height: 25px;
+    font-weight: 500;
+}
+
+.strongwordpress p{
+    font-family: Helvetica;
+    font-size: 14px;
+    font-weight:300;
+    
+}
+
 
 @media only screen and (min-width: 992px){
+    .filter-padding{
+        padding-right:100px!important;
+        padding-left:100px!important;
+        padding-bottom:65px;
+        padding-top:65px;
+    }
+
+    .teampagetriplerow{
+        margin:auto;
+        max-width:initial;
+    }
+    .teampagephoto{
+        max-width: 100%;
+    }
+    .teampagemobilepad{
+        padding-bottom:100px;
+    }
+    .leftindipad{
+        text-align:center;
+        padding-left:30px;
+        margin: auto;
+    }
+    .rightindipad{
+      text-align:center;
+      padding-right:30px;
+      margin: auto;
+    }
+    .indiasenavtext{
+        font-family: Helvetica;
+        font-size: 16px;
+        color: #00498D;
+        width:40vw;
+        text-align:right;
+      }
+    .marginautoindicase{
+        margin:none;
+    }
+    
+    .from50to100 {
+            max-width: auto;
+            min-width: auto;
+    }
+    .hideonmobile{
+        display:block;
+    }
+    .hideonmobilelate{
+        display:block;
+    }
+    .casenavhide{
+        display:none;
+    }
+    .bgwidthcontent{
+        height: -webkit-fill-available;
+        height: moz-availabe;
+        background-size: 50%;
+        //background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-position: left;
+    }
+    .bgwidthcontentright{
+        height: -webkit-fill-available;
+        height: moz-availabe;
+        background-size: 50%;
+        //background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-position: right;
+    }
+
     .teamhomearrows{
         max-width: 50%;
     }
@@ -2121,7 +2405,26 @@ textarea::-webkit-input-placeholder {
     .servicescontentwithimage{
         display:block;
         min-width:50vw;
+        max-width:50vw;
         margin:auto;
+    }
+
+    .servicescontentwithimageright{
+        display:block;
+        min-width:50vw;
+        max-width:50vw;
+        margin:auto;
+        margin-left:0px;
+        height:640px;
+    }
+
+    .servicescontentwithimageleft{
+        display:block;
+        min-width:50vw;
+        max-width:50vw;
+        margin:auto;
+        margin-right:0px;
+        height:640px;
     }
     .servicesoverviewtitle{
         padding-left:0px!important; 
