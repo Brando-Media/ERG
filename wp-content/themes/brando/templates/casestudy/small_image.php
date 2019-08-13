@@ -10,12 +10,12 @@ $nexturl = get_sub_field('next_url');
 ?>
 
 <section class="section  d-flex" data-section-name="<?php echo $sectionName; ?>">
-<div class="container container--small" style="padding-bottom:10px!important; padding-top:0px;">
+<div class="container container--small firstblogstylesmall" style="padding-bottom:10px!important; padding-top:0px;">
 
         <h2 class="main-title" style="color:white"><?php echo $dtitle?></h2>
             <div class="col-lg-10" >
                     
-                        <div class="col-lg-8 main-middletext">
+                        <div class="col-lg-8 main-middletext smallindividualblogpad" style="padding:0;">
                         <img class="img-fluid w-100" src="<?php echo show_image($image['url'], $image['width'], $image['height'], 75) ?>">
 
                         <div class="mainimage-title">
@@ -27,24 +27,18 @@ $nexturl = get_sub_field('next_url');
                     <div class="mainimage-text">
                         <?php echo $smalltext ?>
                     </div>
-                    <div class="row d-flex main-footer" style="min-width:100%;">
-                    <div class="col-lg-6 align-self-center">
-                    <?php if(!empty($previoustext)){ ?>
-                        <a href="<?php echo $previousurl ?>"><?php echo $previoustext ?></a>
+                    <div class="row d-flex casenavhide latestnavpad">
+                    <?php if(!empty($previoustext)){ ?> 
+                        <div class="indiblognavtextleft" id="indiblogleft">
+                            <a style="font-family: Helvetica;color: #00498D!important;" href="<?php echo $previousurl ?>"><img src="../../wp-content/themes/brando/assets/images/rightah.png"> <?php echo $previoustext ?></a>
+                        </div>
+                    <?php } ?>
+                    <?php if(!empty($nexttext)){ ?>
+                        <div class="indiblognavtextright" id="indiblogright" >
+                        <a style="font-family: Helvetica; color: #00498D!important;" href="<?php echo $nexturl ?>"><?php echo $nexttext ?> <img src="../../wp-content/themes/brando/assets/images/leftah.png"></a>
+                        </div>
                     <?php } ?>
                     </div>
-                    <div class="col-lg-6" style="text-align:right;">
-                    <?php if(!empty($nexttext)){ ?>
-                        <a href="<?php echo $nexturl ?>"><?php echo $nexttext ?></a>
-                    <?php } ?>    
-                    </div>
-                </div>
             </div>
-                </div>
-
-
-               
-
-    
-           
+            </div>  
 </section>

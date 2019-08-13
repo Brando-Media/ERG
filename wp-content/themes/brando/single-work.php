@@ -39,7 +39,7 @@ if($colour == "Blue"){
             }
         }
         ?>
-    <div class="section footerbg"  data-section-name="hello" style="min-height:20px;">    
+    <div class="section footerbg sectionservicefooter"  data-section-name="hello" style="min-height:20px;">    
     </div>
     <?php 
 if($colour == "Blue"){

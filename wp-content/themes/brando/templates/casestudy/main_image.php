@@ -6,14 +6,14 @@ $main_image = get_sub_field('main_image');
 ?>
 
 <section class="section  d-flex" data-section-name="<?php echo $sectionName; ?>">
-<div class="container container--small" style="padding-bottom:10px!important;">
+<div class="container container--small firstblogstylemain" style="padding-bottom:10px!important;">
 
         <h2 class="main-title" style="color:white"><?php echo $dtitle?></h2>
-            <div class="col-lg-10" >
+            <div class="col-lg-10 indiblogpadlg10">
                     
-                        <img class="img-fluid w-100" src="<?php echo show_image($main_image['url'], $main_image['width'], $main_image['height'], 75) ?>">
-                        <div class="col-lg-8 main-middletext">
-                        <div class="mainimage-title">
+                    <img class="img-fluid w-100" src="<?php echo show_image($main_image['url'], $main_image['width'], $main_image['height'], 75) ?>">
+                    <div class="col-lg-8 main-middletext">
+                    <div class="indiblogtitle indiblogpadtop">
                         <?php echo $title ?>
                     </div>
                     <div class="mainimage-bigtext">

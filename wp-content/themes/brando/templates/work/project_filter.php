@@ -19,7 +19,7 @@ $first = 0;
                     <div class="panelproject">
                     <?php foreach($servicerow as $projectrow){ ?>
                         <?php foreach($projectrow as $row){ ?>
-                            <div style="padding-bottom:25px;"> <a style="color: #33B3E3!important;" onMouseOver="this.style.color='#00498D';" onMouseOut="this.style.color='#33B3E3'" href="<?php echo $row['project_url'] ?>"><?php echo $row['project_title'] ?></a> </div>
+                            <div style="padding-bottom:25px;"> <a class="hoverremoveactive" style="color: #33B3E3!important;" onMouseOver="this.style.color='#00498D';" onMouseOut="this.style.color='#33B3E3'" href="<?php echo $row['project_url'] ?>"><?php echo $row['project_title'] ?></a> </div>
                         <?php } ?>
                     <?php } ?>
                     </div>
@@ -28,7 +28,7 @@ $first = 0;
                     <div class="panelproject">
                     <?php foreach($servicerow as $projectrow){ ?>
                         <?php foreach($projectrow as $row){ ?>
-                            <div style="padding-bottom:25px;"> <a style="color: #33B3E3!important;" onMouseOver="this.style.color='#00498D';" onMouseOut="this.style.color='#33B3E3'" href="<?php echo $row['project_url'] ?>"><?php echo $row['project_title'] ?></a> </div>
+                            <div style="padding-bottom:25px;"> <a class="hoverremoveactive"  style="color: #33B3E3!important;" onMouseOver="this.style.color='#00498D';" onMouseOut="this.style.color='#33B3E3'" href="<?php echo $row['project_url'] ?>"><?php echo $row['project_title'] ?></a> </div>
                         <?php } ?>
                     <?php } ?>
                     </div>

@@ -109,11 +109,15 @@
 
 
                 function menuMobile(){
-                    if($(window).width() <= 992){
+                    if($(window).width() <= 991){
                         $("#leftcasestudyindi").html("<img src='../../wp-content/themes/brando/assets/images/rightah.png'> PREVIOUS");
                         $("#rightcasestudyindi").html("NEXT <img src='../../wp-content/themes/brando/assets/images/leftah.png'>");
                         $("#leftinditeam").html("<img src='../../wp-content/themes/brando/assets/images/rightah.png'> PREVIOUS");
                         $("#rightinditeam").html("NEXT <img src='../../wp-content/themes/brando/assets/images/leftah.png'>");
+                        $("#leftprojectindi").html("<img src='../../wp-content/themes/brando/assets/images/rightah.png'> PREVIOUS");
+                        $("#rightprojectindi").html("NEXT <img src='../../wp-content/themes/brando/assets/images/leftah.png'>");
+                        $("#indiblogleft").html("<img src='../../wp-content/themes/brando/assets/images/rightah.png'> PREVIOUS");
+                        $("#indiblogright").html("NEXT <img src='../../wp-content/themes/brando/assets/images/leftah.png'>");
                         $('#marginautoindicase').css({"margin-left":"auto"});
                         $('#marginautoindicase').css({"margin-right":"auto"});
                         console.log("gelo");
@@ -123,6 +127,10 @@
                         $("#rightcasestudyindi").html("NEXT CASE STUDY <img src='../../wp-content/themes/brando/assets/images/leftah.png'> ");
                         $("#leftinditeam").html("<img src='../../wp-content/themes/brando/assets/images/rightah.png'> PREVIOUS TEAM MEMBER");
                         $("#rightinditeam").html("NEXT TEAM MEMBER <img src='../../wp-content/themes/brando/assets/images/leftah.png'> ");
+                        $("#rightprojectindi").html("NEXT PROJECT <img src='../../wp-content/themes/brando/assets/images/leftah.png'> ");
+                        $("#leftprojectindi").html("<img src='../../wp-content/themes/brando/assets/images/rightah.png'> PREVIOUS PROJECT");
+                        $("#indiblogright").html("NEXT BLOG POST <img src='../../wp-content/themes/brando/assets/images/leftah.png'> ");
+                        $("#indiblogleft").html("<img src='../../wp-content/themes/brando/assets/images/rightah.png'> PREVIOUS BLOG POST");
                         $('#marginautoindicase').css({"margin-left":"-15px"});
                         $('#marginautoindicase').css({"margin-right":"-15px"});
                     }
@@ -136,12 +144,18 @@
 
 
                 $("[href]").each(function() {
-                        console.log(this.href);
-                        console.log(this);
+                        //console.log(this.href);
+                        //console.log(this);
                         if (this.href == window.location.href) {
                             $(this).addClass("activenavwhite");
-                            console.log("hreffound");
+                            //console.log("hreffound");
                         }
+                    });
+                    $count=0;
+                    $(".ctf-item").each(function() {
+                        $(this).addClass("tweetdisplay" + $count);
+                        $count++;
+                        console.log($count);
                     });
                 <?php if(!is_singular('work')): ?>
                     $('#main-menu ul li a').on('click', function (e) {

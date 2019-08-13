@@ -558,6 +558,7 @@ p, .main-content ul{
     font-size: 45px;
     color: #FFFFFF;
     line-height: 60px;
+    font-weight: 400;
 }
 
 .largefonttext{
@@ -566,6 +567,7 @@ p, .main-content ul{
     color: #FFFFFF;
     text-align: left;
     line-height: 25px;
+    font-weight: 400;
 }
 
 .servicescontent p{
@@ -590,28 +592,8 @@ textarea.form-control{
 }
 
 
-.contact-us-text{
-    font-family: Helvetica;
-    font-size: 15px;
-    color: #FFFFFF;
-    font-weight:400;
-}
-.accordionproject {
-    font-family: Helvetica;
-    font-size: 20px!important;
-    color: #00498D!important;
-    line-height: 25px;
-    background:white;
-    color: #444;
-    cursor: pointer;
-    padding: 18px;
-    width: 100%;
-    border: none;
-    text-align: left;
-    outline: none;
-    font-size: 15px;
-    transition: 0.4s;
-  }
+
+
   
   .activeproject, .accordionproject:hover {
     background-color: white;
@@ -1079,9 +1061,7 @@ textarea::-webkit-input-placeholder {
   }
   textarea::placeholder {color: #fff!important;}
 
-  .projects-home{
-      margin-top:100px;
-  }
+
 
   .projects-collapsible {
     //background-color: #777;
@@ -1159,6 +1139,8 @@ textarea::-webkit-input-placeholder {
       padding:25px;
       border: 2px solid #00498D;
   }
+
+ 
 
 
 
@@ -1292,7 +1274,16 @@ textarea::-webkit-input-placeholder {
     line-height: 60px;
 }
 
+
+
 .mainimage-bigtext{
+    font-family: Helvetica;
+    font-size: 20px;
+    color: #00498D;
+    line-height: 25px;
+    margin-bottom:10px;
+}
+.mainimage-bigtext p{
     font-family: Helvetica;
     font-size: 20px;
     color: #00498D;
@@ -1301,6 +1292,13 @@ textarea::-webkit-input-placeholder {
 }
 
 .mainimage-text{
+    font-family: Helvetica;
+    font-size: 14px;
+    color: #00498D;
+    line-height: 25px;
+}
+
+.mainimage-text p{
     font-family: Helvetica;
     font-size: 14px;
     color: #00498D;
@@ -1344,13 +1342,7 @@ textarea::-webkit-input-placeholder {
   }
 
 
-  .ctf-tweets{
-    display: flex;
-    -ms-flex-wrap: wrap;
-    flex-wrap: wrap;
-    margin-right: -15px;
-    margin-left: -15px;
-  }
+ 
 
   
 
@@ -1431,15 +1423,7 @@ textarea::-webkit-input-placeholder {
     }
   }
 
-.latestnews-title{
-    font-family: Helvetica;
-    font-size: 45px;
-    color: #00498D;
-    line-height: 60px;
-    padding-left:14px;
-    padding-top:150px;
-    padding-bottom:40px;
-}
+
 
 .latest-title{
     font-family: Helvetica;
@@ -1483,6 +1467,12 @@ textarea::-webkit-input-placeholder {
 
 
 @media only screen and (min-width: 601px) {
+    .firstblogstylesmall{
+        
+    }
+    .tweetdisplay2{
+        display:none;
+    }
     .project-text-w{
         max-width:500px; padding-top:0px; margin:auto;
     }
@@ -1493,13 +1483,54 @@ textarea::-webkit-input-placeholder {
     .ctf-item{
         max-width:50%;
         border-top:none!important;
+        padding-left: 5px!important;
+    }
+    .indiblogpadlg10{
+        padding-left:15px;
+        padding-right:15px;
     }
   }
 
   @media only screen and (max-width: 600px) {
+      .indiblagtriplepadleft{
+          margin-left:0px!important;
+      }
+      .firstindirelatedtoppad{
+          padding-top:30px!important;
+      }
+    .smallindividualblogpad{
+        padding:0!important;
+    }
+      .indiblogpadlg10{
+          padding:0!important;
+      }
+    .firstblogstylemain{
+        padding-bottom: 10px!important;
+        margin: 0;
+        max-width: 100vw;
+        min-width: 100%;
+        padding: 0;
+        /* padding-right: 100px; */
+        width: 100%;
+        padding-top: 100px!important;
+        padding-left:0px!important;
+        padding-right:0px!important;
+    }
+    .firstblogstylesmall{
+        padding-bottom: 10px!important;
+        margin: 0;
+        max-width: 100vw;
+        min-width: 100%;
+        padding: 0;
+        /* padding-right: 100px; */
+        width: 100%;
+        padding-left:0px!important;
+        padding-right:0px!important;
+    }
     .ctf-item{
         max-width:100%;
         border-top:none!important;
+        padding-left: 20px!important;
     }
     .project-text-w{
         max-width:300px; padding-top:0px; margin:auto;
@@ -1539,15 +1570,126 @@ textarea::-webkit-input-placeholder {
     color: #00498D;
     width:40vw;
     text-align:right;
+    font-weight: 600;
   }
+
+
+ 
 
   .navonpage{
     font-family: Helvetica;
     font-size: 16px;
     color: #00498D;
   }
+  @media only screen and (max-width: 500px){
+    .imagew100services{
+        width:100vw!important;
+    }
+  }
 
   @media only screen and (min-width: 992px) {
+      
+    .contact-us-text{
+        font-family: Helvetica;
+        font-size: 15px;
+        color: #FFFFFF;
+        font-weight:100;
+    }
+    .firstblogstylemain{
+        padding-top:200px!important;
+    }
+    .latestnews-title{
+        font-family: Helvetica;
+        font-size: 45px;
+        color: #00498D;
+        line-height: 60px;
+        padding-left:14px;
+        padding-top:150px;
+        padding-bottom:40px;
+    }
+    .img-phome-noborder{
+        padding:25px;
+        border: 2px solid #00498D;
+    }
+      .socialtextpos{
+          order:2;
+      }
+      .socialimagepos{
+          order:1;
+      }
+    .indiblognavtextleft{
+        font-family: Helvetica;
+        font-size: 16px;
+        color: #00498D;
+        width: 23vw;
+        text-align:left;
+      }
+      .indiblognavtextright{
+        font-family: Helvetica;
+        font-size: 16px;
+        color: #00498D;
+        width: 23vw;
+        text-align:right;
+      }
+    .latestnavpad{
+        margin-top:5px;
+        margin-bottom:5px;
+    }
+        .indiblogtitle{
+            font-family: Helvetica;
+            font-size: 45px;
+            color: #00498D;
+            line-height: 60px;
+            padding-bottom:30px;
+        }
+      .individualblogpadtoptwitter{
+          padding-top:40px;
+      }
+        .ctf-item{
+            max-width:400px;
+            border-top:none!important;
+            padding-left: 25px!important;
+        }
+      .twitterfollowtext{
+        font-family: Helvetica;
+        font-size: 25px;
+        color: #00498D;
+        line-height: 60px;
+      }
+    .ctf-tweets{
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+      }
+      .main-footer-text{
+          padding-left:0px;
+          padding-top:0px;
+      }
+      .indiprojpad{
+          padding-top:0px;
+      }
+    .projects-home{
+        margin-top:100px;
+    }
+
+    .accordionproject {
+        font-family: Helvetica;
+        font-size: 20px!important;
+        color: #00498D!important;
+        line-height: 25px;
+        background:white;
+        color: #444;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+        transition: 0.4s;
+      }
       
 
       .M90L{
@@ -1705,6 +1847,9 @@ textarea::-webkit-input-placeholder {
     .marginleftproject{
         margin-left:15%;
     }
+    .tweetdisplay2{
+        display:block;
+    }
   }
   @media only screen and (min-width: 601px) {
     .marginleftproject{ 
@@ -1716,11 +1861,152 @@ textarea::-webkit-input-placeholder {
         margin-left:20%;
     }
   }
-  
+
+  .imglatestnewsmw{
+      max-width:360px!important;
+  }
+
+  @media only screen and (min-width:500px) and (max-width: 991px) {
+    
+    .casestudieshomeimagewidth{
+        margin: auto!important;
+        max-width: 391.59px;
+    }
+
+}
   @media only screen and (max-width: 991px) {
+    .sectionservicefooter{
+        margin-top:50px;
+    }
+    .contact-us-text{
+        font-family: Helvetica;
+        font-size: 15px;
+        color: #FFFFFF;
+        font-weight:400;
+    }
+    .globalbtext p{
+        font-family: Helvetica;
+        font-size: 18px;
+        color: #00498D;
+        text-align: left;
+        line-height: 25px;
+    }
+      .hideservicesimagefront{
+          display:none;
+      }
+    
+    .latestnews-title{
+        font-family: Helvetica;
+        font-size: 35px;
+        color: #00498D;
+        line-height: 60px;
+        padding-top:150px;
+        padding-bottom:25px;
+    }
+    .img-phome-noborder{
+        padding:0px;
+        border: 0px solid #00498D;
+    }
+    .indicasestudyhideimage{
+        display:none!important;
+    }
+      
+    .ergservivesimage{
+        margin: auto;
+        max-width: 50%;
+      }
+    
+    .socialtextpos{
+        order:1;
+    }
+    .socialimagepos{
+        order:2;
+    }
+      .indiblogrelatedpad{
+          padding-bottom:0px!important; 
+      }
+    .indiblognavtextleft{
+        font-family: Helvetica;
+        font-size: 16px;
+        color: #00498D;
+        width: 50%;
+        text-align:left;
+        padding-left:10px;
+      }
+      .indiblognavtextright{
+        font-family: Helvetica;
+        font-size: 16px;
+        color: #00498D;
+        width: 50%;
+        text-align:right;
+        padding-right:10px;
+      }
+    .firstindirelatedtoppad{
+        padding-top:10px!important;
+    }
+    .indibloghideimage{
+        display:none!important;
+    }
+      
+    .indiblogtitle{
+        font-family: Helvetica;
+        font-size: 35px;
+        color: #00498D;
+        line-height: 60px;
+        padding-bottom:30px;
+    }
+    .individualblogpadtoptwitter{
+        padding-top:5px;
+    }
+    .twitterfollowtext{
+        font-family: Helvetica;
+        font-size: 30px;
+        color: #00498D;
+        line-height: 60px;
+      }
+    .ctf-tweets{
+        display: flex;
+        -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+        margin-right: -15px;
+        margin-left: -15px;
+        padding-left:20px;
+      }
+    .paddinglefttwitter{
+        padding-left:14px!important;
+    }
+    .main-footer-text{
+        padding-left:0px;
+        padding-top:25px;
+    }
+    .indiblogpadtop{
+        padding-top:50px;
+    }
+    .indiprojpad{
+        padding-top:50px;
+    }
+    .projects-home{
+        margin-top:70px;
+    }
+    .accordionproject {
+        font-family: Helvetica;
+        font-size: 16px!important;
+        color: #00498D!important;
+        line-height: 25px;
+        background:white;
+        color: #444;
+        cursor: pointer;
+        padding: 18px;
+        width: 100%;
+        border: none;
+        text-align: left;
+        outline: none;
+        font-size: 15px;
+        transition: 0.4s;
+      }
     .filter-padding{
-        padding-right:20px!important;
-        padding-left:20px!important;
+        padding-right:25px!important;
+        padding-left:25px!important;
         padding-bottom:65px;
         padding-top:65px;
     }
@@ -1753,8 +2039,12 @@ textarea::-webkit-input-placeholder {
         margin:auto;
     }
     .indicasepad{
-        margin-top:85px;
+        margin-top:50px;
         margin-bottom:50px;
+    }
+    .latestnavpad{
+        margin-top:30px;
+        margin-bottom:20px;
     }
       .hideonmobile{
           display:none!important;
@@ -1850,7 +2140,7 @@ textarea::-webkit-input-placeholder {
         margin-right:auto;
     }
     .casestudiesbgbottomop {
-        background-size:100% 7.5%;
+        background-size:100% 15%;
     }
     .teampagebgbottomop{
         background-size:100% 6%;
@@ -1974,8 +2264,10 @@ textarea::-webkit-input-placeholder {
           .topnav .icon {
             display: none;
           }
+         
           
           @media screen and (max-width: 600px) {
+            
             .topnav a:not(:first-child) {display: none;}
             .topnav a.icon {
               float: right;
@@ -2083,6 +2375,14 @@ textarea::-webkit-input-placeholder {
 
 
 @media only screen and (max-width: 991px){
+    .latesttwitter{
+        padding-left: 0px;
+        font-family: Helvetica;
+        font-size: 30px;
+        color: #00498D;
+        line-height: 60px;
+        padding-top:0px;
+    }
     .teampagetriplerow{
         margin:auto;
         max-width:335px;
@@ -2316,6 +2616,27 @@ textarea::-webkit-input-placeholder {
 
 
 @media only screen and (min-width: 992px){
+    .globalbtext p{
+        font-family: Helvetica;
+        font-size: 20px;
+        color: #00498D;
+        text-align: left;
+        line-height: 25px;
+    }
+    .latesttwitter{
+        padding-left: 0px;
+        font-family: Helvetica;
+        font-size: 25px;
+        color: #00498D;
+        line-height: 60px;
+        padding-top:0px;
+    }
+    .paddinglefttwitter{
+        padding-left:15px;
+    }
+    .indiblogpadtop{
+        padding-top:70px;
+    }
     .filter-padding{
         padding-right:100px!important;
         padding-left:100px!important;
@@ -2365,7 +2686,7 @@ textarea::-webkit-input-placeholder {
         display:block;
     }
     .casenavhide{
-        display:none;
+        display:none!important;
     }
     .bgwidthcontent{
         height: -webkit-fill-available;
@@ -2509,13 +2830,7 @@ textarea::-webkit-input-placeholder {
 
 
 
-.globalbtext p{
-    font-family: Helvetica;
-    font-size: 20px;
-    color: #00498D;
-    text-align: left;
-    line-height: 25px;
-}
+
 
 .globaltext p{
     font-family: Helvetica;
@@ -2523,4 +2838,5 @@ textarea::-webkit-input-placeholder {
     color: #00498D;
     text-align: left;
     line-height: 20px;
+    font-weight: 1000;
 }

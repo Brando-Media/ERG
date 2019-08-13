@@ -6,10 +6,10 @@ $services    = get_sub_field('services');
 <section class="section">
 <div class="">
     <div class="row d-flex" style="color:#00498d;">
-            <div class="col-lg-6 text-center align-self-center left-content-work-block" style="padding-left:0px; padding-right:0px;">
+            <div class="col-lg-6 text-center align-self-center left-content-work-block socialimagepos" style="padding-left:0px; padding-right:0px;">
             <div>
                 <?php if($topimage): ?>
-                    <img class="img-fluid content-image socialimg" src="<?php echo show_image($topimage['url'], $topimage['width'], $topimage['height']); ?>">
+                    <img class="img-fluid content-image socialimg " src="<?php echo show_image($topimage['url'], $topimage['width'], $topimage['height']); ?>">
                 <?php endif; ?>
             </div>
             <div>
@@ -19,7 +19,7 @@ $services    = get_sub_field('services');
             </div>
                 
             </div>
-            <div class="col-lg-6 right-content-work-block" style="margin-top:50px;">
+            <div class="col-lg-6 right-content-work-block socialtextpos" style="margin-top:50px;">
                 <?php foreach($services as $servicerow){ ?>
                             <div class="header-two">
                                 <?php echo $servicerow['title']; ?>

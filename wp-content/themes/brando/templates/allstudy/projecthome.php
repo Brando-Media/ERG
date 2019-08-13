@@ -89,7 +89,7 @@ $nexturl = get_sub_field('next_url');
     <div class="row d-flex" style="color:#00498d;">
         <?php if($imagePos=='Left'): ?>
             <div class="col-lg-6 text-center align-self-center left-content-work-block" style="padding-left:0px; padding-right:0px; padding-top:200px; max-width:85%; padding-left:35px;">
-                <div class="project-home-image" >
+                <div class="project-home-image indicasestudyhideimage" >
                     <?php if($image): ?>
                         <img class="img-fluid img-phome" src="<?php echo show_image($image['url'], $image['width'], $image['height']); ?>">
                     <?php endif; ?>
@@ -119,7 +119,7 @@ $nexturl = get_sub_field('next_url');
     </div>
 </div>
 
-<div class="row d-flex casenavhide indicasepad marginautoindicase" id="marginautoindicase">
+<div class="row d-flex indicasepad marginautoindicase" id="marginautoindicase">
         <?php if(!empty($previoustext)){ ?> 
             <div class="indicasenavtext" style="width:50vw;" >
                 <a style="font-family: Helvetica;color: #00498D!important;" href="<?php echo $previousurl ?>"><div class="leftindipad" id="leftcasestudyindi"> <img src="../../wp-content/themes/brando/assets/images/rightah.png"><?php echo $previoustext ?></div></a>

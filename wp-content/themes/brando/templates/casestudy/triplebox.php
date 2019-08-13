@@ -96,17 +96,19 @@ if($topbg == 'No'){
                 </div>
             </div>
         </div>-->
-        <div class="row m0">
+        <div class="row m0 individualblogpadtoptwitter">
         <div class="col-lg-10">
             <div class="main-footer-text">
-                Latest Tweets
+                <div class="latesttwitter">
+                    Latest Tweets
+                </div>
                 <div class="row">
                 <?php echo do_shortcode("[custom-twitter-feeds]"); ?>
                 </div>
             </div>
         </div>
-        <div class="col-lg-2">
-            <div class="main-footer-text">
+        <div class="col-lg-2 paddinglefttwitter">
+            <div class="main-footer-text twitterfollowtext">
                 Follow us
             </div>
             <a href="#home"><img src="http://erg.loc:8888/wp-content/uploads/2019/07/twitter.png" title="Twitter link" width="30" height="30" /></a>
