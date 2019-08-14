@@ -20,7 +20,11 @@ $contentsmalltext  = get_sub_field('content_small_text');
                 <!--<?php endif; ?>-->
             </div>
 <<<<<<< HEAD
+<<<<<<< HEAD
             <div class="col-lg-7 align-self-center right-content-work-block casestudieshomeimagewidth img-order" style="padding-left:0px!important">
+=======
+            <div class="col-lg-7 align-self-center right-content-work-block casestudieshomeimagewidth img-order">
+>>>>>>> parent of 6211d64... Update content_with_image.php
                 <div class="padding240" style="/*padding-top:40px;*/" >
 =======
             <div class="col-lg-6 align-self-center right-content-work-block casestudieshomeimagewidth img-order">
@@ -34,7 +38,11 @@ $contentsmalltext  = get_sub_field('content_small_text');
             </div>
         <?php elseif($imagePos=='Right'): ?>
 <<<<<<< HEAD
+<<<<<<< HEAD
             <div class="col-lg-7 align-self-center left-content-work-block casestudieshomeimagewidth img-order" style="padding-left:0px!important;" >
+=======
+            <div class="col-lg-7 align-self-center left-content-work-block casestudieshomeimagewidth img-order" style="padding-left:70px;" >
+>>>>>>> parent of 6211d64... Update content_with_image.php
             <div class="padding240" style="/*padding-top:40px;*/" >
 =======
             <div class="col-lg-6 align-self-center left-content-work-block casestudieshomeimagewidth img-order" style="padding-left:70px;" >
