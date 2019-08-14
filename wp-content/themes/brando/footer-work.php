@@ -139,8 +139,8 @@
                         $('#marginautoindicase').css({"margin-right":"-15px"});
                         $('#casestudysecond').css({"display": "flex"});
                         $('#casestudysecond').css({"margin": "auto"});
-                        $('#casestudysecond').css({"max-width": "960px"});
-                        document.getElementById('casestudyfirst').style.cssText = 'display: flex !important; max-width:960px; margin:auto;'
+                        /*$('#casestudysecond').css({"max-width": "960px"});
+                        document.getElementById('casestudyfirst').style.cssText = 'display: flex !important; max-width:960px; margin:auto;'*/
                     }
                 }
                 $(window).on('load', function(){
