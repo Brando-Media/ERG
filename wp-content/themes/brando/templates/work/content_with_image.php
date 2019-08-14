@@ -44,7 +44,7 @@ $contentsmalltext  = get_sub_field('content_small_text');
                   <!--  <img class="img-fluid imagefill content-image" src="<?php echo show_image($image['url'], $image['width'], $image['height']); ?>">-->
                 <?php endif; ?>
             </div>
-        <?php endif; ?>
+        <?php endif; ?> 
     </div>
 </div>
 
