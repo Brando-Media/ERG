@@ -9,6 +9,7 @@ if($colour == "Blue"){
 }else{
     get_header(); 
 } ?>
+    <article>
     <main>
     <section class="section  background-image-home" data-section-name="homes" style="max-height:750px; min-height:750px;">
     <div class="background-layer-home">
@@ -41,6 +42,7 @@ if($colour == "Blue"){
     }
     ?> 
     </main>
+</article>
 <?php if($colour == "Blue"){
     get_footer('project'); 
 }else{
