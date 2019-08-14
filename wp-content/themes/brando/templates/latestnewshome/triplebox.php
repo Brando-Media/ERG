@@ -15,7 +15,7 @@ if($topbg == 'No'){
  
     <div class="container container--small align-self-center" id="teampagecontainertop" style="margin: auto; padding-bottom:50px;">
 
-<div class="casestudieshomeimagewidth row services-experts casestudyfirst displayedcasestudy" id="casestudyfirst"> 
+<div class="casestudieshomeimagewidth row services-experts casestudyfirst displayedcasestudy" id="casestudyfirst" style="max-width:960px; margin:auto;"> 
     <div class="col-lg-4 teamtriplecol" >
         
         <img class="img-fluid w-100" src="<?php echo show_image($services[0]['image']['url'], $services[0]['image']['width'], $services[0]['image']['height'], 75) ?>">
@@ -50,7 +50,7 @@ if($topbg == 'No'){
         </div>
     </div>
 </div>
-<div class="casestudieshomeimagewidth row services-experts casestudysecond" id="casestudysecond"> 
+<div class="casestudieshomeimagewidth row services-experts casestudysecond" id="casestudysecond" style="max-width:960px; margin:auto;"> 
     <div class="col-lg-4 teamtriplecol" >
         
         <img class="img-fluid w-100" src="<?php echo show_image($services[3]['image']['url'], $services[3]['image']['width'], $services[3]['image']['height'], 75) ?>">
