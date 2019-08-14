@@ -2014,6 +2014,11 @@ textarea::placeholder {
     margin-bottom: 20px;
   }
 
+  .casestudiestriplecol {
+    max-width: 360px;
+    margin: auto;
+  }
+
   .hideonmobile {
     display: none !important;
   }
