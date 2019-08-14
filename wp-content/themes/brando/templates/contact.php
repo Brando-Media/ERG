@@ -16,7 +16,7 @@ $sectionName = str_replace(' ', '', strtolower($title));
             <div class="footerlink-title footermarginb" >Important Links</div>
                 <div class="contact-details">
                     <?php foreach($services as $servicerow){ ?>
-                        <div class="col-lg-12" style="padding-left:0px;padding-bottom:15px;">
+                        <div class="col-lg-12" style="padding-left:0px;padding-bottom:20px;">
                             <a style="color: white; font-weight:600;" href="<?php echo $servicerow['text_url'] ?>"><?php echo $servicerow['text'] ?></a>
                         </div>
                     <?php } ?>
@@ -26,9 +26,9 @@ $sectionName = str_replace(' ', '', strtolower($title));
             <div class="footerlink-title">Contact us</div>
                 <div class="contact-details" style="margin-bottom:10px;">
                     <?php
-                    echo $phone ? "<div class='contact-us-text'style='color:white!important; padding-bottom:15px;'>{$phone}</div>" : '';
-                    echo $email ? "<div class='contact-us-text'style='padding-bottom:15px'><a style='color:white;' href='mailto:{$email}'>{$email}</a></div>" : '';
-                    echo $address ? "<div class='contact-us-text' style='color:white; padding-bottom:15px;'>{$address}</div>" : '';
+                    echo $phone ? "<div class='contact-us-text'style='color:white!important; padding-bottom:20px;'>{$phone}</div>" : '';
+                    echo $email ? "<div class='contact-us-text'style='padding-bottom:20px'><a style='color:white;' href='mailto:{$email}'>{$email}</a></div>" : '';
+                    echo $address ? "<div class='contact-us-text' style='color:white; padding-bottom:20px;'>{$address}</div>" : '';
                     ?>
                     <div>
                         <a style="padding-right:15px;"href="#home"><img src="wp-content/themes/brando/assets/images/twitter.png" title="Twitter link" width="30" height="30"></a>
