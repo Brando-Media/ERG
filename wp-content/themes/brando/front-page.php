@@ -30,7 +30,7 @@ if($colour == "Blue"){
             if(get_row_layout() == 'services') get_template_part('templates/services');
             if(get_row_layout() == 'contact') get_template_part('templates/contact');
             if(get_row_layout() == 'featured_work') get_template_part('templates/featured_work');
-            if(get_row_layout() == 'content_with_image') get_template_part('templates/home/content_with_image');
+            if(get_row_layout() == 'content_with_image') get_template_part('templates/work/content_with_image');
             if(get_row_layout() == 'case_study_hover') get_template_part('templates/work/case_study_hover');
             if(get_row_layout() == 'services_overview') get_template_part('templates/work/services_overview');
             if(get_row_layout() == 'google_maps') get_template_part('templates/work/google_maps');
