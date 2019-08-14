@@ -97,7 +97,7 @@ $nexturl = get_sub_field('next_url');
                 
             </div>
             <div class="col-lg-6 align-self-center project-home-text inditeamtext ftmsection resize-text M90L" style="margin:auto;"> 
-                <?php echo $title ? "<div class='indicase-title'>{$title}</div>" : '' ?>
+                <?php echo $title ? "<div class='indicase-title indicasefontchange'>{$title}</div>" : '' ?>
                 <div class="indicase-text" style="">
                 <?php echo $projectitle ? "{$projectitle}" : '' ?>
                 </div>
@@ -106,7 +106,7 @@ $nexturl = get_sub_field('next_url');
             </div>
         <?php elseif($imagePos=='Right'): ?>
             <div class="col-lg-6 align-self-center left-content-work-block" style="padding-left:70px;" >
-                <?php echo $title ? "<div class='indicase-title'>{$title}</div>" : '' ?>
+                <?php echo $title ? "<div class='indicase-title indicasefontchange'>{$title}</div>" : '' ?>
                 <div class="indicase-text" style="font-size:24px;"><?php echo $content; ?></div>
                 <?php echo $contentsmalltext; ?>
             </div>
