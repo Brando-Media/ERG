@@ -18,7 +18,7 @@ if($topbg == 'No'){
 <div class="casestudieshomeimagewidth row services-experts casestudyfirst displayedcasestudy" id="casestudyfirst" style="max-width:960px; margin:auto;"> 
     <div class="col-lg-4 teamtriplecol" >
         
-        <img class="img-fluid w-100" src="<?php echo show_image($services[0]['image']['url'], $services[0]['image']['width'], $services[0]['image']['height'], 75) ?>">
+        <img class="img-fluid " src="<?php echo show_image($services[0]['image']['url'], $services[0]['image']['width'], $services[0]['image']['height'], 75) ?>">
         <div class="casestudytitle-triple">
             <?php echo $services[0]['title'] ?>  
         </div>
@@ -29,7 +29,7 @@ if($topbg == 'No'){
     </div>
     <div class="col-lg-4 teamtriplecol" >
         
-        <img class="img-fluid w-100" src="<?php echo show_image($services[1]['image']['url'], $services[1]['image']['width'], $services[1]['image']['height'], 75) ?>">
+        <img class="img-fluid " src="<?php echo show_image($services[1]['image']['url'], $services[1]['image']['width'], $services[1]['image']['height'], 75) ?>">
         <div class="casestudytitle-triple">
             <?php echo $services[1]['title'] ?>  
         </div>
@@ -40,7 +40,7 @@ if($topbg == 'No'){
     </div>
     <div class="col-lg-4 teamtriplecol" >
         
-        <img class="img-fluid w-100" src="<?php echo show_image($services[2]['image']['url'], $services[2]['image']['width'], $services[2]['image']['height'], 75) ?>">
+        <img class="img-fluid " src="<?php echo show_image($services[2]['image']['url'], $services[2]['image']['width'], $services[2]['image']['height'], 75) ?>">
         <div class="casestudytitle-triple">
             <?php echo $services[2]['title'] ?>  
         </div>
@@ -53,7 +53,7 @@ if($topbg == 'No'){
 <div class="casestudieshomeimagewidth row services-experts casestudysecond" id="casestudysecond" style="max-width:960px; margin:auto;"> 
     <div class="col-lg-4 teamtriplecol" >
         
-        <img class="img-fluid w-100" src="<?php echo show_image($services[3]['image']['url'], $services[3]['image']['width'], $services[3]['image']['height'], 75) ?>">
+        <img class="img-fluid " src="<?php echo show_image($services[3]['image']['url'], $services[3]['image']['width'], $services[3]['image']['height'], 75) ?>">
         <div class="casestudytitle-triple">
             <?php echo $services[3]['title'] ?>  
         </div>
@@ -64,7 +64,7 @@ if($topbg == 'No'){
     </div>
     <div class="col-lg-4 teamtriplecol" >
         
-        <img class="img-fluid w-100" src="<?php echo show_image($services[4]['image']['url'], $services[4]['image']['width'], $services[4]['image']['height'], 75) ?>">
+        <img class="img-fluid " src="<?php echo show_image($services[4]['image']['url'], $services[4]['image']['width'], $services[4]['image']['height'], 75) ?>">
         <div class="casestudytitle-triple">
             <?php echo $services[4]['title'] ?>  
         </div>
@@ -75,7 +75,7 @@ if($topbg == 'No'){
     </div>
     <div class="col-lg-4 teamtriplecol" >
         
-        <img class="img-fluid w-100" src="<?php echo show_image($services[5]['image']['url'], $services[5]['image']['width'], $services[5]['image']['height'], 75) ?>">
+        <img class="img-fluid " src="<?php echo show_image($services[5]['image']['url'], $services[5]['image']['width'], $services[5]['image']['height'], 75) ?>">
         <div class="casestudytitle-triple">
             <?php echo $services[5]['title'] ?>  
         </div>
