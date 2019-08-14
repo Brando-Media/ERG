@@ -19,7 +19,7 @@ $contentsmalltext  = get_sub_field('content_small_text');
                     <!--<img class="img-fluid imagefill content-image" src="<?php echo show_image($image['url'], $image['width'], $image['height']); ?>">-->
                 <!--<?php endif; ?>-->
             </div>
-            <div class="col-lg-7 align-self-center right-content-work-block casestudieshomeimagewidth img-order">
+            <div class="col-lg-7 align-self-center right-content-work-block casestudieshomeimagewidth img-order" style="padding-left:0px!important">
                 <div class="padding240" style="/*padding-top:40px;*/" >
                 <img style="max-height:40px; max-width:40px;" class="img-fluid" src="<?php echo show_image($smallimage['url'], $smallimage['width'], $smallimage['height']); ?>">
                 <?php echo $title ? "<div class='content-title'>{$title}</div>" : '' ?>
@@ -28,7 +28,7 @@ $contentsmalltext  = get_sub_field('content_small_text');
             </div>
             </div>
         <?php elseif($imagePos=='Right'): ?>
-            <div class="col-lg-7 align-self-center left-content-work-block casestudieshomeimagewidth img-order" style="padding-left:70px;" >
+            <div class="col-lg-7 align-self-center left-content-work-block casestudieshomeimagewidth img-order" style="padding-left:0px!important;" >
             <div class="padding240" style="/*padding-top:40px;*/" >
             <img style="max-height:40px; max-width:40px;" class="img-fluid" src="<?php echo show_image($smallimage['url'], $smallimage['width'], $smallimage['height']); ?>">
                 <?php echo $title ? "<div class='content-title'>{$title} </div>" : '' ?>
