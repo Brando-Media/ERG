@@ -1,4 +1,4 @@
-<?php 
+<main><?php 
 /*
 Template Name: Front Page
 */
@@ -9,7 +9,7 @@ if($colour == "Blue"){
 }else{
     get_header(); 
 } ?>
-    <main>
+    
     <section class="section  background-image-home" data-section-name="homes" style="max-height:750px; min-height:750px;">
     <div class="background-layer-home">
     <div class="frontpagetitle" style="
@@ -40,7 +40,6 @@ if($colour == "Blue"){
         }
     }
     ?> 
-    <br><br>  <br><br>  <br><br>  <br><br>  <br><br>  <br><br>  <br><br>
     </main>
 <?php if($colour == "Blue"){
     get_footer('project'); 
