@@ -1857,7 +1857,9 @@ textarea::-webkit-input-placeholder {
     .marginleftproject{
         margin-left:10%;
     }
-    
+    #header{
+        margin-right:-5%!important;
+    }
   }
   @media only screen and (max-width: 600px) {
     .marginleftproject{
@@ -2399,9 +2401,6 @@ textarea::-webkit-input-placeholder {
 
 
 @media only screen and (max-width: 991px){
-    .padding240{
-        margin-right:0px;
-    }
     .indicasefontchange{
 
     }
@@ -2643,11 +2642,11 @@ textarea::-webkit-input-placeholder {
     font-weight:300;
     
 }
-@media only screen and (min-width: 992px){
+
 
 @media only screen and (min-width: 992px){
-    .padding240{
-        padding-left:240px;
+    #header{
+        margin-right:7%;
     }
     .globalbtext p{
         font-family: Helvetica;
@@ -2814,7 +2813,7 @@ textarea::-webkit-input-placeholder {
         max-width:500px;
     }
     .frontpagetitle{
-        padding-left:240px;
+        padding-left:25%;
         font-size:42px;
     }
     .servicesotitle{
