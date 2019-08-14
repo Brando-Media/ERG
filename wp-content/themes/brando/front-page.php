@@ -17,9 +17,9 @@ if($colour == "Blue"){
     /* margin-left: 10%; */
     left: 200px;
     top: 300px;">
-     <h1><?php echo $title ?></h1></div>
+     <?php echo $title ?></div>
 
-    </div> 
+    </div>  
         <div style="margin:auto 0;"><div>  
     </section> 
      
