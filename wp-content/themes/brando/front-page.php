@@ -17,7 +17,7 @@ if($colour == "Blue"){
     /* margin-left: 10%; */
     left: 200px;
     top: 300px;">
-    Placeholder Title Goes Here Global Construction Project Management Services etc.<?php echo $title ?></div>
+     <?php echo $title ?></div>
 
     </div> 
         <div style="margin:auto 0;"><div>  
