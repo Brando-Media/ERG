@@ -6,6 +6,7 @@ if($colour == "Blue"){
 }else{
     get_header('work'); 
 } ?>
+<main>
     <section class="section servicesoverviewbgright" style="min-height: 675px;">
         <div class="container container--small main-content serviceshometext">
             
@@ -41,6 +42,7 @@ if($colour == "Blue"){
         ?>
     <div class="section footerbg sectionservicefooter"  data-section-name="hello" style="min-height:20px;">    
     </div>
+    </main>
     <?php 
 if($colour == "Blue"){
     get_footer('project'); 
