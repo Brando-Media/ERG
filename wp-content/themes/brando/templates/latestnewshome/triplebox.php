@@ -249,7 +249,7 @@ if($topbg == 'No'){
 </div>
 
 <?php } else if($triplestyle=="safari_reader"){ ?>
-
+<main>
 <div class="container container--small align-self-center" style="margin:auto;">
 
 <h2 class="latestnews-title" ><?php echo $title?></h2>
@@ -323,7 +323,7 @@ if($topbg == 'No'){
     </div>
 </div>
 </div>
-
+</main>
 
 
 <?php }else{ ?>
