@@ -248,7 +248,7 @@ if($topbg == 'No'){
     </div>
 </div>
 
-<?php } else if($triplestyle=="latest_news"){ ?>
+<?php } else if($triplestyle=="safari_reader"){ ?>
 
 <div class="container container--small align-self-center" style="margin:auto;">
 
