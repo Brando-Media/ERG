@@ -6,6 +6,7 @@ if($colour == "Blue"){
 }else{
     get_header('work'); 
 } ?>
+    <main>
 
         <?php 
         if(have_rows('content')){
@@ -31,6 +32,7 @@ if($colour == "Blue"){
         }
         
         ?>
+        </main>
           
 <?php 
 if($colour == "Blue"){

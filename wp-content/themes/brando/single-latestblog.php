@@ -7,7 +7,7 @@ if($colour == "Blue"){
     get_header('work'); 
 }
 ?>
-
+        <main>
         <?php 
         if(have_rows('content')){
             while(have_rows('content')){
@@ -35,6 +35,7 @@ if($colour == "Blue"){
             }
         }
         ?>
+        </main>
 <?php 
 if($colour == "Blue"){
     get_footer('project'); 
