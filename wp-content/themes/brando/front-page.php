@@ -12,7 +12,7 @@ if($colour == "Blue"){
     <main>
     <section class="section  background-image-home" data-section-name="homes" style="max-height:750px; min-height:750px;">
     <div class="background-layer-home">
-    <h1><div class="frontpagetitle" style="
+    <h1><div class="frontpagetitle homepl25pr25" style="
     /* right: 40%; */
     /* margin-left: 10%; */
     left: 200px;
