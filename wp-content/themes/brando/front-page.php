@@ -3,6 +3,7 @@
 Template Name: Front Page
 */
 $colour = get_field('header_colour');
+$title = get_field('title');
 if($colour == "Blue"){ 
     get_header(); 
 }else{
@@ -16,7 +17,7 @@ if($colour == "Blue"){
     /* margin-left: 10%; */
     left: 200px;
     top: 300px;">
-    Placeholder Title Goes Here Global Construction Project Management Services etc.</div>
+     <?php echo $title ?></div>
 
     </div> 
         <div style="margin:auto 0;"><div>  
