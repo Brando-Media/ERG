@@ -9,11 +9,6 @@ if($colour == "Blue"){
     get_header(); 
 } ?>
     <main>
-    <h1></h1>
-    <div class="byline">
-    By <a href="/">Your Name</a> -- 
-    <time datetime="2018-04-06T05:52:50Z">April 6, 2018</time>
-    </div>
     <section class="section  background-image-home" data-section-name="homes" style="max-height:750px; min-height:750px;">
     <div class="background-layer-home">
     <div class="frontpagetitle" style="
