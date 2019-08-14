@@ -1857,6 +1857,7 @@ textarea::-webkit-input-placeholder {
     .marginleftproject{
         margin-left:10%;
     }
+    
   }
   @media only screen and (max-width: 600px) {
     .marginleftproject{
@@ -1865,6 +1866,7 @@ textarea::-webkit-input-placeholder {
     .tweetdisplay2{
         display:block;
     }
+    
   }
   @media only screen and (min-width: 601px) {
     .marginleftproject{ 
@@ -1890,9 +1892,7 @@ textarea::-webkit-input-placeholder {
 
 }
   @media only screen and (max-width: 991px) {
-    #header{
-        margin-right:-5%!important;
-    }
+    
     .sectionservicefooter{
         margin-top:50px;
     }
@@ -2399,6 +2399,9 @@ textarea::-webkit-input-placeholder {
 
 
 @media only screen and (max-width: 991px){
+    .indicasefontchange{
+
+    }
     .latesttwitter{
         padding-left: 0px;
         font-family: Helvetica;
@@ -2640,9 +2643,6 @@ textarea::-webkit-input-placeholder {
 
 
 @media only screen and (min-width: 992px){
-    #header{
-        margin-right:7%;
-    }
     .globalbtext p{
         font-family: Helvetica;
         font-size: 20px;

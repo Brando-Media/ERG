@@ -143,9 +143,24 @@
                             $('#casestudysecond').css({"max-width": "960px"});
                             document.getElementById('casestudyfirst').style.cssText = 'display: flex !important; max-width:960px; margin:auto;'
                         }
-                        /*$('#casestudysecond').css({"max-width": "960px"});
-                        document.getElementById('casestudyfirst').style.cssText = 'display: flex !important; max-width:960px; margin:auto;'*/
-                    }
+                        $('.work-template-default').css({"background-image": ''});
+                        $('.casestudy-template-default').css({"background-image": ''});
+                        $('.teampage-template-default').css({"background-image": ''});
+                        $('section').css({"display": "block"});
+                        $('.newbg').css({"display": "block"});
+                        $('.toggledisplay').css({"display": "block"});
+                        $('toggledisplay').css({"display": "block"});
+                        $('.row').css({"display": "flex"});
+                        $('.footerbg').css({"display": "block"});
+                        $('.page-template').css({"background-image": ''});
+                        /*$('#navfloatx').css({"float": "none"});
+                        $('#navfloatx').css({"margin-left": "0px"});
+                        $('#navfloatx').css({"top": "0px"});*/
+                        $('#navbar-header-toggle').addClass('collapsed');
+                        $('#navbarTogglerDemo02').removeClass('show');
+                            /*$('#casestudysecond').css({"max-width": "960px"});
+                            document.getElementById('casestudyfirst').style.cssText = 'display: flex !important; max-width:960px; margin:auto;'*/
+                        }
                 }
                 $(window).on('load', function(){
                     console.log(window.location.href);
