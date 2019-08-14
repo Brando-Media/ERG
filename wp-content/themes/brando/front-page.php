@@ -424,9 +424,80 @@ var wpcf7 = {"apiSettings":{"root":"http:\/\/brando.media\/brando\/wp-json\/cont
                     $.scrollify.move("#" + type);
                 }, 200);
             });
+
+        //so code to disable scrollify on pages too big
+        /*    (function($){
+            'use strict';
+            var $section = $('.js-section');
+            var $pager = $('#js-pager');
+            var option = {
+            section : '.js-section',
+            sectionName:false,
+            easing: "swing",
+            scrollSpeed: 1500,
+            scrollbars: true,
+            overflowscroll: true,
+            interstitialSection: ".header",
+            before:function(index) {
+                pagerCurrent(index);
+            },
+            afterRender:function() {
+                createPager();
+            }
+            };
+
+    $(document).ready(function(e){
+        var type = window.location.hash.substr(1);
+        $.scrollify.disable();
+        console.log(type);
+        $.scrollify(option);
+
+        $(".downarrow").click(function(){
+            $.scrollify.next();
+        });
+
+      $(".uparrow").click(function(){
+        $.scrollify.move();
+      });
+        setTimeout(function(){
+            $.scrollify.enable();
+            $.scrollify.move("#" + type);
+        }, 200);
+    });
+
+    function pagerCurrent(index = 0) {
+      var $li = $pager.find('li');
+      $li.removeClass('is-current');
+      $li.eq(index).addClass('is-current');
+    }
+
+    function createPager() {
+        $section.each(function(i, e){
+            var sectionName = $(e).attr('data-section-name');
+            var addClass = '';
+            if (i === 0) {
+                addClass = 'is-current';
+            }
+            var html = '';
+            html += '<li class="' + addClass + '">';
+            html += '<a href="#' + sectionName + '"></a>';
+            html += '</li>';
+            $pager.append(html);
+        });
+        pagerLink();
+    }
+
+    function pagerLink () {
+      $pager.find('a').on('click', function() {
+        $.scrollify.move($(this).attr("href"));
+      });
+    }
+
+    
+}(jQuery));*/
+       
         </script>
     
-<div id="mouseposition-extension-element-full-container" style="position: fixed; top: 0px; left: 0px; right: 0px; bottom: 0px; pointer-events: none; z-index: 2147483647; font-weight: 400;"><div id="mouseposition-extension-element-rect-display" style="display: none; position: absolute; background: rgba(255, 255, 255, 0.7); outline: black solid 1px; font-size: 12px; z-index: 2147483647; justify-content: center; align-items: center; user-select: none; cursor: default; color: rgb(0, 0, 0); font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif; width: 0px; height: 0px;"><pre style="flex: 1 1 0%; text-align: center; background-color: rgba(255, 255, 255, 0.7); color: rgb(0, 0, 0); min-width: 42px; min-height: 12px; transition: all 1s ease 0s;"></pre></div><pre id="mouseposition-extension-element-coordinate-display" style="position: absolute; display: none; background: rgb(255, 255, 255); font-size: 12px; line-height: 14px; border-radius: 3px; border-width: 1px; border-color: rgb(34, 34, 34) black rgb(51, 51, 51); border-style: solid; padding: 3px; z-index: 2147483647; color: rgb(34, 34, 34); user-select: none; cursor: default; font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;"></pre></div></body></html>
 <?php if($colour == "Blue"){
     get_footer('project'); 
 }else{
