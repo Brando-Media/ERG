@@ -1483,6 +1483,8 @@ textarea::placeholder {
 @media only screen and (max-width: 470px) {
   .inditeamtext {
     margin: auto;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
   }
 }
 @media only screen and (min-width: 1400px) {
