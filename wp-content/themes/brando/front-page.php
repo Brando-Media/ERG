@@ -22,7 +22,7 @@ if($colour == "Blue"){
         <div style="margin:auto 0;"><div>  
     </section> 
      
-    <?php  
+    <?php  /*
     if(have_rows('content')){
         while(have_rows('content')){
             the_row();
@@ -38,7 +38,7 @@ if($colour == "Blue"){
 
         }
     }
-    ?> 
+*/    ?> 
 <?php if($colour == "Blue"){
     get_footer('project'); 
 }else{
