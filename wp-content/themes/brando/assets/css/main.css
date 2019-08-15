@@ -803,6 +803,7 @@ input.form-control ::-ms-input-placeholder {
   transition: 0.5s ease;
   /*background-color: #00498D;*/
   background: rgba(0, 73, 141, 0.8);
+  z-index: 100;
 }
 
 .viewcasestudy {
@@ -1865,6 +1866,14 @@ a[href^=tel] {
 }
 
 @media only screen and (max-width: 991px) {
+  .nomarginr991 {
+    margin-right: 0px !important;
+  }
+
+  .padright99110 {
+    padding-right: 10% !important;
+  }
+
   .ml10 {
     margin-left: 10% !important;
   }
