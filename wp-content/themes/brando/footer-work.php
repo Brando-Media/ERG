@@ -26,6 +26,14 @@
                 $('#navbar-header-toggle').addClass('collapsed');
                 $('#navbarTogglerDemo02').removeClass('show');
                 location.href = 'https://brando.media/erg/#' + loc;
+
+                $("[href]").each(function() {
+                        if (this.href == window.location.href) {
+                            $(this).addClass("activenav");
+                        }else if($(this).hasClass("activenav")){
+                            $(this).removeClass("activenav");
+                        }
+                    });
             }
                
             function togglemob() {
