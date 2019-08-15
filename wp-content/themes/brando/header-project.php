@@ -110,7 +110,7 @@
                 <a style=" font-weight:bold;" id="casestudieslink" class="nav-link navhover bluenav" href="https://brando.media/erg/casestudy/case-studies/">Case Studies</a>
             </li>
             <li class="nav-item">
-                <a style="font-weight:bold;" id="globallink" class="nav-link navhover bluenav" href="https://brando.media/erg/#global/">Global</a>
+                <a style="font-weight:bold;" id="globallink" class="nav-link navhover bluenav" href="https://brando.media/erg/#global">Global</a>
             </li>
             <li class="nav-item">
                 <a style="font-weight:bold;" id="teamlink" class="nav-link navhover bluenav" href="https://brando.media/erg/teampage/team-pages/">Team</a>

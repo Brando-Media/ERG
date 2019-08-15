@@ -1706,7 +1706,7 @@ textarea::placeholder {
 
   .contactma {
     margin: auto;
-    padding-left: 15px !important;
+    padding-left: 0px !important;
   }
 
   .newbg {
