@@ -8,6 +8,17 @@
 
         <script>
 
+            function changeNavCol(loc){
+                console.log(window.location.href);
+                $("[href]").each(function() {
+                        if($(this).hasClass("activenav")){
+                            $(this).removeClass("activenav");
+                        }
+                    });
+                    $('#contactnav').addClass("acivenav");
+                    console.log(loc);
+            }
+
             function hrefMove(loc){
                 console.log(loc);
                 $('.work-template-default').css({"background-image": ''});
@@ -118,17 +129,7 @@
 
             $(function() {
 
-                function changeNavCol(loc){
                 
-                console.log(window.location.href);
-                $("[href]").each(function() {
-                        if($(this).hasClass("activenav")){
-                            $(this).removeClass("activenav");
-                        }
-                    });
-                    $('#contactnav').addClass("acivenav");
-                    console.log(loc);
-            }
 
                 $('#casepagechange').on('click', function(){
                     console.log("test");
