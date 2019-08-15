@@ -15,7 +15,7 @@
                             $(this).removeClass("activenav");
                         }
                     });
-                    $('#'+loc).addClass("acivenav");
+                    $('#'+loc).addClass("activenav");
                     console.log(loc);
             }
 
@@ -43,7 +43,7 @@
                             $(this).removeClass("activenav");
                         }
                     });
-                    $('#'+loc+'nav').addClass("acivenav");
+                    $('#'+loc+'nav').addClass("activenav");
             }
 
            
