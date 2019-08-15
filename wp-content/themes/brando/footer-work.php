@@ -43,7 +43,8 @@
                             $(this).removeClass("activenav");
                         }
                     });
-                    $('#'+loc).addClass("acivenav");
+                    $('#contactnav').addClass("acivenav");
+                    console.log(loc);
             }
                
             function togglemob() {
