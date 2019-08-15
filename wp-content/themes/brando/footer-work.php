@@ -9,7 +9,7 @@
         <script>
 
             function changeNavCol(loc){
-                console.log(window.location.href);
+                console.log("changenavcol");
                 $("[href]").each(function() {
                         if($(this).hasClass("activenav")){
                             $(this).removeClass("activenav");
