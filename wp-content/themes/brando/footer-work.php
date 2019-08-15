@@ -37,6 +37,7 @@
             }
 
             function changeNavCol(){
+                console.log(window.location.href);
                 $("[href]").each(function() {
                         if (this.href == window.location.href) {
                             $(this).addClass("activenav");
