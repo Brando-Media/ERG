@@ -1931,6 +1931,9 @@ textarea::-webkit-input-placeholder {
         text-decoration:none;
     }
   @media only screen and (max-width: 991px) {
+      .maxwidth991100{
+        max-width:100%!important;
+      }
       .nomarginr991{
           margin-right:0px!important;
       }
