@@ -1865,6 +1865,10 @@ a[href^=tel] {
 }
 
 @media only screen and (max-width: 991px) {
+  .ml10 {
+    margin-left: 10% !important;
+  }
+
   .noml {
     margin-left: 0px !important;
   }
