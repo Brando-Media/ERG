@@ -37,18 +37,15 @@
             }
 
             function changeNavCol(){
-                var delayInMilliseconds = 3000; //1 second
-
-                setTimeout(function() {
-                    $("[href]").each(function() {
+                
+                console.log(window.location.href);
+                $("[href]").each(function() {
                         if (this.href == window.location.href) {
                             $(this).addClass("activenav");
                         }else if($(this).hasClass("activenav")){
                             $(this).removeClass("activenav");
                         }
                     });
-                }, delayInMilliseconds);
-                console.log(window.location.href);
                     console.log("changenavcol");
             }
                
