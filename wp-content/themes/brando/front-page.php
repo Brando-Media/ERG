@@ -16,7 +16,7 @@ if($colour == "Blue"){
     /* right: 40%; */
     /* margin-left: 10%; */
     left: 200px;
-    top: 300px;">
+    top: 300px; max-width:750px;">
      <?php echo $title ?></div></h1>
 
     </div>  
