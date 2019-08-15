@@ -15,7 +15,7 @@
                             $(this).removeClass("activenav");
                         }
                     });
-                    $('#contactnav').addClass("acivenav");
+                    $('#'+loc).addClass("acivenav");
                     console.log(loc);
             }
 
