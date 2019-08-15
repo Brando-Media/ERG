@@ -14,7 +14,7 @@ $contentsmalltext  = get_sub_field('content_small_text');
             <div class="col-lg-5 text-center align-self-center left-content-work-block bgwidthcontent bg640" style="padding-left:0px; padding-right:0px; 
                     background-size: cover; background-position: center;height:100%; ">
                 <!--<?php if($image): ?>-->
-                    <img class="servicescontentwithimageleft casestudieshomeimagewidth imagew100services" src="<?php echo $image['url']; ?>">
+                    <img class="servicescontentwithimageleft casestudieshomeimagewidth imagew100services hideservicesimagefront" src="<?php echo $image['url']; ?>">
                     <!--<div class="imagefill" style='background-image: url("<?php echo $image['url'];?>");min-height: -webkit-fill-available;'> </div>
                     <--<img class="img-fluid imagefill content-image" src="<?php echo show_image($image['url'], $image['width'], $image['height']); ?>">-->
                 <!--<?php endif; ?>-->
@@ -39,7 +39,7 @@ $contentsmalltext  = get_sub_field('content_small_text');
             <div class="col-lg-5 text-center align-self-center right-content-work-block bgwidthcontent bg640 " style="padding-left:0px; padding-right:0px;  
                     background-size: cover; background-position: center;">
                 <?php if($image): ?>
-                  <img class="servicescontentwithimageright casestudieshomeimagewidth imagew100services" src="<?php echo $image['url']; ?>">
+                  <img class="servicescontentwithimageright casestudieshomeimagewidth imagew100services hideservicesimagefront" src="<?php echo $image['url']; ?>">
                   <!--  <div class="imagefill" style='background-image: url("<?php echo $image['url'];?>");min-height: -webkit-fill-available;'> </div>
                   <--  <img class="img-fluid imagefill content-image" src="<?php echo show_image($image['url'], $image['width'], $image['height']); ?>">-->
                 <?php endif; ?>
