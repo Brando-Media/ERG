@@ -9,7 +9,7 @@
         <script>
 
             function hrefMove(loc){
-                console.log(log);
+                console.log(loc);
                 $('.work-template-default').css({"background-image": ''});
                 $('.casestudy-template-default').css({"background-image": ''});
                 $('.teampage-template-default').css({"background-image": ''});
