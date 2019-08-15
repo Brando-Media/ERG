@@ -35,17 +35,7 @@
                     $('#'+loc+'nav').addClass("acivenav");
             }
 
-            function changeNavCol(loc){
-                
-                console.log(window.location.href);
-                $("[href]").each(function() {
-                        if($(this).hasClass("activenav")){
-                            $(this).removeClass("activenav");
-                        }
-                    });
-                    $('#contactnav').addClass("acivenav");
-                    console.log(loc);
-            }
+           
                
             function togglemob() {
                 console.log("test");
@@ -127,6 +117,18 @@
             
 
             $(function() {
+
+                function changeNavCol(loc){
+                
+                console.log(window.location.href);
+                $("[href]").each(function() {
+                        if($(this).hasClass("activenav")){
+                            $(this).removeClass("activenav");
+                        }
+                    });
+                    $('#contactnav').addClass("acivenav");
+                    console.log(loc);
+            }
 
                 $('#casepagechange').on('click', function(){
                     console.log("test");
