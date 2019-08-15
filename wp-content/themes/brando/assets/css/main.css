@@ -1853,6 +1853,10 @@ textarea::placeholder {
     margin: auto !important;
     max-width: 391.59px;
   }
+
+  .minw90500991 {
+    min-width: 90vw !important;
+  }
 }
 a[href^=tel] {
   color: inherit;
@@ -1860,6 +1864,10 @@ a[href^=tel] {
 }
 
 @media only screen and (max-width: 991px) {
+  .noml {
+    margin-left: 0px !important;
+  }
+
   .nopl {
     padding-left: 0px !important;
   }
