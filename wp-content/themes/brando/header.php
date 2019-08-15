@@ -105,7 +105,7 @@
                     <div class="collapse navbar-collapse navbaritemz" id="navbarTogglerDemo02">
                         <ul class="navbar-nav mr-auto mt-2 mt-lg-0 navbarfr">
                         <li class="nav-item">
-                            <a style="color:white; font-weight:bold;" class="nav-link navhover" onclick="changeNavCol()" href="https://brando.media/erg/#about">About <span class="sr-only">(current)</span></a>
+                            <a style="color:white; font-weight:bold;" class="nav-link navhover" id="aboutnav" onclick="changeNavCol('aboutnav')" href="https://brando.media/erg/#about">About <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
                             <a style="color:white; font-weight:bold;" class="nav-link navhover" href="Services">Services</a>
@@ -117,13 +117,13 @@
                             <a style="color:white; font-weight:bold;" class="nav-link navhover" href="case-studies">Case Studies</a>
                         </li>
                         <li class="nav-item">
-                            <a style="color:white;font-weight:bold;" class="nav-link navhover" onclick="changeNavCol()" href="https://brando.media/erg/#global">Global</a>
+                            <a style="color:white;font-weight:bold;" class="nav-link navhover" id="globalnav" onclick="changeNavCol('globalnav')" href="https://brando.media/erg/#global">Global</a>
                         </li>
                         <li class="nav-item">
                             <a style="color:white;font-weight:bold;" class="nav-link navhover" href="team-page">Team</a>
                         </li>
                         <li class="nav-item">
-                            <a style="color:white;font-weight:bold;" class="nav-link navhover" onclick="changeNavCol()" href="https://brando.media/erg/#contact">Contact</a>
+                            <a style="color:white;font-weight:bold;" class="nav-link navhover" id="contactnav" onclick="changeNavCol('contactnav')" href="https://brando.media/erg/#contact">Contact</a>
                         </li>
                         </ul>
                     </div>

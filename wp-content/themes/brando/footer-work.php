@@ -28,25 +28,22 @@
                 location.href = 'https://brando.media/erg/#' + loc;
 
                 $("[href]").each(function() {
-                        if (this.href == window.location.href) {
-                            $(this).addClass("activenav");
-                        }else if($(this).hasClass("activenav")){
+                        if($(this).hasClass("activenav")){
                             $(this).removeClass("activenav");
                         }
                     });
+                    $('#'+loc+'nav').addClass("acivenav");
             }
 
-            function changeNavCol(){
+            function changeNavCol(loc){
                 
                 console.log(window.location.href);
                 $("[href]").each(function() {
-                        if (this.href == window.location.href) {
-                            $(this).addClass("activenav");
-                        }else if($(this).hasClass("activenav")){
+                        if($(this).hasClass("activenav")){
                             $(this).removeClass("activenav");
                         }
                     });
-                    console.log("changenavcol");
+                    $('#'+loc).addClass("acivenav");
             }
                
             function togglemob() {
