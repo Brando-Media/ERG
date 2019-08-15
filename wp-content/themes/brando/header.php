@@ -89,13 +89,13 @@
                             <a style="color:white; font-weight:bold;" class="nav-link navhover" href="case-studies">Case Studies</a>
                         </li>
                         <li class="nav-item">
-                            <a style="color:white;font-weight:bold;" class="nav-link navhover" href="#global">Global</a>
+                            <a style="color:white;font-weight:bold;" class="nav-link navhover" href="http://brando.media/erg/#global/">Global</a>
                         </li>
                         <li class="nav-item">
                             <a style="color:white;font-weight:bold;" class="nav-link navhover" href="team-page">Team</a>
                         </li>
                         <li class="nav-item">
-                            <a style="color:white;font-weight:bold;" class="nav-link navhover" href="#contact">Contact</a>
+                            <a style="color:white;font-weight:bold;" class="nav-link navhover" href="http://brando.media/erg/#contact/">Contact</a>
                         </li>
                         </ul>
                     </div>
