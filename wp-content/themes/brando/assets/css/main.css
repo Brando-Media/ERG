@@ -1856,6 +1856,7 @@ textarea::placeholder {
 
   .minw90500991 {
     min-width: 90vw !important;
+    margin-left: 0px !important;
   }
 }
 a[href^=tel] {
@@ -2448,7 +2449,7 @@ a[href^=tel] {
 
   .contactma {
     margin: none;
-    padding-left: 0px !important;
+    padding-left: 12px !important;
   }
 
   .servicesmarginl {
