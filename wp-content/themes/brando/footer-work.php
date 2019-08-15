@@ -44,6 +44,7 @@
                             $(this).removeClass("activenav");
                         }
                     });
+                    console.log("changenavcol");
             }
                
             function togglemob() {
