@@ -36,7 +36,7 @@
                     });
             }
 
-            function changeNavCol{
+            function changeNavCol(){
                 $("[href]").each(function() {
                         if (this.href == window.location.href) {
                             $(this).addClass("activenav");
