@@ -9,7 +9,7 @@ $sectionName = str_replace(' ', '', strtolower($title));
 
 ?>
 <section class=" redbg newbg  ergtextfooter" style="min-height:600px;" data-section-name="hello" id="contact">
-    <div class="container global--small align-self-center padleft99110 noml ml0 padleft25" style="padding-top:30px;">
+    <div class="container global--small align-self-center padleft99110 noml ml0 padleft25 mw100contact" style="padding-top:30px;">
         <div class="row col-lg-10 nopl contactma ">
             
             <div class="col-lg-4" style="margin-top:10px; padding-left:0px;">

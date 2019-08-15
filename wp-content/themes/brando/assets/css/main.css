@@ -1706,7 +1706,7 @@ textarea::placeholder {
 
   .contactma {
     margin: auto;
-    padding-left: 0px !important;
+    padding-left: 12px !important;
   }
 
   .newbg {
@@ -2426,6 +2426,10 @@ a[href^=tel] {
   padding-top: 250px;
   max-width: 950px;
   margin-right: 3%;
+}
+
+.mw100contact {
+  max-width: 100% !important;
 }
 
 @media only screen and (max-width: 991px) {
