@@ -1783,6 +1783,10 @@ textarea::placeholder {
   .marginleftproject {
     margin-left: 10%;
   }
+
+  #header {
+    margin-right: -5% !important;
+  }
 }
 @media only screen and (max-width: 600px) {
   .marginleftproject {
@@ -2592,6 +2596,10 @@ textarea::placeholder {
 }
 
 @media only screen and (min-width: 992px) {
+  #header {
+    margin-right: 7%;
+  }
+
   .globalbtext p {
     font-family: Helvetica;
     font-size: 20px;
