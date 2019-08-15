@@ -35,6 +35,16 @@
                         }
                     });
             }
+
+            function changeNavCol{
+                $("[href]").each(function() {
+                        if (this.href == window.location.href) {
+                            $(this).addClass("activenav");
+                        }else if($(this).hasClass("activenav")){
+                            $(this).removeClass("activenav");
+                        }
+                    });
+            }
                
             function togglemob() {
                 console.log("test");
