@@ -1,6 +1,5 @@
 <?php
 $services    = get_sub_field('services');
-var_dump($services[0]['url']);
 ?>
 
 <section class=" white-bg " data-section-name="hover_images">
