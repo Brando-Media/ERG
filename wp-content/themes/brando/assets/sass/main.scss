@@ -2720,6 +2720,10 @@ textarea::-webkit-input-placeholder {
 
 
 @media only screen and (min-width: 992px){
+    .servicesoverviewwidth{
+        max-width:2200px!important;
+        width:60%!important;
+    }
     #header{
         margin-right:7%;
     }
