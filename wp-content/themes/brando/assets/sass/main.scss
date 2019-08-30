@@ -1606,6 +1606,10 @@ textarea::-webkit-input-placeholder {
   }
 
   @media only screen and (min-width: 992px) {
+
+    .project-home-text{
+        margin-left:-76px!important;
+    }
       .ml0{
           margin-left:0px!important;
       }
@@ -1875,7 +1879,7 @@ textarea::-webkit-input-placeholder {
         right: 0;
         padding-right:0px;
         margin-right:0px;
-        margin-right: 0px!important;
+        //margin-right: 0px!important;
         margin: auto;
     }
     

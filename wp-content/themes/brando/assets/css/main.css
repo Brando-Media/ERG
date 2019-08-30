@@ -1522,6 +1522,10 @@ textarea::placeholder {
   }
 }
 @media only screen and (min-width: 992px) {
+  .project-home-text {
+    margin-left: -76px !important;
+  }
+
   .ml0 {
     margin-left: 0px !important;
   }
@@ -1816,7 +1820,6 @@ textarea::placeholder {
     right: 0;
     padding-right: 0px;
     margin-right: 0px;
-    margin-right: 0px !important;
     margin: auto;
   }
 }
