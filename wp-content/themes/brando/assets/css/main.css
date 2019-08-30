@@ -20,6 +20,12 @@
   font-weight: 200;
   font-style: normal;
 }
+@font-face {
+  font-family: "Helvetica";
+  src: url("../fonts/EncodeSans-Regular.ttf");
+  font-weight: 200;
+  font-style: normal;
+}
 html, body {
   overflow-x: hidden;
   -webkit-overflow-scrolling: touch;
@@ -2442,6 +2448,7 @@ a[href^=tel] {
   padding-top: 250px;
   max-width: 950px;
   margin-right: 3%;
+  font-family: Helvetica;
 }
 
 .mw100contact {
