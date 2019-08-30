@@ -99,7 +99,7 @@ if($topbg == 'No'){
 
 <?php } else if($triplestyle=="latest_news"){ ?>
 
-    <div class="container container--small align-self-center" style="margin:auto;">
+    <div class="container container--small align-self-center" style="margin:auto; max-width:73%;">
 
 <h2 class="latestnews-title" ><?php echo $title?></h2>
 <div class="row services-experts" style="/*margin:auto;*/"> 
