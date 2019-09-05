@@ -66,7 +66,7 @@
            </button>
             </nav>
 
-           <div class="collapse navbar-collapse navbaritemz" id="navbarTogglerDemo02">
+           <div class="collapse navbar-collapse navbaritemz" id="navbarTogglerDemo02" style="padding-top:80px;">
                <ul class="navbar-nav mr-auto mt-2 mt-lg-0 navbarfr">
                <li class="nav-item">
                    <a class="nav-link bluenav" href="https://brando.media/erg/#about">About <span class="sr-only">(current)</span></a>

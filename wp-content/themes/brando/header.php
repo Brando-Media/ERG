@@ -41,7 +41,7 @@
      
         <div id="wrapper" class="<?php echo $class; ?>">
    
-            <header id="header" style="margin-right:7%;">
+            <header id="header" style="">
             
                 <div class="container clearfix header-toggle-white header-div" style="margin-left:60px; max-width:2400px;">
                     <a href="#home" id="logo" class="float-left">
@@ -73,7 +73,7 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>-->
 
-                    <div class="collapse navbar-collapse navbaritemz" id="navbarTogglerDemo02" style="padding-top:0px;">
+                    <div class="collapse navbar-collapse navbaritemz" id="navbarTogglerDemo02" style="padding-top:80px;">
                         <ul class="navbar-nav mr-auto mt-2 mt-lg-0 navbarfr">
                         <li class="nav-item">
                             <a style="color:white; font-weight:bold;"  class="nav-link navhover" onclick="hrefMove('about')" href="https://brando.media/erg/#about/" >About <span class="sr-only">(current)</span></a>
