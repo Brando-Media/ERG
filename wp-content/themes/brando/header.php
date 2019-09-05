@@ -73,7 +73,7 @@
                         <span class="navbar-toggler-icon"></span>
                     </button>-->
 
-                    <div class="collapse navbar-collapse navbaritemz" id="navbarTogglerDemo02" style="padding-top:80px;">
+                    <div class="collapse navbar-collapse navbaritemz" id="navbarTogglerDemo02" style="">
                         <ul class="navbar-nav mr-auto mt-2 mt-lg-0 navbarfr">
                         <li class="nav-item">
                             <a style="color:white; font-weight:bold;"  class="nav-link navhover" onclick="hrefMove('about')" href="https://brando.media/erg/#about/" >About <span class="sr-only">(current)</span></a>

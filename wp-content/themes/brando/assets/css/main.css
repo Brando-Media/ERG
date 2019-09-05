@@ -1414,7 +1414,7 @@ textarea::placeholder {
   color: #00498D !important;
   line-height: 25px;
   letter-spacing: 1.5;
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .link-latest {
@@ -1609,7 +1609,6 @@ textarea::placeholder {
     font-size: 45px;
     color: #00498D;
     line-height: 60px;
-    padding-left: 14px;
     padding-top: 200px;
     padding-bottom: 40px;
   }
@@ -1842,6 +1841,7 @@ textarea::placeholder {
 
   .navbaritemz {
     padding-top: 0px;
+    font-family: helvetica;
   }
 
   .project-home-image {
@@ -2317,8 +2317,8 @@ a[href^=tel] {
   }
 
   .navbaritemz {
-    padding-top: 0px;
-    padding-left: 35px;
+    padding-top: 100px;
+    padding-left: 0px;
     margin: auto;
     max-width: 400px;
   }
