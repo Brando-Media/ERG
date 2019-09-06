@@ -29,12 +29,12 @@ $nexturl = get_sub_field('next_url');
                     </div>
                     <div class="row d-flex casenavhide latestnavpad">
                     <?php if(!empty($previoustext)){ ?> 
-                        <div class="indiblognavtextleft" id="indiblogleft">
+                        <div class="indiblognavtextleft" id="indiblogleftx">
                             <a style="font-family: Helvetica;color: #00498D!important;" href="<?php echo $previousurl ?>"><img src="../../wp-content/themes/brando/assets/images/rightah.png"> <?php echo $previoustext ?></a>
                         </div>
                     <?php } ?>
                     <?php if(!empty($nexttext)){ ?>
-                        <div class="indiblognavtextright" id="indiblogright" >
+                        <div class="indiblognavtextright" id="indiblogrightx" >
                         <a style="font-family: Helvetica; color: #00498D!important;" href="<?php echo $nexturl ?>"><?php echo $nexttext ?> <img src="../../wp-content/themes/brando/assets/images/leftah.png"></a>
                         </div>
                     <?php } ?>
