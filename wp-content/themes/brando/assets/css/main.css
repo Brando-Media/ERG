@@ -2677,7 +2677,7 @@ a[href^=tel] {
 }
 @media only screen and (max-width: 450px) {
   .navbarfr {
-    float: left;
+    float: none;
   }
 }
 .teamtriplecol {
