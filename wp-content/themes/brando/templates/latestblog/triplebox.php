@@ -70,8 +70,8 @@ if($topbg == 'No'){
             <div class="main-footer-text twitterfollowtext">
                 Follow us
             </div>
-            <a href="#home"><img src="wp-content/themes/brando/assets/images/twitter.png" title="Twitter link" width="30" height="30" /></a>
-            <a href="#home"><img src="wp-content/themes/brando/assets/images/linkedin.png" title="Twitter link" width="30" height="30" /></a>
+            <a href="#home"><img src="/erg/wp-content/themes/brando/assets/images/twitter.png" title="Twitter link" width="30" height="30" /></a>
+            <a href="#home"><img src="/erg/wp-content/themes/brando/assets/images/linkedin.png" title="Twitter link" width="30" height="30" /></a>
         </div>
 </div>
 
