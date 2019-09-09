@@ -96,7 +96,7 @@ $nexturl = get_sub_field('next_url');
                 </div>
                 
             </div>
-            <div class="col-lg-6 align-self-center project-home-text inditeamtext ftmsection resize-text M90L" style="margin-top:50px; padding-top:200px;"> 
+            <div class="col-lg-6 align-self-center project-home-text inditeamtext ftmsection resize-text M90L" style="margin-top:50px; /*padding-top:200px;*/"> 
                 <?php echo $title ? "<div class='indicase-title indicasefontchange'>{$title}</div>" : '' ?>
                 <div class="indicase-text" style="">
                 <?php echo $projectitle ? "{$projectitle}" : '' ?>
