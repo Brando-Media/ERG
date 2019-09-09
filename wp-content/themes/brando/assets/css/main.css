@@ -2314,6 +2314,7 @@ a[href^=tel] {
 
   .navfloat {
     float: none;
+    margin-right: 5%;
   }
 
   .navbaritemz {
