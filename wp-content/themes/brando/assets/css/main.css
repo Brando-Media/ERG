@@ -404,7 +404,7 @@ p, .main-content ul {
 }
 .content-title {
   font-family: Helvetica;
-  font-size: 45px;
+  font-size: 25px;
   color: #00498D;
   padding-bottom: 10px;
 }
@@ -940,8 +940,10 @@ input.form-control ::-ms-input-placeholder {
   color: white;
   font-size: 20px;
   font-family: Helvetica;
+  font-weight: 700;
   position: absolute;
-  top: 80%;
+  top: 70%;
+  letter-spacing: 0.5px;
   left: 50%;
   -webkit-transform: translate(-50%, -50%);
   -ms-transform: translate(-50%, -50%);
@@ -1002,10 +1004,11 @@ input.form-control ::-ms-input-placeholder {
 
 .contentimagep p {
   font-family: Helvetica;
-  font-size: 20px;
+  font-size: 15px;
   color: #00498D;
   text-align: left;
   line-height: 25px;
+  font-weight: 500;
 }
 
 .inditeamtitle {
@@ -3092,6 +3095,10 @@ a[href^=tel] {
   text-align: left;
   line-height: 20px;
   font-weight: 400;
+}
+
+.serviceshometitle {
+  font-weight: 300;
 }
 
 /*# sourceMappingURL=main.css.map */
