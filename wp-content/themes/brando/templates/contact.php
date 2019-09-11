@@ -16,7 +16,7 @@ $sectionName = str_replace(' ', '', strtolower($title));
             <div class="footerlink-title footermarginb" >Important Links</div>
                 <div class="contact-details">
                     <?php foreach($services as $servicerow){ ?>
-                        <div class="col-lg-12" style="padding-left:0px;padding-bottom:20px;">
+                        <div class="col-lg-12 contact-font" style="padding-left:0px;padding-bottom:20px;">
                             <a style="color: white; font-weight:600;" href="<?php echo $servicerow['text_url'] ?>"><?php echo $servicerow['text'] ?></a>
                         </div>
                     <?php } ?>
