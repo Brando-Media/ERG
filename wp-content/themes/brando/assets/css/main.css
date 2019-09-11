@@ -2853,6 +2853,7 @@ a[href^=tel] {
     color: #00498D;
     text-align: left;
     line-height: 25px;
+    font-weight: 500;
   }
 
   .latesttwitter {
