@@ -2909,6 +2909,7 @@ a[href^=tel] {
     text-align: center;
     padding-right: 30px;
     margin: auto;
+    letter-spacing: 1px;
   }
 
   .indiasenavtext {
