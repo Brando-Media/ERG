@@ -1320,6 +1320,9 @@ textarea::placeholder {
 }
 .link-teampage a {
   color: #00498D;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 2px;
 }
 
 .teampageind-title {
