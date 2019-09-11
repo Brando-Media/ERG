@@ -2322,6 +2322,7 @@ a[href^=tel] {
     padding-left: 0px;
     margin: auto;
     max-width: 400px;
+    font-family: helvetica;
   }
 }
 .imgh4 {

@@ -1873,6 +1873,7 @@ textarea::-webkit-input-placeholder {
     .navbaritemz{
         padding-top:0px;
         font-family: helvetica;
+        
     }
     .project-home-image{
         max-width:400px;
@@ -2295,12 +2296,13 @@ textarea::-webkit-input-placeholder {
         padding-left: 0px;
         margin:auto;
         max-width:400px;
+        font-family:helvetica;
     }
   }
 
   .imgh4{
       max-height:400px;
-      max-width:300px;
+      max-width:300px; 
   }
 
   .header .open-mob-menu-btn {
