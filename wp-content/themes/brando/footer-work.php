@@ -135,6 +135,7 @@
                     console.log("test");
                     if($('#casestudyfirst').hasClass('displayedcasestudy')){
                         $('#casetextid').html("2/2");
+                        $('#casepagechange').html("PREVIOUS");
                         //$('#casestudyfirst').css({"display": "none"});
                         $('#casestudyfirst').removeClass('displayedcasestudy');
                         document.getElementById('casestudysecond').style.cssText = 'display: flex !important'
@@ -145,6 +146,7 @@
                         document.getElementById('casestudyfirst').style.cssText = 'display: flex !important'
                         document.getElementById('casestudysecond').style.cssText = 'display: none'
                         $('#casestudyfirst').addClass('displayedcasestudy');
+                        $('#casepagechange').html("NEXT");
                     }
                 });
 
