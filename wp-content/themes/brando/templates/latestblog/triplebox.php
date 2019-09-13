@@ -10,7 +10,7 @@ if($first_triple == 'no'){
     ?> <section class="section d-flex blue-main-footer-bg" data-section-name="<?php echo $sectionName; ?>"> 
     <div class="container container--small align-self-center main-related firstindirelatedtoppad" style="padding-top:0px;">
 
-<div class="indiblogtitle indiblogrelatedpad indiblogrelatedpad indiblagtriplepadleft" style="padding-top:0px;"><?php echo $title?></div>
+<div class="indiblogtitle indiblogrelatedpad indiblogrelatedpad indiblagtriplepadleft" style="padding-top:0px; margin-top:-30px;"><?php echo $title?></div>
 <div class="row services-experts indiblagtriplepadleft" style=""> 
     <div class="col-lg-3 firstblogstylesmall" >
 <?php }else{ ?>
