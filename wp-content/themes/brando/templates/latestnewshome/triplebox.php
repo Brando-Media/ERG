@@ -48,7 +48,7 @@ if($topbg == 'No'){
         <div class="link-casestudy ">
             <a href="<?php echo $services[2]['link_url'] ?> "><?php echo $services[2]['link_text'] ?> </a>
         </div>
-    </div>
+    </div> 
 </div>
 <div class="casestudieshomeimagewidth row services-experts casestudysecond" id="casestudysecond" style="max-width:960px; margin:auto;"> 
     <div class="col-lg-4 teamtriplecol casestudiestriplecol" >
@@ -57,7 +57,7 @@ if($topbg == 'No'){
         <div class="casestudytitle-triple">
             <?php echo $services[3]['title'] ?>  
         </div>
-        <div class="casestudycontent-text"> <div class="latest-text"> <?php echo $services[3]['content'] ?>  </div></div>
+        <div class="casestudycontent-text"> <?php echo $services[3]['content'] ?>  </div>
         <div class="link-casestudy ">
             <a href="<?php echo $services[3]['link_url'] ?> "><?php echo $services[3]['link_text'] ?> </a>
         </div>
