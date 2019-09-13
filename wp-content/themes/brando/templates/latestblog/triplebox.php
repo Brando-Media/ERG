@@ -3,9 +3,12 @@ $services    = get_sub_field('services');
 $title       = get_sub_field('title');
 $dtitle       = get_sub_field('displayed_title');
 $sectionName = str_replace(' ', '', strtolower($title));
+$show_twitter       = get_sub_field('show_twitter');
+$first_triple       = get_sub_field('first_triple');
 $topbg = get_sub_field('top_bg');
-if($topbg == 'No'){
-?> <section class="section d-flex main-footer-bg" data-section-name="<?php echo $sectionName; ?>"> <?php }else{ ?>
+if($first_triple == 'no'){
+    ?> <section class="section d-flex blue-main-footer-bg" data-section-name="<?php echo $sectionName; ?>"> 
+<?php }else{ ?>
 <section class="section d-flex main-footer-bg" data-section-name="<?php echo $sectionName; ?>">
 
 <?php } 
@@ -55,6 +58,8 @@ if($topbg == 'No'){
                 </div>
             </div>
         </div>
+
+        <?php if($show_twitter == "yes"){ ?>
         <div class="row m0 individualblogpadtoptwitter">
         <div class="col-lg-8">
             <div class="main-footer-text">
@@ -73,6 +78,7 @@ if($topbg == 'No'){
             <a href="#home"><img src="/erg/wp-content/themes/brando/assets/images/twitter.png" title="Twitter link" width="30" height="30" /></a>
             <a href="#home"><img src="/erg/wp-content/themes/brando/assets/images/linkedin.png" title="Twitter link" width="30" height="30" /></a>
         </div>
+        <?php } ?>
 </div>
 
 </section>

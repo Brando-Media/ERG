@@ -101,7 +101,7 @@ if($topbg == 'No'){
 
     <div class="container container--small align-self-center" style="margin:auto; max-width:73%;">
 
-<h2 class="latestnews-title" ><?php echo $title?></h2>
+<?php if(!empty($title)){ ?> <h2 class="latestnews-title" ><?php echo $title?></h2> <?php } ?>
 <div class="row services-experts" style="/*margin:auto;*/"> 
     <div class="col-lg-4" >
         
