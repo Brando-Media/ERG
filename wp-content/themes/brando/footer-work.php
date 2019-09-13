@@ -157,27 +157,27 @@
 
                 function menuMobile(){
                     if($(window).width() <= 991){
-                        $("#leftcasestudyindi").html("<img src='../../wp-content/themes/brando/assets/images/rightah.png'> PREVIOUS");
+                        /*$("#leftcasestudyindi").html("<img src='../../wp-content/themes/brando/assets/images/rightah.png'> PREVIOUS");
                         $("#rightcasestudyindi").html("NEXT <img src='../../wp-content/themes/brando/assets/images/leftah.png'>");
                         $("#leftinditeam").html("<img src='../../wp-content/themes/brando/assets/images/rightah.png'> PREVIOUS");
                         $("#rightinditeam").html("NEXT <img src='../../wp-content/themes/brando/assets/images/leftah.png'>");
                         $("#leftprojectindi").html("<img src='../../wp-content/themes/brando/assets/images/rightah.png'> PREVIOUS");
                         $("#rightprojectindi").html("NEXT <img src='../../wp-content/themes/brando/assets/images/leftah.png'>");
                         $("#indiblogleft").html("<img src='../../wp-content/themes/brando/assets/images/rightah.png'> PREVIOUS");
-                        $("#indiblogright").html("NEXT <img src='../../wp-content/themes/brando/assets/images/leftah.png'>");
+                        $("#indiblogright").html("NEXT <img src='../../wp-content/themes/brando/assets/images/leftah.png'>");*/
                         $('#marginautoindicase').css({"margin-left":"auto"});
                         $('#marginautoindicase').css({"margin-right":"auto"});
                         console.log("gelo");
                     
                     }else{
-                        $("#leftcasestudyindi").html("<img src='../../wp-content/themes/brando/assets/images/rightah.png'> PREVIOUS CASE STUDY");
+                        /*$("#leftcasestudyindi").html("<img src='../../wp-content/themes/brando/assets/images/rightah.png'> PREVIOUS CASE STUDY");
                         $("#rightcasestudyindi").html("NEXT CASE STUDY <img src='../../wp-content/themes/brando/assets/images/leftah.png'> ");
                         $("#leftinditeam").html("<img src='../../wp-content/themes/brando/assets/images/rightah.png'> PREVIOUS TEAM MEMBER");
                         $("#rightinditeam").html("NEXT TEAM MEMBER <img src='../../wp-content/themes/brando/assets/images/leftah.png'> ");
                         $("#rightprojectindi").html("NEXT PROJECT <img src='../../wp-content/themes/brando/assets/images/leftah.png'> ");
                         $("#leftprojectindi").html("<img src='../../wp-content/themes/brando/assets/images/rightah.png'> PREVIOUS PROJECT");
                         $("#indiblogright").html("NEXT BLOG POST <img src='../../wp-content/themes/brando/assets/images/leftah.png'> ");
-                        $("#indiblogleft").html("<img src='../../wp-content/themes/brando/assets/images/rightah.png'> PREVIOUS BLOG POST");
+                        $("#indiblogleft").html("<img src='../../wp-content/themes/brando/assets/images/rightah.png'> PREVIOUS BLOG POST");*/
                         $('#marginautoindicase').css({"margin-left":"-15px"});
                         $('#marginautoindicase').css({"margin-right":"-15px"});
                         $('#casestudysecond').css({"display": "flex"});
