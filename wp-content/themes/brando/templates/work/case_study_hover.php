@@ -37,12 +37,12 @@ $services    = get_sub_field('services');
                 </a>
             </div>
             <div onclick="" class="col-lg-3 container imghoverw" style="padding-left:0px; padding-right:0px; margin-left:0px; margin-right:0px;">
-            <a href="<?php echo $services[0]['url']; ?>">
+            <a href="<?php echo $services[3]['url']; ?>">
             <?php //echo $services[3]['filter'] ?>  
             <img class="img-fluid w-100" src="<?php echo show_image($services[3]['image']['url'], $services[3]['image']['width'], $services[3]['image']['height']) ?>"> 
                 <div class="overlay">
                     <div class="hometextoverlay"><?php echo $services[3]['case_study']?></div>
-                    <div class="viewcasestudy">VIEW CASE STUDY</div>
+                    <div class="viewcasestudy">VIEW CASE STUDYx</div>
                 </div>
                 </a>
             </div>
