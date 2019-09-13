@@ -42,7 +42,7 @@ $services    = get_sub_field('services');
             <img class="img-fluid w-100" src="<?php echo show_image($services[3]['image']['url'], $services[3]['image']['width'], $services[3]['image']['height']) ?>"> 
                 <div class="overlay">
                     <div class="hometextoverlay"><?php echo $services[3]['case_study']?></div>
-                    <div class="viewcasestudy">VIEW CASE STUDYx</div>
+                    <div class="viewcasestudy">VIEW CASE STUDY</div>
                 </div>
                 </a>
             </div>
