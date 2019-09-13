@@ -88,15 +88,15 @@ $nexturl = get_sub_field('next_url');
 <div class="">
     <div class="row d-flex" style="color:#00498d;">
         <?php if($imagePos=='Left'): ?>
-            <div class="col-lg-6 text-center align-self-center left-content-work-block" style="padding-left:0px; padding-right:0px; padding-top:100px; /* max-width:85%; padding-left:35px;*/">
-                <div class="project-home-image indicasestudyhideimage" >
+            <div class="col-lg-6 text-center left-content-work-block" style=" padding-top:200px; padding-left:50px; padding-right:70px; /* max-width:85%; padding-left:35px;*/">
+                <div class="project-home-image indicasestudyhideimage" style="margin:0px; float:right;">
                     <?php if($image): ?>
                         <img class="img-fluid img-phome" src="<?php echo show_image($image['url'], $image['width'], $image['height']); ?>">
                     <?php endif; ?>
                 </div>
                 
             </div>
-            <div class="col-lg-6 align-self-center project-home-text inditeamtext ftmsection resize-text M90L" style="margin-top:50px; /*padding-top:200px;*/"> 
+            <div class="col-lg-5 project-home-text inditeamtext ftmsection resize-text M90L" style="margin-top:50px; padding-top:200px; margin-right:0px!important; padding-left:50px; padding-right:15px;"> 
                 <?php echo $title ? "<div class='indicase-title indicasefontchange'>{$title}</div>" : '' ?>
                 <div class="indicase-text" style="">
                 <?php echo $projectitle ? "{$projectitle}" : '' ?>
