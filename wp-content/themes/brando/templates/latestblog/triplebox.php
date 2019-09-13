@@ -8,17 +8,23 @@ $first_triple       = get_sub_field('first_triple');
 $topbg = get_sub_field('top_bg');
 if($first_triple == 'no'){
     ?> <section class="section d-flex blue-main-footer-bg" data-section-name="<?php echo $sectionName; ?>"> 
+    <div class="container container--small align-self-center main-related firstindirelatedtoppad" style="padding-top:0px;">
+
+<div class="indiblogtitle indiblogrelatedpad indiblogrelatedpad indiblagtriplepadleft" style="padding-top:0px;"><?php echo $title?></div>
+<div class="row services-experts indiblagtriplepadleft" style=""> 
+    <div class="col-lg-3 firstblogstylesmall" >
 <?php }else{ ?>
 <section class="section d-flex main-footer-bg" data-section-name="<?php echo $sectionName; ?>">
-
-<?php } 
-?>
-
 <div class="container container--small align-self-center main-related firstindirelatedtoppad">
 
         <div class="indiblogtitle indiblogrelatedpad indiblogrelatedpad indiblagtriplepadleft" style=""><?php echo $title?></div>
         <div class="row services-experts indiblagtriplepadleft" style="padding-top:20px;"> 
             <div class="col-lg-3 firstblogstylesmall" >
+
+<?php } 
+?>
+
+
                 
                 <img class="img-fluid w-100 imgh4 indibloghideimage" src="<?php echo show_image($services[0]['image']['url'], $services[0]['image']['width'], $services[0]['image']['height'], 75) ?>">
                 <div class="header-blog">
