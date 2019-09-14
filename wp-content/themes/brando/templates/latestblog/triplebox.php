@@ -50,6 +50,7 @@ if($first_triple == 'no'){
         
     }
     ?>
+    </div>
     <?php if($show_twitter == "yes"){ ?>
         <div class="row m0 individualblogpadtoptwitter">
         <div class="col-lg-8">
@@ -120,6 +121,7 @@ if($first_triple == 'no'){
         
     }
     ?>
+    </div>
      <?php if($show_twitter == "yes"){ ?>
         <div class="row m0 individualblogpadtoptwitter">
         <div class="col-lg-8">
