@@ -19,3 +19,5 @@ wp-content/plugins/hello.php
 /sitemap.xml.gz
 
 *.DS_Store
+wp-content/plugins/wp-google-maps-pro/js/v8/wp-google-maps-pro.combined.js
+wp-content/plugins/wp-google-maps-pro/js/v8/pro-scripts.json

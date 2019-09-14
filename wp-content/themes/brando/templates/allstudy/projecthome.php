@@ -88,7 +88,7 @@ $nexturl = get_sub_field('next_url');
 <div class="">
     <div class="row d-flex" style="color:#00498d;">
         <?php if($imagePos=='Left'): ?>
-            <div class="col-lg-6 text-center left-content-work-block" style=" padding-top:200px; padding-left:50px; padding-right:70px; /* max-width:85%; padding-left:35px;*/">
+            <div class="col-lg-6 text-center left-content-work-block pt200m100" style=" padding-left:50px; padding-right:70px; /* max-width:85%; padding-left:35px;*/">
                 <div class="project-home-image indicasestudyhideimage" style="margin:0px; float:right;">
                     <?php if($image): ?>
                         <img class="img-fluid img-phome" src="<?php echo show_image($image['url'], $image['width'], $image['height']); ?>">
@@ -96,7 +96,7 @@ $nexturl = get_sub_field('next_url');
                 </div>
                 
             </div>
-            <div class="col-lg-5 project-home-text inditeamtext ftmsection resize-text M90L" style="margin-top:50px; padding-top:200px; margin-right:0px!important; padding-left:50px; padding-right:15px;"> 
+            <div class="col-lg-5 project-home-text pt200m0 inditeamtext ftmsection resize-text M90L" style="margin-top:50px; padding-left:50px; padding-right:15px;"> 
                 <?php echo $title ? "<div class='indicase-title indicasefontchange'>{$title}</div>" : '' ?>
                 <div class="indicase-text" style="">
                 <?php echo $projectitle ? "{$projectitle}" : '' ?>
@@ -121,13 +121,17 @@ $nexturl = get_sub_field('next_url');
 
 <div class="row d-flex indicasepad marginautoindicase" id="marginautoindicase" style="margin-top:50px;">
         <?php if(!empty($previoustext)){ ?> 
-            <div class="indicasenavtext" style="width:50vw;" >
-                <a style="font-family: Helvetica;color: #00498D!important;" href="<?php echo $previousurl ?>"><div class="leftindipad" id="leftcasestudyindi"> <img src="../../wp-content/themes/brando/assets/images/rightah.png"><?php echo $previoustext ?></div></a>
+            <div class="indicasenavtext col-lg-6 case-prev-container" style="" >
+            <div class="case-prev-text" style=" text-align:left;">
+                <a style="font-family: Helvetica;color: #00498D!important; text-align: left;" href="<?php echo $previousurl ?>"><div class="leftindipad" id="leftcasestudyindi" style="text-align: left; padding-left:0px;"> <img src="../../wp-content/themes/brando/assets/images/rightah.png"><?php echo $previoustext ?></div></a>
             </div>
+        </div>
         <?php } ?>
         <?php if(!empty($nexttext)){ ?>
-            <div id="" class="indicasenavtext" style="width:50vw;" >
-            <a style="font-family: Helvetica; color: #00498D!important;" href="<?php echo $nexturl ?>"><div class="rightindipad" id="rightcasestudyindi"> <?php echo $nexttext ?><img src="../../wp-content/themes/brando/assets/images/leftah.png"></div> </a>
+            <div id="" class="indicasenavtext col-lg-5 case-next-container" style="" >
+            <div style=" text-align:right;" class="case-next-text">
+            <a style="font-family: Helvetica; color: #00498D!important;" href="<?php echo $nexturl ?>"><div class="rightindipad" id="rightcasestudyindi" style="text-align: right; padding-right:0px;"> <?php echo $nexttext ?><img src="../../wp-content/themes/brando/assets/images/leftah.png"></div> </a>
+            </div>
             </div>
         <?php } ?>
         </div>

@@ -3118,4 +3118,58 @@ a[href^=tel] {
   font-weight: 300;
 }
 
+@media only screen and (min-width: 992px) {
+  .pt200m100 {
+    padding-top: 200px;
+  }
+
+  .pt200m0 {
+    padding-top: 200px;
+    margin-right: 0px !important;
+  }
+
+  .case-prev-text {
+    min-width: 400px;
+    max-width: 410px;
+    float: right;
+  }
+
+  .case-next-text {
+    min-width: 375px;
+    max-width: 410px;
+    float: left;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .pt200m100 {
+    padding-top: 100px;
+  }
+
+  .pt200m0 {
+    padding-top: 0px;
+  }
+
+  .case-prev-text {
+    float: left;
+  }
+
+  .case-prev-container {
+    max-width: 50%;
+    padding-right: 0px !important;
+    padding-left: 0px;
+    font-size: 11px;
+  }
+
+  .case-next-container {
+    max-width: 50%;
+    font-size: 11px;
+    padding-left: 0px !important;
+  }
+
+  .case-next-text {
+    float: right;
+    padding-right: 23px;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
