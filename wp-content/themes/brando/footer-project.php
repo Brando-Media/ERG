@@ -21,6 +21,7 @@
                     console.log("has collapsed");
                     $("#blueerglogo").attr("src","/erg/wp-content/themes/brando/assets/images/ERG-logo.png");
                     $('.work-template-default').css({"background-image": "linear-gradient(to right, rgba(0, 160, 219, 0.8), rgba(0, 73, 144, 0.8))" });
+                    $('.latestblog-template-default').css({"background-image": "linear-gradient(to right, rgba(0, 160, 219, 0.8), rgba(0, 73, 144, 0.8))" });
                     $('.page-template').css({"background-image": "linear-gradient(to right, rgba(0, 160, 219, 0.8), rgba(0, 73, 144, 0.8))" });
                     $('.casestudy-template-default').css({"background-image": "linear-gradient(to right, rgba(0, 160, 219, 0.8), rgba(0, 73, 144, 0.8))" });
                     $('.teampage-template-default').css({"background-image": "linear-gradient(to right, rgba(0, 160, 219, 0.8), rgba(0, 73, 144, 0.8))" });
@@ -46,6 +47,7 @@
                     $('.allstudy-template-default').css({"background-image": ''});
                     $('.page-template').css({"background-image": ''});
                     $('.teampage-template-default').css({"background-image": ''});
+                    $('.latestblog-template-default').css({"background-image": ''});
                     $('section').css({"display": "block"});
                     $('.newbg').css({"display": "block"});
                     $('.toggledisplay').css({"display": "block"}); 

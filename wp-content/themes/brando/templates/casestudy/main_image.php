@@ -5,7 +5,7 @@ $smalltext = get_sub_field('small_text');
 $main_image = get_sub_field('main_image');
 ?>
 
-<section class="section  d-flex" data-section-name="<?php echo $sectionName; ?>">
+<section class="section " data-section-name="<?php echo $sectionName; ?>">
 <div class="container container--small firstblogstylemain" style="padding-bottom:10px!important;">
 
         <h2 class="main-title" style="color:white"><?php echo $dtitle?></h2>
