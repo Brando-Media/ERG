@@ -154,6 +154,11 @@
                         $('#navfloatx').css({"top": "0px"});*/
                         $('#navbar-header-toggle').addClass('collapsed');
                         $('#navbarTogglerDemo02').removeClass('show');
+                        $('.bluenav').css({"color": "#00498D"});
+                        $('#blueiconclass').addClass('icon-blue');
+                        $('.footerbg').css({"display": "block"});
+                        $('#navbar-header-toggle').addClass('collapsed');
+                        $('#navbarTogglerDemo02').removeClass('show');
                     }
                 }
                 $(window).on('load', function(){
