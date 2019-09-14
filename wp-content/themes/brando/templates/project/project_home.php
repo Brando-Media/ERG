@@ -7,6 +7,8 @@ $content  = get_sub_field('content');
 $contentsmalltext  = get_sub_field('content_small_text');
 $previoustext = get_sub_field('previous_text');
 $nexttext = get_sub_field('next_text');
+$previous_url = get_sub_field('previousurl');
+$next_url = get_sub_field('nexturl');
 ?>
 <section class="section">
 <div class="">
