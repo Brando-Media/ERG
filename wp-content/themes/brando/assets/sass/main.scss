@@ -3012,6 +3012,11 @@ textarea::-webkit-input-placeholder {
         max-width:410px;
         float:right; 
     }
+    .proj-prev-text{
+        min-width:456px;
+        max-width:410px;
+        float:right; 
+    }
     .case-next-text{
         min-width:375px;
         max-width:410px;
@@ -3027,6 +3032,10 @@ textarea::-webkit-input-placeholder {
         padding-top:0px;
     }
     .case-prev-text{
+        //padding-left:10px;
+        float:left; 
+    }
+    .proj-prev-text{
         //padding-left:10px;
         float:left; 
     }

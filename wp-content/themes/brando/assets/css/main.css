@@ -3134,6 +3134,12 @@ a[href^=tel] {
     float: right;
   }
 
+  .proj-prev-text {
+    min-width: 456px;
+    max-width: 410px;
+    float: right;
+  }
+
   .case-next-text {
     min-width: 375px;
     max-width: 410px;
@@ -3150,6 +3156,10 @@ a[href^=tel] {
   }
 
   .case-prev-text {
+    float: left;
+  }
+
+  .proj-prev-text {
     float: left;
   }
 
