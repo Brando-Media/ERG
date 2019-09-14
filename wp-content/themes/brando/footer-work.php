@@ -191,6 +191,7 @@
                         $('.work-template-default').css({"background-image": ''});
                         $('.casestudy-template-default').css({"background-image": ''});
                         $('.teampage-template-default').css({"background-image": ''});
+                        $('.project-template-default').css({"background-image": ''});
                         $('section').css({"display": "block"});
                         $('.newbg').css({"display": "block"});
                         $('.toggledisplay').css({"display": "block"});

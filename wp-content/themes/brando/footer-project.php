@@ -138,6 +138,10 @@
                         $("#indiblogleft").html("<img src='../../wp-content/themes/brando/assets/images/rightah.png'> PREVIOUS BLOG POST");*/
                         $('#marginautoindicase').css({"margin-left":"-15px"});
                         $('#marginautoindicase').css({"margin-right":"-15px"});
+                        $('.work-template-default').css({"background-image": ''});
+                        $('.casestudy-template-default').css({"background-image": ''});
+                        $('.teampage-template-default').css({"background-image": ''});
+                        $('.project-template-default').css({"background-image": ''});
                     }
                 }
                 $(window).on('load', function(){
