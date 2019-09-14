@@ -23,7 +23,9 @@ if($colour == "Blue"){
                 if(get_row_layout() == 'services') get_template_part('templates/services/services'); 
                 if(get_row_layout() == 'contact') get_template_part('templates/services/contact');
                 if(get_row_layout() == 'featured_work') get_template_part('templates/services/featured_work'); 
-                if(get_row_layout() == 'triplebox') get_template_part('templates/latestnewshome/triplebox');
+                if(get_row_layout() == 'triplebox') get_template_part('templates/latestnewshome/triplebox'); 
+                if(get_row_layout() == 'latest_blog') get_template_part('templates/casestudy/latest_blog');
+                if(get_row_layout() == 'case_studies') get_template_part('templates/casestudy/case_studies');
                 if(get_row_layout() == 'project_home') get_template_part('templates/casestudy/projecthome'); 
 
             }
