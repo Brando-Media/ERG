@@ -7,7 +7,7 @@ $mainimage = get_sub_field('main_image');?>
 
     <div class="row m-0">
         <div class="col-md-6" style="padding-left:0px!important; padding-right:0px!important;">
-            <img class="img-fluid w-100 project-home-main-image" src="<?php echo show_image($mainimage['url'], $mainimage['width'], $mainimage['height'], 75) ?>">
+            <img style="height:100%" class="img-fluid w-100 project-home-main-image" src="<?php echo show_image($mainimage['url'], $mainimage['width'], $mainimage['height'], 75) ?>">
         </div>
         <div class="col-md-6" style="padding-left:0px!important; padding-right:0px!important;">
         <div class="row m-0">
