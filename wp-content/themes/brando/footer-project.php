@@ -139,26 +139,26 @@
                         $('#marginautoindicase').css({"margin-left":"-15px"});
                         $('#marginautoindicase').css({"margin-right":"-15px"});
                         $('.work-template-default').css({"background-image": ''});
-                        $('.casestudy-template-default').css({"background-image": ''});
+                        $("#blueerglogo").attr("src","/erg/wp-content/themes/brando/assets/images/ergblue200.png");
+
+                        console.log("not collapsed");
+                        $('.work-template-default').css({"background-image": ''});
+                        $('.allstudy-template-default').css({"background-image": ''});
+                        $('.page-template').css({"background-image": ''});
                         $('.teampage-template-default').css({"background-image": ''});
                         $('.project-template-default').css({"background-image": ''});
+                        $('.latestblog-template-default').css({"background-image": ''});
                         $('section').css({"display": "block"});
                         $('.newbg').css({"display": "block"});
-                        $('.toggledisplay').css({"display": "block"});
+                        $('.toggledisplay').css({"display": "block"}); 
                         $('toggledisplay').css({"display": "block"});
                         $('.row').css({"display": "flex"});
-                        $('.footerbg').css({"display": "block"});
-                        $('.page-template').css({"background-image": ''});
-                        /*$('#navfloatx').css({"float": "none"});
-                        $('#navfloatx').css({"margin-left": "0px"});
-                        $('#navfloatx').css({"top": "0px"});*/
-                        $('#navbar-header-toggle').addClass('collapsed');
-                        $('#navbarTogglerDemo02').removeClass('show');
                         $('.bluenav').css({"color": "#00498D"});
                         $('#blueiconclass').addClass('icon-blue');
                         $('.footerbg').css({"display": "block"});
                         $('#navbar-header-toggle').addClass('collapsed');
                         $('#navbarTogglerDemo02').removeClass('show');
+                        $('.casestudy-template-default').css({"background-image": ''});
                     }
                 }
                 $(window).on('load', function(){
