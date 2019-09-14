@@ -20,7 +20,7 @@ $projectitle = get_sub_field('project_title');
             <div class="col-lg-6 text-center align-self-center left-content-work-block teammemberhome" style="padding-left:0px; padding-right:0px; max-width:85%; /*padding-left:35px;*/">
                 <div class="project-home-image" >
                     <?php if($image): ?>
-                        <img class="img-fluid timg-phome" src="<?php echo show_image($image['url'], $image['width'], $image['height']); ?>">
+                        <img style="min-width:80%; max-width:400px;" class="img-fluid timg-phome" src="<?php echo show_image($image['url'], $image['width'], $image['height']); ?>">
                     <?php endif; ?>
                 </div>
                 
@@ -41,7 +41,7 @@ $projectitle = get_sub_field('project_title');
             </div>
             <div class="col-lg-6 text-center align-self-center right-content-work-block project-home-text" style="padding-left:0px; padding-right:0px;">
                 <?php if($image): ?>
-                    <img class="img-fluid timg-phome content-image" src="<?php echo show_image($image['url'], $image['width'], $image['height']); ?>">
+                    <img style="min-width:80%; max-width:400px;" class="img-fluid timg-phome content-image" src="<?php echo show_image($image['url'], $image['width'], $image['height']); ?>">
                 <?php endif; ?>
             </div>
         <?php endif; ?>
