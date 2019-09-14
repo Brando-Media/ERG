@@ -48,14 +48,14 @@ $next_url = get_sub_field('nexturl');
         <?php if(!empty($previoustext)){ ?> 
             <div class="indicasenavtext col-lg-6 case-prev-container" style="" >
             <div class="case-prev-text" style=" text-align:left;">
-                <a style="font-family: Helvetica;color: #00498D!important; text-align: left;" href="<?php echo $previous_url ?>"><div class="leftindipad" id="leftcasestudyindi" style="text-align: left; padding-left:0px;"> <img src="../../wp-content/themes/brando/assets/images/rightah.png"><?php echo $previoustext ?></div></a>
+                <a style="font-family: Helvetica;color: #00498D!important; text-align: left;" href="<?php echo $previous_url ?>"><div class="leftindipad" id="leftcasestudyindi" style="text-align: left; padding-left:0px;"> <img style="padding-bottom:2px;" src="../../wp-content/themes/brando/assets/images/rightah.png"><?php echo $previoustext ?></div></a>
             </div>
         </div>
         <?php } ?>
         <?php if(!empty($nexttext)){ ?>
             <div id="" class="indicasenavtext col-lg-5 case-next-container" style="" >
             <div style=" text-align:right;" class="case-next-text">
-            <a style="font-family: Helvetica; color: #00498D!important;" href="<?php echo $next_url ?>"><div class="rightindipad" id="rightcasestudyindi" style="text-align: right; padding-right:0px;"> <?php echo $nexttext ?><img src="../../wp-content/themes/brando/assets/images/leftah.png"></div> </a>
+            <a style="font-family: Helvetica; color: #00498D!important;" href="<?php echo $next_url ?>"><div class="rightindipad" id="rightcasestudyindi" style="text-align: right; padding-right:0px;"> <?php echo $nexttext ?><img style="padding-bottom:2px;" src="../../wp-content/themes/brando/assets/images/leftah.png"></div> </a>
             </div>
             </div>
         <?php } ?>
