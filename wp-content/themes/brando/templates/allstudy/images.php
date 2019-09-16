@@ -60,11 +60,15 @@ $mainimage = get_sub_field('main_image');?>
         <?php foreach($images as $k=>$image): ?>
             <?php
             $class = 'ergafk';
-            if($k>2){
+            if($k==2){
             $class = 'hideonmobile'; ?>
            <?php } ?>
            <?php
             if($k==3){
+            $class = 'hideonmobile'; ?>
+           <?php } ?>
+           <?php
+            if($k>4){
             $class = 'hideonmobilelate'; ?>
            <?php } ?>
            <a class="<?php echo $class ?>" data-rel=”lightbox” href=<?php echo $image['url']?> data-rel=”lightbox” style="height:100%;">
