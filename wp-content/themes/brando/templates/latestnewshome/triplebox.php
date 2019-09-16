@@ -57,7 +57,7 @@ if($topbg == 'No'){
             <div class="row services-experts" style="/*margin:auto;*/"> 
             <?php 
         } ?>
-         <div class="col-lg-4" >
+         <div class="col-lg-4 lncol4" >
             <img class="img-fluid imglatestnewsmw w-100 tripleimgsize" src="<?php echo show_image($services[$k]['image']['url'], $services[$k]['image']['width'], $services[$k]['image']['height'], 75) ?>">
             <div class="latest-triple">
                 <?php echo $services[$k]['title'] ?>  
