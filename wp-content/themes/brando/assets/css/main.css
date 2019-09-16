@@ -3238,6 +3238,10 @@ a[href^=tel] {
   .tp100w {
     max-width: 100%;
   }
+
+  .teampagebgbottomop {
+    background-size: 100% 150px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
