@@ -7,13 +7,13 @@ $first = 0;
 
 <div class="">
     <div class="row" style="color:#00498d;">
-            <div class="col-lg-6 text-center /*align-self-center*/ left-content-work-block" style="padding-left:0px; padding-right:0px;">
+            <div class="col-lg-6 text-center /*align-self-center*/ left-content-work-block pfcol6" style="padding-left:0px; padding-right:0px;">
                 <?php if($image): ?>
                     <img class="img-fluid content-image" src="<?php echo show_image($image['url'], $image['width'], $image['height']); ?>">
                 <?php endif; ?>
             </div>
-            <div class="col-lg-6 right-content-work-block filter-padding">
-            <?php foreach($services as $servicerow){
+            <div class="col-lg-6 right-content-work-block filter-padding pfcol6">
+            <?php foreach($services as $servicerow){ 
                 if($first==0){?>
                     <button class="accordionproject" style="border-top: 1px solid #00498D; outline: none!Important;"><?php echo $servicerow['project_title']?></button>
                     <div class="panelproject">

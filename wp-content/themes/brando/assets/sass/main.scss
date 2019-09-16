@@ -3082,4 +3082,10 @@ textarea::-webkit-input-placeholder {
         padding-top:0px;
         padding-bottom:0px;
     }
+    .pfcol6{
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
 } 
