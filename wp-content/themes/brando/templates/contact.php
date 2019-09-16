@@ -31,7 +31,7 @@ $sectionName = str_replace(' ', '', strtolower($title));
                     echo $address ? "<div class='contact-us-text' style='color:white; padding-bottom:20px;'>{$address}</div>" : '';
                     ?>
                     <div>
-                        <a style="padding-right:15px;"href="#home"><img src="wp-content/themes/brando/assets/images/twitter.png" title="Twitter link" width="30" height="30"></a>
+                        <a style="padding-right:15px; display:none;"href="#home"><img src="wp-content/themes/brando/assets/images/twitter.png" title="Twitter link" width="30" height="30"></a>
                         <a href="#home"><img src="wp-content/themes/brando/assets/images/linkedin.png" title="Twitter link" width="30" height="30"></a>
                     </div>
                 </div>
