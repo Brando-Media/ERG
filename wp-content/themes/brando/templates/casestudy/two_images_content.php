@@ -9,12 +9,12 @@ $services    = get_sub_field('services');
             <div class="col-lg-6 text-center align-self-center left-content-work-block socialimagepos" style="padding-left:0px; padding-right:0px;">
             <div>
                 <?php if($topimage): ?>
-                    <img class="img-fluid content-image socialimg " src="<?php echo show_image($topimage['url'], $topimage['width'], $topimage['height']); ?>">
+                    <img class="img-fluid content-image socialimg socal50img" src="<?php echo show_image($topimage['url'], $topimage['width'], $topimage['height']); ?>">
                 <?php endif; ?>
             </div>
             <div>
             <?php if($bottomimage): ?>
-                    <img class="img-fluid content-image socialimg" src="<?php echo show_image($bottomimage['url'], $bottomimage['width'], $bottomimage['height']); ?>">
+                    <img class="img-fluid content-image socialimg socal50img" src="<?php echo show_image($bottomimage['url'], $bottomimage['width'], $bottomimage['height']); ?>">
                 <?php endif; ?>
             </div>
                 

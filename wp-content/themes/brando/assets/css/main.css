@@ -3242,6 +3242,12 @@ a[href^=tel] {
   .teampagebgbottomop {
     background-size: 100% 150px;
   }
+
+  .socal50img {
+    max-width: 50% !important;
+    min-height: 300px;
+    max-height: 300px;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
