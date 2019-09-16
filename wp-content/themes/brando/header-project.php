@@ -72,7 +72,7 @@
                    <a class="nav-link bluenav" href="https://brando.media/erg/#about">About <span class="sr-only">(current)</span></a>
                </li>
                <li class="nav-item">
-                   <a style="" class="nav-link bluenav" href="https://brando.media/erg/what-we-do">Services</a>
+                   <a style="" class="nav-link bluenav" href="https://brando.media/erg/what-we-do">What We Do</a>
                </li>
                <li class="nav-item">
                    <a  class="nav-link bluenav" href="https://brando.media/erg/work/sectors">Sectors</a>
@@ -101,7 +101,7 @@
                 <a style="font-weight:bold;" id="aboutlink" class="nav-link navhover bluenav" href="https://brando.media/erg/#about">About <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a style="font-weight:bold;" id="serviceslink" class="nav-link navhover bluenav" href="https://brando.media/erg/what-we-do/">Services</a>
+                <a style="font-weight:bold;" id="serviceslink" class="nav-link navhover bluenav" href="https://brando.media/erg/what-we-do/">What We Do</a>
             </li>
             <li class="nav-item">
                 <a style=" font-weight:bold;" id="projectslink" class="nav-link navhover bluenav" href="https://brando.media/erg/work/sectors/">Sectors</a>

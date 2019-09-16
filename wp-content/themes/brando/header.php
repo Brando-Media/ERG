@@ -79,7 +79,7 @@
                             <a style="color:white; font-weight:bold;"  class="nav-link navhover" onclick="hrefMove('about')" href="https://brando.media/erg/#about/" >About <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a style="color:white; font-weight:bold;" class="nav-link navhover" href="erg/what-we-do">Services</a>
+                            <a style="color:white; font-weight:bold;" class="nav-link navhover" href="erg/what-we-do">What We Do</a>
                         </li>
                         <li class="nav-item">
                             <a style="color:white; font-weight:bold;" class="nav-link navhover" href="sectors">Sectors</a>
@@ -107,7 +107,7 @@
                             <a style="color:white; font-weight:bold;" class="nav-link navhover" id="aboutnav" onclick="changeNavCol('aboutnav')" href="https://brando.media/erg/#about">About <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a style="color:white; font-weight:bold;" class="nav-link navhover" href="what-we-do">Services</a>
+                            <a style="color:white; font-weight:bold;" class="nav-link navhover" href="what-we-do">What We Do</a>
                         </li>
                         <li class="nav-item">
                             <a style="color:white; font-weight:bold;" class="nav-link navhover" href="sectors">Sectors</a>
