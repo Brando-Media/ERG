@@ -2380,7 +2380,7 @@ a[href^=tel] {
   }
 
   .casestudiesbgbottomop {
-    background-size: 100% 15%;
+    background-size: 100% 200px;
   }
 
   .teampagebgbottomop {
@@ -3211,6 +3211,14 @@ a[href^=tel] {
     -ms-flex: 0 0 50%;
     flex: 0 0 50%;
     max-width: 50%;
+  }
+
+  .casestudiestriplecol {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 33.333333%;
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    min-width: 33.333333%;
   }
 }
 
