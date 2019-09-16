@@ -3185,4 +3185,11 @@ a[href^=tel] {
   padding-left: 20px;
 }
 
+@media only screen and (min-width: 500px) and (max-width: 991px) {
+  .imghoverw {
+    min-width: 50% !important;
+    max-width: 50% !important;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
