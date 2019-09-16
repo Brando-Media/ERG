@@ -15,7 +15,7 @@ $ContentRight  = get_sub_field('content_right');
     </div>
     <div class="pl12 row d-flex" style='margin-bottom:20px;'>
         <div class="col-lg-6 align-self-center left-content-work-block globalbtext globalcontent nopl ml0" style="padding-right:0px;">
-            <?php echo $ContentLeft; ?>
+            <?php if(!empty($ContentLeft)){ echo $ContentLeft; } ?>
         </div>
         <div class="col-lg-6 align-self-center right-content-work-block globaltext globalcontent nopl" style="padding-right:0px;">
             <?php echo $ContentRight ?>
