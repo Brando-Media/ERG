@@ -3227,6 +3227,17 @@ a[href^=tel] {
     flex: 0 0 33.333333%;
     max-width: 33.333333%;
   }
+
+  .tpcol3 {
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 33%;
+    flex: 0 0 33%;
+    max-width: 33%;
+  }
+
+  .tp100w {
+    max-width: 100%;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

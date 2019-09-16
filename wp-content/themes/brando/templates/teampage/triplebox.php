@@ -16,10 +16,10 @@ $sectionName = str_replace(' ', '', strtolower($title));
         <?php   if($k == 0){ 
                 if(!empty($title)){ ?> <h2 class="main-title" style="color:white"><?php echo $dtitle?></h2>                    <?php } 
              } ?>
-            <div class="row teampagetriplerow"> 
+            <div class="row teampagetriplerow tp100w"> 
             <?php 
         } ?>
-         <div class="col-lg-3" >
+         <div class="col-lg-3 tpcol3" >
            <img class="img-fluid w-100 teampagephoto" src="<?php echo show_image($services[$k]['image']['url'], $services[$k]['image']['width'], $services[$k]['image']['height'], 75) ?>">
             <div class="teampage-triple">
                 <?php echo $services[$k]['title'] ?>  
