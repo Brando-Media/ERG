@@ -37,13 +37,13 @@ $sectionName = str_replace(' ', '', strtolower($title));
                 </div>
             </div>
             <div class="col-lg-4 contact-form" style="margin-top:10px; padding-left:0px;"" >
-            <div class="footerlink-title footermarginb">Make an enquiry</div>
+            <div class="footerlink-title footermarginb">MAKE AN EQUIRY</div>
                 <div style="padding-left:15px;"><?php echo do_shortcode('[contact-form-7 id="11" title="Contact Form"]') ?></div>
             </div>
         </div>
     </div>
     <div class="brandoctext" style="text-align:center; color:white; font-size:12px;">
-        © ERG INTERNATIONAL GROUP 2019
+        © ERG INTERNATIONAL UK LTD 2019
         </div>
         <div class="brandofooterpad brandoctext" style="text-align:center; color:white;font-size:12px;";>
         DEVELOPED BY <a class="brandoalink"href="http://www.brando-media.com/">BRANDO MEDIA</a>
