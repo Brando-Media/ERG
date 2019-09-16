@@ -1,4 +1,8 @@
 <?php 
+/*
+ * Template Name: CaseStudy
+ * Template Post Type: post, page, product
+ */
 $completed = get_field('what_we_done');
 $colour = get_field('header_colour');
 if($colour == "Blue"){

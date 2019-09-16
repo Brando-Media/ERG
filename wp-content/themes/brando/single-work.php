@@ -1,5 +1,9 @@
 
 <?php 
+/*
+ * Template Name: Work
+ * Template Post Type: post, page, product
+ */
 $completed = get_field('what_we_done');
 $colour = get_field('header_colour');
 if($colour == "Blue"){
@@ -36,7 +40,7 @@ if($colour == "Blue"){
                 if(get_row_layout() == 'content_left_content_right') get_template_part('templates/work/content_left_content_right');
                 if(get_row_layout() == 'imagenobotpadding') get_template_part('templates/work/imagenobotpadding');
                 if(get_row_layout() == 'project_filter') get_template_part('templates/work/project_filter');
-                if(get_row_layout() == 'two_images_content') get_template_part('templates/casestudy/two_images_content');
+                if(get_row_layout() == 'two_images_content') get_template_part('templates/casestudy/two_images_content'); 
 
             }
         }

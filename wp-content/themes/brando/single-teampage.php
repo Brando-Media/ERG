@@ -1,4 +1,8 @@
 <?php 
+/*
+ * Template Name: TeamPage
+ * Template Post Type: post, page, product
+ */
 $completed = get_field('what_we_done');
 $colour = get_field('header_colour');
 if($colour == "Blue"){
@@ -27,9 +31,9 @@ if($colour == "Blue"){
                 if(get_row_layout() == 'contact') get_template_part('templates/services/contact');
                 if(get_row_layout() == 'featured_work') get_template_part('templates/services/featured_work');
                 if(get_row_layout() == 'triplebox') get_template_part('templates/teampage/triplebox');
-                if(get_row_layout() == 'project_home') get_template_part('templates/teampage/projecthome');
+                if(get_row_layout() == 'project_home') get_template_part('templates/teampage/projecthome'); 
             }
-        }
+        } 
         
         ?>
         </main>
