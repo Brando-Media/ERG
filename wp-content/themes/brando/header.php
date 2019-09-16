@@ -101,7 +101,6 @@
               <!--      </nav> -->
 
               <nav class="navbar navbar-expand-lg navfloat" id="navfloatx">
-
                     <div class="collapse navbar-collapse navbaritemz" id="navbarTogglerDemo02">
                         <ul class="navbar-nav mr-auto mt-2 mt-lg-0 navbarfr">
                         <li class="nav-item">
