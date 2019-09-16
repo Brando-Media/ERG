@@ -3186,7 +3186,7 @@ a[href^=tel] {
 }
 
 @media only screen and (min-width: 500px) and (max-width: 991px) {
-  .imghoverw {
+  .hoverimg {
     min-width: 25% !important;
     max-width: 25% !important;
   }
