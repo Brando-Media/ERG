@@ -405,7 +405,7 @@ p, .main-content ul{
     border-radius:0px!important;
     border: 1px solid #00498D;
     padding-top:40px;
-    padding-left:40px;
+    //padding-left:40px;
 }
 
 .mapitem{
@@ -3067,5 +3067,19 @@ textarea::-webkit-input-placeholder {
     .hoverimg{
         min-width: 25%!important;
         max-width: 25%!important; 
+    }
+    .div50{
+        min-width:50%!important;
+        max-width:50%!important;
+    }
+    .img100{
+        max-width:100%!important;
+        min-width:100%!important;
+    }
+    .img-order{
+        order:inherit!important;
+        //padding-left:15px!important;
+        padding-top:0px;
+        padding-bottom:0px;
     }
 } 
