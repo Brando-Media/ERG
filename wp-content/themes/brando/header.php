@@ -82,7 +82,7 @@
                             <a style="color:white; font-weight:bold;" class="nav-link navhover" href="erg/what-we-do">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a style="color:white; font-weight:bold;" class="nav-link navhover" href="projects">Projects</a>
+                            <a style="color:white; font-weight:bold;" class="nav-link navhover" href="sectors">Projects</a>
                         </li>
                         <li class="nav-item">
                             <a style="color:white; font-weight:bold;" class="nav-link navhover" href="case-studies">Case Studies</a>
@@ -110,7 +110,7 @@
                             <a style="color:white; font-weight:bold;" class="nav-link navhover" href="what-we-do">Services</a>
                         </li>
                         <li class="nav-item">
-                            <a style="color:white; font-weight:bold;" class="nav-link navhover" href="projects">Projects</a>
+                            <a style="color:white; font-weight:bold;" class="nav-link navhover" href="sectors">Projects</a>
                         </li>
                         <li class="nav-item">
                             <a style="color:white; font-weight:bold;" class="nav-link navhover" href="case-studies">Case Studies</a>
