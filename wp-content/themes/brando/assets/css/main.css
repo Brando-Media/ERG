@@ -3257,6 +3257,15 @@ a[href^=tel] {
   .hideonmobilelate {
     display: block !important;
   }
+
+  .projimgwidth {
+    width: 100% !important;
+    max-width: 50vw;
+  }
+
+  .small-project-home {
+    width: 50vw;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

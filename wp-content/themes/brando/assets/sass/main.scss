@@ -3105,7 +3105,7 @@ textarea::-webkit-input-placeholder {
     .tpcol3{
         -webkit-box-flex: 0;
         -ms-flex: 0 0 33%;
-        flex: 0 0 33%;
+        flex: 0 0 33%; 
         max-width: 33%;
     }
     .tp100w{
@@ -3127,5 +3127,12 @@ textarea::-webkit-input-placeholder {
     }
     .hideonmobilelate{
         display:block!important;
+    }
+    .projimgwidth{
+        width:100%!important;
+        max-width:50vw;
+    }
+    .small-project-home{
+        width:50vw;
     }
 }
