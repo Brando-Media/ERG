@@ -91,7 +91,7 @@ $nexturl = get_sub_field('next_url');
             <div class="col-lg-6 text-center left-content-work-block pt200m100" style=" padding-left:50px; padding-right:70px; /* max-width:85%; padding-left:35px;*/">
                 <div class="project-home-image indicasestudyhideimage" style="margin:0px; float:right;">
                     <?php if($image): ?>
-                        <img class="img-fluid img-phome" src="<?php echo show_image($image['url'], $image['width'], $image['height']); ?>">
+                        <img style="min-width:350px;" class="img-fluid img-phome" src="<?php echo show_image($image['url'], $image['width'], $image['height']); ?>">
                     <?php endif; ?>
                 </div>
                 
@@ -112,7 +112,7 @@ $nexturl = get_sub_field('next_url');
             </div>
             <div class="col-lg-6 text-center align-self-center right-content-work-block project-home-text" style="padding-left:0px; padding-right:0px;">
                 <?php if($image): ?>
-                    <img class="img-fluid img-phome content-image" src="<?php echo show_image($image['url'], $image['width'], $image['height']); ?>">
+                    <img style="min-width:350px;" class="img-fluid img-phome content-image" src="<?php echo show_image($image['url'], $image['width'], $image['height']); ?>">
                 <?php endif; ?>
             </div>
         <?php endif; ?>
