@@ -73,7 +73,6 @@ $nexturl = get_sub_field('next_url');
 <?php 
 $image    = get_sub_field('image');
 $smallimage    = get_sub_field('smallimage');
-$imagePos = get_sub_field('image_position');
 $title    = get_sub_field('title');
 $content  = get_sub_field('content');
 $contentsmalltext  = get_sub_field('content_small_text');
@@ -87,7 +86,6 @@ $nexturl = get_sub_field('next_url');
 
 <div class="">
     <div class="row d-flex" style="color:#00498d;">
-        <?php if($imagePos=='Left'): ?>
             <div class="col-lg-6 text-center left-content-work-block pt200m100" style=" padding-left:50px; padding-right:70px; /* max-width:85%; padding-left:35px;*/">
                 <div class="project-home-image indicasestudyhideimage" style="margin:0px; float:right;">
                     <?php if($image): ?>
@@ -104,20 +102,6 @@ $nexturl = get_sub_field('next_url');
                 <div class="indicase-text" style="font-size:24px;"><?php echo $content; ?></div>
                 <?php echo $contentsmalltext; ?>
             </div>
-        <?php elseif($imagePos=='Right'): ?>
-            <div class="col-lg-6 align-self-center left-content-work-block" style="padding-left:70px;" >
-                <?php echo $title ? "<div class='indicase-title indicasefontchange'>{$title}</div>" : '' ?>
-                <div class="indicase-text" style="font-size:24px;"><?php echo $content; ?></div>
-                <?php echo $contentsmalltext; ?>
-            </div>
-            <div class="col-lg-6 text-center align-self-center right-content-work-block project-home-text" style="padding-left:0px; padding-right:0px;">
-                <?php if($image): ?>
-                    <img style="min-width:350px;" class="img-fluid img-phome content-image" src="<?php echo show_image($image['url'], $image['width'], $image['height']); ?>">
-                <?php endif; ?>
-            </div>
-        <?php endif; ?>
-    </div>
-</div>
 
 <div class="row d-flex indicasepad marginautoindicase" id="marginautoindicase" style="margin-top:50px;">
         <?php if(!empty($previoustext)){ ?> 
