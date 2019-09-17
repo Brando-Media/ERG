@@ -1697,6 +1697,10 @@ textarea::placeholder {
     padding-left: 20% !important;
   }
 
+  .padleft10 {
+    padding-left: 10% !important;
+  }
+
   .pl16 {
     padding-left: 10px;
   }
@@ -2056,6 +2060,10 @@ a[href^=tel] {
   }
 
   .padleft25 {
+    padding-left: 10% !important;
+  }
+
+  .padleft10 {
     padding-left: 10% !important;
   }
 
