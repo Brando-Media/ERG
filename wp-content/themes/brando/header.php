@@ -91,7 +91,7 @@
                             <a style="color:white;font-weight:bold;" class="nav-link navhover" onclick="hrefMove('global')" href="https://brando.media/erg/#global/"  >Global</a>
                         </li>
                         <li class="nav-item">
-                            <a style="color:white;font-weight:bold;" class="nav-link navhover" href="team-page">Team</a>
+                            <a style="color:white;font-weight:bold;" class="nav-link navhover" href="team-pages">Team</a>
                         </li>
                         <li class="nav-item">
                             <a style="color:white;font-weight:bold;" class="nav-link navhover" onclick="hrefMove('contact')" href="https://brando.media/erg/#contact/"  >Contact</a>
@@ -119,7 +119,7 @@
                             <a style="color:white;font-weight:bold;" class="nav-link navhover" id="globalnav" onclick="changeNavCol('globalnav')" href="https://brando.media/erg/#global">Global</a>
                         </li>
                         <li class="nav-item">
-                            <a style="color:white;font-weight:bold;" class="nav-link navhover" href="team-page">Team</a>
+                            <a style="color:white;font-weight:bold;" class="nav-link navhover" href="team-pages">Team</a>
                         </li>
                         <li class="nav-item">
                             <a style="color:white;font-weight:bold;" class="nav-link navhover" id="contactnav" onclick="changeNavCol('contactnav')" href="https://brando.media/erg/#contact">Contact</a>
