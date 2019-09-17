@@ -3210,7 +3210,7 @@ a[href^=tel] {
     min-width: 100% !important;
   }
 
-  .img-order {
+  §4s .img-order {
     order: inherit !important;
     padding-top: 0px;
     padding-bottom: 0px;
@@ -3276,6 +3276,14 @@ a[href^=tel] {
   .small-project-home {
     width: 50vw;
   }
+}
+.globalstyle {
+  font-family: Helvetica;
+  font-size: 20px;
+  color: #00498D;
+  text-align: left;
+  line-height: 25px;
+  font-weight: 500;
 }
 
 /*# sourceMappingURL=main.css.map */
