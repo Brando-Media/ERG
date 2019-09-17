@@ -73,6 +73,7 @@ $nexturl = get_sub_field('next_url');
 <?php 
 $image    = get_sub_field('image');
 $smallimage    = get_sub_field('smallimage');
+$imagePos = get_sub_field('image_position');
 $title    = get_sub_field('title');
 $content  = get_sub_field('content');
 $contentsmalltext  = get_sub_field('content_small_text');
@@ -86,6 +87,7 @@ $nexturl = get_sub_field('next_url');
 
 <div class="">
     <div class="row d-flex" style="color:#00498d;">
+        <?php if($imagePos=='Left'): ?>
             <div class="col-lg-6 text-center left-content-work-block pt200m100" style=" padding-left:50px; padding-right:70px; /* max-width:85%; padding-left:35px;*/">
                 <div class="project-home-image indicasestudyhideimage" style="margin:0px; float:right;">
                     <?php if($image): ?>
@@ -102,6 +104,8 @@ $nexturl = get_sub_field('next_url');
                 <div class="indicase-text" style="font-size:24px;"><?php echo $content; ?></div>
                 <?php echo $contentsmalltext; ?>
             </div>
+    </div>
+</div>
 
 <div class="row d-flex indicasepad marginautoindicase" id="marginautoindicase" style="margin-top:50px;">
         <?php if(!empty($previoustext)){ ?> 
