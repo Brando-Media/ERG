@@ -104,6 +104,18 @@ $nexturl = get_sub_field('next_url');
                 <div class="indicase-text" style="font-size:24px;"><?php echo $content; ?></div>
                 <?php echo $contentsmalltext; ?>
             </div>
+        <?php elseif($imagePos=='Right'): ?>
+            <div class="col-lg-6 align-self-center left-content-work-block" style="padding-left:70px;" >
+                <?php echo $title ? "<div class='indicase-title indicasefontchange'>{$title}</div>" : '' ?>
+                <div class="indicase-text" style="font-size:24px;"><?php echo $content; ?></div>
+                <?php echo $contentsmalltext; ?>
+            </div>
+            <div class="col-lg-6 text-center align-self-center right-content-work-block project-home-text" style="padding-left:0px; padding-right:0px;">
+                <?php if($image): ?>
+                    <img style="min-width:350px;" class="img-fluid img-phome content-image" src="<?php echo show_image($image['url'], $image['width'], $image['height']); ?>">
+                <?php endif; ?>
+            </div>
+        <?php endif; ?>
     </div>
 </div>
 
