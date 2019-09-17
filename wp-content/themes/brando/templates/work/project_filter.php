@@ -1,6 +1,5 @@
 <?php 
 $image    = get_sub_field('image');
-$imagePos = get_sub_field('image_position');
 $services = get_sub_field('services');
 $first = 0;
 ?>
