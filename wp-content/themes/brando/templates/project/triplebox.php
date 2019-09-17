@@ -92,7 +92,7 @@ if($topbg == 'No'){
                 1/2
             </div>
             <div id="casepagechange" class="casenavtext">
-                NEXT <img src="../../wp-content/themes/brando/assets/images/leftah.png" >
+                NEXT <img src="../wp-content/themes/brando/assets/images/leftah.png" >
             </div>
         </div>
 
