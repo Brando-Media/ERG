@@ -435,7 +435,7 @@ p, .main-content ul {
   font-style: normal;
   letter-spacing: 3px;
   transition: all 0.5s;
-  text-shadow: 0 0 5px #000000, 0 0 0;
+  text-shadow: 0 0 3px #000000, 0 0 0;
 }
 
 #brando-container {
@@ -457,7 +457,7 @@ p, .main-content ul {
   font-style: normal;
   letter-spacing: 3px;
   transition: all 0.5s;
-  text-shadow: 0 0 5px #ffffff, 0 0 0;
+  text-shadow: 0 0 3px #ffffff, 0 0 0;
 }
 
 .indicase-title {
