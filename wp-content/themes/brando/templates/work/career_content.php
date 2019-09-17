@@ -11,7 +11,7 @@ $content  = get_sub_field('content');
                         <div class="worktitlec" style="color:black; font-size: 50px;margin-bottom: 30px;padding-left:15px;font-weight: 300; font-family: 'PangramBlack';font-style: normal;">
                         <div class="fontworksingle d" style="padding-left:15px; margin-bottom:30px; color:black;"><?php echo $title ?></div> 
                         </div>
-                        <div style="padding-left:30px;"> <?php echo $content ?> </div>
+                        <div style="padding-left:30px; max-width: 700px;"> <?php echo $content ?> </div>
 
                     </div>
                 </div>
