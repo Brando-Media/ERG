@@ -18,7 +18,7 @@ $linkurl       = get_sub_field('link_url');
             <?php foreach($services as $servicerow){
                 if($servicerow['text_location']=="Bottom"){ ?>
                     
-                    <div class="col-lg-3" style="padding-left:0px; padding-right:0px;">
+                    <div class="col-lg-3" style="padding-left:0px; padding-right:0px; min-width: 198px;">
                         <div class="emptybox" style=""> </div>
                         <?php if($first != 0){ ?>
                         <div class="servicesimg" style="text-align:center;">
@@ -34,7 +34,7 @@ $linkurl       = get_sub_field('link_url');
                         </div>
                     </div>
                 <?php }else if($servicerow['text_location']=="Top"){ ?>
-                    <div class="col-lg-3" style="padding-left:0px; padding-right:0px;">
+                    <div class="col-lg-3" style="padding-left:0px; padding-right:0px; min-width: 198px;">
                         <div class="servicescontent nomarginl991 nomarginr991 padright99110 maxwidth991100" style=""><div class="servicesubtitle" style="color:white;"><?php echo $servicerow['title']; ?></div>
                         <?php echo $servicerow['content']; ?></div>
                         <?php if($first != 0){ ?>
