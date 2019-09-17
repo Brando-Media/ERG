@@ -19,7 +19,7 @@ if($colour == "Blue"){
                 <div class="col-lg-12 projects-home" style="color:white; padding-left:0px;">
                     <div  style="/*max-width:90%;*/"-->
                         <div class="worktitlec" style="color:white; font-size: 50px;margin-bottom: 30px;padding-left:15px;font-weight: 300; font-family: 'PangramBlack';font-style: normal;">
-                        <div class="fontworksingle" style="padding-left:15px; margin-bottom:30px;"><?php the_post(); the_title(); ?></div>
+                        <div class="fontworksingle d" style="padding-left:15px; margin-bottom:30px;"><?php the_post(); the_title(); ?></div>
                         <?php the_content(); ?>
                         </div>
                     </div>
@@ -41,6 +41,7 @@ if($colour == "Blue"){
                 if(get_row_layout() == 'imagenobotpadding') get_template_part('templates/work/imagenobotpadding');
                 if(get_row_layout() == 'project_filter') get_template_part('templates/work/project_filter');
                 if(get_row_layout() == 'two_images_content') get_template_part('templates/casestudy/two_images_content'); 
+                if(get_row_layout() == 'career_content') get_template_part('templates/work/career_content'); 
 
             }
         }
