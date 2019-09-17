@@ -3088,6 +3088,10 @@ a[href^=tel] {
   .navbarfr {
     float: none;
   }
+
+  .teampagemobilepad {
+    padding-bottom: 0px !important;
+  }
 }
 .displaynone {
   display: none !important;
@@ -3187,6 +3191,10 @@ a[href^=tel] {
 }
 
 @media only screen and (min-width: 500px) and (max-width: 991px) {
+  .teampagemobilepad {
+    padding-bottom: 0px !important;
+  }
+
   .hoverimg {
     min-width: 25% !important;
     max-width: 25% !important;
