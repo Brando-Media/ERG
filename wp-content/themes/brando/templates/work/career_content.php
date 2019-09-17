@@ -1,6 +1,7 @@
 <?php 
 $title    = get_sub_field('title');
 $content  = get_sub_field('content');
+var_dump($title);
 ?>
 
 <section>
