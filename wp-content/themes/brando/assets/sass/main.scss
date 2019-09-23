@@ -877,6 +877,7 @@ input.form-control{
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   text-align: center;
+  width:90%;
 }
 
 .text { 
@@ -896,7 +897,7 @@ input.form-control{
     font-family: Helvetica;
     font-size: 20px;
     position: absolute;
-    width:70%;
+    width:90%;
     top: 50%;
     left: 50%; 
     -webkit-transform: translate(-50%, -50%);

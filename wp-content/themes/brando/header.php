@@ -26,12 +26,15 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-        <?php require_once('BFI_Thumb.php'); ?>
+        <?php require_once('BFI_Thumb.php'); ?> 
         <?php wp_head(); ?>
  
         <!--[if lt IE 9]> <script src="<?php bloginfo('template_directory'); ?>/javascript/html5shiv.js"></script> <![endif]-->
-        
+         
     </head>
+    <style>
+    @import url('https://fonts.googleapis.com/css?family=Roboto:100&display=swap');
+    </style>
     <body <?php body_class(); ?>> 
         <?php
         $class = '';
@@ -128,23 +131,6 @@
                     </div>
                     </nav>
 
-<!--
-                    
-                    <?php if(have_rows('content', 2)): ?>
-                    
-                        <nav id="main-menu" class="float-right erg-h topnav">
-                            <ul class="header__list" id="ul-menu">  
-                            <li class="header__list-item"><a class="hover-underline-link about-link" href="#about-nathalie">ABOUT</a></li>
-                            <li class="header__list-item"><a class="hover-underline-link about-link" href="#about-nathalie">NEWS</a></li>
-                            <li class="header__list-item"><a class="hover-underline-link about-link" href="#about-nathalie">MENU</a></li>
-                            </ul>
-                        </nav>
-                        <div class="float-right erg-h topnav mob-white" id="mobshow" style="right:20px; position:absolute;">
-                            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-                                <i class="fa fa-bars"></i>
-                            </a>
-                        </div>
-                    <?php endif; ?>-->
                 </div>
             </header>
 
