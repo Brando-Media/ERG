@@ -3159,3 +3159,12 @@ textarea::-webkit-input-placeholder {
     line-height: 25px;
     font-weight: 500;
 }
+
+@media only screen and (max-width: 900px) {
+    .hometextoverlay{
+        font-size:13px;
+    }
+    .viewcasestudy{
+        font-size:13px;
+    }
+}

@@ -3295,4 +3295,14 @@ a[href^=tel] {
   font-weight: 500;
 }
 
+@media only screen and (max-width: 900px) {
+  .hometextoverlay {
+    font-size: 13px;
+  }
+
+  .viewcasestudy {
+    font-size: 13px;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
