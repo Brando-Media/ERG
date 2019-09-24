@@ -9,7 +9,7 @@ if($colour == "Blue"){
 }else{
     get_header(); 
 } ?>
-    <main>
+    <main class="mainstyle">
     <section class="section  background-image-home" data-section-name="homes" style="max-height:750px; min-height:750px;">
     <div class="background-layer-home padright20 padleft25">
     <h1><div class="frontpagetitle nopad992" style="
