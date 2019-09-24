@@ -3317,5 +3317,9 @@ a[href^=tel] {
     font-size: 20px;
   }
 }
+.mainstyle {
+  min-height: 100vh;
+  position: relative;
+}
 
 /*# sourceMappingURL=main.css.map */

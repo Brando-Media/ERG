@@ -11,7 +11,7 @@ if($colour == "Blue"){
 }else{
     get_header('work'); 
 } ?>
-<main style="position:relative;">
+    <main class="mainstyle">
 
     <section class="section servicesoverviewbgright" style="min-height: 675px;">
         <div class="container container--small main-content serviceshometext">
