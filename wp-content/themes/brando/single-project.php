@@ -25,7 +25,7 @@ if($colour == "Blue"){
             </div>
         </div>
         </section>-->
-        <main>
+        <main style="position:relative;">
         <?php 
         if(have_rows('content')){
             while(have_rows('content')){

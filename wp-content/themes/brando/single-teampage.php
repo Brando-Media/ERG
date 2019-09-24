@@ -10,7 +10,7 @@ if($colour == "Blue"){
 }else{
     get_header('work'); 
 } ?>
-    <main>
+    <main style="position:relative;">
 
         <?php 
         if(have_rows('content')){
