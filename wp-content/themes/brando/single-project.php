@@ -41,6 +41,8 @@ if($colour == "Blue"){
             }
         }
         ?>
+        <div class="section footerbg"  data-section-name="hello" style="min-height:20px;">    
+    </div>
     </main>
     <?php 
 if($colour == "Blue"){
@@ -48,5 +50,3 @@ if($colour == "Blue"){
 }else{
     get_footer('work'); 
 } ?>
-<div class="section footerbg"  data-section-name="hello" style="min-height:20px;">    
-    </div>
