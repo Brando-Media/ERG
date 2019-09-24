@@ -275,6 +275,10 @@ p, .main-content ul{
     bottom: 0;
     padding-bottom: 30px;
     background: #00498D;
+    margin: 0!important;
+    width: 100vw;
+    max-width: 100vw;
+    min-width: 100vw;
     a{
         color: #fff;
         text-transform: uppercase;
