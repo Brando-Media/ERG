@@ -84,7 +84,7 @@
                             <a style="color:white; font-weight:bold;"  class="nav-link" href="https://brando.media/erg/what-we-do">What We Do</a>
                         </li>
                         <li class="nav-item">
-                            <a style="color:white; font-weight:bold;" class="nav-link" href="http://brando.media/erg/sectors/">Sectors</a>
+                            <a style="color:white; font-weight:bold;" class="nav-link" href="http://brando.media/erg/ourfocus/">Our Focus</a>
                         </li>
                         <li class="nav-item">
                             <a style="color:white; font-weight:bold;" class="nav-link" href="http://brando.media/erg/case-studies/">Case Studies</a>
@@ -113,7 +113,7 @@
                         <a style="color:white; font-weight:bold;" class="nav-link navhover" href="https://brando.media/erg/what-we-do/">What We Do</a>
                     </li>
                     <li class="nav-item">
-                        <a style="color:white; font-weight:bold;" class="nav-link navhover" href="http://brando.media/erg/sectors/">Sectors</a>
+                        <a style="color:white; font-weight:bold;" class="nav-link navhover" href="http://brando.media/erg/ourfocus/">Our Focus</a>
                     </li>
                     <li class="nav-item">
                         <a style="color:white; font-weight:bold;" class="nav-link navhover" href="http://brando.media/erg/case-studies/">Case Studies</a>
