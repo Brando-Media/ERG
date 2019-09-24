@@ -1086,8 +1086,6 @@ input.form-control ::-ms-input-placeholder {
   background: #00498D;
   max-height: 20px;
   min-height: 20px;
-  position: absolute;
-  bottom: 0;
 }
 
 .brandoalink {
