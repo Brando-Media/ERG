@@ -3361,4 +3361,9 @@ a[href^=tel] {
   min-width: 69vw;
 }
 
+.worktitlec {
+  font-family: Helvetica;
+  color: #00498D;
+}
+
 /*# sourceMappingURL=main.css.map */
