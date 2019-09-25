@@ -1914,6 +1914,8 @@ textarea::placeholder {
   .maxwidth23 {
     max-width: 23.061630218%;
     min-width: 23.061630218%;
+    max-width: 16.666667vw;
+    min-width: 16.666667vw;
   }
 
   .maxwidth16 {
