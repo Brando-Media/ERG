@@ -11,7 +11,7 @@ $contentsmalltext  = get_sub_field('content_small_text');
 <div id="about">
     <div class="row" id="testidchange" style="color:#00498d;">
         <?php if($imagePos=='Left'): ?>
-            <div class="col-lg-6 text-center align-self-center left-content-work-block bgwidthcontent /*bg640*/ div50" style="padding-left:0px; padding-right:0px; 
+            <div class="col-lg-6 text-center align-self-center left-content-work-block  /*bgwidthcontent bg640*/ div50" style="padding-left:0px; padding-right:0px; 
                     background-size: cover; background-position: center;height:100%; ">
                 <!--<?php if($image): ?>-->
                     <img style="height:auto;" class="servicescontentwithimageleft casestudieshomeimagewidth imagew100services img100" src="<?php echo $image['url']; ?>">
@@ -36,7 +36,7 @@ $contentsmalltext  = get_sub_field('content_small_text');
                 <?php echo $contentsmalltext; ?>
             </div>
             </div>
-            <div class="col-lg-6 text-center align-self-center right-content-work-block bgwidthcontent /*bg640*/ div50" style="padding-left:0px; padding-right:0px;  
+            <div class="col-lg-6 text-center align-self-center right-content-work-block  /*bgwidthcontent bg640*/ div50" style="padding-left:0px; padding-right:0px;  
                     background-size: cover; background-position: center;">
                 <?php if($image): ?>
                   <img style="height:auto;" class="servicescontentwithimageright casestudieshomeimagewidth imagew100services img100" src="<?php echo $image['url']; ?>">
