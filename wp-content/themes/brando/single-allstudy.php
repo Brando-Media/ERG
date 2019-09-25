@@ -23,7 +23,7 @@ if($colour == "Blue"){
                 if(get_row_layout() == 'imagenobotpadding') get_template_part('templates/work/imagenobotpadding');
 
                 if(get_row_layout() == 'images') get_template_part('templates/allstudy/images');
-
+ 
 
                 if(get_row_layout() == 'content') get_template_part('templates/casestudy/content'); 
                 if(get_row_layout() == 'services') get_template_part('templates/services/services');
@@ -35,7 +35,7 @@ if($colour == "Blue"){
         }
         ?>
         <div class="section  footerbg"  data-section-name="hello" style="min-height:20px;">    
-</div>
+        </div>
         </main>
 <?php
 if($colour == "Blue"){
