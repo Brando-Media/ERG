@@ -8,9 +8,10 @@ $content  = get_sub_field('content');
             <div class="row">
                 <div class="col-lg-12 projects-home" style="color:black; padding-left:0px;     margin-top: 0px;">
                     <div  style="/*max-width:90%;*/"-->
-                        <div class="worktitlec" style="color:black; font-size: 50px;margin-bottom: 30px;padding-left:15px;font-weight: 300;  font-family: Helvetica;
+                        <div class="worktitlec" style="font-size: 50px;margin-bottom: 30px;padding-left:15px;font-weight: 300;  font-family: Helvetica;
     color: #00498D; font-style: normal;">
-                        <div class="fontworksingle d" style="padding-left:15px; margin-bottom:30px; color:black;"><?php echo $title ?></div> 
+                        <div class="fontworksingle d" style="padding-left:15px; margin-bottom:30px; font-family: Helvetica;
+    color: #00498D;"><?php echo $title ?></div> 
                         </div>
                         <div style="padding-left:30px; max-width: 700px;  font-family: Helvetica;
     color: #00498D;"> <?php echo $content ?> </div>
