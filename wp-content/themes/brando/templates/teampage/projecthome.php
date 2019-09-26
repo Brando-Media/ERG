@@ -40,14 +40,14 @@ $projectitle = get_sub_field('project_title');
         <?php if(!empty($previoustext)){ ?> 
             <div class="indicasenavtext col-lg-6 case-prev-container" style="" >
             <div class="case-prev-text" style=" text-align:left;">
-                <a style="font-family: Helvetica;color: #00498D!important; text-align: left;" href="<?php echo $previousurl ?>"><div class="leftindipad" id="leftcasestudyindi" style="text-align: left; padding-left:0px;"> <img src="../wp-content/themes/brando/assets/images/rightah.png"><?php echo $previoustext ?></div></a>
+                <a style="font-family: Helvetica;color: #00498D!important; text-align: left;" href="<?php echo $previousurl ?>"><div class="leftindipad" id="leftcasestudyindi" style="text-align: left; padding-left:0px;"> <img class="leftarrowmargin" src="../wp-content/themes/brando/assets/images/rightah.png"><?php echo $previoustext ?></div></a>
             </div>
         </div>
         <?php } ?>
         <?php if(!empty($nexttext)){ ?>
             <div id="" class="indicasenavtext col-lg-5 case-next-container" style="" >
             <div style=" text-align:right;" class="case-next-text">
-            <a style="font-family: Helvetica; color: #00498D!important;" href="<?php echo $nexturl ?>"><div class="rightindipad" id="rightcasestudyindi" style="text-align: right; padding-right:0px;"> <?php echo $nexttext ?><img src="../wp-content/themes/brando/assets/images/leftah.png"></div> </a>
+            <a style="font-family: Helvetica; color: #00498D!important;" href="<?php echo $nexturl ?>"><div class="rightindipad" id="rightcasestudyindi" style="text-align: right; padding-right:0px;"> <?php echo $nexttext ?><img class="rightarrowmargin" src="../wp-content/themes/brando/assets/images/leftah.png"></div> </a>
             </div>
             </div>
         <?php } ?>

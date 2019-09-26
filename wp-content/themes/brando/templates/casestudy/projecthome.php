@@ -122,12 +122,12 @@ $nexturl = get_sub_field('next_url');
 <div class="row d-flex casenavhide indicasepad">
         <?php if(!empty($previoustext)){ ?> 
             <div class="casenavtext" id="casetextid">
-                <a style="font-family: Helvetica;color: #00498D!important;" href="<?php echo $previousurl ?>"><img src="../wp-content/themes/brando/assets/images/rightah.png"> <?php echo $previoustext ?></a>
+                <a style="font-family: Helvetica;color: #00498D!important;" href="<?php echo $previousurl ?>"><img class="leftarrowmargin" src="../wp-content/themes/brando/assets/images/rightah.png"> <?php echo $previoustext ?></a>
             </div>
         <?php } ?>
         <?php if(!empty($nexttext)){ ?>
             <div id="casepagechange" class="casenavtext">
-            <a style="font-family: Helvetica; color: #00498D!important;" href="<?php echo $nexturl ?>"><?php echo $nexttext ?> <img src="../wp-content/themes/brando/assets/images/leftah.png"></a>
+            <a style="font-family: Helvetica; color: #00498D!important;" href="<?php echo $nexturl ?>"><?php echo $nexttext ?> <img class="rightarrowmargin" src="../wp-content/themes/brando/assets/images/leftah.png"></a>
             </div>
         <?php } ?>
         </div>
