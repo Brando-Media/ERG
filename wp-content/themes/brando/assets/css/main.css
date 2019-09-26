@@ -3371,11 +3371,13 @@ a[href^=tel] {
 .rightarrowmargin {
   margin-bottom: 3px;
   margin-left: 2px;
+  height: 10px;
 }
 
 .leftarrowmargin {
   margin-bottom: 3px;
   margin-right: 2px;
+  height: 10px;
 }
 
 /*# sourceMappingURL=main.css.map */
