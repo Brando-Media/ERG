@@ -33,6 +33,8 @@ if($colour == "Blue"){
                 if(get_row_layout() == 'project_home') get_template_part('templates/casestudy/projecthome'); 
 
             }
+        }else{
+            var_dump("no have_rows recognized");
         }
         
         ?>
