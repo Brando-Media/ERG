@@ -29,6 +29,8 @@ if($colour == "Blue"){
             </div>
         </div>
         </section>
+        <div id="about" class="wwdpaddingtop">
+        </div>
         <?php 
         if(have_rows('content')){
             while(have_rows('content')){

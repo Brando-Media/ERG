@@ -1964,6 +1964,7 @@ textarea::placeholder {
 
   .margin-5wwd {
     margin-left: 5%;
+    padding-right: 0% !important;
   }
 
   .navfloat {
@@ -3393,6 +3394,23 @@ a[href^=tel] {
   .wwd1600 {
     flex: 0 0 100% !important;
     max-width: 100% !important;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1600px) {
+  .img1600 {
+    order: 2 !important;
+  }
+}
+@media only screen and (min-width: 992px) and (max-width: 1600px) {
+  .img1600wwd {
+    min-width: 700px !important;
+    margin: inherit;
+    margin-left: 5%;
+    padding-left: 15px;
+  }
+
+  .wwdpaddingtop {
+    padding-top: 60px;
   }
 }
 
