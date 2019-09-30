@@ -1901,6 +1901,9 @@ textarea::-webkit-input-placeholder {
     .margin-2{
         margin-left:20%;
     }
+    .margin-5wwd{
+        margin-left:5%;
+    }
     .navfloat{
         float:right;
     }
@@ -2309,6 +2312,10 @@ textarea::-webkit-input-placeholder {
         padding-top:20px;
     }
     .margin-2{
+        margin-left:auto;
+        margin-right:auto;
+    }
+    .margin-5wwd{
         margin-left:auto;
         margin-right:auto;
     }
@@ -3238,3 +3245,10 @@ textarea::-webkit-input-placeholder {
     margin-right:2px;
     height:10px;
 }
+
+@media only screen and (max-width: 1600px){
+    .wwd1600{
+        flex: 0 0 100%!important;
+        max-width: 100%!important;
+    }
+  }
