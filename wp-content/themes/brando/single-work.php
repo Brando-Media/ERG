@@ -20,7 +20,7 @@ if($colour == "Blue"){
                     <div  style="/*max-width:90%;*/"-->
                         <div class="worktitlec" style="color:white; font-size: 50px;margin-bottom: 30px;padding-left:15px;font-weight: 300; font-family: 'PangramBlack';font-style: normal;">
                         <div class="fontworksingle d" style="padding-left:15px; margin-bottom:30px;"><?php the_post(); the_title(); ?></div>
-                        <?php the_content(); ?>
+                        <div class="col-lg-12  work-completed" style="max-width:700px;"><?php the_content(); ?></div>
                         </div>
                     </div>
                 </div>
