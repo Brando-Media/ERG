@@ -3302,7 +3302,7 @@ textarea::-webkit-input-placeholder {
     height:10px;
 }
 
-@media only screen and (max-width: 1200px){
+@media only screen and (max-width: 992px){
     .wwd1600{
         flex: 0 0 100%!important;
         max-width: 100%!important;
@@ -3310,13 +3310,13 @@ textarea::-webkit-input-placeholder {
     }
   }
 
-  @media only screen and (min-width: 992px) and (max-width: 1200px){
+  @media only screen and (min-width: 992px) and (max-width: 992px){
     .img1600{
         order:2!important;
     }
   }
 
-  @media only screen and (min-width: 992px) and (max-width: 1200px){
+  @media only screen and (min-width: 992px) and (max-width: 992px){
     .img1600wwd{
         min-width:700px!important;
         margin:inherit;
