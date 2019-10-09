@@ -531,6 +531,10 @@ p, .main-content ul {
   padding-bottom: 40px;
 }
 
+.paddingtop120pxcs {
+  padding-top: 120px;
+}
+
 .gm-style .gm-style-iw-c {
   border-radius: 0px !important;
   border: 1px solid #00498D;
@@ -1067,6 +1071,12 @@ input.form-control ::-ms-input-placeholder {
 }
 
 .teampagebgbottomop {
+  background-repeat: no-repeat;
+  background-image: linear-gradient(to right, rgba(0, 160, 219, 0.8), rgba(0, 73, 144, 0.8));
+  background-size: 100% 20%;
+}
+
+.casestudiesbgbottomblue {
   background-repeat: no-repeat;
   background-image: linear-gradient(to right, rgba(0, 160, 219, 0.8), rgba(0, 73, 144, 0.8));
   background-size: 100% 20%;
@@ -2444,6 +2454,10 @@ a[href^=tel] {
     background-size: 100% 6%;
   }
 
+  .casestudiesbgbottomblue {
+    background-size: 100% 12%;
+  }
+
   .p100l {
     padding-left: 0px;
     margin-left: 0px !important;
@@ -3115,6 +3129,10 @@ a[href^=tel] {
     background-size: 100% 170px;
   }
 
+  .casestudiesbgbottomblue {
+    background-size: 100% 245px;
+  }
+
   .casestudiesheight {
     max-height: 600px !important;
   }
@@ -3330,6 +3348,10 @@ a[href^=tel] {
     background-size: 100% 150px;
   }
 
+  .casestudiesbgbottomblue {
+    background-size: 100% 200px;
+  }
+
   .socal50img {
     max-width: 50% !important;
     min-height: 300px;
@@ -3439,6 +3461,9 @@ a[href^=tel] {
   .wwdpaddingtop {
     padding-top: 60px;
   }
+}
+.cspaddingbottom90 {
+  padding-bottom: 90px;
 }
 
 /*# sourceMappingURL=main.css.map */

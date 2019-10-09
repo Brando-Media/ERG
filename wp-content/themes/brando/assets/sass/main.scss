@@ -388,7 +388,7 @@ p, .main-content ul{
         max-height:460px;
         right: 0;
         padding-right:0px;
-        margin-right:0px;
+        margin-right:0px; 
         margin-right: 0px!important;
         margin: auto;
         margin-top:40%;
@@ -421,13 +421,18 @@ p, .main-content ul{
     line-height: 19px;
     padding-bottom:40px;
 }
+.paddingtop120pxcs{
+    padding-top:120px;
 
+}
 .gm-style .gm-style-iw-c {
     border-radius:0px!important;
     border: 1px solid #00498D;
     padding-top:40px;
     //padding-left:40px;
 }
+
+
 
 .mapitem{
     font-family: Helvetica;
@@ -996,6 +1001,11 @@ input.form-control{
 }
 
 .teampagebgbottomop{
+    background-repeat:no-repeat;
+    background-image: linear-gradient(to right, rgba(0,160,219,0.8), rgba(0,73,144,0.8));
+    background-size: 100% 20%;
+}
+.casestudiesbgbottomblue{
     background-repeat:no-repeat;
     background-image: linear-gradient(to right, rgba(0,160,219,0.8), rgba(0,73,144,0.8));
     background-size: 100% 20%;
@@ -2328,6 +2338,9 @@ textarea::-webkit-input-placeholder {
     .teampagebgbottomop{
         background-size:100% 6%;
     }
+    .casestudiesbgbottomblue{
+        background-size:100% 12%;
+    }
     .p100l{
         padding-left:0px;
         margin-left:0px!important;
@@ -2986,6 +2999,9 @@ textarea::-webkit-input-placeholder {
     .teampagebgbottomop{
         background-size:100% 170px;
     }
+    .casestudiesbgbottomblue{
+        background-size: 100% 245px;
+    }
 
     .casestudiesheight{
         max-height:600px!important;
@@ -3192,6 +3208,9 @@ textarea::-webkit-input-placeholder {
     .teampagebgbottomop {
         background-size: 100% 150px;
     }
+    .casestudiesbgbottomblue{
+        background-size: 100% 200px;
+    }
     .socal50img{
         max-width:50%!important;
         min-height: 300px;
@@ -3299,4 +3318,8 @@ textarea::-webkit-input-placeholder {
     .wwdpaddingtop{
         padding-top:60px;
     }
+  }
+
+  .cspaddingbottom90{
+      padding-bottom:90px;
   }
