@@ -19,6 +19,15 @@
                     console.log(loc);
             }
 
+            $('#logo').on('click', function (e) {
+                    var target = $(this).attr('href');
+                    target = target.replace('#', '');
+                    target = $("[data-section-name='" + target + "']");
+                    var t = $(target).offset().top;
+                    $('body,html').animate({ 'scrollTop': t }, 1000)
+                    return false;
+                });
+
             function hrefMove(loc){
                 console.log(loc);
                 $('.work-template-default').css({"background-image": ''});

@@ -402,6 +402,22 @@ p, .main-content ul {
     max-width: 1200px;
   }
 }
+@media (min-width: 415px) {
+  .homeaboutitle {
+    font-family: Helvetica;
+    font-size: 45px;
+    color: #00498D;
+    padding-bottom: 20px;
+  }
+}
+@media (max-width: 414px) {
+  .homeaboutitle {
+    font-family: Helvetica;
+    font-size: 35px;
+    color: #00498D;
+    padding-bottom: 20px;
+  }
+}
 .content-title {
   font-family: Helvetica;
   font-size: 25px;
