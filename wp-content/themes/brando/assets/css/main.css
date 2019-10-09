@@ -3466,10 +3466,11 @@ a[href^=tel] {
 }
 @media only screen and (min-width: 992px) and (max-width: 992px) {
   .img1600wwd {
-    min-width: 700px !important;
-    margin: inherit;
-    margin-left: 5%;
+    min-width: 100%;
+    margin: 0px;
+    margin-left: 0px;
     padding-left: 15px;
+    padding-right: 15px;
   }
 
   .wwdpaddingtop {
