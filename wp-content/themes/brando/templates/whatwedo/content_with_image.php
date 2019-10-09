@@ -11,7 +11,7 @@ $contentsmalltext  = get_sub_field('content_small_text');
 <div id="about" >
     <div class="row" id="testidchange" style="color:#00498d;">
         <?php if($imagePos=='Left'): ?>
-            <div class="col-lg-6 wwd1600 text-center align-self-center left-content-work-block  /*bgwidthcontent bg640*/" style="padding-left:0px; padding-right:0px; 
+            <div class="pbwwd0 col-lg-6 wwd1600 text-center align-self-center left-content-work-block  /*bgwidthcontent bg640*/" style="padding-left:0px; padding-right:0px; 
                     background-size: cover; background-position: center;height:100%; ">
                 <!--<?php if($image): ?>-->
                     <img style="height:auto;" class="servicescontentwithimageleft  imagew100services img1600wwd img100" src="<?php echo $image['url']; ?>">
@@ -19,7 +19,7 @@ $contentsmalltext  = get_sub_field('content_small_text');
                     <--<img class="img-fluid imagefill content-image" src="<?php echo show_image($image['url'], $image['width'], $image['height']); ?>">-->
                 <!--<?php endif; ?>-->
             </div>
-            <div class="col-lg-6 wwd1600 align-self-center right-content-work-block  img-order img1600">
+            <div class="pbwwd0 col-lg-6 wwd1600 align-self-center right-content-work-block  img-order img1600">
                 <div class="margin-5wwd padding-right" style="/*padding-top:40px;*/" >
                 <img style="max-height:40px; max-width:40px;" class="img-fluid" src="<?php echo show_image($smallimage['url'], $smallimage['width'], $smallimage['height']); ?>">
                 <?php echo $title ? "<div class='content-title'>{$title}</div>" : '' ?>
@@ -28,7 +28,7 @@ $contentsmalltext  = get_sub_field('content_small_text');
             </div>
             </div>
         <?php elseif($imagePos=='Right'): ?>
-            <div class="col-lg-6 wwd1600 align-self-center left-content-work-block  img-order img1600" style="padding-left:70px;" >
+            <div class="pbwwd0 col-lg-6 wwd1600 align-self-center left-content-work-block  img-order img1600" style="padding-left:70px;" >
             <div class="margin-5wwd padding-right" style="/*padding-top:40px;*/" >
             <img style="max-height:40px; max-width:40px;" class="img-fluid" src="<?php echo show_image($smallimage['url'], $smallimage['width'], $smallimage['height']); ?>">
                 <?php echo $title ? "<div class='content-title'>{$title} </div>" : '' ?>
@@ -36,7 +36,7 @@ $contentsmalltext  = get_sub_field('content_small_text');
                 <?php echo $contentsmalltext; ?>
             </div>
             </div>
-            <div class="col-lg-6 wwd1600 text-center align-self-center right-content-work-block  /*bgwidthcontent bg640*/" style="padding-left:0px; padding-right:0px;  
+            <div class="pbwwd0 col-lg-6 wwd1600 text-center align-self-center right-content-work-block  /*bgwidthcontent bg640*/" style="padding-left:0px; padding-right:0px;  
                     background-size: cover; background-position: center;">
                 <?php if($image): ?>
                   <img style="height:auto;" class="servicescontentwithimageright  imagew100services img1600wwd img100" src="<?php echo $image['url']; ?>">
