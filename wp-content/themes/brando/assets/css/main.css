@@ -416,6 +416,7 @@ p, .main-content ul {
     font-size: 35px;
     color: #00498D;
     padding-bottom: 20px;
+    padding-top: 45px;
   }
 }
 .content-title {
@@ -1022,7 +1023,16 @@ input.form-control ::-ms-input-placeholder {
 
 .contentimagep p {
   font-family: Helvetica;
-  font-size: 15px;
+  font-size: 20px;
+  color: #00498D;
+  text-align: left;
+  line-height: 25px;
+  font-weight: 500;
+}
+
+.ergaboutsmalltext p {
+  font-family: Helvetica;
+  font-size: 14px;
   color: #00498D;
   text-align: left;
   line-height: 25px;
