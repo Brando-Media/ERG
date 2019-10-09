@@ -421,7 +421,7 @@ p, .main-content ul {
 }
 .content-title {
   font-family: Helvetica;
-  font-size: 25px;
+  font-size: 20px;
   color: #00498D;
   padding-bottom: 10px;
 }
@@ -1028,7 +1028,7 @@ input.form-control ::-ms-input-placeholder {
 
 .contentimagep p {
   font-family: Helvetica;
-  font-size: 20px;
+  font-size: 14px;
   color: #00498D;
   text-align: left;
   line-height: 25px;
@@ -1704,6 +1704,10 @@ textarea::placeholder {
   }
 }
 @media only screen and (min-width: 992px) {
+  .globalstyle {
+    padding-bottom: 50px;
+  }
+
   .project-home-text {
     margin-left: -76px !important;
   }
@@ -2681,6 +2685,10 @@ a[href^=tel] {
 }
 
 @media only screen and (max-width: 991px) {
+  .globalstyle {
+    padding-bottom: 100px;
+  }
+
   .latesttwitter {
     padding-left: 0px;
     font-family: Helvetica;
@@ -2958,6 +2966,7 @@ a[href^=tel] {
     text-align: left;
     line-height: 25px;
     font-weight: 500;
+    margin-bottom: 0px;
   }
 
   .latesttwitter {
@@ -3141,9 +3150,7 @@ a[href^=tel] {
   }
 
   .globalcontent {
-    max-width: 500px !important;
     margin-left: auto;
-    margin-bottom: 100px;
   }
 
   .inditeamtext {
