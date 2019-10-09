@@ -3307,11 +3307,6 @@ a[href^=tel] {
     max-width: 50% !important;
   }
 
-  .img100 {
-    max-width: 100% !important;
-    min-width: 100% !important;
-  }
-
   §4s .img-order {
     order: inherit !important;
     padding-top: 0px;
@@ -3515,6 +3510,12 @@ a[href^=tel] {
   .content-title {
     font-size: 16px;
     line-height: 20px;
+  }
+}
+@media only screen and (min-width: 500px) and (max-width: 991px) {
+  .img100 {
+    max-width: 100% !important;
+    min-width: 100% !important;
   }
 }
 
