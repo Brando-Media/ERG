@@ -22,7 +22,7 @@ $contentsmalltext  = get_sub_field('content_small_text');
             <div class="col-lg-7 align-self-center right-content-work-block casestudieshomeimagewidth  padleft25 padright99110 minw90500991">
                 <div class=" padding-right pl16" style="/*padding-top:40px;*/" >
                 <img style="max-height:40px; max-width:40px;" class="img-fluid" src="<?php echo show_image($smallimage['url'], $smallimage['width'], $smallimage['height']); ?>">
-                <?php echo $title ? "<div class='content-title'>{$title}</div>" : '' ?>
+                <?php echo $title ? "<div class='homeaboutitle'>{$title}</div>" : '' ?>
                 <div class="contentimagep" style="font-size:24px;"><?php echo $content; ?></div>
                 <?php echo $contentsmalltext; ?>
             </div>
@@ -31,7 +31,7 @@ $contentsmalltext  = get_sub_field('content_small_text');
             <div class="col-lg-7 align-self-center left-content-work-block casestudieshomeimagewidth padleft25 padright99110 minw90500991" style="padding-left:70px;" >
             <div class=" padding-right pl16" style="/*padding-top:40px;*/" >
             <img style="max-height:40px; max-width:40px;" class="img-fluid" src="<?php echo show_image($smallimage['url'], $smallimage['width'], $smallimage['height']); ?>">
-                <?php echo $title ? "<div class='content-title'>{$title} </div>" : '' ?>
+                <?php echo $title ? "<div class='homeaboutitle'>{$title} </div>" : '' ?>
                 <div class="contentimagep" style="font-size:24px;"> <?php echo $content; ?> </div>
                 <?php echo $contentsmalltext; ?>
             </div>
