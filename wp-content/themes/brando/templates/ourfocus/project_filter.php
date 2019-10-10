@@ -11,6 +11,7 @@ $first = 0;
                     <div class="row" style="color:#fff;">
                             
                             <div class="col-lg-12 right-content-work-block pfcol6" style="max-width:700px;">
+                            <div class="ourfocustext">BIG LETTERS</div>
                             <?php foreach($services as $servicerow){ 
                                 if($first==0){?>
                                     <button class="accordionproject" style="border-top: 1px solid #fff; outline: none!Important; position:relative;"><span class="ourfocustextsize" style="font-size:24px;"><?php echo $servicerow['project_title']?></span></button>
