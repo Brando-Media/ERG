@@ -19,7 +19,7 @@ $sectionName = str_replace(' ', '', strtolower($title));
             <div class="row teampagetriplerow tp100w"> 
             <?php 
         } ?>
-         <div class="col-lg-2 tpergcol3" >
+         <div class="col-lg-3 tpergcol3" >
          <div class="casestudyhover" style="position:relative;">
             <a href="<?php echo $servicerow['link_url']; ?>">
             <img class="img-fluid w-100 teampagephoto" src="<?php echo show_image($services[$k]['image']['url'], $services[$k]['image']['width'], $services[$k]['image']['height'], 75) ?>">
