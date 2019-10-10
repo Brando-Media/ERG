@@ -1356,10 +1356,10 @@ textarea::placeholder {
 }
 
 .teampage-content a {
-  font-family: Helvetica;
-  font-size: 20px;
-  color: #00498D;
-  line-height: 25px;
+  font-family: Helvetica !important;
+  font-size: 20px !important;
+  color: #00498D !important;
+  line-height: 25px !important;
 }
 
 .link-teampage {
