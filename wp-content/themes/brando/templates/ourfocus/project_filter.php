@@ -13,7 +13,7 @@ $first = 0;
                             <div class="col-lg-12 right-content-work-block filter-padding pfcol6" style="max-width:700px;">
                             <?php foreach($services as $servicerow){ 
                                 if($first==0){?>
-                                    <button class="accordionproject" style="border-top: 1px solid #fff; outline: none!Important;"><?php echo $servicerow['project_title']?></button>
+                                    <button style="font-size:24px;" class="accordionproject" style="border-top: 1px solid #fff; outline: none!Important;"><?php echo $servicerow['project_title']?></button>
                                     <div class="panelproject">
                                     <?php foreach($servicerow as $projectrow){ ?>
                                         <?php foreach($projectrow as $row){ ?>
