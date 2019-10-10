@@ -7,7 +7,7 @@ $sectionName = str_replace(' ', '', strtolower($title));
 
 
     
-    <section style="padding-top:1px;" class="section teampagebgbottomop " data-section-name="<?php echo $sectionName; ?>">
+    <section style="padding-top:1px;" class="section teampagebgbottomop " data-section-name="<?php echo $sectionName; ?>" style="padding-top:50px;">
 
     <?php  $i = 0;  $k = 0;
     foreach($services as $servicerow){
