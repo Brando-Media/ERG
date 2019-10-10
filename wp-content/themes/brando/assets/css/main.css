@@ -3578,6 +3578,11 @@ a[href^=tel] {
     max-width: 150px !important;
   }
 }
+@media only screen and (max-width: 799px) and (min-width: 500px) {
+  .maxwidth1200teampage {
+    max-width: 100px !important;
+  }
+}
 .containererg {
   position: relative;
   width: 50%;
