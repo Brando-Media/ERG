@@ -1353,6 +1353,7 @@ textarea::placeholder {
   font-size: 20px;
   color: #00498D;
   line-height: 25px;
+  margin-bottom: 60px;
 }
 
 .teampage-content a {
