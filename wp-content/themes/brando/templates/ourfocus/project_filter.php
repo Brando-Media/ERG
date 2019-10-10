@@ -17,7 +17,7 @@ $first = 0;
                                     <div class="panelproject">
                                     <?php foreach($servicerow as $projectrow){ ?>
                                         <?php foreach($projectrow as $row){ ?>
-                                            <div style="padding-bottom:25px;"> <a class="hoverremoveactive" style="color: #fff!important;" onMouseOver="this.style.color='#fff';" onMouseOut="this.style.color='#fff'"><?php echo $row['project_title'] ?></a> </div>
+                                            <div style="padding-bottom:25px;"> <div class="ourfocussmalltextp"><?php echo $row['project_title'] ?></div> </div>
                                         <?php } ?>
                                     <?php } ?>
                                     </div>
@@ -26,7 +26,7 @@ $first = 0;
                                     <div class="panelproject">
                                     <?php foreach($servicerow as $projectrow){ ?>
                                         <?php foreach($projectrow as $row){ ?>
-                                            <div style="padding-bottom:25px;"> <a class="hoverremoveactive"  style="color: #fff!important;" onMouseOver="this.style.color='#fff';" onMouseOut="this.style.color='#fff'"><?php echo $row['project_title'] ?></a> </div>
+                                            <div style="padding-bottom:25px;"> <div class="ourfocussmalltextp"><?php echo $row['project_title'] ?></div> </div>
                                         <?php } ?>
                                     <?php } ?>
                                     </div>
