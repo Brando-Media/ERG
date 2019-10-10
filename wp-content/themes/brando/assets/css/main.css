@@ -3553,5 +3553,9 @@ a[href^=tel] {
     padding-left: 30px !important;
   }
 }
+.nav-link {
+  padding-right: 12px !important;
+  padding-left: 12px !important;
+}
 
 /*# sourceMappingURL=main.css.map */
