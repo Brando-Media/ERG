@@ -19,7 +19,7 @@ $sectionName = str_replace(' ', '', strtolower($title));
             <div class="row teampagetriplerow tp100w"> 
             <?php 
         } ?>
-         <div class="col-lg-3 tpcol3" >
+         <div class="col-lg-3 tpergcol3" >
            <img class="img-fluid w-100 teampagephoto" src="<?php echo show_image($services[$k]['image']['url'], $services[$k]['image']['width'], $services[$k]['image']['height'], 75) ?>">
             <div class="teampage-triple">
                 <?php echo $services[$k]['title'] ?>  
