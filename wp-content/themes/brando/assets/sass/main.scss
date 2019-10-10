@@ -3436,6 +3436,11 @@ textarea::-webkit-input-placeholder {
   }
  
       
+  @media only screen and(max-width:1200px) and (min-width:800px){
+    .maxwidth1200teampage{
+        max-width:150px!important;
+    }    
+  }
   .containererg {
     position: relative;
     width: 50%;

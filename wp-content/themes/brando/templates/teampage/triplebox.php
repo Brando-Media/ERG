@@ -23,7 +23,7 @@ $sectionName = str_replace(' ', '', strtolower($title));
             <a href="<?php echo $servicerow['link_url']; ?>">
             <img class="img-fluid w-100 teampagephoto" src="<?php echo show_image($services[$k]['image']['url'], $services[$k]['image']['width'], $services[$k]['image']['height'], 75) ?>">
             </a>
-            <div class="teampage-triple">
+            <div class="teampage-triple maxwidth1200teampage">
                 <?php echo $services[$k]['title'] ?>  
             </div>
             <div class="teampage-content">
