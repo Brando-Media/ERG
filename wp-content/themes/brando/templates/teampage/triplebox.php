@@ -32,7 +32,7 @@ $sectionName = str_replace(' ', '', strtolower($title));
             </div>
         </div>
     <?php
-        if($i == 2){
+        if($i == 3){
             $i = 0;
             $k++;
             ?>
