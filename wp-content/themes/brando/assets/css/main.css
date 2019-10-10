@@ -715,7 +715,7 @@ textarea.form-control {
 }
 
 .activeproject, .accordionproject:hover {
-  background-color: white;
+  background-color: transparent;
 }
 
 .accordionproject:after {
@@ -734,7 +734,7 @@ textarea.form-control {
 
 .panelproject {
   padding: 0 18px;
-  background-color: white;
+  background-color: transparent;
   max-height: 0;
   overflow: hidden;
   transition: max-height 0.2s ease-out;
@@ -1876,9 +1876,9 @@ textarea::placeholder {
   .accordionproject {
     font-family: Helvetica;
     font-size: 20px !important;
-    color: #00498D !important;
+    color: #fff !important;
     line-height: 25px;
-    background: white;
+    background: transparent;
     color: #444;
     cursor: pointer;
     padding: 18px;
@@ -2289,9 +2289,9 @@ a[href^=tel] {
   .accordionproject {
     font-family: Helvetica;
     font-size: 16px !important;
-    color: #00498D !important;
+    color: #fff !important;
     line-height: 25px;
-    background: white;
+    background: transparent;
     color: #444;
     cursor: pointer;
     padding: 18px;
