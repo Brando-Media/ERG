@@ -10,7 +10,7 @@ $first = 0;
                 <div class="">
                     <div class="row" style="color:#fff;">
                             
-                            <div class="col-lg-12 right-content-work-block filter-padding pfcol6">
+                            <div class="col-lg-12 right-content-work-block filter-padding pfcol6" style="max-width:700px;">
                             <?php foreach($services as $servicerow){ 
                                 if($first==0){?>
                                     <button class="accordionproject" style="border-top: 1px solid #fff; outline: none!Important;"><?php echo $servicerow['project_title']?></button>
