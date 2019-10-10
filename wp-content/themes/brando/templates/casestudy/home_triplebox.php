@@ -16,11 +16,16 @@ $sectionName = str_replace(' ', '', strtolower($title));
         <?php   if($k == 0){ 
                 if(!empty($title)){ ?> <h2 class="main-title" style="color:white"><?php echo $dtitle?></h2>                    <?php } 
              } ?>
-            <div class="row teampagetriplerow tp100w"> 
+            <div class="row teampagetriplerow tp100w">  
             <?php 
         } ?>
-         <div class="col-lg-3 tpcol3" >
-           <img class="img-fluid w-100 teampagephoto" src="<?php echo show_image($services[$k]['image']['url'], $services[$k]['image']['width'], $services[$k]['image']['height'], 75) ?>">
+         <div class="col-lg-3 tpcol3 casestudyhover">
+            <a href="<?php echo $servicerow['link_url']; ?>">
+                <img class="img-fluid w-100 teampagephoto" src="<?php echo show_image($services[$k]['image']['url'], $services[$k]['image']['width'], $services[$k]['image']['height'], 75) ?>">
+                <div class="overlay"> </div>
+                    
+                
+            </a>
             <div class="casestudytitle-triple" style="padding-top:20px; padding-bottom:30px;">
                 <?php echo $services[$k]['title'] ?>  
             </div>

@@ -875,18 +875,18 @@ input.form-control{
 
 
 
-    .overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  /*background-color: #00498D;*/
-  background: rgba(0, 73, 141, 0.8); 
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    /*background-color: #00498D;*/
+    background: rgba(0, 73, 141, 0.8); 
 }
 
 .viewcasestudy{
@@ -939,7 +939,11 @@ input.form-control{
 }
 
 .container:hover .overlay {
-  opacity: 0.8;
+  //opacity: 0.8;
+}
+
+.casestudyhover:hover .overlay {
+    opacity:0.8;
 }
 
 .background-image-home{
@@ -2325,7 +2329,7 @@ textarea::-webkit-input-placeholder {
     }
     .container{ 
         &.global--small{
-            max-width:100%;
+            max-width:100%; 
         }
     }
     .servicescontentwithimage{

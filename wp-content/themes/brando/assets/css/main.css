@@ -1011,7 +1011,7 @@ input.form-control ::-ms-input-placeholder {
   color: white !important;
 }
 
-.container:hover .overlay {
+.casestudyhover:hover .overlay {
   opacity: 0.8;
 }
 
