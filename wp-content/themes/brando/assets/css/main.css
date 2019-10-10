@@ -1706,6 +1706,16 @@ textarea::placeholder {
   }
 }
 @media only screen and (min-width: 992px) {
+  .homeimg284 {
+    min-width: 28.4% !important;
+    max-width: 28.4% !important;
+  }
+
+  .homeimg147 {
+    min-width: 14.7% !important;
+    max-width: 14.7% !important;
+  }
+
   .globalstyle {
     padding-bottom: 50px;
   }
