@@ -20,16 +20,18 @@ $sectionName = str_replace(' ', '', strtolower($title));
             <?php 
         } ?>
          <div class="col-lg-3 tpergcol3" >
-           <img class="img-fluid w-100 teampagephoto" src="<?php echo show_image($services[$k]['image']['url'], $services[$k]['image']['width'], $services[$k]['image']['height'], 75) ?>">
+            <a href="<?php echo $servicerow['link_url']; ?>">
+            <img class="img-fluid w-100 teampagephoto" src="<?php echo show_image($services[$k]['image']['url'], $services[$k]['image']['width'], $services[$k]['image']['height'], 75) ?>">
+            </a>
             <div class="teampage-triple">
                 <?php echo $services[$k]['title'] ?>  
             </div>
             <div class="teampage-content">
-            <?php echo $services[$k]['content'] ?>  
+            <a href="<?php echo $services[$k]['link_url'] ?> "><?php echo $services[$k]['content'] ?>  </a>
             </div>
-            <div class="link-teampage ">
+            <!--<div class="link-teampage ">
                 <a href="<?php echo $services[$k]['link_url'] ?> "><?php echo $services[$k]['link_text'] ?> </a>
-            </div>
+            </div>-->
         </div>
     <?php
         if($i == 3){
