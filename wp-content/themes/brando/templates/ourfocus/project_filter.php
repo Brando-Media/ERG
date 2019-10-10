@@ -22,7 +22,7 @@ $first = 0;
                                     <?php } ?>
                                     </div>
                                 <?php }else{?>
-                                    <button class="accordionproject" style="border-top: 1px solid #fff; outline: none!Important;"><?php echo $servicerow['project_title']?></button>
+                                    <button class="accordionproject" style="border-top: 1px solid #fff; outline: none!Important;"><span class="ourfocustextsize" style="font-size:24px;"><?php echo $servicerow['project_title']?></span></button>
                                     <div class="panelproject">
                                     <?php foreach($servicerow as $projectrow){ ?>
                                         <?php foreach($projectrow as $row){ ?>
