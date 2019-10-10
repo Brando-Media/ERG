@@ -23,10 +23,11 @@ $sectionName = str_replace(' ', '', strtolower($title));
          <div class="casestudyhover" style="position:relative;">
             <a href="<?php echo $servicerow['link_url']; ?>">
             <img class="img-fluid w-100 teampagephoto" src="<?php echo show_image($services[$k]['image']['url'], $services[$k]['image']['width'], $services[$k]['image']['height'], 75) ?>">
-            </a>
+            
             <div class="overlay"> 
                 <div class="viewcasestudy"><?php echo $servicerow['link_text']?></div>
             </div>
+            </a>
         </div>
             <div class="teampage-triple maxwidth1200teampage">
                 <?php echo $services[$k]['title'] ?>  
