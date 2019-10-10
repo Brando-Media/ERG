@@ -13,7 +13,7 @@ $first = 0;
                             <div class="col-lg-12 right-content-work-block pfcol6" style="max-width:700px;">
                             <?php foreach($services as $servicerow){ 
                                 if($first==0){?>
-                                    <button class="accordionproject" style="border-top: 1px solid #fff; outline: none!Important;"><span class="ourfocustextsize" style="font-size:24px;"><?php echo $servicerow['project_title']?></span></button>
+                                    <button class="accordionproject" style="border-top: 1px solid #fff; outline: none!Important; padding-bottom:0px;"><span class="ourfocustextsize" style="font-size:24px;"><?php echo $servicerow['project_title']?></span></button>
                                     <div class="panelproject">
                                     <?php foreach($servicerow as $projectrow){ ?>
                                         <?php foreach($projectrow as $row){ ?>
@@ -22,7 +22,7 @@ $first = 0;
                                     <?php } ?>
                                     </div>
                                 <?php }else{?>
-                                    <button class="accordionproject" style="border-top: 1px solid #fff; outline: none!Important;"><span class="ourfocustextsize" style="font-size:24px;"><?php echo $servicerow['project_title']?></span></button>
+                                    <button class="accordionproject" style="border-top: 1px solid #fff; outline: none!Important; padding-bottom:0px;"><span class="ourfocustextsize" style="font-size:24px;"><?php echo $servicerow['project_title']?></span></button>
                                     <div class="panelproject">
                                     <?php foreach($servicerow as $projectrow){ ?>
                                         <?php foreach($projectrow as $row){ ?>
