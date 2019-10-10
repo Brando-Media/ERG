@@ -3623,4 +3623,8 @@ a[href^=tel] {
   text-align: center;
 }
 
+.ourfocustextsize p {
+  font-size: 24px;
+}
+
 /*# sourceMappingURL=main.css.map */
