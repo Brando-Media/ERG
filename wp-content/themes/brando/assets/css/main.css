@@ -3625,6 +3625,7 @@ a[href^=tel] {
 
 .ourfocustextsize p {
   font-size: 24px;
+  margin-bottom: 0px;
 }
 
 /*# sourceMappingURL=main.css.map */
