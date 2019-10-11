@@ -56,7 +56,7 @@ $mainimage = get_sub_field('main_image');?>
         </div>
         </a>
         <div class="col-md-6" style="padding-left:0px!important; padding-right:0px!important;">
-        <div class="row m-0">
+        <div class="row m-0"> 
         <?php foreach($images as $k=>$image): ?>
             <?php
             $class = 'ergafk';
@@ -80,7 +80,6 @@ $mainimage = get_sub_field('main_image');?>
                 </div>
             </div>
             </a>
-
         <?php endforeach; ?>
             </div>
         </div>
