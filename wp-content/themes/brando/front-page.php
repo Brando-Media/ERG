@@ -10,7 +10,7 @@ if($colour == "Blue"){
     get_header(); 
 } ?>
     <main class="mainstyle">
-    <section class="section  background-image-home" data-section-name="homes" style="max-height:750px; min-height:750px; position:relative;">
+    <section class="section  background-image-home" data-section-name="homes" style="max-height:750px; min-height:750px; position:relative; scroll-behavior: smooth;">
     <div class="background-layer-home padright20 padleft25">
     <h1><div class="frontpagetitle nopad992" style="
     /* right: 40%; */
@@ -20,7 +20,7 @@ if($colour == "Blue"){
      <?php echo $title ?></div></h1>
 
     </div>  
-        <a href="#about" style="	scroll-behavior: smooth;">
+        <a id="whitear" style="	scroll-behavior: smooth; cursor: pointer;">
             <div class="whitearrow"></div>
         </a>
 
@@ -44,6 +44,14 @@ if($colour == "Blue"){
     }
     ?> 
     </main>
+
+    <script>
+        $("#whitear").click(function() {
+            $('html, body').animate({
+                scrollTop: $("#about").offset().top
+            }, 2000);
+        });
+        </script>
 
 <?php if($colour == "Blue"){
     get_footer('project'); 

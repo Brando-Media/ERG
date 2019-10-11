@@ -3706,4 +3706,8 @@ a[href^=tel] {
   background: url("../images/whitear199.png");
 }
 
+section {
+  scroll-behavior: smooth;
+}
+
 /*# sourceMappingURL=main.css.map */
