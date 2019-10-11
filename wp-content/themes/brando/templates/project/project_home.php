@@ -10,7 +10,7 @@ $nexttext = get_sub_field('next_text');
 $next_url = get_sub_field('nexturl');
 
 ?>
-<section class="">
+<section class="" style="position:relative;">
 
 <div class="">
     <div class="row d-flex" style="color:#00498d;">
@@ -22,7 +22,7 @@ $next_url = get_sub_field('nexturl');
                 </div>
                 
             </div>
-            <div class="col-lg-5 project-home-text pt200m0  inditeamtext ftmsection resize-text M90L" style="margin-top:50px; padding-left:50px; padding-right:15px;"> 
+            <div class="col-lg-5 project-home-text pb90m50  pt200m0  inditeamtext ftmsection resize-text M90L" style="margin-top:50px; padding-left:50px; padding-right:15px;"> 
                 <?php echo $title ? "<div class='indicase-title indicasefontchange'>{$title}</div>" : '' ?>
                 <div class="indicase-text" style="">
                 <?php echo $projectitle ? "{$projectitle}" : '' ?>
@@ -33,7 +33,19 @@ $next_url = get_sub_field('nexturl');
     </div>
 </div>
 
-<div class="row d-flex indicasepad marginautoindicase" id="marginautoindicase" style="margin-top:50px;">
+<div id="wrapper" class="<?php echo $class; ?>">
+        <header id="" class="arrowpos" style="">
+            <div id="top" class="container clearfix header-toggle-white header-div" style="margin-left:60px; max-width:2400px; padding-left:0px; padding-right:0px;">
+                <a href="#home" id="logo" class="float-left" style="padding-left:15px;">    
+                        <a class="leftarrowstyle" style="font-family: Helvetica;color: #00498D!important; text-align: left;" href="<?php echo $previous_url ?>"> <img class="leftarrowmargin" src="../wp-content/themes/brando/assets/images/rightah.png"><?php echo $previoustext ?></a>
+                </a>
+                    <a class="rightarrowstyle" style="font-family: Helvetica; color: #00498D!important;text-align:right;" href="<?php echo $next_url ?>"><?php echo $nexttext ?><img class="rightarrowmargin" src="../wp-content/themes/brando/assets/images/leftah.png"></a>
+
+            </div>
+        </header>
+
+
+<!--<div class="row d-flex indicasepad marginautoindicase" id="marginautoindicase" style="margin-top:50px;">
         <?php if(!empty($previoustext)){ ?> 
             <div class="indicasenavtext col-lg-6 case-prev-container" style="" >
             <div class="proj-prev-text" style=" text-align:left;">
@@ -48,7 +60,7 @@ $next_url = get_sub_field('nexturl');
             </div>
             </div>
         <?php } ?>
-        </div>
+        </div>-->
 
 <!--        
 <div class="row project-home-footer col-lg-12" style="display: -webkit-box; margin:auto; margin-top:10%; margin-bottom:10%;">
