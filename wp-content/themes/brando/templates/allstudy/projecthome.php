@@ -129,9 +129,7 @@ $nexturl = get_sub_field('next_url');
                 <a href="#home" id="logo" class="float-left" style="padding-left:15px;">    
                         <a style="font-family: Helvetica;color: #00498D!important; text-align: left;" href="<?php echo $previousurl ?>"> <img class="leftarrowmargin" src="../wp-content/themes/brando/assets/images/rightah.png"><?php echo $previoustext ?></a>
                 </a>
-                    <nav class="navbar navbar-expand-lg navfloat" id="navfloatx" style="padding-right: 76px;"> 
-                    <a style="font-family: Helvetica; color: #00498D!important;" href="<?php echo $nexturl ?>"><div class="rightindipad" id="rightcasestudyindi" style="text-align: right; padding-right:0px;"> <?php echo $nexttext ?><img class="rightarrowmargin" src="../wp-content/themes/brando/assets/images/leftah.png"></div> </a>
-                    </nav>
+                    <a class="rightarrowstyle" style="font-family: Helvetica; color: #00498D!important;text-align:right;" href="<?php echo $nexturl ?>"><?php echo $nexttext ?><img class="rightarrowmargin" src="../wp-content/themes/brando/assets/images/leftah.png"></a>
 
             </div>
         </header>
