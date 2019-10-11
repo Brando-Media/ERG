@@ -127,7 +127,7 @@ $nexturl = get_sub_field('next_url');
         <header id="" class="arrowpos" style="">
             <div id="top" class="container clearfix header-toggle-white header-div" style="margin-left:60px; max-width:2400px; padding-left:0px; padding-right:0px;">
                 <a href="#home" id="logo" class="float-left" style="padding-left:15px;">    
-                        <a style="font-family: Helvetica;color: #00498D!important; text-align: left;" href="<?php echo $previousurl ?>"> <img class="leftarrowmargin" src="../wp-content/themes/brando/assets/images/rightah.png"><?php echo $previoustext ?></a>
+                        <a class="leftarrowstyle" style="font-family: Helvetica;color: #00498D!important; text-align: left;" href="<?php echo $previousurl ?>"> <img class="leftarrowmargin" src="../wp-content/themes/brando/assets/images/rightah.png"><?php echo $previoustext ?></a>
                 </a>
                     <a class="rightarrowstyle" style="font-family: Helvetica; color: #00498D!important;text-align:right;" href="<?php echo $nexturl ?>"><?php echo $nexttext ?><img class="rightarrowmargin" src="../wp-content/themes/brando/assets/images/leftah.png"></a>
 

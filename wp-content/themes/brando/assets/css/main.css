@@ -3676,6 +3676,10 @@ a[href^=tel] {
     float: right !important;
     padding-right: 76px;
   }
+
+  .leftarrowstyle {
+    padding-left: 15px;
+  }
 }
 @media only screen and (max-width: 499px) {
   .pb90m50 {
