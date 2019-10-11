@@ -3738,4 +3738,13 @@ section {
   scroll-behavior: smooth;
 }
 
+@media only screen and (min-width: 992px) {
+  .project50vwimage {
+    padding: 0 !important;
+    max-width: 50vw !important;
+    min-width: 50vw !important;
+    width: 50vw !important;
+  }
+}
+
 /*# sourceMappingURL=main.css.map */
