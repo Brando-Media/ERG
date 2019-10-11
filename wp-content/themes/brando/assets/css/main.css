@@ -3783,7 +3783,12 @@ section {
     max-width: 50vw !important;
   }
 }
-@media only screen and (max-width: 1700px) {
+@media only screen and (min-width: 900px) and (max-width: 1399px) {
+  .sectionpaddingbt {
+    padding-bottom: 50px;
+  }
+}
+@media only screen and (min-width: 1400px) and (max-width: 1700px) {
   .sectionpaddingbt {
     padding-bottom: 100px;
   }
