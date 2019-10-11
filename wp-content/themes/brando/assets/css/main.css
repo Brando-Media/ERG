@@ -3282,6 +3282,11 @@ a[href^=tel] {
     margin-right: 0px !important;
   }
 
+  .pt210m0 {
+    padding-top: 210px;
+    margin-right: 0px !important;
+  }
+
   .pt225m0 {
     padding-top: 190px;
     margin-right: 0px !important;
@@ -3308,6 +3313,10 @@ a[href^=tel] {
 @media only screen and (max-width: 991px) {
   .pt200m100 {
     padding-top: 100px;
+  }
+
+  .pt210m0 {
+    padding-top: 0px;
   }
 
   .pt200m0 {

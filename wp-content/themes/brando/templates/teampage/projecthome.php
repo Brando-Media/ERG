@@ -25,7 +25,7 @@ $projectitle = get_sub_field('project_title');
                 </div>
                 
             </div>
-            <div class="col-lg-5 project-home-text pt200m0 pb90m50 inditeamtext ftmsection resize-text M90L" style="margin-top:50px; padding-left:90px; padding-right:15px;"> 
+            <div class="col-lg-5 project-home-text pt210m0 pb90m50 inditeamtext ftmsection resize-text M90L" style="margin-top:0px; padding-left:90px; padding-right:15px;">  
                 <?php echo $title ? "<div class='inditeamtitle'>{$title}</div>" : '' ?>
                 <div class="teampageind-title">
                 <?php echo $projectitle ? "{$projectitle}" : '' ?>
