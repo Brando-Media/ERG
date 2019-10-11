@@ -965,9 +965,9 @@ input.form-control ::-ms-input-placeholder {
 
 .viewcasestudy {
   color: white;
-  font-size: 20px;
+  font-size: 14px;
   font-family: Helvetica;
-  font-weight: 700;
+  font-weight: 600;
   position: absolute;
   top: 70%;
   letter-spacing: 0.5px;
