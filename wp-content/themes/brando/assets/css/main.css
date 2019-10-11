@@ -3698,6 +3698,20 @@ a[href^=tel] {
   margin-bottom: 50px;
 }
 
+@media only screen and (min-width: 500px) {
+  .pb90m50 {
+    padding-bottom: 160px;
+  }
+
+  .rightarrowstyle {
+    float: right !important;
+    padding-right: 76px;
+  }
+
+  .leftarrowstyle {
+    padding-left: 15px;
+  }
+}
 @media only screen and (min-width: 1460px) {
   .pb90m50 {
     padding-bottom: 260px;
@@ -3711,20 +3725,6 @@ a[href^=tel] {
 @media only screen and (min-width: 1560px) {
   .pb90m50 {
     padding-bottom: 460px;
-  }
-}
-@media only screen and (min-width: 500px) {
-  .pb90m50 {
-    padding-bottom: 160px;
-  }
-
-  .rightarrowstyle {
-    float: right !important;
-    padding-right: 76px;
-  }
-
-  .leftarrowstyle {
-    padding-left: 15px;
   }
 }
 @media only screen and (max-width: 499px) {

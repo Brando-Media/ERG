@@ -3560,6 +3560,18 @@ textarea::-webkit-input-placeholder {
     margin-right:7%;
     margin-bottom:50px;
   }
+  @media only screen and (min-width:500px){
+    .pb90m50{
+        padding-bottom:160px;
+    }
+    .rightarrowstyle{
+        float:right!important;
+        padding-right:76px;
+    }
+    .leftarrowstyle{
+        padding-left:15px;
+    }
+  }
 
   @media only screen and (min-width:1460px){
     .pb90m50{
@@ -3576,18 +3588,7 @@ textarea::-webkit-input-placeholder {
         padding-bottom:460px;
     }
 }
-  @media only screen and (min-width:500px){
-    .pb90m50{
-        padding-bottom:160px;
-    }
-    .rightarrowstyle{
-        float:right!important;
-        padding-right:76px;
-    }
-    .leftarrowstyle{
-        padding-left:15px;
-    }
-  }
+
   @media only screen and (max-width:499px){
     .pb90m50{
         padding-bottom:115px;
