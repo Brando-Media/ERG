@@ -3669,3 +3669,27 @@ textarea::-webkit-input-placeholder {
         padding-bottom:200px;
     }
 }
+
+@media only screen and (min-width: 1001px) and (max-width:1240px) {
+    .margin-5wwd{
+        margin-left: 70px;
+        margin-right: 70px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        padding-right: 0% !important;
+    }
+}
+
+@media only screen and (min-width: 1241px){
+    .margin-5wwd{
+        margin-left: 70px;
+        margin-right: 70px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        padding-right: 0% !important;
+        max-width: 70%;
+        margin: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+    }
+}
