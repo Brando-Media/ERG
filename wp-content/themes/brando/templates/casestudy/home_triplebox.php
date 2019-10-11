@@ -29,9 +29,9 @@ $sectionName = str_replace(' ', '', strtolower($title));
                 </div>
             </a>
             </div>
-            <div class="casestudytitle-triple" style="padding-top:20px; padding-bottom:30px;">
+            <a href="<?php echo $services[0]['link_url'] ?> "><div class="casestudytitle-triple" style="padding-top:20px; padding-bottom:30px;">
                 <?php echo $services[$k]['title'] ?>  
-            </div>
+            </div></a>
             <!--<div class="casestudycontent-text">
             <?php echo $services[$k]['content'] ?>  
             </div> 
