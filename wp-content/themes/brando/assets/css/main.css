@@ -2050,7 +2050,7 @@ textarea::placeholder {
   }
 
   .project-home-image-50vw {
-    max-width: 400px;
+    max-width: 50vw;
     max-height: 460px;
     right: 0;
     padding-right: 0px;
