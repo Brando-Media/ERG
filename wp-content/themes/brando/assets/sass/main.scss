@@ -3556,3 +3556,13 @@ textarea::-webkit-input-placeholder {
         font-size:12px;
     }
   }
+
+  .whitearrow{
+      position:absolute;
+      bottom:0;
+      right:50%;
+      height:202px;
+      background-color: white;
+      width:50px;
+      background: url("../images/whitear199.png");
+  }

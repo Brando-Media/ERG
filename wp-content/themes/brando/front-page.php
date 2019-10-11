@@ -10,7 +10,7 @@ if($colour == "Blue"){
     get_header(); 
 } ?>
     <main class="mainstyle">
-    <section class="section  background-image-home" data-section-name="homes" style="max-height:750px; min-height:750px;">
+    <section class="section  background-image-home" data-section-name="homes" style="max-height:750px; min-height:750px; position:relative;">
     <div class="background-layer-home padright20 padleft25">
     <h1><div class="frontpagetitle nopad992" style="
     /* right: 40%; */
@@ -20,7 +20,10 @@ if($colour == "Blue"){
      <?php echo $title ?></div></h1>
 
     </div>  
-        <div style="margin:auto 0;"><div>  
+        <a href="#about" style="	scroll-behavior: smooth;">
+            <div class="whitearrow"></div>
+        </a>
+
     </section> 
      
     <?php  
