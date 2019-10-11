@@ -10,7 +10,7 @@ $nexttext = get_sub_field('next_text');
 $next_url = get_sub_field('nexturl');
 
 ?>
-<section class="" style="position:relative;padding-bottom:100px;">
+<section class="sectionpaddingbt" style="position:relative;">
 
 <div class="">
     <div class="row d-flex" style="color:#00498d; padding-bottom:100px;">
