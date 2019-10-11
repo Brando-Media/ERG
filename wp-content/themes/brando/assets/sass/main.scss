@@ -3693,3 +3693,9 @@ textarea::-webkit-input-placeholder {
         margin-bottom: 5%;
     }
 }
+
+@media only screen and (max-width:991px){
+    .nopaddingtop{
+        padding-top:0px;
+    }
+}
