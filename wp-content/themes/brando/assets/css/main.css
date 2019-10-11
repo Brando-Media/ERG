@@ -2056,6 +2056,7 @@ textarea::placeholder {
     padding-right: 0px;
     margin-right: 0px;
     padding: 0 !important;
+    padding-left: 30px !important;
     margin: auto;
   }
 }
@@ -2543,6 +2544,7 @@ a[href^=tel] {
     right: 0;
     padding-right: 0px;
     margin-right: 0px;
+    padding-left: 30px !important;
     margin: auto !important;
   }
 
@@ -3738,11 +3740,9 @@ section {
   scroll-behavior: smooth;
 }
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 792px) {
   .project50vwimage {
     padding: 0 !important;
-    max-width: 50vw !important;
-    min-width: 50vw !important;
     width: 50vw !important;
   }
 }
