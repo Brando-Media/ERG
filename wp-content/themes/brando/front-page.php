@@ -20,7 +20,7 @@ if($colour == "Blue"){
      <?php echo $title ?></div></h1>
 
     </div>  
-        <a id="whitear" style="	scroll-behavior: smooth; cursor: pointer;">
+        <a id="whitear" href="#about" style="	scroll-behavior: smooth; cursor: pointer;">
             <div class="whitearrow"></div>
         </a>
 
@@ -46,11 +46,13 @@ if($colour == "Blue"){
     </main>
 
     <script>
-        $("#whitear").click(function() {
-            $('html, body').animate({
-                scrollTop: $("#about").offset().top
-            }, 2000);
-        });
+
+    $('a').click(function(){
+        $('html, body').animate({
+        scrollTop: $( $.attr(this, 'href') ).offset().top
+            }, 500);
+            return false;
+    });
         </script>
 
 <?php if($colour == "Blue"){
