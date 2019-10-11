@@ -3258,6 +3258,11 @@ a[href^=tel] {
     margin-right: 0px !important;
   }
 
+  .pt225m0 {
+    padding-top: 225px;
+    margin-right: 0px !important;
+  }
+
   .case-prev-text {
     min-width: 400px;
     max-width: 410px;
@@ -3282,6 +3287,10 @@ a[href^=tel] {
   }
 
   .pt200m0 {
+    padding-top: 0px;
+  }
+
+  .pt225m0 {
     padding-top: 0px;
   }
 
