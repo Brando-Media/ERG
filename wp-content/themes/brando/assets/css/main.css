@@ -2055,6 +2055,7 @@ textarea::placeholder {
     right: 0;
     padding-right: 0px;
     margin-right: 0px;
+    padding: 0 !important;
     margin: auto;
   }
 }
