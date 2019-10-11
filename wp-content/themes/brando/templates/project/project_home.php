@@ -10,10 +10,10 @@ $nexttext = get_sub_field('next_text');
 $next_url = get_sub_field('nexturl');
 
 ?>
-<section class="" style="position:relative;">
+<section class="" style="position:relative;padding-bottom:100px;">
 
 <div class="">
-    <div class="row d-flex" style="color:#00498d;">
+    <div class="row d-flex" style="color:#00498d; padding-bottom:100px;">
             <div class="col-lg-6 text-center left-content-work-block pt200m100" style=" padding-left:50px; padding-right:70px; /* max-width:85%; padding-left:35px;*/">
                 <div class="project-home-image-50vw indicasestudyhideimage" style="margin:0px; float:right;">
                     <?php if($image): ?>
@@ -22,7 +22,7 @@ $next_url = get_sub_field('nexturl');
                 </div>
                 
             </div>
-            <div class="col-lg-6 project-home-text pb90m50  pt225m0  inditeamtext ftmsection resize-text M90L" style="padding-left:50px; padding-right:15px;"> 
+            <div class="col-lg-6 project-home-text  pt225m0  inditeamtext ftmsection resize-text M90L" style="padding-left:50px; padding-right:15px;"> 
                 <?php echo $title ? "<div class='indicase-title indicasefontchange'>{$title}</div>" : '' ?>
                 <div class="indicase-text" style="">
                 <?php echo $projectitle ? "{$projectitle}" : '' ?>
