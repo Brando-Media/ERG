@@ -3727,9 +3727,19 @@ a[href^=tel] {
     padding-bottom: 300px;
   }
 }
+@media only screen and (min-width: 1600px) {
+  .pb90m50 {
+    padding-bottom: 330px;
+  }
+}
 @media only screen and (min-width: 1660px) {
   .pb90m50 {
     padding-bottom: 360px;
+  }
+}
+@media only screen and (min-width: 1820px) {
+  .pb90m50 {
+    padding-bottom: 400px;
   }
 }
 @media only screen and (max-width: 499px) {
