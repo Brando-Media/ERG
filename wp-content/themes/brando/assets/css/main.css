@@ -3727,7 +3727,7 @@ a[href^=tel] {
     padding-bottom: 300px;
   }
 }
-@media only screen and (min-width: 1760px) {
+@media only screen and (min-width: 1660px) {
   .pb90m50 {
     padding-bottom: 460px;
   }
