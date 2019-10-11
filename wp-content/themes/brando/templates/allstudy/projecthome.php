@@ -126,12 +126,6 @@ $nexturl = get_sub_field('next_url');
         <div id="wrapper" class="<?php echo $class; ?>">
    
    <header id="" class="arrowpos" style="">
-   <nav class="navbar navbar-expand-lg navfloat" id="navfloatx">
-                    <a class="navbar-brand" href="#"></a>
-                    <button id="navbar-header-toggle" onclick="togglemob();" class="navbar-toggler collapsed">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    </nav>
    
        <div id="top" class="container clearfix header-toggle-white header-div" style="margin-left:60px; max-width:2400px; padding-left:0px; padding-right:0px;">
            <a href="#home" id="logo" class="float-left" style="padding-left:15px;">
@@ -143,7 +137,7 @@ $nexturl = get_sub_field('next_url');
 
 
             <nav class="navbar navbar-expand-lg navfloat" id="navfloatx">
-           sadasd
+            <a style="font-family: Helvetica; color: #00498D!important;" href="<?php echo $nexturl ?>"><div class="rightindipad" id="rightcasestudyindi" style="text-align: right; padding-right:0px;"> <?php echo $nexttext ?><img class="rightarrowmargin" src="../wp-content/themes/brando/assets/images/leftah.png"></div> </a>
             </nav>
 
        </div>
