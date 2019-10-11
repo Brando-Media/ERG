@@ -95,7 +95,7 @@ $nexturl = get_sub_field('next_url');
                 </div>
                 
             </div>
-            <div class="col-lg-5 project-home-text pt200m0 inditeamtext ftmsection resize-text M90L" style="margin-top:50px; padding-left:90px; padding-right:15px;"> 
+            <div class="col-lg-5 project-home-text pt200m0 inditeamtext ftmsection resize-text M90L pb90m50" style="margin-top:50px; padding-left:90px; padding-right:15px;"> 
                 <?php echo $title ? "<div class='indicase-title indicasefontchange'>{$title}</div>" : '' ?>
                 <div class="indicase-text" style="">
                 <?php echo $projectitle ? "{$projectitle}" : '' ?>
@@ -106,7 +106,7 @@ $nexturl = get_sub_field('next_url');
     </div>
 </div>
 
-<div class="row d-flex indicasepad marginautoindicase" id="marginautoindicase" style="margin-top:50px;">
+<!--<div class="row d-flex indicasepad marginautoindicase" id="marginautoindicase" style="margin-top:50px;">
         <?php if(!empty($previoustext)){ ?> 
             <div class="indicasenavtext col-lg-6 case-prev-container" style="" >
             <div class="case-prev-text" style=" text-align:left;">
@@ -121,27 +121,20 @@ $nexturl = get_sub_field('next_url');
             </div>
             </div>
         <?php } ?>
-        </div>
+        </div>-->
 
         <div id="wrapper" class="<?php echo $class; ?>">
-   
-   <header id="" class="arrowpos" style="">
-   
-       <div id="top" class="container clearfix header-toggle-white header-div" style="margin-left:60px; max-width:2400px; padding-left:0px; padding-right:0px;">
-           <a href="#home" id="logo" class="float-left" style="padding-left:15px;">
-               
-           <a style="font-family: Helvetica;color: #00498D!important; text-align: left;" href="<?php echo $previousurl ?>"><div class="leftindipad" id="leftcasestudyindi" style="text-align: left; padding-left:15px;"> <img class="leftarrowmargin" src="../wp-content/themes/brando/assets/images/rightah.png"><?php echo $previoustext ?></div></a>
-           </a>
+        <header id="" class="arrowpos" style="">
+            <div id="top" class="container clearfix header-toggle-white header-div" style="margin-left:60px; max-width:2400px; padding-left:0px; padding-right:0px;">
+                <a href="#home" id="logo" class="float-left" style="padding-left:15px;">    
+                        <a style="font-family: Helvetica;color: #00498D!important; text-align: left;" href="<?php echo $previousurl ?>"> <img class="leftarrowmargin" src="../wp-content/themes/brando/assets/images/rightah.png"><?php echo $previoustext ?></a>
+                </a>
+                    <nav class="navbar navbar-expand-lg navfloat" id="navfloatx" style="padding-right: 76px;"> 
+                    <a style="font-family: Helvetica; color: #00498D!important;" href="<?php echo $nexturl ?>"><div class="rightindipad" id="rightcasestudyindi" style="text-align: right; padding-right:0px;"> <?php echo $nexttext ?><img class="rightarrowmargin" src="../wp-content/themes/brando/assets/images/leftah.png"></div> </a>
+                    </nav>
 
-
-
-
-            <nav class="navbar navbar-expand-lg navfloat" id="navfloatx">
-            <a style="font-family: Helvetica; color: #00498D!important;" href="<?php echo $nexturl ?>"><div class="rightindipad" id="rightcasestudyindi" style="text-align: right; padding-right:0px;"> <?php echo $nexttext ?><img class="rightarrowmargin" src="../wp-content/themes/brando/assets/images/leftah.png"></div> </a>
-            </nav>
-
-       </div>
-   </header>
+            </div>
+        </header>
 
 
 

@@ -3528,3 +3528,15 @@ textarea::-webkit-input-placeholder {
     z-index: 99;
     margin-right:7%;
   }
+
+  
+  @media only screen and (min-width:500px){
+    .pb90m50{
+        padding-bottom:90px;
+    }
+  }
+  @media only screen and (max-width:499px){
+    .pb90m50{
+        padding-bottom:50px;
+    }
+  }
