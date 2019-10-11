@@ -1559,7 +1559,12 @@ textarea::-webkit-input-placeholder {
     margin-bottom:30px;
     padding-left:3px;
 }
-
+@media only screen and (max-width: 991px) {
+    .resize-text{
+        max-width:500px!important;
+        margin:auto;
+    }
+}
 
 @media only screen and (min-width: 601px) {
     .firstblogstylesmall{
@@ -1571,10 +1576,7 @@ textarea::-webkit-input-placeholder {
     .project-text-w{
         max-width:500px; padding-top:0px; margin:auto;
     }
-    .resize-text{
-        max-width:500px!important;
-        margin:auto;
-    }
+    
     .ctf-item{
         max-width:50%;
         border-top:none!important;

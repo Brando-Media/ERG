@@ -1588,6 +1588,12 @@ textarea::placeholder {
   padding-left: 3px;
 }
 
+@media only screen and (max-width: 991px) {
+  .resize-text {
+    max-width: 500px !important;
+    margin: auto;
+  }
+}
 @media only screen and (min-width: 601px) {
   .tweetdisplay2 {
     display: none;
@@ -1596,11 +1602,6 @@ textarea::placeholder {
   .project-text-w {
     max-width: 500px;
     padding-top: 0px;
-    margin: auto;
-  }
-
-  .resize-text {
-    max-width: 500px !important;
     margin: auto;
   }
 
