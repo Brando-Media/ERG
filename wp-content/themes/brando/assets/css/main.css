@@ -2752,7 +2752,7 @@ a[href^=tel] {
   }
 
   .teampagephoto {
-    max-width: 335px !important;
+    max-width: 100% !important;
   }
 
   .contactma {
@@ -3048,7 +3048,6 @@ a[href^=tel] {
 
   .teampagephoto {
     max-width: 100%;
-    min-width: 100%;
   }
 
   .teampagemobilepad {
