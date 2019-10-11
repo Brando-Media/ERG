@@ -46,7 +46,7 @@ $mainimage = get_sub_field('main_image');?>
 <?php if($images): ?>
 
     <div class="row m-0">
-        <div class="col-md-6 container" style="padding-left:0px!important; padding-right:0px!important; margin-right:0px; margin-left:0px;" >
+        <div class="col-md-6 container casestudyhover" style="padding-left:0px!important; padding-right:0px!important; margin-right:0px; margin-left:0px;" >
         <a data-rel=”lightbox” href=<?php echo $mainimage['url']?> data-rel=”lightbox”>
         <img class="img-fluid w-100 project-home-main-image casestudymainimage" style="height:100%;"src="<?php echo show_image($mainimage['url'], $mainimage['width'], $mainimage['height'], 75) ?>">
         <div class="overlay">
@@ -72,7 +72,7 @@ $mainimage = get_sub_field('main_image');?>
             $class = 'hideonmobilelate'; ?>
            <?php } ?>
            <a class="<?php echo $class ?>" data-rel=”lightbox” href=<?php echo $image['url']?> data-rel=”lightbox” style="height:100%;">
-           <div class="col-md-12 container casestudy-div-img maxwidth16 from50to100 <?php echo $class ?>" style="padding-left:0px!important; padding-right:0px!important; margin-left:0px!important; margin-right:0px!important; width:100%;" >
+           <div class="col-md-12 container casestudyhover casestudy-div-img maxwidth16 from50to100 <?php echo $class ?>" style="padding-left:0px!important; padding-right:0px!important; margin-left:0px!important; margin-right:0px!important; width:100%;" >
                 <img class="small-project-home maxwidth16 from50to100" src="<?php echo show_image($image['url'], $image['width'], $image['height'], 75) ?>">
                 <div class="overlay maxwidth16 from50to100 " style="height:100%;">
                     <div class="text">CLICK TO ENLARGE</div>
