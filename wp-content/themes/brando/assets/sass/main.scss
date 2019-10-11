@@ -1989,6 +1989,16 @@ textarea::-webkit-input-placeholder {
         //margin-right: 0px!important;
         margin: auto;
     }
+
+    .project-home-image-50vw{
+        max-width:400px;
+        max-height:460px;
+        right: 0;
+        padding-right:0px;
+        margin-right:0px;
+        //margin-right: 0px!important;
+        margin: auto;
+    }
     
   }
   @media only screen and (max-width: 400px) {
@@ -2405,6 +2415,15 @@ textarea::-webkit-input-placeholder {
         max-height:460px;
         right: 0;
         padding-right:0px;
+        margin: auto!important;
+    }
+    .project-home-image-50vw{
+        max-width:400px;
+        max-height:460px;
+        right: 0;
+        padding-right:0px;
+        margin-right:0px;
+        //margin-right: 0px!important;
         margin: auto!important;
     }
     .navfloat{
