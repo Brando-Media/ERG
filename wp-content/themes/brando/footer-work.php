@@ -1,9 +1,9 @@
-<div href="#header" style="max-width:5700px;" id="brando-container" class="container"><a  href="#top"><span id="brando" href="#header">ERG INTERNATIONAL GROUP</span></a></div>
+<div href="#header" style="max-width:5700px;" id="brando-container" class="container"><a  href="#top"><span style="position:absolute" id="brando" href="#header">ERG INTERNATIONAL GROUP</span></a></div>
             <footer id="footer" class="container">
                 <!--<a href="#" class="float-right">Instagram</a>-->
             </footer>
         </div><?php //#wrapper ?>
-        <?php wp_footer(); ?>
+        <?php wp_footer(); ?> 
         <script src="<?php bloginfo('template_directory'); ?>/javascript/script.js"></script>
 
         <script>
