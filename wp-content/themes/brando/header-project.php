@@ -10,7 +10,7 @@
         <link rel="stylesheet" type="text/css" href="<?php bloginfo('stylesheet_url'); ?>" media="screen">
         <link rel="alternate" type="text/xml" title="<?php bloginfo('name'); ?> RSS 0.92 Feed" href="<?php bloginfo('rss_url'); ?>">
         <link rel="alternate" type="application/atom+xml" title="<?php bloginfo('name'); ?> Atom Feed" href="<?php bloginfo('atom_url'); ?>">
-        <link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS 2.0 Feed" href="<?php bloginfo('rss2_url'); ?>">
+        <link rel="alternate" type="application/rss+xml" title="<?php bloginfo('name'); ?> RSS 2.0 Feed" href="<?php bloginfo('rss2_url'); ?>"> 
         <link rel="pingback" href="<?php bloginfo('pingback_url'); ?>">
 
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -75,7 +75,7 @@
                    <a style="" class="nav-link bluenav" href="https://brando.media/erg/what-we-do">What We Do</a>
                </li>
                <li class="nav-item">
-                   <a   class="nav-link bluenav" href="https://brando.media/erg/work/ourfocus">Our Focus</a>
+                   <a   class="nav-link bluenav" href="https://brando.media/erg/ourfocus">Our Focus</a>
                </li>
                <li class="nav-item">
                    <a class="nav-link bluenav" href="http://brando.media/erg/case-studies/">Case Studies</a>
@@ -104,7 +104,7 @@
                 <a style="font-weight:bold;" id="serviceslink" class="nav-link navhover bluenav" href="https://brando.media/erg/what-we-do/">What We Do</a>
             </li>
             <li class="nav-item">
-                <a style=" font-weight:bold;" id="projectslink" class="nav-link navhover bluenav" href="https://brando.media/erg/work/ourfocus/">Our Focus</a>
+                <a style=" font-weight:bold;" id="projectslink" class="nav-link navhover bluenav" href="https://brando.media/erg/ourfocus/">Our Focus</a>
             </li>
             <li class="nav-item">
                 <a style=" font-weight:bold;" id="casestudieslink" class="nav-link navhover bluenav" href="http://brando.media/erg/case-studies/">Case Studies</a>
