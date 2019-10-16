@@ -3880,11 +3880,4 @@ section {
   display: block !important;
 }
 
-@media only screen and (min-width: 768px) {
-  .bottomimagestriple {
-    position: absolute !important;
-    bottom: 0;
-  }
-}
-
 /*# sourceMappingURL=main.css.map */
