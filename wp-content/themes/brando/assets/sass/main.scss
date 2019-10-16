@@ -3642,6 +3642,7 @@ textarea::-webkit-input-placeholder {
       background-color: white;
       width:21px;
       background: url("../images/whitear199x.png");
+      display:none;
   }
   section {
     scroll-behavior: smooth;  
@@ -3705,4 +3706,8 @@ textarea::-webkit-input-placeholder {
     .nopaddingtop{
         padding-top:0px!important;
     }
+}
+
+.arrowhover:hover .whitearrow{
+    display:block!important;
 }

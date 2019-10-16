@@ -3781,6 +3781,7 @@ a[href^=tel] {
   background-color: white;
   width: 21px;
   background: url("../images/whitear199x.png");
+  display: none;
 }
 
 section {
@@ -3840,6 +3841,9 @@ section {
   .nopaddingtop {
     padding-top: 0px !important;
   }
+}
+.arrowhover:hover .whitearrow {
+  display: block !important;
 }
 
 /*# sourceMappingURL=main.css.map */
