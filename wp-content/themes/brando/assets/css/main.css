@@ -3572,8 +3572,8 @@ a[href^=tel] {
 
 @media only screen and (min-width: 1431px) and (max-width: 1750px) {
   .contentimagep p {
-    font-size: 12px;
-    line-height: 25px;
+    font-size: 10px;
+    line-height: 18px;
   }
 
   .content-title {
@@ -3584,7 +3584,7 @@ a[href^=tel] {
 @media only screen and (min-width: 1241px) and (max-width: 1430px) {
   .contentimagep p {
     font-size: 10px;
-    line-height: 25px;
+    line-height: 18px;
   }
 
   .content-title {
