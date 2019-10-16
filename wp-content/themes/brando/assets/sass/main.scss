@@ -3425,6 +3425,17 @@ textarea::-webkit-input-placeholder {
   .cspaddingbottom90{
       padding-bottom:90px;
   }
+  
+  @media only screen and (min-width:1431px) and (max-width:1750px){
+    .contentimagep p{
+        font-size:12px;
+        line-height: 25px;
+    }
+    .content-title{
+        font-size: 16px;
+        line-height:20px;
+    }
+  }
 
   @media only screen and (min-width:1241px) and (max-width:1430px){
     .contentimagep p{
