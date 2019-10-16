@@ -1019,7 +1019,7 @@ input.form-control ::-ms-input-placeholder {
 }
 
 .background-image-home {
-  background: url("../images/erglogo775px.png"), url("../images/erghomemed.png");
+  background: url("../images/erglogo775px.png"), url("../images/newhome.png");
   background-position: right bottom, center;
   background-repeat: no-repeat, no-repeat;
   background-attachment: absolute, fixed;
