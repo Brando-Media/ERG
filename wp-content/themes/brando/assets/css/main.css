@@ -3570,7 +3570,7 @@ a[href^=tel] {
   padding-bottom: 90px;
 }
 
-@media only screen and (min-width: 1210px) and (max-width: 1430px) {
+@media only screen and (min-width: 1241px) and (max-width: 1430px) {
   .contentimagep p {
     font-size: 10px;
     line-height: 25px;
@@ -3581,10 +3581,10 @@ a[href^=tel] {
     line-height: 20px;
   }
 }
-@media only screen and (min-width: 1100px) and (max-width: 1210px) {
+@media only screen and (min-width: 1100px) and (max-width: 1240px) {
   .contentimagep p {
     font-size: 10px;
-    line-height: 20px;
+    line-height: 18px;
   }
 
   .content-title {
@@ -3822,6 +3822,8 @@ section {
     margin-top: 10px;
     margin-bottom: 20px;
     padding-right: 0% !important;
+    margin: auto;
+    max-width: 55%;
   }
 }
 @media only screen and (min-width: 1241px) {
@@ -3831,7 +3833,7 @@ section {
     margin-top: 10px;
     margin-bottom: 20px;
     padding-right: 0% !important;
-    max-width: 70%;
+    max-width: 50%;
     margin: auto;
     margin-top: 5%;
     margin-bottom: 5%;
