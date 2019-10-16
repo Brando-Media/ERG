@@ -3775,7 +3775,7 @@ a[href^=tel] {
 }
 .whitearrow {
   position: absolute;
-  bottom: 0;
+  bottom: 14%;
   right: 50%;
   height: 26px;
   background-color: white;
