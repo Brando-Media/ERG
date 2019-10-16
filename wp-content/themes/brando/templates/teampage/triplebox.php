@@ -7,12 +7,12 @@ $sectionName = str_replace(' ', '', strtolower($title));
 
 
     
-    <section style="padding-top:1px;" class="section teampagebgbottomop " data-section-name="<?php echo $sectionName; ?>" style="padding-top:50px;">
+    <section style="padding-top:120px;" class="section teampagebgbottomop " data-section-name="<?php echo $sectionName; ?>">
 
     <?php  $i = 0;  $k = 0;
     foreach($services as $servicerow){
         if($i == 0){ ?>
-        <div class="container container--small align-self-center teampagepaddingtop teampagemobilepad pb0" style="padding-top:1px;" > 
+        <div class="container container--small align-self-center teampagepaddingtop teampagemobilepad pb0" style\="padding-top:1px;" > 
         <?php   if($k == 0){ 
                 if(!empty($title)){ ?> <h2 class="main-title" style="color:white"><?php echo $dtitle?></h2>                    <?php } 
              } ?>
