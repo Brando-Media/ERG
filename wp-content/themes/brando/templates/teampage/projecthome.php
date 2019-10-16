@@ -17,7 +17,7 @@ $projectitle = get_sub_field('project_title');
 
 <div class="">
     <div class="row d-flex" style="color:#00498d;">
-            <div class="col-lg-6 text-center left-content-work-block pt200m100" style=" padding-left:50px; padding-right:70px; /* max-width:85%; padding-left:35px;*/ margin-bottom:0px; padding-bottom:250px;">
+            <div class="col-lg-6 text-center left-content-work-block pt200m100 pb300test" style=" padding-left:50px; padding-right:70px; /* max-width:85%; padding-left:35px;*/ margin-bottom:0px;">
                 <div class="project-home-image indicasestudyhideimage" style="margin:0px; float:right;">
                     <?php if($image): ?>
                         <img  style="min-width:350px;" class="img-fluid img-phome" src="<?php echo show_image($image['url'], $image['width'], $image['height']); ?>">
@@ -25,7 +25,7 @@ $projectitle = get_sub_field('project_title');
                 </div>
                 
             </div>
-            <div class="col-lg-5 project-home-text pt210m0 /*pb90m50*/ inditeamtext ftmsection resize-text M90L" style="margin-top:0px; padding-left:90px; padding-right:15px;max-width: 550px;">  
+            <div class="col-lg-5 project-home-text pt210m0 pb90m50 inditeamtext ftmsection resize-text M90L" style="margin-top:0px; padding-left:90px; padding-right:15px;max-width: 550px;">  
                 <?php echo $title ? "<div class='inditeamtitle'>{$title}</div>" : '' ?>
                 <div class="teampageind-title">
                 <?php echo $projectitle ? "{$projectitle}" : '' ?>

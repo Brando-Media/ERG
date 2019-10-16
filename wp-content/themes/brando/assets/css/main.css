@@ -3886,5 +3886,10 @@ section {
     bottom: 0;
   }
 }
+@media only screen and (min-width: 992px) {
+  .pb300test {
+    padding-bottom: 300px;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */
