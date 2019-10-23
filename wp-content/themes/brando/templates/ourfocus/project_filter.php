@@ -2,15 +2,15 @@
 $image    = get_sub_field('image');
 $services = get_sub_field('services'); 
 $title = get_sub_field('title');
+$image = get_sub_field('image');
 $first = 0;
 ?>
  <section class="section servicesoverviewbgright" style="min-height: 100vh;">
         <div class="container container--small main-content serviceshometext">
             <div class="row">
-                <div class="col-lg-12 projects-home" style="color:white; padding-left:0px;">
+                <div class="col-lg-6 projects-home" style="color:white; padding-left:0px;">
                 <div class="">
                     <div class="row" style="color:#fff;">
-                            
                             <div class="col-lg-12 right-content-work-block pfcol6" style="max-width:700px;">
                             <div class="ourfocustext"><?php echo $title ?></div>
                             <?php foreach($services as $servicerow){ 
@@ -42,6 +42,11 @@ $first = 0;
                     </div>
                 </div>
                 </div>
+                <div class="col-lg-6 text-center /*align-self-center*/ left-content-work-block pfcol6" style="padding-left:0px; padding-right:0px;">
+                <?php if($image): ?>
+                    <img class="img-fluid content-image" src="<?php echo show_image($image['url'], $image['width'], $image['height']); ?>">
+                <?php endif; ?>
+            </div>
             </div>
         </div>
         </section>
