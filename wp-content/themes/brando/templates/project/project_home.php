@@ -15,7 +15,7 @@ $next_url = get_sub_field('nexturl');
 <div class="">
     <div class="row d-flex" style="color:#00498d; padding-bottom:100px;">
             <div class="col-lg-8 text-center left-content-work-block pt200m100" style=" padding-left:50px; padding-right:70px; /* max-width:85%; padding-left:35px;*/">
-                <div class="project-home-image-50vw indicasestudyhideimage" style="margin:0px; float:right;">
+                <div class="project-home-image-75vw indicasestudyhideimage" style="margin:0px; float:right;">
                     <?php if($image): ?>
                         <img class="img-fluid img-phome project75vwimage" src="<?php echo show_image($image['url'], $image['width'], $image['height']); ?>">
                     <?php endif; ?>

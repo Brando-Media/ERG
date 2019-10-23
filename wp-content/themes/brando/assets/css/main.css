@@ -2063,6 +2063,15 @@ textarea::placeholder {
     padding-left: 30px !important;
     margin: auto;
   }
+
+  .project-home-image-75vw {
+    right: 0;
+    padding-right: 0px;
+    margin-right: 0px;
+    padding: 0 !important;
+    padding-left: 30px !important;
+    margin: auto;
+  }
 }
 @media only screen and (max-width: 400px) {
   .marginleftproject {
