@@ -276,12 +276,11 @@
                     var panel = this.nextElementSibling;
                     if (panel.style.maxHeight){
                     panel.style.maxHeight = null;
-                    panel.style.maxHeight = panel.scrollHeight + "px";
                     } else {
                     panel.style.maxHeight = panel.scrollHeight + "px";
                     } 
-                    panel.style.maxHeight = panel.scrollHeight + "px";
                 });
+                panel.style.maxHeight = panel.scrollHeight + "px";
                 }
              
 
