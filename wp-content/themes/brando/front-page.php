@@ -11,6 +11,7 @@ if($colour == "Blue"){
 
 } 
 ?>
+<?php add_revslider('slider-1','homepage'); ?>
 <?php do_shortcode('[rev_slider alias="slider-1"][/rev_slider]') ?>
     <main class="mainstyle">
     <section class="section  background-image-home arrowhover" data-section-name="homes" style="max-height:750px; min-height:750px; position:relative; scroll-behavior: smooth;">
@@ -23,9 +24,6 @@ if($colour == "Blue"){
      <?php echo $title ?></div></h1>
 
     </div>  
-        <a id="whitear" href="#about" style="	scroll-behavior: smooth; cursor: pointer;">
-            <div class="whitearrow"></div>
-        </a>
 
     </section> 
      
