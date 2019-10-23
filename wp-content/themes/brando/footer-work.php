@@ -281,6 +281,7 @@
                     } 
                 });
                 panel.style.maxHeight = panel.scrollHeight + "px";
+                console.log("test");
                 }
              
 
