@@ -280,8 +280,6 @@
                     panel.style.maxHeight = panel.scrollHeight + "px";
                     } 
                 });
-                panel.style.maxHeight = panel.scrollHeight + "px";
-                console.log("test");
                 }
              
 
