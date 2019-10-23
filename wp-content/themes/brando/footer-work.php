@@ -271,7 +271,7 @@
                 var i;
 
                 for (i = 0; i < acc.length; i++) {
-                /*acc[i].addEventListener("click", function() {
+                acc[i].addEventListener("click", function() {
                     this.classList.toggle("activeproject");
                     var panel = this.nextElementSibling;
                     if (panel.style.maxHeight){
@@ -280,7 +280,7 @@
                     panel.style.maxHeight = panel.scrollHeight + "px";
                     } 
                 });
-                panel.style.maxHeight = panel.scrollHeight + "px";*/
+                panel.style.maxHeight = panel.scrollHeight + "px";
                 console.log("test");
                 }
              
