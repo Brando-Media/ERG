@@ -40,7 +40,7 @@ $sectionName = str_replace(' ', '', strtolower($title));
             </div>-->
         </div>
     <?php
-        if($i == 3){
+        if($i == 4){
             $i = 0;
             $k++;
             ?>
