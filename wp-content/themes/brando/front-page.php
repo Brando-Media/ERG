@@ -11,10 +11,10 @@ if($colour == "Blue"){
 
 } 
 ?>
-<?php add_revslider('slider-1','homepage'); ?>
 
     <main class="mainstyle">
-    <section class="section  background-image-home arrowhover" data-section-name="homes" style="max-height:750px; min-height:750px; position:relative; scroll-behavior: smooth;">
+    <section class="section arrowhover" data-section-name="homes" style="max-height:750px; min-height:750px; position:relative; scroll-behavior: smooth;">
+    <?php add_revslider('slider-1','homepage'); ?>
     <?php do_shortcode('[rev_slider alias="slider-1"][/rev_slider]') ?>
     <div class="background-layer-home padright20 padleft25">
     <h1><div class="frontpagetitle nopad992" style="
