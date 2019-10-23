@@ -31,12 +31,12 @@ if($colour == "Blue"){
                 if(get_row_layout() == 'contact') get_template_part('templates/services/contact');
                 if(get_row_layout() == 'featured_work') get_template_part('templates/services/featured_work');
                 if(get_row_layout() == 'triplebox') get_template_part('templates/teampage/triplebox');
-                if(get_row_layout() == 'project_home') get_template_part('templates/teampage/projecthome'); 
+                if(get_row_layout() == 'project_home') get_template_part('templates/teampage/projecthome');  
             }
         } 
         
         ?>
-      <div class="section footerbg"  data-section-name="hello" style="min-height:20px; margin-top:40px; bottom:auto;">    
+      <div class="section footerbg"  data-section-name="hello" style="min-height:20px; margin-top:40px;">    
 
 </div>   
         </main>
