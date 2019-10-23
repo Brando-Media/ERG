@@ -22,7 +22,7 @@ $sectionName = str_replace(' ', '', strtolower($title));
                     <?php } ?>
                 </div>
             </div>
-            <div class="col-lg-4" style="margin-top:10px; padding-left:0px;"">
+            <div class="col-lg-4" style="margin-top:10px; padding-left:0px;">
             <div class="footerlink-title">Contact us</div>
                 <div class="contact-details" style="margin-bottom:10px;">
                     <?php

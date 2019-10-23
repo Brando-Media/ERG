@@ -8,7 +8,10 @@ if($colour == "Blue"){
     get_header(); 
 }else{
     get_header(); 
-} ?>
+
+} 
+?>
+<?php add_revslider('slider-1','2,10'); ?>
     <main class="mainstyle">
     <section class="section  background-image-home arrowhover" data-section-name="homes" style="max-height:750px; min-height:750px; position:relative; scroll-behavior: smooth;">
     <div class="background-layer-home padright20 padleft25">
@@ -40,7 +43,7 @@ if($colour == "Blue"){
             if(get_row_layout() == 'google_maps') get_template_part('templates/work/google_maps');
             if(get_row_layout() == 'content_left_content_right') get_template_part('templates/content_left_content_right');
 
-        }
+         }
     }
     ?> 
     </main>
