@@ -16,7 +16,7 @@ $first = 0;
                             <?php foreach($services as $servicerow){ 
                                 if($first==0){?>
                                     <button class="accordionproject" style="border-top: 1px solid #fff; outline: none!Important; position:relative;"><span class="ourfocustextsize" style="font-size:24px;"><?php echo $servicerow['project_title']?></span></button>
-                                    <div class="panelproject">
+                                    <div class="panelproject" style="max-height:inherit;">
                                     <?php foreach($servicerow as $projectrow){ ?>
                                         <?php foreach($projectrow as $row){ ?>
                                             <div style="padding-bottom:25px;"> <div class="ourfocussmalltextp"><?php echo $row['project_title'] ?></div> </div>
@@ -25,7 +25,7 @@ $first = 0;
                                     </div>
                                 <?php }else{?>
                                     <button class="accordionproject" style="border-top: 1px solid #fff; outline: none!Important;position:relative;"><span class="ourfocustextsize" style="font-size:24px;"><?php echo $servicerow['project_title']?></span></button>
-                                    <div class="panelproject">
+                                    <div class="panelproject" style="max-height:inherit;">
                                     <?php foreach($servicerow as $projectrow){ ?>
                                         <?php foreach($projectrow as $row){ ?>
                                             <div style="padding-bottom:25px;"> <div class="ourfocussmalltextp"><?php echo $row['project_title'] ?></div> </div>
