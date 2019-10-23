@@ -14,15 +14,15 @@ $next_url = get_sub_field('nexturl');
 
 <div class="">
     <div class="row d-flex" style="color:#00498d; padding-bottom:100px;">
-            <div class="col-lg-6 text-center left-content-work-block pt200m100" style=" padding-left:50px; padding-right:70px; /* max-width:85%; padding-left:35px;*/">
+            <div class="col-lg-8 text-center left-content-work-block pt200m100" style=" padding-left:50px; padding-right:70px; /* max-width:85%; padding-left:35px;*/">
                 <div class="project-home-image-50vw indicasestudyhideimage" style="margin:0px; float:right;">
                     <?php if($image): ?>
-                        <img class="img-fluid img-phome project50vwimage" src="<?php echo show_image($image['url'], $image['width'], $image['height']); ?>">
+                        <img class="img-fluid img-phome project75vwimage" src="<?php echo show_image($image['url'], $image['width'], $image['height']); ?>">
                     <?php endif; ?>
                 </div>
                 
             </div>
-            <div class="col-lg-6 project-home-text  pt225m0  inditeamtext ftmsection resize-text M90L" style="padding-left:50px; padding-right:15px;margin-top:0px;"> 
+            <div class="col-lg-4 project-home-text  pt225m0  inditeamtext ftmsection resize-text M90L" style="padding-left:50px; padding-right:15px;margin-top:0px;"> 
                 <?php echo $title ? "<div class='indicase-title indicasefontchange'>{$title}</div>" : '' ?>
                 <div class="indicase-text" style="">
                 <?php echo $projectitle ? "{$projectitle}" : '' ?>
