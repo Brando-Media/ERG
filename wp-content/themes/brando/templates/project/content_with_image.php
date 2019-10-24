@@ -4,6 +4,7 @@ $smallimage    = get_sub_field('smallimage');
 $imagePos = get_sub_field('image_position');
 $title    = get_sub_field('title');
 $content  = get_sub_field('content');
+$border = get_sub_field('border');
 $contentsmalltext  = get_sub_field('content_small_text');
 ?>
 <div class="">
@@ -11,7 +12,11 @@ $contentsmalltext  = get_sub_field('content_small_text');
         <?php if($imagePos=='Left'): ?>
             <div class="col-lg-6 text-center align-self-center left-content-work-block" style="padding-left:0px; padding-right:0px;">
                 <?php if($image): ?>
-                    <img class="img-fluid content-image" src="<?php echo show_image($image['url'], $image['width'], $image['height']); ?>">
+                    <?php if($border){ ?>
+                        <img class="img-fluid content-image borderssb" src="<?php echo show_image($image['url'], $image['width'], $image['height']); ?>">
+                    <?php }else{ ?>
+                        <img class="img-fluid content-image" src="<?php echo show_image($image['url'], $image['width'], $image['height']); ?>">
+                    <?php } ?>
                 <?php endif; ?>
             </div>
             <div class="col-lg-6 align-self-center right-content-work-block">
