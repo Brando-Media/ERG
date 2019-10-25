@@ -3609,6 +3609,18 @@ textarea::-webkit-input-placeholder {
     margin-right:7%;
     //margin-bottom:50px;
   }
+
+  .arrowposproject{
+    position: initial;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding-top: 90px;
+    padding-bottom:30px;
+    z-index: 99;
+    margin-right:7%;
+    //margin-bottom:50px;
+  }
   @media only screen and (min-width:500px){
     .pb90m50{
         padding-bottom:175px;
