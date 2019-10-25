@@ -3745,7 +3745,6 @@ a[href^=tel] {
   left: 0;
   right: 0;
   padding-top: 30px;
-  padding-bottom: 40px;
   z-index: 99;
   margin-right: 7%;
 }
