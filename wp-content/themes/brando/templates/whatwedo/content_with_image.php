@@ -14,7 +14,14 @@ $contentsmalltext  = get_sub_field('content_small_text');
             <div class="pbwwd0 col-lg-6 wwd1600 text-center align-self-center left-content-work-block  /*bgwidthcontent bg640*/" style="padding-left:0px; padding-right:0px; 
                     background-size: cover; background-position: center;height:100%; ">
                 <!--<?php if($image): ?>-->
-                    <img style="height:auto;" class="servicescontentwithimageleft  imagew100services img1600wwd img100" src="<?php echo $image['url']; ?>">
+                    <?php if($image){
+                        if($border){ ?>
+                            <img style="height:auto;" class="servicescontentwithimageleft  imagew100services img1600wwd img100" src="<?php echo $image['url']; ?>">
+                        <?php }else{ ?>
+                            <img style="height:auto;" class="servicescontentwithimageleft  imagew100services img1600wwd img100" src="<?php echo $image['url']; ?>">
+                       <?php }
+                    }
+                    ?>
                     <!--<div class="imagefill" style='background-image: url("<?php echo $image['url'];?>");min-height: -webkit-fill-available;'> </div>
                     <--<img class="img-fluid imagefill content-image" src="<?php echo show_image($image['url'], $image['width'], $image['height']); ?>">-->
                 <!--<?php endif; ?>-->
@@ -25,7 +32,7 @@ $contentsmalltext  = get_sub_field('content_small_text');
                 <?php echo $title ? "<div class='content-title'>{$title}</div>" : '' ?>
                 <div class="contentimagep" style="font-size:24px;"><?php echo $content; ?></div>
                 <?php echo $contentsmalltext; ?>
-            </div>
+            </div> 
             </div>
         <?php elseif($imagePos=='Right'): ?>
             <div class="container pbwwd0 col-lg-6 wwd1600 align-self-center left-content-work-block  img-order nopaddingtop img1600 wwdpr992" style="padding-left:70px;" >
@@ -38,11 +45,16 @@ $contentsmalltext  = get_sub_field('content_small_text');
             </div>
             <div class="pbwwd0 col-lg-6 wwd1600 text-center align-self-center right-content-work-block  /*bgwidthcontent bg640*/" style="padding-left:0px; padding-right:0px;  
                     background-size: cover; background-position: center;">
-                <?php if($image): ?>
-                  <img style="height:auto;" class="servicescontentwithimageright  imagew100services img1600wwd img100" src="<?php echo $image['url']; ?>">
+                  <?php if($image){
+                        if($border){ ?>
+                            <img style="height:auto;" class="servicescontentwithimageright  imagew100services img1600wwd img100" src="<?php echo $image['url']; ?>">
+                        <?php }else{ ?>
+                            <img style="height:auto;" class="servicescontentwithimageright  imagew100services img1600wwd img100" src="<?php echo $image['url']; ?>">
+                       <?php }
+                    }
+                    ?>
                   <!--  <div class="imagefill" style='background-image: url("<?php echo $image['url'];?>");min-height: -webkit-fill-available;'> </div>
                   <--  <img class="img-fluid imagefill content-image" src="<?php echo show_image($image['url'], $image['width'], $image['height']); ?>">-->
-                <?php endif; ?>
             </div>
         <?php endif; ?>
     </div>
