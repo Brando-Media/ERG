@@ -14,15 +14,10 @@ $contentsmalltext  = get_sub_field('content_small_text');
             <div class="pbwwd0 col-lg-6 wwd1600 text-center align-self-center left-content-work-block  /*bgwidthcontent bg640*/" style="padding-left:0px; padding-right:0px; 
                     background-size: cover; background-position: center;height:100%; ">
                 <!--<?php if($image): ?>-->
-                    <?php if($image){?>
-                        <?php if($border){ ?>
-                            <img style="height:auto;" class="servicescontentwithimageleft  imagew100services img1600wwd img100 borderwwd" src="<?php echo $image['url']; ?>">
-                        <?php } else{  ?>
-                            <img style="height:auto;" class="servicescontentwithimageleft  imagew100services img1600wwd img100" src="<?php echo $image['url']; ?>">
-                    <?php } ?>
-                        <?php }  ?>
+                    <img style="height:auto;" class="servicescontentwithimageleft  imagew100services img1600wwd img100" src="<?php echo $image['url']; ?>">
                     <!--<div class="imagefill" style='background-image: url("<?php echo $image['url'];?>");min-height: -webkit-fill-available;'> </div>
                     <--<img class="img-fluid imagefill content-image" src="<?php echo show_image($image['url'], $image['width'], $image['height']); ?>">-->
+                <!--<?php endif; ?>-->
             </div>
             <div class="container pbwwd0 col-lg-6 wwd1600 align-self-center right-content-work-block  img-order nopaddingtop img1600 wwdpr992">
                 <div class="margin-5wwd padding-right" style="/*padding-top:40px;*/" >
