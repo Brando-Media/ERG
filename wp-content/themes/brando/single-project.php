@@ -4,6 +4,7 @@
  * Template Post Type: post, page, product
  */
 $colour = get_field('header_colour');
+$static_erg_international = get_field('static_erg_international');
 if($colour == "Blue"){
     get_header('project'); 
 }else{
@@ -32,13 +33,13 @@ if($colour == "Blue"){
                 the_row();
                 if(get_row_layout() == 'image') get_template_part('templates/project/image');
                 if(get_row_layout() == 'content_with_image') get_template_part('templates/project/content_with_image');
-                if(get_row_layout() == 'images') get_template_part('templates/project/images'); 
+                if(get_row_layout() == 'images') get_template_part('templates/project/images');  
                 if(get_row_layout() == 'images_three') get_template_part('templates/project/imagestriple'); 
                 if(get_row_layout() == 'images_four') get_template_part('templates/project/imagessfour'); 
                 if(get_row_layout() == 'content_with_image_at_top') get_template_part('templates/project/content_with_image_at_top');
                 if(get_row_layout() == 'content_left_content_right') get_template_part('templates/project/content_left_content_right');
                 if(get_row_layout() == 'imagenobotpadding') get_template_part('templates/project/imagenobotpadding');
-                if(get_row_layout() == 'project_filter') get_template_part('templates/project/project_filter'); 
+                if(get_row_layout() == 'project_filter') get_template_part('templates/project/project_filter');  
                 if(get_row_layout() == 'project_home') get_template_part('templates/project/project_home');
             }
         }
@@ -47,8 +48,12 @@ if($colour == "Blue"){
         </div>
     </main>
     <?php 
-if($colour == "Blue"){
+if($static_erg_international){
+    get_footer('casestudies'); 
+}else if($colour == "Blue"){
     get_footer('project'); 
 }else{
     get_footer('work'); 
-} ?>
+} 
+
+?>
