@@ -50,7 +50,15 @@ $mainimage = get_sub_field('main_image');?>
            <?php } ?>
            <div class="<?php echo $class ?>" style="min-width:23vw;">
            <div class="<?php echo $class ?> col-md-12 container  casestudy-div-img maxwidth23 from50to100p <?php echo $class ?>" style="padding-left:0px!important; padding-right:0px!important; margin-left:0px!important; margin-right:0px!important; width:100%;" >
-                <img class="small-project-homep maxwidth23 from50to100p" src="<?php echo show_image($image['url'], $image['width'], $image['height'], 75) ?>">
+                                <div class="casestudyhover" style="position:relative;">
+                                    <a href="#">
+                                    <img class="small-project-homep maxwidth23 from50to100p" src="<?php echo show_image($image['url'], $image['width'], $image['height'], 75) ?>">
+                                        <div class="overlay"> 
+                                            <!--<div class="hometextoverlay"><?php echo $servicerow['title']?></div>-->
+                                            <div class="viewcasestudy"><?php echo $servicerow['link_text']?></div>
+                                        </div>
+                                    </a>
+                                </div>
             </div>
             </div>
         <?php endforeach; ?>
