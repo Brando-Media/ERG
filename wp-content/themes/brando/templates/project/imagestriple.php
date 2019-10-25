@@ -9,7 +9,14 @@ $images = get_sub_field('images');
         <?php foreach($images as $k=>$image): ?>
            <div class="<?php echo $class ?>" style="min-width:33.333vw;">
            <div class="<?php echo $class ?> col-md-12 container  casestudy-div-img maxwidth23 from50to100p33 <?php echo $class ?>" style="padding-left:0px!important; padding-right:0px!important; margin-left:0px!important; margin-right:0px!important; width:100%;" >
-                <img class="maxwidth23 from50to100p33" src="<?php echo show_image($image['url'], $image['width'], $image['height'], 75) ?>">
+                            <div class="casestudyhover" style="position:relative;">
+                                    <a href="<?php echo $mainimage['url'] ?>" data-rel="lightbox">
+                                    <img class="maxwidth23 from50to100p33" src="<?php echo show_image($image['url'], $image['width'], $image['height'], 75) ?>">
+                                        <div class="overlay"> 
+                                            <div class="viewcasestudy">Click to expand</div>
+                                        </div>
+                                    </a>
+                                </div>
             </div>
             </div>
         <?php endforeach; ?>
