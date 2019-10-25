@@ -3942,4 +3942,8 @@ section {
   position: absolute !important;
 }
 
+.casestudiespositionrelative {
+  position: relative;
+}
+
 /*# sourceMappingURL=main.css.map */
