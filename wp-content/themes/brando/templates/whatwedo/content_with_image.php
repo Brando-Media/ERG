@@ -3,6 +3,7 @@ $image    = get_sub_field('image');
 $smallimage    = get_sub_field('smallimage');
 $imagePos = get_sub_field('image_position');
 $title    = get_sub_field('title');
+$border    = get_sub_field('border');
 $content  = get_sub_field('content');
 $contentsmalltext  = get_sub_field('content_small_text');
 ?>
