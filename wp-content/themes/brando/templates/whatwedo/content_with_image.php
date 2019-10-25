@@ -16,7 +16,7 @@ $contentsmalltext  = get_sub_field('content_small_text');
                 <!--<?php if($image): ?>-->
                     <?php if($image){
                         if($border){ ?>
-                            <img style="height:auto;" class="servicescontentwithimageleft  imagew100services img1600wwd img100" src="<?php echo $image['url']; ?>">
+                            <img style="height:auto;" class="servicescontentwithimageleft  imagew100services img1600wwd img100 borderwwd" src="<?php echo $image['url']; ?>">
                         <?php }else{ ?>
                             <img style="height:auto;" class="servicescontentwithimageleft  imagew100services img1600wwd img100" src="<?php echo $image['url']; ?>">
                        <?php }
@@ -47,7 +47,7 @@ $contentsmalltext  = get_sub_field('content_small_text');
                     background-size: cover; background-position: center;">
                   <?php if($image){
                         if($border){ ?>
-                            <img style="height:auto;" class="servicescontentwithimageright  imagew100services img1600wwd img100" src="<?php echo $image['url']; ?>">
+                            <img style="height:auto;" class="servicescontentwithimageright  imagew100services img1600wwd img100 borderwwd" src="<?php echo $image['url']; ?>">
                         <?php }else{ ?>
                             <img style="height:auto;" class="servicescontentwithimageright  imagew100services img1600wwd img100" src="<?php echo $image['url']; ?>">
                        <?php }
