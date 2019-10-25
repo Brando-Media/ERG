@@ -3740,7 +3740,7 @@ a[href^=tel] {
 }
 
 .arrowpos {
-  position: absolute;
+  position: initial;
   bottom: 0;
   left: 0;
   right: 0;
