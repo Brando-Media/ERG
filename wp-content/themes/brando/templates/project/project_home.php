@@ -13,7 +13,7 @@ $next_url = get_sub_field('nexturl');
 <section class="sectionpaddingbt" style="position:relative;">
 
 <div class="">
-    <div class="row d-flex" style="color:#00498d; padding-bottom:100px;">
+    <div class="row d-flex" style="color:#00498d; /*padding-bottom:100px;*/">
             <div class="col-lg-8 text-center left-content-work-block pt200m100" style=" padding-left:50px; padding-right:70px; /* max-width:85%; padding-left:35px;*/">
                 <div class="project-home-image-75vw indicasestudyhideimage" style="margin:0px; float:right;">
                     <?php if($image): ?>
