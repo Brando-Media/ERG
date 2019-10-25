@@ -10,7 +10,7 @@ $nexttext = get_sub_field('next_text');
 $next_url = get_sub_field('nexturl');
 
 ?>
-<section class="sectionpaddingbt" style="position:relative;">
+<section class="" style="position:relative;">
 
 <div class="">
     <div class="row d-flex" style="color:#00498d; /*padding-bottom:100px;*/">
@@ -34,7 +34,7 @@ $next_url = get_sub_field('nexturl');
 </div>
 
 <div id="wrapper" class="<?php echo $class; ?>">
-        <header id="" class="arrowpos" style="">
+        <header id="" class="arrowposproject" style="">
             <div id="top" class="container clearfix header-toggle-white header-div" style="margin-left:60px; max-width:2400px; padding-left:0px; padding-right:0px;">
                 <a href="#home" id="logo" class="float-left" style="padding-left:15px;">    
                         <a class="leftarrowstyle" style="font-family: Helvetica;color: #00498D!important; text-align: left;" href="<?php echo $previous_url ?>"> <img class="leftarrowmargin" src="../wp-content/themes/brando/assets/images/rightah.png"><?php echo $previoustext ?></a>
