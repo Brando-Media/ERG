@@ -29,7 +29,14 @@ $mainimage = get_sub_field('main_image');?>
     <div class="row m-0 casestudiespositionrelative"> 
         <div class="col-md-6 container mw30img" style="padding-left:0px!important; padding-right:0px!important; margin-right:0px; margin-left:0px;" >
         <a >
-        <img class="img-fluid w-100 project-home-main-image casestudymainimage" style="height:100%;"src="<?php echo show_image($mainimage['url'], $mainimage['width'], $mainimage['height'], 75) ?>">
+                                <div class="casestudyhover" style="position:relative;">
+                                    <a href="#">
+                                    <img class="img-fluid w-100 project-home-main-image casestudymainimage" style="height:100%;"src="<?php echo show_image($mainimage['url'], $mainimage['width'], $mainimage['height'], 75) ?>">
+                                        <div class="overlay"> 
+                                            <div class="viewcasestudy">Click to expand</div>
+                                        </div>
+                                    </a>
+                                </div>
         </div>
         </a>
         <div class="col-md-6 mw69div" style="padding-left:0px!important; padding-right:0px!important;">
@@ -54,8 +61,7 @@ $mainimage = get_sub_field('main_image');?>
                                     <a href="#">
                                     <img class="small-project-homep maxwidth23 from50to100p" src="<?php echo show_image($image['url'], $image['width'], $image['height'], 75) ?>">
                                         <div class="overlay"> 
-                                            <!--<div class="hometextoverlay"><?php echo $servicerow['title']?></div>-->
-                                            <div class="viewcasestudy"><?php echo $servicerow['link_text']?></div>
+                                            <div class="viewcasestudy">Click to expand</div>
                                         </div>
                                     </a>
                                 </div>
