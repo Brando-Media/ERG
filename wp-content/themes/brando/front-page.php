@@ -13,7 +13,7 @@ if($colour == "Blue"){
 ?>
 
     <main class="mainstyle">
-    <section class="section arrowhover" data-section-name="homes" style="max-height:750px; min-height:750px; position:relative; scroll-behavior: smooth;">
+    <section class="section arrowhover" data-section-name="homes" style="max-height:750px; position:relative; scroll-behavior: smooth;">
     <?php add_revslider('slider-1','homepage'); ?>
     <?php do_shortcode('[rev_slider alias="slider-1"][/rev_slider]') ?>
     <div class="background-layer-home padright20 padleft25">
@@ -34,7 +34,7 @@ if($colour == "Blue"){
             the_row();
             if(get_row_layout() == 'content') get_template_part('templates/content');
             if(get_row_layout() == 'services') get_template_part('templates/services');
-            if(get_row_layout() == 'contact') get_template_part('templates/contact');
+            if(get_row_layout() == 'contact') get_template_part('templates/contact'); 
             if(get_row_layout() == 'featured_work') get_template_part('templates/featured_work');
             if(get_row_layout() == 'content_with_image') get_template_part('templates/home/content_with_image');
             if(get_row_layout() == 'case_study_hover') get_template_part('templates/work/case_study_hover');
