@@ -26,7 +26,7 @@ $mainimage = get_sub_field('main_image');?>
         </div>
         
     </div>-->
-    <div class="row m-0">
+    <div class="row m-0 casestudiespositionrelative"> 
         <div class="col-md-6 container mw30img" style="padding-left:0px!important; padding-right:0px!important; margin-right:0px; margin-left:0px;" >
         <a >
         <img class="img-fluid w-100 project-home-main-image casestudymainimage" style="height:100%;"src="<?php echo show_image($mainimage['url'], $mainimage['width'], $mainimage['height'], 75) ?>">
