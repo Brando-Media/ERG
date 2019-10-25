@@ -3926,4 +3926,10 @@ section {
   border-width: 2px !important;
 }
 
+.casestudiesfooter {
+  color: white !important;
+  text-shadow: none !important;
+  position: absolute !important;
+}
+
 /*# sourceMappingURL=main.css.map */
