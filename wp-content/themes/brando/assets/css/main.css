@@ -2950,8 +2950,7 @@ a[href^=tel] {
   }
 
   .casestudymainimage {
-    /*min-width:100%;*/
-    min-width: 48vw !important;
+    min-width: 100%;
   }
 }
 @media only screen and (max-width: 450px) {
