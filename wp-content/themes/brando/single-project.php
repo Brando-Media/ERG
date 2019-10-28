@@ -60,7 +60,7 @@ $image = false;
         } 
         ?> 
         <?php if($image=='true'){ ?>
-            <div class="section footerbg" style="position:relative" data-section-name="hello" style="min-height:20px;">    
+            <div class="section footerbg" style="/*position:relative*/" data-section-name="hello" style="min-height:20px;">    
             </div>
         <?php }else{ ?>
             <div class="section footerbg"  data-section-name="hello" style="min-height:20px;">    
