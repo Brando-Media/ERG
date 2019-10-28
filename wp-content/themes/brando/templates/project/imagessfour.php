@@ -1,7 +1,7 @@
 <?php 
 $images = get_sub_field('images'); 
 ?>
-<section>
+
 <?php if($images): ?>
     <div class="row m-0">
         <div class="col-md-12 mw69div bottomimagestriple" style="padding-left:0px!important; padding-right:0px!important;">
@@ -23,4 +23,3 @@ $images = get_sub_field('images');
             </div>
             </div>
 <?php endif; ?>
-</section>
