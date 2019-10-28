@@ -3863,3 +3863,9 @@ textarea::-webkit-input-placeholder {
 .pl16 p{
     font-size:14px;
 }
+
+@media only screen and (min-width:992px){
+    .width70cs{
+        width:70vw!important;
+    }
+}

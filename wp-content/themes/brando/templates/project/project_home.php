@@ -33,7 +33,7 @@ $next_url = get_sub_field('nexturl');
     </div>
 </div>
 
-<div id="wrapper" class="<?php echo $class; ?>">
+<div id="wrapper" class="<?php echo $class; ?> width70cs">
         <header id="" class="arrowposproject" style="">
             <div id="top" class="container clearfix header-toggle-white header-div" style="margin-left:60px; max-width:2400px; padding-left:0px; padding-right:0px;">
                 <a href="#home" id="logo" class="float-left" style="padding-left:15px;">    
