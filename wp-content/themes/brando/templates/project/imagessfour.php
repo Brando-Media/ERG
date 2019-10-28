@@ -1,3 +1,4 @@
+<section>
 <?php 
 $images = get_sub_field('images'); 
 ?>
@@ -23,3 +24,4 @@ $images = get_sub_field('images');
             </div>
             </div>
 <?php endif; ?>
+</section>
