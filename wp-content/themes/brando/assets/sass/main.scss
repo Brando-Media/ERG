@@ -2830,7 +2830,9 @@ textarea::-webkit-input-placeholder {
 
 
 @media only screen and (min-width: 768px) and (max-width: 991px){
-    min-width: 48vw!important;
+    .casestudymainimage{
+        min-width:48vw!important;
+    }
 }
 
 @media only screen and (min-width: 768px){
