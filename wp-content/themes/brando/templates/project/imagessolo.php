@@ -12,7 +12,7 @@ $images = get_sub_field('images');
                                 <div class="casestudyhover" style="position:relative;">
                                     <a href="<?php echo $image['url'] ?>" data-rel="lightbox">
                                     <img style="max-width:100vw!important;" class="maxwidth23 from50to100p" src="<?php echo show_image($image['url'], $image['width'], $image['height'], 75) ?>">
-                                        <div class="overlay"> 
+                                        <div class="overlay" style="min-width:100vw;"> 
                                             <div class="viewcasestudy">Click to expand</div>
                                         </div>
                                     </a>
