@@ -9,7 +9,9 @@ if($colour == "Blue"){
     get_header('project'); 
 }else{
     get_header('work'); 
-}?>
+}
+$image = false;
+?>
     <!--<section class="section" style="height: 675px;">
         <div class="container container--small main-content">
             
@@ -33,7 +35,7 @@ if($colour == "Blue"){
                 the_row();
                 if(get_row_layout() == 'image') get_template_part('templates/project/image');
                 if(get_row_layout() == 'content_with_image') get_template_part('templates/project/content_with_image');
-                if(get_row_layout() == 'images') get_template_part('templates/project/images');  
+                if(get_row_layout() == 'images') get_template_part('templates/project/images') $image=true;;  
                 if(get_row_layout() == 'images_three') get_template_part('templates/project/imagestriple'); 
                 if(get_row_layout() == 'images_four') get_template_part('templates/project/imagessfour'); 
                 if(get_row_layout() == 'images_solo') get_template_part('templates/project/imagessolo'); 
@@ -43,10 +45,15 @@ if($colour == "Blue"){
                 if(get_row_layout() == 'project_filter') get_template_part('templates/project/project_filter');  
                 if(get_row_layout() == 'project_home') get_template_part('templates/project/project_home');
             }
-        }
+        } 
         ?> 
-        <div class="section footerbg"  data-section-name="hello" style="min-height:20px;">    
-        </div>
+        <?php if($image=='true'){ ?>
+            <div class="section footerbg" style="position:relative" data-section-name="hello" style="min-height:20px;">    
+            </div>
+        <?php }else{ ?>
+            <div class="section footerbg"  data-section-name="hello" style="min-height:20px;">    
+            </div>
+        <?php } ?>
     </main>
     <?php 
 if($static_erg_international){
