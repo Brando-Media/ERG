@@ -3816,3 +3816,9 @@ textarea::-webkit-input-placeholder {
 .mfp-title{
     display:none!important;
 }
+
+@media only screen and (max-width: 500px){
+    .arrowposproject {
+        margin-left:7%;
+    }
+}
