@@ -32,7 +32,7 @@ $next_url = get_sub_field('nexturl');
             </div>
     </div>
 </div>
-
+<div class="casestudyarrows" style="">
 <div id="wrapper" class="<?php echo $class; ?> width70cs">
         <header id="" class="arrowposproject" style="">
             <div id="top" class="container clearfix header-toggle-white header-div" style="margin-left:60px; max-width:2400px; padding-left:0px; padding-right:0px;">
@@ -43,6 +43,7 @@ $next_url = get_sub_field('nexturl');
 
             </div>
         </header>
+</div>
 
 
 <!--<div class="row d-flex indicasepad marginautoindicase" id="marginautoindicase" style="margin-top:50px;">

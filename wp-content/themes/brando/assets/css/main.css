@@ -3999,5 +3999,12 @@ section {
     width: 71vw !important;
   }
 }
+@media only screen and (min-width: 992px) {
+  .casestudyarrows {
+    padding-left: 50px;
+    padding-right: 70px;
+    max-width: 66.67%;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */
