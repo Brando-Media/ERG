@@ -3181,6 +3181,9 @@ textarea::-webkit-input-placeholder {
     .pt200m100{
         padding-top:200px;
     }
+    .pt200m100cs{
+        padding-top:150px;
+    }
     .pt200m0{
         padding-top:200px;
         margin-right:0px!important; 
@@ -3212,6 +3215,9 @@ textarea::-webkit-input-placeholder {
 
 @media only screen and (max-width: 991px) {
     .pt200m100{
+        padding-top:100px;
+    }
+    .pt200m100cs{
         padding-top:100px;
     }
      .pt210m0{
