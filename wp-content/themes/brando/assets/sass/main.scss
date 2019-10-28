@@ -3855,4 +3855,11 @@ textarea::-webkit-input-placeholder {
         position:absolute;
     }
 }
-
+@media only screen and (min-width:1200px){
+    .pl16{
+        padding-top:40px;
+    }
+}
+.pl16 p{
+    font-size:14px;
+}
