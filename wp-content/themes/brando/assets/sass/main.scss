@@ -3845,3 +3845,10 @@ textarea::-webkit-input-placeholder {
         display:none;
     }
 }
+
+@media only screen and (max-width: 991px){
+    .posabs991{
+        position:absolute;
+    }
+}
+
