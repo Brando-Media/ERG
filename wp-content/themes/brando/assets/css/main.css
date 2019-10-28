@@ -4009,6 +4009,14 @@ section {
   .arrowposproject {
     margin-right: 0%;
   }
+
+  .casestudiesmarginleft {
+    margin-left: 0px !important;
+  }
+
+  .rightarrowstyle {
+    padding-right: 0px !important;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
