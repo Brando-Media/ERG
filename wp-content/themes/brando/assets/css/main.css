@@ -3755,7 +3755,7 @@ a[href^=tel] {
   bottom: 0;
   left: 0;
   right: 0;
-  padding-top: 90px;
+  padding-top: 30px;
   padding-bottom: 30px;
   z-index: 99;
   margin-right: 7%;
@@ -3850,6 +3850,12 @@ section {
   .project75vwimage {
     padding: 0 !important;
     width: 75vw !important;
+    max-width: 75vw !important;
+  }
+
+  .project59vwimage {
+    padding: 0 !important;
+    width: 59vw !important;
     max-width: 75vw !important;
   }
 }
