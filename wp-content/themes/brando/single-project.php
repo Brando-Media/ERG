@@ -36,6 +36,7 @@ if($colour == "Blue"){
                 if(get_row_layout() == 'images') get_template_part('templates/project/images');  
                 if(get_row_layout() == 'images_three') get_template_part('templates/project/imagestriple'); 
                 if(get_row_layout() == 'images_four') get_template_part('templates/project/imagessfour'); 
+                if(get_row_layout() == 'images_solo') get_template_part('templates/project/imagessolo'); 
                 if(get_row_layout() == 'content_with_image_at_top') get_template_part('templates/project/content_with_image_at_top');
                 if(get_row_layout() == 'content_left_content_right') get_template_part('templates/project/content_left_content_right');
                 if(get_row_layout() == 'imagenobotpadding') get_template_part('templates/project/imagenobotpadding');

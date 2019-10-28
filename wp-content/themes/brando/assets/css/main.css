@@ -3956,5 +3956,10 @@ section {
     margin-left: 7%;
   }
 }
+@media only screen and (min-width: 1001px) {
+  .hideimagetillmobile {
+    display: none;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */

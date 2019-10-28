@@ -3822,3 +3822,15 @@ textarea::-webkit-input-placeholder {
         margin-left:7%;
     }
 }
+
+@media only screen and (max-width: 500px){
+    .hideimagetillmobile{
+
+    }
+}
+
+@media only screen and (min-width: 1001px){
+    .hideimagetillmobile{
+        display:none;
+    }
+}
