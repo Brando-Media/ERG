@@ -3941,3 +3941,11 @@ textarea::-webkit-input-placeholder {
         padding-left:0px;
     }
 }
+
+@media only screen and (max-width: 767px){
+    .mw30img {
+        max-width: 100% !important;
+        min-width: 100vw;
+    }
+}
+    
