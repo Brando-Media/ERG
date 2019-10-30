@@ -79,7 +79,7 @@
                     <div class="collapse navbar-collapse navbaritemz" id="navbarTogglerDemo02" style="min-width:100vw; float:left">
                         <ul class="navbar-nav mr-auto mt-2 mt-lg-0 navbarfr">
                         <li class="nav-item">
-                            <a style="color:white; font-weight:bold;"  class="nav-link navhover" onclick="hrefMove('about')" href="https://brando.media/erg/#about/" >About <span class="sr-only">(current)</span></a>
+                            <a style="color:white; font-weight:bold;"  class="nav-link navhover" onclick="hrefMove('about')" href="https://erg-int.co.uk/#about/" >About <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
                             <a style="color:white; font-weight:bold;" class="nav-link navhover" href="erg/what-we-do">What We Do</a>
@@ -91,13 +91,13 @@
                             <a style="color:white; font-weight:bold;" class="nav-link navhover" href="case-studies">Case Studies</a>
                         </li>
                         <li class="nav-item">
-                            <a style="color:white;font-weight:bold;" class="nav-link navhover" onclick="hrefMove('global')" href="https://brando.media/erg/#global/"  >Global</a>
+                            <a style="color:white;font-weight:bold;" class="nav-link navhover" onclick="hrefMove('global')" href="https://erg-int.co.uk/#global/"  >Global</a>
                         </li>
                         <li class="nav-item">
                             <a style="color:white;font-weight:bold;" class="nav-link navhover" href="team-pages">Team</a>
                         </li>
                         <li class="nav-item">
-                            <a style="color:white;font-weight:bold;" class="nav-link navhover" onclick="hrefMove('contact')" href="https://brando.media/erg/#contact/"  >Contact</a>
+                            <a style="color:white;font-weight:bold;" class="nav-link navhover" onclick="hrefMove('contact')" href="https://erg-int.co.uk/#contact/"  >Contact</a>
                         </li>
                         </ul>
                     </div>
@@ -107,7 +107,7 @@
                     <div class="collapse navbar-collapse navbaritemz" id="navbarTogglerDemo02">
                         <ul class="navbar-nav mr-auto mt-2 mt-lg-0 navbarfr">
                         <li class="nav-item">
-                            <a style="color:white; font-weight:bold;" class="nav-link navhover" id="aboutnav" onclick="changeNavCol('aboutnav')" href="https://brando.media/erg/#about">About <span class="sr-only">(current)</span></a>
+                            <a style="color:white; font-weight:bold;" class="nav-link navhover" id="aboutnav" onclick="changeNavCol('aboutnav')" href="https://erg-int.co.uk/#about">About <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
                             <a style="color:white; font-weight:bold;" class="nav-link navhover" href="what-we-do">What We Do</a>
@@ -119,13 +119,13 @@
                             <a style="color:white; font-weight:bold;" class="nav-link navhover" href="case-studies">Case Studies</a>
                         </li>
                         <li class="nav-item">
-                            <a style="color:white;font-weight:bold;" class="nav-link navhover" id="globalnav" onclick="changeNavCol('globalnav')" href="https://brando.media/erg/#global">Global</a>
+                            <a style="color:white;font-weight:bold;" class="nav-link navhover" id="globalnav" onclick="changeNavCol('globalnav')" href="https://erg-int.co.uk/#global">Global</a>
                         </li>
                         <li class="nav-item">
                             <a style="color:white;font-weight:bold;" class="nav-link navhover" href="team-pages">Team</a>
                         </li>
                         <li class="nav-item">
-                            <a style="color:white;font-weight:bold;" class="nav-link navhover" id="contactnav" onclick="changeNavCol('contactnav')" href="https://brando.media/erg/#contact">Contact</a>
+                            <a style="color:white;font-weight:bold;" class="nav-link navhover" id="contactnav" onclick="changeNavCol('contactnav')" href="https://erg-int.co.uk/#contact">Contact</a>
                         </li>
                         </ul>
                     </div>

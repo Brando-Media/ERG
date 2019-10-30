@@ -51,6 +51,10 @@ $image = false;
                     get_template_part('templates/project/imagessolo'); 
                     $image=true;
                 } 
+                if(get_row_layout() == 'imagesflex'){
+                    $image=true;
+                    get_template_part('templates/project/imagesflex'); 
+                } 
                 if(get_row_layout() == 'content_with_image_at_top') get_template_part('templates/project/content_with_image_at_top');
                 if(get_row_layout() == 'content_left_content_right') get_template_part('templates/project/content_left_content_right');
                 if(get_row_layout() == 'imagenobotpadding') get_template_part('templates/project/imagenobotpadding');

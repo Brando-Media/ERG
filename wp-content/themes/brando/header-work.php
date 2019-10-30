@@ -44,7 +44,7 @@
             <header id="header" style="margin-right:7%;">
             
                 <div id="top" class="container clearfix header-toggle-white header-div" style="margin-left:60px; max-width:2400px; padding-left:0px; padding-right:0px;"  >
-                    <a href="http://brando.media/erg#home" id="logo" class="float-left" style="padding-left:15px;">
+                    <a href="https://erg-int.co.uk/#home" id="logo" class="float-left" style="padding-left:15px;">
                         <img style="max-width:100px; margin-top:6px;" class="white-logo" src="<?php bloginfo('template_url') ?>/assets/images/ERG-logo.png" alt="erg" title="Brando Media" />
                         <img class="red-logo" src="<?php bloginfo('template_url') ?>/assets/images/ERG-logo.png" alt="erg" title="Brando Media" />
                     </a>
@@ -78,25 +78,25 @@
                     <div class="collapse navbar-collapse navbaritemz" id="navbarTogglerDemo02" style="padding-top:80px; min-width:100vw; float:left;">
                         <ul class="navbar-nav mr-auto mt-2 mt-lg-0 navbarfr">
                         <li class="nav-item">
-                            <a style="color:white; font-weight:bold;" class="nav-link" href="https://brando.media/erg/#about">About <span class="sr-only">(current)</span></a>
+                            <a style="color:white; font-weight:bold;" class="nav-link" href="https://erg-int.co.uk/#about">About <span class="sr-only">(current)</span></a>
                         </li>
                         <li class="nav-item">
-                            <a style="color:white; font-weight:bold;"  class="nav-link" href="https://brando.media/erg/what-we-do">What We Do</a>
+                            <a style="color:white; font-weight:bold;"  class="nav-link" href="https://erg-int.co.uk/what-we-do">What We Do</a>
                         </li>
                         <li class="nav-item">
-                            <a style="color:white; font-weight:bold;" class="nav-link" href="http://brando.media/erg/ourfocus/">Our Focus</a>
+                            <a style="color:white; font-weight:bold;" class="nav-link" href="https://erg-int.co.uk/ourfocus/">Our Focus</a>
                         </li>
                         <li class="nav-item">
-                            <a style="color:white; font-weight:bold;" class="nav-link" href="http://brando.media/erg/case-studies/">Case Studies</a>
+                            <a style="color:white; font-weight:bold;" class="nav-link" href="https://erg-int.co.uk/case-studies/">Case Studies</a>
                         </li>
                         <li class="nav-item">
-                            <a style="color:white; font-weight:bold;" class="nav-link" href="https://brando.media/erg/#global">Global</a>
+                            <a style="color:white; font-weight:bold;" class="nav-link" href="https://erg-int.co.uk/#global">Global</a>
                         </li>
                         <li class="nav-item">
-                            <a style="color:white; font-weight:bold;" class="nav-link" href="https://brando.media/erg/team-pages">Team</a>
+                            <a style="color:white; font-weight:bold;" class="nav-link" href="https://erg-int.co.uk/team-pages">Team</a>
                         </li>
                         <li class="nav-item">
-                            <a style="color:white; font-weight:bold;" class="nav-link" href="https://brando.media/erg/#contact">Contact</a>
+                            <a style="color:white; font-weight:bold;" class="nav-link" href="https://erg-int.co.uk/#contact">Contact</a>
                         </li>
                         </ul>
                     </div>
@@ -107,25 +107,25 @@
                 <div class="collapse navbar-collapse navbaritemz" id="navbarTogglerDemo02">
                     <ul class="navbar-nav mr-auto mt-2 mt-lg-0 navbarfr">
                     <li class="nav-item">
-                        <a style="color:white; font-weight:bold;" class="nav-link navhover" href="https://brando.media/erg/#about">About <span class="sr-only">(current)</span></a>
+                        <a style="color:white; font-weight:bold;" class="nav-link navhover" href="https://erg-int.co.uk/#about">About <span class="sr-only">(current)</span></a>
                     </li>
                     <li class="nav-item">
-                        <a style="color:white; font-weight:bold;" class="nav-link navhover" href="https://brando.media/erg/what-we-do/">What We Do</a>
+                        <a style="color:white; font-weight:bold;" class="nav-link navhover" href="https://erg-int.co.uk/what-we-do/">What We Do</a>
                     </li>
                     <li class="nav-item">
-                        <a style="color:white; font-weight:bold;" class="nav-link navhover" href="http://brando.media/erg/ourfocus/">Our Focus</a>
+                        <a style="color:white; font-weight:bold;" class="nav-link navhover" href="https://erg-int.co.uk/ourfocus/">Our Focus</a>
                     </li>
                     <li class="nav-item">
-                        <a style="color:white; font-weight:bold;" class="nav-link navhover" href="http://brando.media/erg/case-studies/">Case Studies</a>
+                        <a style="color:white; font-weight:bold;" class="nav-link navhover" href="https://erg-int.co.uk/case-studies/">Case Studies</a>
                     </li>
                     <li class="nav-item">
-                        <a style="color:white;font-weight:bold;" class="nav-link navhover" href="https://brando.media/erg/#global">Global</a>
+                        <a style="color:white;font-weight:bold;" class="nav-link navhover" href="https://erg-int.co.uk/#global">Global</a>
                     </li>
                     <li class="nav-item">
-                        <a style="color:white;font-weight:bold;" class="nav-link navhover" href="https://brando.media/erg/team-pages/">Team</a>
+                        <a style="color:white;font-weight:bold;" class="nav-link navhover" href="https://erg-int.co.uk/team-pages/">Team</a>
                     </li>
                     <li class="nav-item">
-                        <a style="color:white;font-weight:bold;" class="nav-link navhover" href="https://brando.media/erg/#contact">Contact</a>
+                        <a style="color:white;font-weight:bold;" class="nav-link navhover" href="https://erg-int.co.uk/#contact">Contact</a>
                     </li>
                     </ul>
                 </div>

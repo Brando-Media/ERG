@@ -40,8 +40,8 @@
    <header id="header" style="margin-right:7%;">
    
        <div id="top" class="container clearfix header-toggle-white header-div"  style="margin-top:0px; margin-left:60px; max-width:2400px; padding-left:0px; padding-right:0px;">
-           <a href="http://brando.media/erg#home" id="logo" class="float-left" style="padding-left:15px;">
-               <img id="blueerglogo" style="max-width:100px; margin-top:6px;" class="white-logo" src="<?php bloginfo('template_url') ?>/assets/images/ergblue200.png" alt="erg" title="Brando Media" />
+           <a href="https://erg-int.co.uk/#home" id="logo" class="float-left" style="padding-left:15px;">
+               <img id="blueerglogo" style="max-width:101px; margin-top:6px;" class="white-logo" src="https://erg-int.co.uk/wp-content/themes/brando/assets/images/ergblue200.png" alt="erg" title="Brando Media" />
                <img class="red-logo" src="<?php bloginfo('template_url') ?>/assets/images/ergblue200.png" alt="erg" title="Brando Media" />
            </a>
            <!--<nav class="navbar navbar-expand-lg navbar-light navbar-brand" >
@@ -69,25 +69,25 @@
            <div class="collapse navbar-collapse navbaritemz" id="navbarTogglerDemo02" style="padding-top:80px; min-width:100vw; float:left;">
                <ul class="navbar-nav mr-auto mt-2 mt-lg-0 navbarfr">
                <li class="nav-item">
-                   <a class="nav-link bluenav" href="https://brando.media/erg/#about">About <span class="sr-only">(current)</span></a>
+                   <a class="nav-link bluenav" href="https://erg-int.co.uk/#about">About <span class="sr-only">(current)</span></a>
                </li>
                <li class="nav-item">
-                   <a style="" class="nav-link bluenav" href="https://brando.media/erg/what-we-do">What We Do</a>
+                   <a style="" class="nav-link bluenav" href="https://erg-int.co.uk/what-we-do/">What We Do</a>
                </li>
                <li class="nav-item">
-                   <a   class="nav-link bluenav" href="https://brando.media/erg/ourfocus">Our Focus</a>
+                   <a   class="nav-link bluenav" href="https://erg-int.co.uk/ourfocus">Our Focus</a>
                </li>
                <li class="nav-item">
-                   <a class="nav-link bluenav" href="http://brando.media/erg/case-studies/">Case Studies</a>
+                   <a class="nav-link bluenav" href="https://erg-int.co.uk/case-studies/">Case Studies</a>
                </li>
                <li class="nav-item">
-                   <a class="nav-link bluenav" href="https://brando.media/erg/#global">Global</a>
+                   <a class="nav-link bluenav" href="https://erg-int.co.uk/#global">Global</a>
                </li>
                <li class="nav-item">
-                   <a  class="nav-link bluenav" href="https://brando.media/erg/team-pages">Team</a>
+                   <a  class="nav-link bluenav" href="https://erg-int.co.uk/team-pages/">Team</a>
                </li>
                <li class="nav-item">
-                   <a  class="nav-link bluenav" href="https://brando.media/erg/#contact">Contact</a>
+                   <a  class="nav-link bluenav" href="https://erg-int.co.uk/#contact">Contact</a>
                </li>
                </ul>
            </div>
@@ -98,25 +98,25 @@
         <div class="collapse navbar-collapse navbaritemz" id="navbarTogglerDemo02">
             <ul class="navbar-nav mr-auto mt-2 mt-lg-0 navbarfr">
             <li class="nav-item">
-                <a style="font-weight:bold;" id="aboutlink" class="nav-link navhover bluenav" href="https://brando.media/erg/#about">About <span class="sr-only">(current)</span></a>
+                <a style="font-weight:bold;" id="aboutlink" class="nav-link navhover bluenav" href="https://erg-int.co.uk/#about">About <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item">
-                <a style="font-weight:bold;" id="serviceslink" class="nav-link navhover bluenav" href="https://brando.media/erg/what-we-do/">What We Do</a>
+                <a style="font-weight:bold;" id="serviceslink" class="nav-link navhover bluenav" href="https://erg-int.co.uk/what-we-do/">What We Do</a>
             </li>
             <li class="nav-item">
-                <a style=" font-weight:bold;" id="projectslink" class="nav-link navhover bluenav" href="https://brando.media/erg/ourfocus/">Our Focus</a>
+                <a style=" font-weight:bold;" id="projectslink" class="nav-link navhover bluenav" href="https://erg-int.co.uk/ourfocus/">Our Focus</a>
             </li>
             <li class="nav-item">
-                <a style=" font-weight:bold;" id="casestudieslink" class="nav-link navhover bluenav" href="http://brando.media/erg/case-studies/">Case Studies</a>
+                <a style=" font-weight:bold;" id="casestudieslink" class="nav-link navhover bluenav" href="https://erg-int.co.uk/case-studies/">Case Studies</a>
             </li>
             <li class="nav-item">
-                <a style="font-weight:bold;" id="globallink" class="nav-link navhover bluenav" href="https://brando.media/erg/#global">Global</a>
+                <a style="font-weight:bold;" id="globallink" class="nav-link navhover bluenav" href="https://erg-int.co.uk/#global">Global</a>
             </li>
             <li class="nav-item">
-                <a style="font-weight:bold;" id="teamlink" class="nav-link navhover bluenav" href="https://brando.media/erg/team-pages/">Team</a>
+                <a style="font-weight:bold;" id="teamlink" class="nav-link navhover bluenav" href="https://erg-int.co.uk/team-pages/">Team</a>
             </li>
             <li class="nav-item">
-                <a style="font-weight:bold;" id="contactlink" class="nav-link navhover bluenav" href="https://brando.media/erg/#contact">Contact</a>
+                <a style="font-weight:bold;" id="contactlink" class="nav-link navhover bluenav" href="https://erg-int.co.uk/#contact">Contact</a>
             </li>
             </ul>
         </div>

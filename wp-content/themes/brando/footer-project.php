@@ -19,8 +19,8 @@
                 console.log("tesst");
                 if($('#navbar-header-toggle').hasClass('collapsed')){
                     console.log("has collapsed");
-                    $("#blueerglogo").attr("src","/erg/wp-content/themes/brando/assets/images/ERG-logo.png");
-                    $('.work-template-default').css({"background-image": "linear-gradient(to right, rgba(0, 160, 219, 0.8), rgba(0, 73, 144, 0.8))" });
+                    $("#blueerglogo").attr("src","https://erg-int.co.uk/wp-content/themes/brando/assets/images/ERG-logo.png"); 
+                    $('.work-template-default').css({"background-image": "linear-gradient(to right, rgba(0, 160, 219, 0.8), rgba(0, 73, 144, 0.8))" }); 
                     $('.latestblog-template-default').css({"background-image": "linear-gradient(to right, rgba(0, 160, 219, 0.8), rgba(0, 73, 144, 0.8))" });
                     $('.page-template').css({"background-image": "linear-gradient(to right, rgba(0, 160, 219, 0.8), rgba(0, 73, 144, 0.8))" });
                     $('.casestudy-template-default').css({"background-image": "linear-gradient(to right, rgba(0, 160, 219, 0.8), rgba(0, 73, 144, 0.8))" });
@@ -42,7 +42,7 @@
                     $('#navbarTogglerDemo02').addClass('show');
                     $('#navbar-header-toggle').removeClass('collapsed')
                 }else{
-                    $("#blueerglogo").attr("src","/erg/wp-content/themes/brando/assets/images/ergblue200.png");
+                    $("#blueerglogo").attr("src","https://erg-int.co.uk/wp-content/themes/brando/assets/images/ergblue200.png");
 
                     console.log("not collapsed");
                     $('.work-template-default').css({"background-image": ''});
@@ -139,7 +139,7 @@
                         $('#marginautoindicase').css({"margin-left":"-15px"});
                         $('#marginautoindicase').css({"margin-right":"-15px"});
                         $('.work-template-default').css({"background-image": ''});
-                        $("#blueerglogo").attr("src","/erg/wp-content/themes/brando/assets/images/ergblue200.png");
+                        $("#blueerglogo").attr("src","https://erg-int.co.uk/wp-content/themes/brando/assets/images/ergblue200.png");
 
                         console.log("not collapsed");
                         $('.work-template-default').css({"background-image": ''});
