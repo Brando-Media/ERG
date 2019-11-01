@@ -285,17 +285,17 @@ padding-right: 0px;">
             $class = 'hideonmobilelate'; ?>
            <?php } ?>
            <div class="<?php echo $class ?>" style="min-width:23vw;">
-           <div class="<?php echo $class ?> col-md-12 container  casestudy-div-img maxwidth23 hfcproj from50to100p <?php echo $class ?>" style="padding-left:0px!important; padding-right:0px!important; margin-left:0px!important; margin-right:0px!important; width:100%;" >
+           <div class="<?php echo $class ?> col-md-12 container  casestudy-div-img maxwidth23 mh250 7height hfcproj from50to100p <?php echo $class ?>" style="padding-left:0px!important; padding-right:0px!important; margin-left:0px!important; margin-right:0px!important; width:100%;" >
                                 <div class="casestudyhover" style="position:relative;">
                                     <a href="<?php echo $image['url'] ?>" data-rel="lightbox">
-                                    <img class="small-project-homep maxwidth23 hfcproj from50to100p" src="<?php echo show_image($image['url'], $images[0]['width'], $images[0]['height'], 50) ?>">
+                                    <img class="small-project-homep maxwidth23 mh250 hfcproj from50to100p" src="<?php echo show_image($image['url'], $images[0]['width'], $images[0]['height'], 50) ?>">
                                         <div class="overlay"> 
                                             <div class="viewcasestudy">Click to expand</div>
                                         </div>
                                     </a>
                                 </div>
             </div>
-            </div>
+            </div> 
             <?php } ?>
         <?php endforeach; ?>
             </div>
