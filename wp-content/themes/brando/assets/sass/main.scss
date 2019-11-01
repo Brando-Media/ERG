@@ -1925,6 +1925,8 @@ textarea::-webkit-input-placeholder {
         min-width:23.061630218%;
         max-width:16.666667vw;
         min-width:16.666667vw;
+        max-height: 600px;
+        object-fit: cover;
       }
 
       .maxwidth16{
