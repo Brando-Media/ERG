@@ -16,10 +16,10 @@ var_dump($noofimg);
         <div class="row m-0">
         <?php foreach($images as $k=>$image): ?>
            <div class="<?php echo $class ?> hideimagetillmobile" style="min-width:50vw;">
-           <div class="<?php echo $class ?> col-md-12 container  casestudy-div-img maxwidth23 from50to100p <?php echo $class ?>" style="padding-left:0px!important; padding-right:0px!important; margin-left:0px!important; margin-right:0px!important; width:100%;" >
+           <div class="<?php echo $class ?> col-md-12 container  casestudy-div-img maxwidth23 hfcproj from50to100p <?php echo $class ?>" style="padding-left:0px!important; padding-right:0px!important; margin-left:0px!important; margin-right:0px!important; width:100%;" >
                                 <div class="casestudyhover" style="position:relative;">
                                     <a href="<?php echo $image['url'] ?>" data-rel="lightbox">
-                                    <img style="/*max-width:100vw!important;*/" class="maxwidth23 from50to100p" src="<?php echo show_image($image['url'], $image['width'], $image['height'], 75) ?>">
+                                    <img style="/*max-width:100vw!important;*/" class="maxwidth23 hfcproj from50to100p" src="<?php echo show_image($image['url'], $image['width'], $image['height'], 75) ?>">
                                         <div class="overlay" style="/*min-width:100vw;*/"> 
                                             <div class="viewcasestudy">Click to expand</div>
                                         </div>
@@ -41,10 +41,10 @@ var_dump($noofimg);
         <div class="row m-0">
         <?php foreach($images as $k=>$image): ?>
            <div class="<?php echo $class ?>" style="min-width:33.333vw;">
-           <div class="<?php echo $class ?> col-md-12 container  casestudy-div-img maxwidth23 from50to100p50 <?php echo $class ?>" style="padding-left:0px!important; padding-right:0px!important; margin-left:0px!important; margin-right:0px!important; width:100%;" >
+           <div class="<?php echo $class ?> col-md-12 container  casestudy-div-img maxwidth23 hfcproj from50to100p50 <?php echo $class ?>" style="padding-left:0px!important; padding-right:0px!important; margin-left:0px!important; margin-right:0px!important; width:100%;" >
                             <div class="casestudyhover" style="position:relative;">
                                     <a href="<?php echo $image['url'] ?>" data-rel="lightbox">
-                                    <img class="maxwidth23 from50to100p50" src="<?php echo show_image($image['url'], $image['width'], $image['height'], 75) ?>">
+                                    <img class="maxwidth23 hfcproj from50to100p50" src="<?php echo show_image($image['url'], $image['width'], $image['height'], 75) ?>">
                                         <div class="overlay"> 
                                             <div class="viewcasestudy">Click to expand</div>
                                         </div>
@@ -66,10 +66,10 @@ var_dump($noofimg);
         <div class="row m-0">
         <?php foreach($images as $k=>$image): ?>
            <div class="<?php echo $class ?>" style="min-width:33.333vw;">
-           <div class="<?php echo $class ?> col-md-12 container  casestudy-div-img maxwidth23 from50to100p33 <?php echo $class ?>" style="padding-left:0px!important; padding-right:0px!important; margin-left:0px!important; margin-right:0px!important; width:100%;" >
+           <div class="<?php echo $class ?> col-md-12 container  casestudy-div-img maxwidth23  hfcproj from50to100p33 <?php echo $class ?>" style="padding-left:0px!important; padding-right:0px!important; margin-left:0px!important; margin-right:0px!important; width:100%;" >
                             <div class="casestudyhover" style="position:relative;">
                                     <a href="<?php echo $image['url'] ?>" data-rel="lightbox">
-                                    <img class="maxwidth23 from50to100p33" src="<?php echo show_image($image['url'], $image['width'], $image['height'], 75) ?>">
+                                    <img class="maxwidth23 hfcproj from50to100p33" src="<?php echo show_image($image['url'], $image['width'], $image['height'], 75) ?>">
                                         <div class="overlay"> 
                                             <div class="viewcasestudy">Click to expand</div>
                                         </div>
@@ -90,10 +90,10 @@ var_dump($noofimg);
         <div class="row m-0">
         <?php foreach($images as $k=>$image): ?>
            <div class="<?php echo $class ?>" style="min-width:50vw;">
-           <div class="<?php echo $class ?> col-md-12 container  casestudy-div-img maxwidth23 from50to100p <?php echo $class ?>" style="padding-left:0px!important; padding-right:0px!important; margin-left:0px!important; margin-right:0px!important; width:100%;" >
+           <div class="<?php echo $class ?> col-md-12 container  casestudy-div-img maxwidth23 hfcproj from50to100p <?php echo $class ?>" style="padding-left:0px!important; padding-right:0px!important; margin-left:0px!important; margin-right:0px!important; width:100%;" >
                                 <div class="casestudyhover" style="position:relative;">
                                     <a href="<?php echo $image['url'] ?>" data-rel="lightbox">
-                                    <img class="maxwidth23 from50to100p" src="<?php echo show_image($image['url'], $image['width'], $image['height'], 75) ?>">
+                                    <img class="maxwidth23 hfcproj from50to100p" src="<?php echo show_image($image['url'], $image['width'], $image['height'], 75) ?>">
                                         <div class="overlay"> 
                                             <div class="viewcasestudy">Click to expand</div>
                                         </div>
@@ -168,10 +168,10 @@ padding-right: 0px;">
         $class = 'hideonmobilelate'; ?>
        <?php } ?>
        <div class="<?php echo $class ?>" style="min-width:23vw;">
-       <div class="<?php echo $class ?> col-md-12 container  casestudy-div-img maxwidth23 from50to100p <?php echo $class ?>" style="padding-left:0px!important; padding-right:0px!important; margin-left:0px!important; margin-right:0px!important; width:100%;" >
+       <div class="<?php echo $class ?> col-md-12 container  casestudy-div-img maxwidth23 hfcproj from50to100p <?php echo $class ?>" style="padding-left:0px!important; padding-right:0px!important; margin-left:0px!important; margin-right:0px!important; width:100%;" >
                             <div class="casestudyhover" style="position:relative;">
                                 <a href="<?php echo $image['url'] ?>" data-rel="lightbox">
-                                <img class="small-project-homep maxwidth23 from50to100p fiveimages" src="<?php echo show_image($image['url'], $images[0]['width'], $images[0]['height'], 50) ?>">
+                                <img class="small-project-homep maxwidth23  hfcproj from50to100p fiveimages" src="<?php echo show_image($image['url'], $images[0]['width'], $images[0]['height'], 50) ?>">
                                     <div class="overlay"> 
                                         <div class="viewcasestudy">Click to expand</div>
                                     </div>
@@ -208,10 +208,10 @@ padding-right: 0px;">
            <?php } ?>
     
            <div class="<?php echo $class ?>" style="min-width:33.33333333vw;">
-           <div class="<?php echo $class ?> col-md-12 container  casestudy-div-img maxwidth23 from50to100p <?php echo $class ?>" style="padding-left:0px!important; padding-right:0px!important; margin-left:0px!important; margin-right:0px!important; width:100%;" >
+           <div class="<?php echo $class ?> col-md-12 container  casestudy-div-img maxwidth23 hfcproj from50to100p <?php echo $class ?>" style="padding-left:0px!important; padding-right:0px!important; margin-left:0px!important; margin-right:0px!important; width:100%;" >
                                 <div class="casestudyhover" style="position:relative;">
                                     <a href="<?php echo $image['url'] ?>" data-rel="lightbox">
-                                    <img class="maxwidth23 from50to100p6" src="<?php echo show_image($image['url'], $image['width'], $image['height'], 75) ?>">
+                                    <img class="maxwidth23 hfcproj from50to100p6" src="<?php echo show_image($image['url'], $image['width'], $image['height'], 75) ?>">
                                         <div class="overlay"> 
                                             <div class="viewcasestudy">Click to expand</div>
                                         </div>
@@ -285,10 +285,10 @@ padding-right: 0px;">
             $class = 'hideonmobilelate'; ?>
            <?php } ?>
            <div class="<?php echo $class ?>" style="min-width:23vw;">
-           <div class="<?php echo $class ?> col-md-12 container  casestudy-div-img maxwidth23 from50to100p <?php echo $class ?>" style="padding-left:0px!important; padding-right:0px!important; margin-left:0px!important; margin-right:0px!important; width:100%;" >
+           <div class="<?php echo $class ?> col-md-12 container  casestudy-div-img maxwidth23 hfcproj from50to100p <?php echo $class ?>" style="padding-left:0px!important; padding-right:0px!important; margin-left:0px!important; margin-right:0px!important; width:100%;" >
                                 <div class="casestudyhover" style="position:relative;">
                                     <a href="<?php echo $image['url'] ?>" data-rel="lightbox">
-                                    <img class="small-project-homep maxwidth23 from50to100p" src="<?php echo show_image($image['url'], $images[0]['width'], $images[0]['height'], 50) ?>">
+                                    <img class="small-project-homep maxwidth23 hfcproj from50to100p" src="<?php echo show_image($image['url'], $images[0]['width'], $images[0]['height'], 50) ?>">
                                         <div class="overlay"> 
                                             <div class="viewcasestudy">Click to expand</div>
                                         </div>
@@ -324,10 +324,10 @@ padding-right: 0px;">
            <?php } ?>
     
            <div class="<?php echo $class ?>" style="min-width:25vw;">
-           <div class="<?php echo $class ?> col-md-12 container  casestudy-div-img maxwidth23 from50to100p <?php echo $class ?>" style="padding-left:0px!important; padding-right:0px!important; margin-left:0px!important; margin-right:0px!important; width:100%;" >
+           <div class="<?php echo $class ?> col-md-12 container  casestudy-div-img maxwidth23 hfcproj from50to100p <?php echo $class ?>" style="padding-left:0px!important; padding-right:0px!important; margin-left:0px!important; margin-right:0px!important; width:100%;" >
                                 <div class="casestudyhover" style="position:relative;">
                                     <a href="<?php echo $image['url'] ?>" data-rel="lightbox">
-                                    <img class="maxwidth23 from50to100p8" src="<?php echo show_image($image['url'], $image['width'], $image['height'], 75) ?>">
+                                    <img class="maxwidth23 hfcproj from50to100p8" src="<?php echo show_image($image['url'], $image['width'], $image['height'], 75) ?>">
                                         <div class="overlay"> 
                                             <div class="viewcasestudy">Click to expand</div>
                                         </div>

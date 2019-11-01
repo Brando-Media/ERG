@@ -1983,6 +1983,9 @@ textarea::placeholder {
     min-width: 16.666667vw;
     max-height: 500px;
     object-fit: cover;
+  }
+
+  .hfcproj {
     height: fit-content;
   }
 
