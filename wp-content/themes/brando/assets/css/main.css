@@ -2987,9 +2987,14 @@ a[href^=tel] {
     min-width: 50vw;
   }
 }
-@media only screen and (min-width: 768px) and (max-width: 991px) {
-  .casestudymainimage {
-    min-width: 48vw !important;
+@media only screen and (min-width: 1200px) and (max-width: 1440px) {
+  .fiveimages {
+    max-height: 400px !important;
+  }
+}
+@media only screen and (min-width: 1441px) and (max-width: 1920px) {
+  .fiveimages {
+    max-height: 500px !important;
   }
 }
 @media only screen and (min-width: 768px) {
