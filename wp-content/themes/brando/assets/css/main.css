@@ -1989,6 +1989,10 @@ textarea::placeholder {
     max-height: 250px !important;
   }
 
+  .mh500 {
+    max-height: 500px !important;
+  }
+
   .hfcproj {
     height: fit-content;
   }
