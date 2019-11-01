@@ -3870,6 +3870,8 @@ section {
     padding: 0 !important;
     width: 56vw !important;
     max-width: 75vw !important;
+    max-height: 700px;
+    object-fit: cover;
   }
 }
 @media only screen and (min-width: 900px) and (max-width: 1399px) {
