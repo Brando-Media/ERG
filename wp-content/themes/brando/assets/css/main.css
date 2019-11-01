@@ -4174,5 +4174,10 @@ section {
     height: fit-content !important;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .heighttriple {
+    max-height: 300px;
+  }
+}
 
 /*# sourceMappingURL=main.css.map */
