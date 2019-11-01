@@ -49,8 +49,8 @@ var_dump($noofimg);
         <div class="col-md-6 container mw30img" style="padding-left:0px!important; padding-right:0px!important; margin-right:0px; margin-left:0px;" >
         <a >
                                 <div class="casestudyhover" style="position:relative;">
-                                    <a href="<?php echo $image[0]['url'] ?>" data-rel="lightbox">
-                                    <img class="img-fluid w-100 project-home-main-image casestudymainimage" style="height:100%;"src="<?php echo show_image($image[0]['url'], $image[0]['width'], $image[0]['height'], 75) ?>">
+                                    <a href="<?php echo $images[0]['url'] ?>" data-rel="lightbox">
+                                    <img class="img-fluid w-100 project-home-main-image casestudymainimage" style="height:100%;"src="<?php echo show_image($images[0]['url'], $images[0]['width'], $images[0]['height'], 75) ?>">
                                         <div class="overlay"> 
                                             <div class="viewcasestudy">Click to expand</div>
                                         </div>
