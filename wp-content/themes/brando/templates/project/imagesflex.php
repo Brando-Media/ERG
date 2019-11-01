@@ -2,11 +2,11 @@
 $images = get_sub_field('images'); 
 $mainimage = get_sub_field('main_image');
 $noofimg = count($images);
-
+var_dump($noofimg);
 
 ?>
 
-<?php if($images): ?>
+<?php if($images){ ?>
     <?php if($noofimg == "1"){ ?>
 
     <?php }else if($noofimg =="2"){ ?>
@@ -21,7 +21,7 @@ $noofimg = count($images);
 
     <?php }else if($noofimg =="7"){ ?>
 
-    <?php }else if($noofimg =="8"){ ?>
+    <?php }else if($noofimg =="8"){ } ?>
 
 
     
@@ -31,7 +31,7 @@ $noofimg = count($images);
         </div>
         <div class="col-md-6" style="padding-left:0px!important; padding-right:0px!important;">
         <div class="row m-0">
-    <?php foreach($images as $k=>$image): ?> 
+    <?php foreach($images as $k=>$image){ ?> 
             <?php
             $class = 'pl-0 pr-2';
             if($k%2==1){
@@ -41,7 +41,7 @@ $noofimg = count($images);
             <div class="col-md-6 projimgwidth" style="padding-left:0px!important; padding-right:0px!important;">
                 <img class="small-project-home" src="<?php echo show_image($image['url'], $image['width'], $image['height'], 75) ?>">
             </div>
-        <?php endforeach; ?>
+            <?php } ?>
             </div>
         </div>
         
@@ -61,7 +61,7 @@ $noofimg = count($images);
         </a>
         <div class="col-md-6 mw69div" style="padding-left:0px!important; padding-right:0px!important;">
         <div class="row m-0">
-        <?php foreach($images as $k=>$image): ?>
+        <?php foreach($images as $k=>$image){ ?>
             <?php
             $class = 'ergafk';
             if($k==2){
@@ -87,7 +87,7 @@ $noofimg = count($images);
                                 </div>
             </div>
             </div>
-        <?php endforeach; ?>
+            <?php }; ?>
             </div>
             </div>
-<?php endif; ?>
+            <?php } ?>
