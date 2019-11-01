@@ -1994,7 +1994,7 @@ textarea::placeholder {
   }
 
   .hfcproj {
-    height: fit-content;
+    height: fit-content !important;
   }
 
   .maxwidth16 {
@@ -4168,6 +4168,9 @@ section {
     max-width: 100% !important;
     min-width: 100vw;
   }
+}
+.hfcproj {
+  height: fit-content !important;
 }
 
 /*# sourceMappingURL=main.css.map */

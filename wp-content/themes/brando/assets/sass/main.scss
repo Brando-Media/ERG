@@ -1936,7 +1936,7 @@ textarea::-webkit-input-placeholder {
       }
 
       .hfcproj{
-        height: fit-content;
+        height: fit-content!important;
       }
 
       .maxwidth16{
@@ -4043,3 +4043,7 @@ textarea::-webkit-input-placeholder {
     }
 }
     
+
+.hfcproj{
+    height: fit-content!important;
+  }
