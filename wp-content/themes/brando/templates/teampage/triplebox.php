@@ -3,6 +3,7 @@ $services    = get_sub_field('services');
 $title       = get_sub_field('title');
 $dtitle       = get_sub_field('displayed_title');
 $sectionName = str_replace(' ', '', strtolower($title));
+$owidth = get_sub_field('overlaywidth');
 ?>
 
 
@@ -23,8 +24,11 @@ $sectionName = str_replace(' ', '', strtolower($title));
          <div class="casestudyhover" style="position:relative;">
             <a href="<?php echo $servicerow['link_url']; ?>">
             <img class="img-fluid w-100 teampagephoto" src="<?php echo show_image($services[$k]['image']['url'], $services[$k]['image']['width'], $services[$k]['image']['height'], 75) ?>">
-            
-            <div class="overlay"> 
+            <?php if($servicerow['overlaywidth']){ ?>
+                <div class="overlay" style="width:67%"> 
+            <?php }else{ ?>
+                <div class="overlay"> 
+            <?php } ?>
                 <div class="viewcasestudy"><?php echo $servicerow['link_text']?></div>
             </div>
             </a>
