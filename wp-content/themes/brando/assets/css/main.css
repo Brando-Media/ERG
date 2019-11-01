@@ -3018,8 +3018,7 @@ a[href^=tel] {
     width: 34.5vw;
   }
 
-  fiveimages {
-    max-height: 300px !important;
+  .fiveimages {
     max-width: 50vw !important;
   }
 
