@@ -13,7 +13,51 @@ var_dump($noofimg);
 
     <?php }else if($noofimg =="3"){ ?>
 
+        <?php if($images): ?>
+    <div class="row m-0 posabs991">
+        <div class="col-md-12 mw69div bottomimagestriple" style="padding-left:0px!important; padding-right:0px!important;">
+        <div class="row m-0">
+        <?php foreach($images as $k=>$image): ?>
+           <div class="<?php echo $class ?>" style="min-width:33.333vw;">
+           <div class="<?php echo $class ?> col-md-12 container  casestudy-div-img maxwidth23 from50to100p33 <?php echo $class ?>" style="padding-left:0px!important; padding-right:0px!important; margin-left:0px!important; margin-right:0px!important; width:100%;" >
+                            <div class="casestudyhover" style="position:relative;">
+                                    <a href="<?php echo $image['url'] ?>" data-rel="lightbox">
+                                    <img class="maxwidth23 from50to100p33" src="<?php echo show_image($image['url'], $image['width'], $image['height'], 75) ?>">
+                                        <div class="overlay"> 
+                                            <div class="viewcasestudy">Click to expand</div>
+                                        </div>
+                                    </a>
+                                </div>
+            </div>
+            </div>
+        <?php endforeach; ?>
+            </div>
+            </div>
+<?php endif; ?>
+
     <?php }else if($noofimg =="4"){ ?>
+
+        <?php if($images): ?>
+    <div class="row m-0 posabs991">
+        <div class="col-md-12 mw69div bottomimagestriple" style="padding-left:0px!important; padding-right:0px!important;">
+        <div class="row m-0">
+        <?php foreach($images as $k=>$image): ?>
+           <div class="<?php echo $class ?>" style="min-width:50vw;">
+           <div class="<?php echo $class ?> col-md-12 container  casestudy-div-img maxwidth23 from50to100p <?php echo $class ?>" style="padding-left:0px!important; padding-right:0px!important; margin-left:0px!important; margin-right:0px!important; width:100%;" >
+                                <div class="casestudyhover" style="position:relative;">
+                                    <a href="<?php echo $image['url'] ?>" data-rel="lightbox">
+                                    <img class="maxwidth23 from50to100p" src="<?php echo show_image($image['url'], $image['width'], $image['height'], 75) ?>">
+                                        <div class="overlay"> 
+                                            <div class="viewcasestudy">Click to expand</div>
+                                        </div>
+                                    </a>
+                                </div>
+            </div>
+            </div>
+        <?php endforeach; ?>
+            </div>
+            </div>
+<?php endif; ?>
     
     <?php }else if($noofimg =="5"){ ?>
 
@@ -48,9 +92,9 @@ var_dump($noofimg);
     <div class="row m-0 casestudiespositionrelative"> 
         <div class="col-md-6 container mw30img" style="padding-left:0px!important; padding-right:0px!important; margin-right:0px; margin-left:0px;" >
         <a >
-                                <div class="casestudyhover" style="position:relative;">
+                                <div class="casestudyhover col-md-6 container mw30img" style="position:relative;">
                                     <a href="<?php echo $images[0]['url'] ?>" data-rel="lightbox">
-                                    <img class="img-fluid w-100 project-home-main-image casestudymainimage" style="height:100%;"src="<?php echo show_image($images[0]['url'], $images[0]['width'], $images[0]['height'], 200) ?>">
+                                    <img class="img-fluid w-100 project-home-main-image casestudymainimage" style="height:100%;"src="<?php echo show_image($images[0]['url'], $images[0]['width'], $images[0]['height'], 100) ?>">
                                         <div class="overlay"> 
                                             <div class="viewcasestudy">Click to expand</div>
                                         </div>
