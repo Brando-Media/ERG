@@ -3141,7 +3141,7 @@ a[href^=tel] {
   }
 
   .from50to100p50 {
-    max-width: auto;
+    max-width: 50vw !important;
     min-width: 100%;
   }
 
