@@ -62,8 +62,6 @@ var_dump($noofimg);
         <div class="row m-0">
         <?php foreach($images as $k=>$image): ?>
             <?php
-            if($k==0){ ?> 
-            <?php
             $class = 'ergafk';
             if($k==2){
             $class = 'hideonmobile'; ?>
@@ -88,7 +86,6 @@ var_dump($noofimg);
                                 </div>
             </div>
             </div>
-            <?php } ?>
         <?php endforeach; ?>
             </div>
             </div>
