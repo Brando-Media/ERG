@@ -4079,10 +4079,6 @@ section {
     display: none;
   }
 }
-.posabs991 {
-  position: absolute;
-}
-
 @media only screen and (max-width: 991px) {
   .posabs991 {
     position: absolute;
