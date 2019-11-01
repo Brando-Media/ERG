@@ -92,7 +92,9 @@ var_dump($noofimg);
     <div class="row m-0 casestudiespositionrelative"> 
         <div class="col-md-6 container mw30img" style="padding-left:0px!important; padding-right:0px!important; margin-right:0px; margin-left:0px;" >
         <a >
-                                <div class="casestudyhover col-md-6 container mw30img" style="position:relative;">
+                                <div class="casestudyhover col-md-6 container mw30img" style="position:relative;     padding-left: 0px;
+    height: 100%;
+    padding-right: 0px;">
                                     <a href="<?php echo $images[0]['url'] ?>" data-rel="lightbox">
                                     <img class="img-fluid w-100 project-home-main-image casestudymainimage" style="height:100%;"src="<?php echo show_image($images[0]['url'], $images[0]['width'], $images[0]['height'], 100) ?>">
                                         <div class="overlay"> 
