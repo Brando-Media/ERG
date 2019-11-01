@@ -21,7 +21,7 @@ var_dump($noofimg);
 
     <?php }else if($noofimg =="7"){ ?>
 
-    <?php }else if($noofimg =="8"){ } ?>
+    <?php }else if($noofimg =="8"){  ?>
 
 
     
@@ -90,4 +90,5 @@ var_dump($noofimg);
             <?php }; ?>
             </div>
             </div>
+    <?php }  ?>
             <?php } ?>
