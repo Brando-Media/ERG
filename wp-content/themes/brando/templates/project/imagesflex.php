@@ -2,8 +2,6 @@
 $images = get_sub_field('images'); 
 $mainimage = get_sub_field('main_image');
 $noofimg = count($images);
-var_dump($noofimg);
-
 ?>
 
 <?php if($images){ ?>
