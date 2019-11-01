@@ -2949,6 +2949,7 @@ a[href^=tel] {
     max-height: 300px;
     min-width: 100%;
     height: fit-content;
+    width: 50vw;
   }
 
   .from50to100p33 {
