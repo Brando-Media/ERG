@@ -1982,7 +1982,7 @@ textarea::placeholder {
     max-width: 16.666667vw;
     min-width: 16.666667vw;
     max-height: 500px;
-    object-fit: cover;
+    object-fit: fill;
   }
 
   .mh250 {
