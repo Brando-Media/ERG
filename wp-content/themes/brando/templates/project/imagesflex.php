@@ -50,7 +50,7 @@ var_dump($noofimg);
         <a >
                                 <div class="casestudyhover" style="position:relative;">
                                     <a href="<?php echo $images[0]['url'] ?>" data-rel="lightbox">
-                                    <img class="img-fluid w-100 project-home-main-image casestudymainimage" style="height:100%;"src="<?php echo show_image($images[0]['url'], $images[0]['width'], $images[0]['height'], 100) ?>">
+                                    <img class="img-fluid w-100 project-home-main-image casestudymainimage" style="height:100%;"src="<?php echo show_image($images[0]['url'], $images[0]['width'], $images[0]['height'], 200) ?>">
                                         <div class="overlay"> 
                                             <div class="viewcasestudy">Click to expand</div>
                                         </div>
