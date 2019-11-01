@@ -2955,6 +2955,10 @@ a[href^=tel] {
     width: 34.5vw;
   }
 
+  .fiveimages {
+    max-width: 50vw !important;
+  }
+
   .projimgwidth {
     width: 50% !important;
   }
