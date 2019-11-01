@@ -2895,6 +2895,7 @@ textarea::-webkit-input-placeholder {
     }
     .fiveimages{
         max-width:50vw!important;
+        max-height:300px!important
     }
     .projimgwidth{
         width:50%!important;
@@ -2972,6 +2973,9 @@ textarea::-webkit-input-placeholder {
 
 
 @media only screen and (min-width: 992px){
+    .fiveimages{
+        max-height:300px!important
+    }
     .servicesoverviewwidth{
         max-width:2200px!important;
         width:60%!important;
