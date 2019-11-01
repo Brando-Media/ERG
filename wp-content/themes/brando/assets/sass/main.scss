@@ -2823,6 +2823,9 @@ textarea::-webkit-input-placeholder {
     }
     .from50to100p{
         max-width:50vw!important;
+        object-fit: cover;
+        max-height: 300px;
+        min-width: 100%;
     }
     .from50to100p33{
         max-width:33.33333vw!important;
