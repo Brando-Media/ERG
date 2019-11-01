@@ -47,7 +47,7 @@ $image = false;
                     get_template_part('templates/project/imagessfour'); 
                     $image=true;
                 }
-                if(get_row_layout() == 'images_solo'){
+                if(get_row_layout() == 'images_solo'){ 
                     get_template_part('templates/project/imagessolo'); 
                     $image=true;
                 } 
@@ -64,7 +64,7 @@ $image = false;
         } 
         ?> 
         <?php if($image=='true'){ ?>
-            <div class="section footerbg" style="/*position:relative*/" data-section-name="hello" style="min-height:20px;">    
+            <div class="section footerbg relfooter" style="" data-section-name="hello" style="min-height:20px;">    
             </div>
         <?php }else{ ?>
             <div class="section footerbg"  data-section-name="hello" style="min-height:20px;">    
