@@ -110,11 +110,11 @@ padding-right: 0px;">
         }else{
         $class = 'ergafk';
         if($k==2){
-        $class = 'hideonmobile'; ?>
+        $class = ''; ?>
        <?php } ?>
        <?php
         if($k==3){
-        $class = 'hideonmobile'; ?>
+        $class = ''; ?>
        <?php } ?>
        <?php
         if($k>4){
