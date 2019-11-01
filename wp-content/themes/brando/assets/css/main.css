@@ -1985,6 +1985,10 @@ textarea::placeholder {
     object-fit: cover;
   }
 
+  .mh250 {
+    max-height: 250px !important;
+  }
+
   .hfcproj {
     height: fit-content;
   }

@@ -1928,6 +1928,9 @@ textarea::-webkit-input-placeholder {
         max-height: 500px;
         object-fit: cover;
       }
+      .mh250{
+          max-height:250px!important;
+      }
 
       .hfcproj{
         height: fit-content;
