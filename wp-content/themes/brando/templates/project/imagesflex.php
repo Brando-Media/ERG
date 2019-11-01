@@ -193,7 +193,19 @@ padding-right: 0px;">
         <div class="col-md-12 mw69div bottomimagestriple" style="padding-left:0px!important; padding-right:0px!important;">
         <div class="row m-0">
         <?php foreach($images as $k=>$image): ?>
-  
+        <?php
+            $class = 'ergafk';
+            if($k==2){
+            $class = 'hideonmobile'; ?>
+           <?php } ?>
+           <?php
+            if($k==3){
+            $class = 'hideonmobile'; ?>
+           <?php } ?>
+           <?php
+            if($k>4){
+            $class = 'hideonmobilelate'; ?>
+           <?php } ?>
     
            <div class="<?php echo $class ?>" style="min-width:33.33333333vw;">
            <div class="<?php echo $class ?> col-md-12 container  casestudy-div-img maxwidth23 from50to100p <?php echo $class ?>" style="padding-left:0px!important; padding-right:0px!important; margin-left:0px!important; margin-right:0px!important; width:100%;" >
