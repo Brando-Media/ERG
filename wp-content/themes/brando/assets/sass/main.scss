@@ -4042,8 +4042,8 @@ textarea::-webkit-input-placeholder {
         min-width: 100vw;
     }
 }
-    
-
+@media only screen and (min-width: 768px){
 .hfcproj{
     height: fit-content!important;
   }
+}

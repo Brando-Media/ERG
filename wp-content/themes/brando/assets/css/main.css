@@ -4169,8 +4169,10 @@ section {
     min-width: 100vw;
   }
 }
-.hfcproj {
-  height: fit-content !important;
+@media only screen and (min-width: 768px) {
+  .hfcproj {
+    height: fit-content !important;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */
