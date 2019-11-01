@@ -50,7 +50,7 @@ var_dump($noofimg);
         <a >
                                 <div class="casestudyhover" style="position:relative;">
                                     <a href="<?php echo $images[0]['url'] ?>" data-rel="lightbox">
-                                    <img class="img-fluid w-100 project-home-main-image casestudymainimage" style="height:100%;"src="<?php echo show_image($images[0]['url'], $images[0]['width'], $images[0]['height'], 75) ?>">
+                                    <img class="img-fluid w-100 project-home-main-image casestudymainimage" style="height:100%;"src="<?php echo show_image($images[0]['url'], $images[0]['width'], $images[0]['height'], 100) ?>">
                                         <div class="overlay"> 
                                             <div class="viewcasestudy">Click to expand</div>
                                         </div>
@@ -81,7 +81,7 @@ var_dump($noofimg);
            <div class="<?php echo $class ?> col-md-12 container  casestudy-div-img maxwidth23 from50to100p <?php echo $class ?>" style="padding-left:0px!important; padding-right:0px!important; margin-left:0px!important; margin-right:0px!important; width:100%;" >
                                 <div class="casestudyhover" style="position:relative;">
                                     <a href="<?php echo $image['url'] ?>" data-rel="lightbox">
-                                    <img class="small-project-homep maxwidth23 from50to100p" src="<?php echo show_image($image['url'], $image['width'], $image['height'], 75) ?>">
+                                    <img class="small-project-homep maxwidth23 from50to100p" src="<?php echo show_image($images[0]['url'], $images[0]['width'], $images[0]['height'], 50) ?>">
                                         <div class="overlay"> 
                                             <div class="viewcasestudy">Click to expand</div>
                                         </div>
