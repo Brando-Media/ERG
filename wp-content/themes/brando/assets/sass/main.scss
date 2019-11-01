@@ -2877,21 +2877,25 @@ textarea::-webkit-input-placeholder {
 
 @media only screen and (min-width: 1200px) and (max-width: 1440px){
     .fiveimages{
-        max-height:400px!important
+        max-height:400px!important;
+        max-width:50vw!important;
+
     }
 }
 
 
 @media only screen and (min-width: 1441px) and (max-width: 1920px){
     .fiveimages{
-        max-height:500px!important
+        max-height:500px!important;
+        max-width:50vw!important;
+
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1199px){
     .fiveimages{
         max-width:50vw!important;
-        max-height:300px!important
+        max-height:300px!important;
     }
 }
 
@@ -2908,7 +2912,7 @@ textarea::-webkit-input-placeholder {
         width:34.5vw;
     }
     fiveimages{
-        max-height:300px!important
+        max-height:300px!important;
     }
     
     .projimgwidth{
