@@ -2997,6 +2997,12 @@ a[href^=tel] {
     max-height: 500px !important;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+  .fiveimages {
+    max-width: 50vw !important;
+    max-height: 300px !important;
+  }
+}
 @media only screen and (min-width: 768px) {
   .hideonmobilelate {
     display: block;
@@ -3010,8 +3016,7 @@ a[href^=tel] {
     width: 34.5vw;
   }
 
-  .fiveimages {
-    max-width: 50vw !important;
+  fiveimages {
     max-height: 300px !important;
   }
 
