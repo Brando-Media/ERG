@@ -3023,6 +3023,8 @@ textarea::-webkit-input-placeholder {
 .from50to100p50 {
     max-width: 50vw!important;
     min-width: 100%;
+    width: 50vw;
+    object-fit: cover;
 }
     .hideonmobile{
         display:block;
