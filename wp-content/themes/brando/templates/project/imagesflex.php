@@ -255,7 +255,7 @@ padding-right: 0px;">
     height: 100%;
     padding-right: 0px;">
                                     <a href="<?php echo $images[0]['url'] ?>" data-rel="lightbox"> 
-                                    <img class="img-fluid w-100 mh500 project-home-main-image casestudymainimage " style="object-fit: cover; height:100%;"src="<?php echo show_image($images[0]['url'], $image['width'], $image['height'], 100) ?>">
+                                    <img class="img-fluid w-100 mh500 project-home-main-image casestudymainimage " style="object-fit: cover; height:100%;"src="<?php echo $images[0]['url'] ?>">
                                         <div class="overlay"> 
                                             <div class="viewcasestudy">Click to expand</div>
                                         </div>
