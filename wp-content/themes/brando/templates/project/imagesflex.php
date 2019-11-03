@@ -126,7 +126,7 @@ $noofimg = count($images);
         <div class="col-md-6 projimgwidth" style="padding-left:0px!important; padding-right:0px!important;">
             <img class="small-project-home" src="<?php echo show_image($image['url'], $image['width'], $image['height'], 75) ?>">
         </div>
-    <?php endforeach; ?>
+    <?php endforeach; ?> 
         </div>
     </div>
     
