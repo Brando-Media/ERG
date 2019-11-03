@@ -38,7 +38,7 @@ $noofimg = count($images);
         <div class="col-md-12 mw69div bottomimagestriple" style="padding-left:0px!important; padding-right:0px!important;">
         <div class="row m-0">
         <?php foreach($images as $k=>$image): ?>
-           <div class="<?php echo $class ?>" style="min-width:33.333vw;">
+           <div class="<?php echo $class ?> doublecasestudy50" style="min-width:33.333vw;">
            <div class="<?php echo $class ?> col-md-12 container  casestudy-div-img maxwidth23 hfcproj from50to100p50 <?php echo $class ?>" style="padding-left:0px!important; padding-right:0px!important; margin-left:0px!important; margin-right:0px!important; width:100%;" >
                             <div class="casestudyhover" style="position:relative;">
                                     <a href="<?php echo $image['url'] ?>" data-rel="lightbox">

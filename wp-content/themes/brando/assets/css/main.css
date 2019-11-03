@@ -4203,6 +4203,12 @@ section {
     min-width: 33%;
   }
 }
+@media only screen and (min-width: 768px) {
+  .doublecasestudy50 {
+    max-width: 50%;
+    min-width: 50%;
+  }
+}
 .from50to100p8 {
   max-height: 300px !important;
 }
