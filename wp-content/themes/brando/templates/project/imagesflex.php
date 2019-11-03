@@ -71,7 +71,7 @@ $noofimg = count($images);
                                         <div class="overlay"> 
                                             <div class="viewcasestudy">Click to expand</div>
                                         </div>
-                                    </a>
+                                    </a> 
                                 </div>
             </div>
             </div>
