@@ -136,7 +136,7 @@ $noofimg = count($images);
     <a >
                             <div class="casestudyhover col-md-6 container" style="position:relative;     padding-left: 0px;
 height: 100%;
-padding-right: 0px;">
+padding-right: 0px; max-width:100%;">
                                 <a href="<?php echo $images[0]['url'] ?>" data-rel="lightbox">
                                 <img class="img-fluid w-100 project-home-main-image casestudymainimage" style="object-fit: cover; height:100%;"src="<?php echo show_image($images[0]['url'], $images[0]['width'], $images[0]['height'], 100) ?>">
                                     <div class="overlay"> 
