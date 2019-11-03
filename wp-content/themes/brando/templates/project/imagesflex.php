@@ -134,7 +134,7 @@ $noofimg = count($images);
 <div class="row m-0 casestudiespositionrelative"> 
     <div class="col-md-6 container mw30img" style="padding-left:0px!important; padding-right:0px!important; min-width:auto; margin-right:0px; margin-left:0px;" >
     <a >
-                            <div class="casestudyhover col-md-6 container mw30img" style="position:relative;     padding-left: 0px;
+                            <div class="casestudyhover col-md-6 container" style="position:relative;     padding-left: 0px;
 height: 100%;
 padding-right: 0px;">
                                 <a href="<?php echo $images[0]['url'] ?>" data-rel="lightbox">
