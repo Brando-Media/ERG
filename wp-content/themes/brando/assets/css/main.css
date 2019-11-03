@@ -3668,6 +3668,10 @@ a[href^=tel] {
   min-width: 70%;
 }
 
+.bufasdasdsafer {
+  max-width: 30px;
+}
+
 .worktitlec {
   font-family: Helvetica;
   color: #00498D;
