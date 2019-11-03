@@ -165,7 +165,7 @@ padding-right: 0px;">
         if($k>4){
         $class = 'hideonmobilelate'; ?>
        <?php } ?>
-       <div class="<?php echo $class ?> projstaticdiv" style="min-width:33.333%;"> 
+       <div class="<?php echo $class ?> projstaticdiv" style="min-width:50%;"> 
        <div class="<?php echo $class ?> col-md-12 container  casestudy-div-img maxwidth23 mh250 7height hfcproj from50to100p <?php echo $class ?>" style="padding-left:0px!important; padding-right:0px!important; margin-left:0px!important; margin-right:0px!important; width:100%;" >
                             <div class="casestudyhover" style="position:relative;">
                                 <a href="<?php echo $image['url'] ?>" data-rel="lightbox">
@@ -205,11 +205,11 @@ padding-right: 0px;">
             $class = 'hideonmobilelate'; ?>
            <?php } ?>
     
-           <div class="<?php echo $class ?> projstaticdiv fiveimagesdiv" style="min-width:50%;">
+           <div class="<?php echo $class ?> projstaticdiv" style="min-width:33.33333333%;">
            <div class="<?php echo $class ?> col-md-12 container  casestudy-div-img maxwidth23 hfcproj from50to100p <?php echo $class ?>" style="padding-left:0px!important; padding-right:0px!important; margin-left:0px!important; margin-right:0px!important; width:100%;" >
                                 <div class="casestudyhover" style="position:relative;">
                                     <a href="<?php echo $image['url'] ?>" data-rel="lightbox">
-                                    <img class="maxwidth23 hfcproj from50to100p6 fiveimages" src="<?php echo show_image($image['url'], $images[0]['width'], $images[0]['height'], 75) ?>">
+                                    <img class="maxwidth23 hfcproj from50to100p6" src="<?php echo show_image($image['url'], $images[0]['width'], $images[0]['height'], 75) ?>">
                                         <div class="overlay"> 
                                             <div class="viewcasestudy">Click to expand</div>
                                         </div>
