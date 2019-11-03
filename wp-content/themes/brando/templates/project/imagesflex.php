@@ -284,7 +284,7 @@ padding-right: 0px;">
            <?php } ?>
            <div class="<?php echo $class ?> projstaticdiv" style="min-width:33.333%;"> 
            <div class="<?php echo $class ?> col-md-12 container  casestudy-div-img maxwidth23 mh250 7height hfcproj from50to100p <?php echo $class ?>" style="padding-left:0px!important; padding-right:0px!important; margin-left:0px!important; margin-right:0px!important; width:100%;" >
-                                <div class="casestudyhover" style="position:relative;">
+                                <div class="casestudyhover" style="position:relative; height:100%;">
                                     <a href="<?php echo $image['url'] ?>" data-rel="lightbox">
                                     <img class="small-project-homepx maxwidth23 mh250 hfcproj from50to100p" src="<?php echo show_image($image['url'], $image['width'], $image['height'], 50) ?>">
                                         <div class="overlay"> 
