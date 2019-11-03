@@ -31,7 +31,7 @@ $noofimg = count($images);
 <?php endif; ?>
 
 
-    <?php }else if($noofimg =="2"){ ?>
+    <?php }else if($noofimg =="2"){ ?> 
 
         <?php if($images): ?>
     <div class="row m-0 posabs991">
