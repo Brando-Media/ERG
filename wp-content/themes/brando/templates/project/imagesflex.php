@@ -255,7 +255,7 @@ padding-right: 0px;">
     height: 100%;
     padding-right: 0px;">
                                     <a href="<?php echo $images[0]['url'] ?>" data-rel="lightbox">
-                                    <img class="img-fluid w-100 mh500 project-home-main-imagex casestudymainimage " style="object-fit: cover; height:100%;"src="<?php echo show_image($images[0]['url'], $images[0]['width'], $images[0]['height'], 100) ?>">
+                                    <img class="img-fluid w-100 mh500 project-home-main-image casestudymainimage " style="object-fit: cover; height:100%;"src="<?php echo show_image($images[0]['url'], $images[0]['width'], $images[0]['height'], 100) ?>">
                                         <div class="overlay"> 
                                             <div class="viewcasestudy">Click to expand</div>
                                         </div>
@@ -286,7 +286,7 @@ padding-right: 0px;">
            <div class="<?php echo $class ?> col-md-12 container  casestudy-div-img maxwidth23 mh250 7height hfcproj from50to100p <?php echo $class ?>" style="padding-left:0px!important; padding-right:0px!important; margin-left:0px!important; margin-right:0px!important; width:100%;" >
                                 <div class="casestudyhover" style="position:relative;">
                                     <a href="<?php echo $image['url'] ?>" data-rel="lightbox">
-                                    <img class="small-project-homep maxwidth23 mh250 hfcproj from50to100p" src="<?php echo show_image($image['url'], $images[0]['width'], $images[0]['height'], 50) ?>">
+                                    <img class="small-project-homepx maxwidth23 mh250 hfcproj from50to100p" src="<?php echo show_image($image['url'], $images[0]['width'], $images[0]['height'], 50) ?>">
                                         <div class="overlay"> 
                                             <div class="viewcasestudy">Click to expand</div>
                                         </div>
