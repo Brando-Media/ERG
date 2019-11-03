@@ -83,7 +83,7 @@ $noofimg = count($images);
     <?php }else if($noofimg =="4"){ ?>
 
         <?php if($images): ?>
-    <div class="row m-0 posabs991">
+    <div class="row m-0 posabs991" style="width:100vw;">
         <div class="col-md-12 mw69div bottomimagestriple" style="padding-left:0px!important; padding-right:0px!important;">
         <div class="row m-0">
         <?php foreach($images as $k=>$image): ?>
