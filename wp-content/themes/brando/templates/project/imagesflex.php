@@ -321,7 +321,7 @@ padding-right: 0px;">
             $class = 'hideonmobilelate'; ?>
            <?php } ?>
     
-           <div class="<?php echo $class ?>" style="min-width:25%;">
+           <div class="<?php echo $class ?> projstaticdiv" style="min-width:25%;">
            <div class="<?php echo $class ?> col-md-12 container  casestudy-div-img maxwidth23 hfcproj from50to100p <?php echo $class ?>" style="padding-left:0px!important; padding-right:0px!important; margin-left:0px!important; margin-right:0px!important; width:100%;" >
                                 <div class="casestudyhover" style="position:relative;">
                                     <a href="<?php echo $image['url'] ?>" data-rel="lightbox">
