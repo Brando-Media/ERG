@@ -138,7 +138,7 @@ $noofimg = count($images);
 height: 100%;
 padding-right: 0px; max-width:100%;">
                                 <a href="<?php echo $images[0]['url'] ?>" data-rel="lightbox">
-                                <img class="img-fluid w-100 project-home-main-image casestudymainimage" style="object-fit: cover; height:100%;"src="<?php echo show_image($images[0]['url'], $images[0]['width'], $images[0]['height'], 100) ?>">
+                                <img class="img-fluid w-100 project-home-main-image mh50 casestudymainimage" style="object-fit: cover; height:100%;"src="<?php echo show_image($images[0]['url'], $images[0]['width'], $images[0]['height'], 100) ?>">
                                     <div class="overlay"> 
                                         <div class="viewcasestudy">Click to expand</div>
                                     </div>
