@@ -121,7 +121,7 @@ $noofimg = count($images);
         $class = 'pl-0 pr-2';
         if($k%2==1){ 
         $class = 'pr-0 pl-2'; ?>
-        
+         
        <?php } ?>
         <div class="col-md-6 projimgwidth" style="padding-left:0px!important; padding-right:0px!important;">
             <img class="small-project-home" src="<?php echo show_image($image['url'], $image['width'], $image['height'], 75) ?>">
