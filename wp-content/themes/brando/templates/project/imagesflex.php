@@ -132,7 +132,7 @@ $noofimg = count($images);
     
 </div>-->
 <div class="row m-0 casestudiespositionrelative"> 
-    <div class="col-md-6 container mw30img" style="padding-left:0px!important; padding-right:0px!important; margin-right:0px; margin-left:0px;" >
+    <div class="col-md-6 container mw30img" style="padding-left:0px!important; padding-right:0px!important; min-width:auto; margin-right:0px; margin-left:0px;" >
     <a >
                             <div class="casestudyhover col-md-6 container mw30img" style="position:relative;     padding-left: 0px;
 height: 100%;
