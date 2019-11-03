@@ -157,7 +157,7 @@ padding-right: 0px;">
         if($k==2){
         $class = ''; ?>
        <?php } ?>
-       <?php
+       <?php 
         if($k==3){
         $class = ''; ?>
        <?php } ?>
