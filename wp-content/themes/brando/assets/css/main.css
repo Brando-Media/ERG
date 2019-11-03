@@ -3005,6 +3005,12 @@ a[href^=tel] {
     max-height: 300px !important;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .projstaticdiv {
+    min-width: 50% !important;
+    max-width: 50% !important;
+  }
+}
 @media only screen and (min-width: 768px) {
   .hideonmobilelate {
     display: block;
