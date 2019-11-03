@@ -121,22 +121,24 @@ $noofimg = count($images);
         $class = 'pl-0 pr-2';
         if($k%2==1){ 
         $class = 'pr-0 pl-2'; ?>
-         
+        
        <?php } ?>
- 
-    <?php endforeach; ?> 
+        <div class="col-md-6 projimgwidth" style="padding-left:0px!important; padding-right:0px!important;">
+            <img class="small-project-home" src="<?php echo show_image($image['url'], $image['width'], $image['height'], 75) ?>">
+        </div>
+    <?php endforeach; ?>
         </div>
     </div>
     
 </div>-->
 <div class="row m-0 casestudiespositionrelative"> 
-    <div class="col-md-6 container mw30img" style="padding-left:0px!important; padding-right:0px!important; min-width:auto; margin-right:0px; margin-left:0px;" >
+    <div class="col-md-6 container mw30img" style="padding-left:0px!important; padding-right:0px!important;min-width: auto; margin-right:0px; margin-left:0px;" >
     <a >
-                            <div class="casestudyhover col-md-6 container" style="position:relative;     padding-left: 0px;
+                            <div class="casestudyhover col-md-6 container mw30img" style="position:relative; min-width:100%;     padding-left: 0px;
 height: 100%;
-padding-right: 0px; max-width:100%;">
+padding-right: 0px;">
                                 <a href="<?php echo $images[0]['url'] ?>" data-rel="lightbox">
-                                <img class="img-fluid w-100 project-home-main-image  mh500 casestudymainimage" style="object-fit: cover; height:100%;"src="<?php echo show_image($images[0]['url'], $images[0]['width'], $images[0]['height'], 100) ?>">
+                                <img class="img-fluid w-100 mh500 project-home-main-image casestudymainimage " style="object-fit: cover; height:100%;"src="<?php echo show_image($images[0]['url'], $images[0]['width'], $images[0]['height'], 100) ?>">
                                     <div class="overlay"> 
                                         <div class="viewcasestudy">Click to expand</div>
                                     </div>
@@ -153,28 +155,28 @@ padding-right: 0px; max-width:100%;">
         }else{
         $class = 'ergafk';
         if($k==2){
-        $class = ''; ?>
+        $class = 'hideonmobile'; ?>
        <?php } ?>
-       <?php 
+       <?php
         if($k==3){
-        $class = ''; ?>
+        $class = 'hideonmobile'; ?>
        <?php } ?>
        <?php
         if($k>4){
         $class = 'hideonmobilelate'; ?>
        <?php } ?>
-       <div class="<?php echo $class ?> fiveimagesdiv" style="min-width:33.333%;">
-       <div class="<?php echo $class ?> col-md-12 container  casestudy-div-img maxwidth23 hfcproj from50to100p <?php echo $class ?>" style="padding-left:0px!important; padding-right:0px!important; margin-left:0px!important; margin-right:0px!important; width:100%;" >
+       <div class="<?php echo $class ?> projstaticdiv" style="min-width:33.333%;"> 
+       <div class="<?php echo $class ?> col-md-12 container  casestudy-div-img maxwidth23 mh250 7height hfcproj from50to100p <?php echo $class ?>" style="padding-left:0px!important; padding-right:0px!important; margin-left:0px!important; margin-right:0px!important; width:100%;" >
                             <div class="casestudyhover" style="position:relative;">
                                 <a href="<?php echo $image['url'] ?>" data-rel="lightbox">
-                                <img class="small-project-homepx maxwidth23  hfcproj from50to100p fiveimages" src="<?php echo show_image($image['url'], $images[0]['width'], $images[0]['height'], 50) ?>">
+                                <img class="small-project-homepx maxwidth23 mh250 hfcproj from50to100p" src="<?php echo show_image($image['url'], $images[0]['width'], $images[0]['height'], 50) ?>">
                                     <div class="overlay"> 
                                         <div class="viewcasestudy">Click to expand</div>
                                     </div>
                                 </a>
                             </div>
         </div>
-        </div>
+        </div> 
         <?php } ?>
     <?php endforeach; ?>
         </div>
@@ -203,11 +205,11 @@ padding-right: 0px; max-width:100%;">
             $class = 'hideonmobilelate'; ?>
            <?php } ?>
     
-           <div class="<?php echo $class ?> projstaticdiv" style="min-width:33.33333333%;">
+           <div class="<?php echo $class ?> projstaticdiv fiveimagesdiv" style="min-width:33.33333333%;">
            <div class="<?php echo $class ?> col-md-12 container  casestudy-div-img maxwidth23 hfcproj from50to100p <?php echo $class ?>" style="padding-left:0px!important; padding-right:0px!important; margin-left:0px!important; margin-right:0px!important; width:100%;" >
                                 <div class="casestudyhover" style="position:relative;">
                                     <a href="<?php echo $image['url'] ?>" data-rel="lightbox">
-                                    <img class="maxwidth23 hfcproj from50to100p6" src="<?php echo show_image($image['url'], $images[0]['width'], $images[0]['height'], 75) ?>">
+                                    <img class="maxwidth23 hfcproj from50to100p6 fiveimages" src="<?php echo show_image($image['url'], $images[0]['width'], $images[0]['height'], 75) ?>">
                                         <div class="overlay"> 
                                             <div class="viewcasestudy">Click to expand</div>
                                         </div>
