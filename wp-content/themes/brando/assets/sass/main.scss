@@ -4146,3 +4146,9 @@ textarea::-webkit-input-placeholder {
         font-size: 15px !important;
     }
   }
+
+  @media only screen and (max-width:991px){
+    .teampage-triple{
+        margin-bottom:0px!important;
+    }
+  }
