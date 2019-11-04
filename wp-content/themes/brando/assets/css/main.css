@@ -1337,6 +1337,7 @@ textarea::placeholder {
   color: #33B3E3;
   letter-spacing: 1.5px;
   font-weight: 700;
+  height: 40px;
 }
 
 .teammembertitle-triple {
@@ -4240,6 +4241,9 @@ section {
   .servicesubtitlebottom {
     top: 0 !important;
   }
+}
+.maxwidth1200teampage {
+  height: 40px;
 }
 
 /*# sourceMappingURL=main.css.map */
