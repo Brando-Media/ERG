@@ -1027,6 +1027,7 @@ input.form-control{
     border-width:1px;
     min-height:200px;
     margin-bottom:25px;
+    margin-top:25px;
 } 
 
 .brandoctext{
@@ -1955,7 +1956,7 @@ textarea::-webkit-input-placeholder {
     }
  
     .servicescontent{
-        height:200px;
+        height:120px;
     }
 
     .teampagepaddingtop{
@@ -3249,12 +3250,18 @@ textarea::-webkit-input-placeholder {
 }
 
 .emptybox{
-    height:200px;
+    height:120px;
 }
 
 .servicescontent{
     margin-bottom:20px;
     margin:auto;
+    position:relative;
+}
+
+.servicesubtitle{
+    position:absolute;
+    bottom:0;
 }
 
 .header-toggle-white{

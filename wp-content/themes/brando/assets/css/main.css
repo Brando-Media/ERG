@@ -1093,6 +1093,7 @@ input.form-control ::-ms-input-placeholder {
   border-width: 1px;
   min-height: 200px;
   margin-bottom: 25px;
+  margin-top: 25px;
 }
 
 .brandoctext {
@@ -2011,7 +2012,7 @@ textarea::placeholder {
   }
 
   .servicescontent {
-    height: 200px;
+    height: 120px;
   }
 
   .teampagepaddingtop {
@@ -3391,12 +3392,18 @@ a[href^=tel] {
 }
 
 .emptybox {
-  height: 200px;
+  height: 120px;
 }
 
 .servicescontent {
   margin-bottom: 20px;
   margin: auto;
+  position: relative;
+}
+
+.servicesubtitle {
+  position: absolute;
+  bottom: 0;
 }
 
 .globaltext p {
