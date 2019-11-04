@@ -3398,12 +3398,6 @@ a[href^=tel] {
 .servicescontent {
   margin-bottom: 20px;
   margin: auto;
-  position: relative;
-}
-
-.servicesubtitle {
-  position: absolute;
-  bottom: 0;
 }
 
 .globaltext p {
@@ -4231,6 +4225,17 @@ section {
 
 .from50to100p6 {
   max-height: 450px !important;
+}
+
+@media only screen and (max-width: 992px) {
+  .servicescontent {
+    position: relative;
+  }
+
+  .servicesubtitle {
+    position: absolute;
+    bottom: 0;
+  }
 }
 
 /*# sourceMappingURL=main.css.map */

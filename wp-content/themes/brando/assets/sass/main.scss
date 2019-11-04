@@ -3256,13 +3256,9 @@ textarea::-webkit-input-placeholder {
 .servicescontent{
     margin-bottom:20px;
     margin:auto;
-    position:relative;
 }
 
-.servicesubtitle{
-    position:absolute;
-    bottom:0;
-}
+
 
 .header-toggle-white{
     //background: linear-gradient(90deg, #00A0DB, #004990);
@@ -4096,3 +4092,15 @@ textarea::-webkit-input-placeholder {
 .from50to100p6{
     max-height:450px!important; 
 } 
+
+
+
+@media only screen and (max-width:992px){
+    .servicescontent{
+        position:relative;
+    }
+    .servicesubtitle{
+        position:absolute;
+        bottom:0;
+    }
+}
