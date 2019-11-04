@@ -3809,7 +3809,7 @@ a[href^=tel] {
 }
 @media only screen and (max-width: 799px) and (min-width: 500px) {
   .maxwidth1200teampage {
-    max-width: 100px !important;
+    max-width: 200px !important;
   }
 }
 .containererg {
@@ -4240,6 +4240,11 @@ section {
 
   .servicesubtitlebottom {
     top: 0 !important;
+  }
+}
+@media only screen and (max-width: 1052px) and (min-width: 992px) {
+  .teampage-triple {
+    font-size: 11px !important;
   }
 }
 .maxwidth1200teampage {
