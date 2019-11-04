@@ -4152,3 +4152,9 @@ textarea::-webkit-input-placeholder {
         margin-bottom:0px!important;
     }
   }
+
+  @media only screen and (min-width:320px) and (max-width:499px){
+    .maxwidth1200teampage{
+        height:20px!important;
+    }
+  }
