@@ -44,7 +44,7 @@ $first = 0;
                 </div>
                 <div class="projects-home col-lg-6 text-center /*align-self-center*/ left-content-work-block pfcol6" style="padding-left:0px; padding-right:0px;">
                 <?php if($image): ?>
-                    <img class="img-fluid mt55of" src="<?php echo show_image($image['url'], $image['width'], $image['height']); ?>">
+                    <img class="img-fluid content-image mt55of" src="<?php echo show_image($image['url'], $image['width'], $image['height']); ?>">
                 <?php endif; ?>
             </div>
             </div>
