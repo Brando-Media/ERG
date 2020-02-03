@@ -4285,4 +4285,11 @@ section {
   width: 20px;
 }
 
+.page-id-1118 .content-image {
+  /*max-width: 750px;*/
+  width: 100%;
+  min-width: auto !important;
+  min-height: auto !important;
+}
+
 /*# sourceMappingURL=main.css.map */
