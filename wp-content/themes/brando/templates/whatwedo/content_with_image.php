@@ -17,9 +17,9 @@ $contentsmalltext  = get_sub_field('content_small_text');
                 <!--<?php if($image): ?>-->
                     <?php if($image){
                         if($border){ ?>
-                            <img style="height:auto;" class="servicescontentwithimageleft  imagew100services img1600wwd img100 borderwwd" src="<?php echo $image['url']; ?>">
+                            <img alt="<?php echo $image['alt']; ?>"  style="height:auto;" class="servicescontentwithimageleft  imagew100services img1600wwd img100 borderwwd" src="<?php echo $image['url']; ?>">
                         <?php }else{ ?>
-                            <img style="height:auto;" class="servicescontentwithimageleft  imagew100services img1600wwd img100" src="<?php echo $image['url']; ?>">
+                            <img  alt="<?php echo $image['alt']; ?>" style="height:auto;" class="servicescontentwithimageleft  imagew100services img1600wwd img100" src="<?php echo $image['url']; ?>">
                        <?php }
                     }
                     ?>
@@ -29,7 +29,7 @@ $contentsmalltext  = get_sub_field('content_small_text');
             </div>
             <div class="container pbwwd0 col-lg-6 wwd1600 align-self-center right-content-work-block  img-order nopaddingtop img1600 wwdpr992">
                 <div class="margin-5wwd padding-right" style="/*padding-top:40px;*/" >
-                <img style="max-height:40px; max-width:40px;" class="img-fluid" src="<?php echo show_image($smallimage['url'], $smallimage['width'], $smallimage['height']); ?>">
+                <img  alt="<?php echo $smallimage['alt']; ?>" style="max-height:40px; max-width:40px;" class="img-fluid" src="<?php echo show_image($smallimage['url'], $smallimage['width'], $smallimage['height']); ?>">
                 <?php echo $title ? "<div class='content-title'>{$title}</div>" : '' ?>
                 <div class="contentimagep" style="font-size:24px;"><?php echo $content; ?></div>
                 <?php echo $contentsmalltext; ?>
@@ -38,7 +38,7 @@ $contentsmalltext  = get_sub_field('content_small_text');
         <?php elseif($imagePos=='Right'): ?>
             <div class="container pbwwd0 col-lg-6 wwd1600 align-self-center left-content-work-block  img-order nopaddingtop img1600 wwdpr992" style="padding-left:70px;" >
             <div class="margin-5wwd padding-right" style="/*padding-top:40px;*/" >
-            <img style="max-height:40px; max-width:40px;" class="img-fluid" src="<?php echo show_image($smallimage['url'], $smallimage['width'], $smallimage['height']); ?>">
+            <img  alt="<?php echo $smallimage['alt']; ?>" style="max-height:40px; max-width:40px;" class="img-fluid" src="<?php echo show_image($smallimage['url'], $smallimage['width'], $smallimage['height']); ?>">
                 <?php echo $title ? "<div class='content-title'>{$title} </div>" : '' ?>
                 <div class="contentimagep" style="font-size:24px;"> <?php echo $content; ?> </div>
                 <?php echo $contentsmalltext; ?>
@@ -48,9 +48,9 @@ $contentsmalltext  = get_sub_field('content_small_text');
                     background-size: cover; background-position: center;">
                   <?php if($image){
                         if($border){ ?>
-                            <img style="height:auto;" class="servicescontentwithimageright  imagew100services img1600wwd img100 borderwwd" src="<?php echo $image['url']; ?>">
+                            <img  alt="<?php echo $image['alt']; ?>" style="height:auto;" class="servicescontentwithimageright  imagew100services img1600wwd img100 borderwwd" src="<?php echo $image['url']; ?>">
                         <?php }else{ ?>
-                            <img style="height:auto;" class="servicescontentwithimageright  imagew100services img1600wwd img100" src="<?php echo $image['url']; ?>">
+                            <img  alt="<?php echo $image['alt']; ?>" style="height:auto;" class="servicescontentwithimageright  imagew100services img1600wwd img100" src="<?php echo $image['url']; ?>">
                        <?php }
                     }
                     ?>
