@@ -20,7 +20,7 @@ $projectitle = get_sub_field('project_title');
             <div class="col-lg-6 text-center left-content-work-block pt200m100 pb300test" style=" padding-left:50px; padding-right:70px; /* max-width:85%; padding-left:35px;*/ margin-bottom:0px;">
                 <div class="project-home-image indicasestudyhideimage" style="margin:0px; float:right;">
                     <?php if($image): ?>
-                        <img  style="min-width:350px;" class="img-fluid img-phome" src="<?php echo show_image($image['url'], $image['width'], $image['height']); ?>">
+                        <img alt="<?php echo $image['alt']; ?>"  style="min-width:350px;" class="img-fluid img-phome" src="<?php echo show_image($image['url'], $image['width'], $image['height']); ?>">
                     <?php endif; ?>
                 </div>
                 

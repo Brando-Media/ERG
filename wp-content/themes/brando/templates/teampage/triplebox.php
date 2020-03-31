@@ -23,7 +23,7 @@ $owidth = get_sub_field('overlaywidth');
          <div class="col-lg-3 tpergcol3" >
          <div class="casestudyhover" style="position:relative;">
             <a href="<?php echo $servicerow['link_url']; ?>">
-            <img class="img-fluid w-100 teampagephoto" src="<?php echo show_image($services[$k]['image']['url'], $services[$k]['image']['width'], $services[$k]['image']['height'], 75) ?>">
+            <img alt="<?php echo $services[$k]['image']['alt'] ?>" class="img-fluid w-100 teampagephoto" src="<?php echo show_image($services[$k]['image']['url'], $services[$k]['image']['width'], $services[$k]['image']['height'], 75) ?>">
             <?php if($servicerow['overlaywidth']){ ?>
                 <div class="overlay" style="width:67%"> 
             <?php }else{ ?>
