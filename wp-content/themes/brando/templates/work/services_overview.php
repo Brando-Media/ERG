@@ -26,7 +26,7 @@ $linkurl       = get_sub_field('link_url');
                             $first++;?>
                             <div class="servicesimg" style="border-left: 1px solid #cccccc; text-align:center;">
                         <?php } ?>
-                        <img class="img-fluid " style="margin-bottom:20px; max-width:60%!important; top:54px; position: relative; margin-left: auto;margin-right: auto;" src="<?php echo show_image($servicerow['image']['url'], $servicerow['image']['width'], $servicerow['image']['height'],0.75) ?>"> 
+                        <img  alt="<?php echo $servicerow['image']['alt']; ?>" class="img-fluid " style="margin-bottom:20px; max-width:60%!important; top:54px; position: relative; margin-left: auto;margin-right: auto;" src="<?php echo show_image($servicerow['image']['url'], $servicerow['image']['width'], $servicerow['image']['height'],0.75) ?>"> 
                         </div>
                         <div class="servicescontent nomarginl991 nomarginr991 padright99110 maxwidth991100">
                         <div class="servicesubtitle servicesubtitlebottom" style="color:white;"><?php echo $servicerow['title']; ?></div>
@@ -43,7 +43,7 @@ $linkurl       = get_sub_field('link_url');
                             $first++;?>
                             <div class="servicesimg" style="border-left: 1px solid #cccccc; text-align:center;">
                         <?php } ?>
-                        <img class="img-fluid " style="margin-bottom:20px; max-width:60%!important; top: 54px; position: relative; margin-left: auto;margin-right: auto;" src="<?php echo show_image($servicerow['image']['url'], $servicerow['image']['width'], $servicerow['image']['height'],0.75) ?>"> 
+                        <img alt="<?php echo $servicerow['image']['alt']; ?>" class="img-fluid " style="margin-bottom:20px; max-width:60%!important; top: 54px; position: relative; margin-left: auto;margin-right: auto;" src="<?php echo show_image($servicerow['image']['url'], $servicerow['image']['width'], $servicerow['image']['height'],0.75) ?>"> 
                         </div>
                     </div>
                <?php } 
