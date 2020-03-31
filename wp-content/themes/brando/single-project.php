@@ -50,7 +50,7 @@ $image = false;
                 if(get_row_layout() == 'images_solo'){ 
                     get_template_part('templates/project/imagessolo'); 
                     $image=true;
-                } 
+                }  
                 if(get_row_layout() == 'imagesflex'){
                     $image=true;
                     get_template_part('templates/project/imagesflex'); 
